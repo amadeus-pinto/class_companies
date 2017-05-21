@@ -1,0 +1,164 @@
+reading ../data/yf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3370 entries, 0 to 3369
+Data columns (total 2 columns):
+symbol     3370 non-null object
+content    3370 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+reading ../data/gf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3617 entries, 0 to 3616
+Data columns (total 2 columns):
+symbol     3617 non-null object
+content    3617 non-null object
+dtypes: object(2)
+memory usage: 56.6+ KB
+None
+reading ../data/mw_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3368 entries, 0 to 3367
+Data columns (total 2 columns):
+symbol     3368 non-null object
+content    3368 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 4 columns):
+symbol       3818 non-null object
+yfcontent    3371 non-null object
+gfcontent    3618 non-null object
+mwcontent    3368 non-null object
+dtypes: object(4)
+memory usage: 149.1+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 2 columns):
+symbol     3818 non-null object
+content    3818 non-null object
+dtypes: object(2)
+memory usage: 89.5+ KB
+None
+0    Agilent Technologies, Inc. provides applicatio...
+1    Alcoa Corporation produces and sells bauxite, ...
+2    AAC Holdings, Inc. provides inpatient substanc...
+3    American Airlines Group Inc., through its subs...
+4    Altisource Asset Management Corporation, an as...
+Name: content, dtype: object
+cluster centers:
+[[  0.00000000e+00   1.27448320e-03   0.00000000e+00 ...,   0.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   1.66872422e-03   0.00000000e+00 ...,   0.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   1.49229875e-02   0.00000000e+00 ...,   0.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ ..., 
+ [  0.00000000e+00   3.66400612e-04   0.00000000e+00 ...,   0.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   3.60404156e-03   0.00000000e+00 ...,   0.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   8.83247192e-05   0.00000000e+00 ...,   0.00000000e+00
+    1.97333820e-04   0.00000000e+00]]
+[[31391 31335 30391  7711  9611 20791  8122 33246 12182 30151 26088 17465
+  27151  3076  2745  3075 26928 32643  5918]
+ [22426 20148 30145  2076 28611 12492  3995 27889 17986 29067 30393 17987
+   3486 34581 21184  8058  8122 28316 17307]
+ [14489 24079 22980  9174 12836  4256 12071 33496 14526  8122 26923 21866
+  27038 20035 32179 30497 36429 34314 25632]
+ [20148  4138  4147 30391  8058 10085  1602 13453 22426  8122 12492 29783
+  16295 27889  9043 10094  8475  4121 20791]
+ [30391 20791 30185 17986 13453  8122 31391 27151 14284  8469  7638 25225
+   3484 34314 33246  5918 17674 20221  1949]
+ [ 6401 26928 15888 21363 30391  8122 15890 32686 30185 10317 16462 32946
+  25681  5063 33569 10247 25701 32683 33470]
+ [14489 12071 11694 11700 26490 22980 34287 35272 28257 10684  8122 14627
+  31347 30391 30185  9379 35271 36245 24292]
+ [ 8122 32187 26928 30185 24286 28722 30391  5454 31975 35063 28682 13846
+   1569  5449  3045 30189 24292 17839 24037]
+ [17702 19840  6596 27039 26928 19792 30185  8122 15359  8058 28292 30391
+  15888 25574  8909  2884 26249 19962  3808]
+ [26928 32946 30185 12335 17394 26490  8122  8193 20868 31391 21087 30391
+  20955  3076 35237  8567 20869  2001 12106]
+ [27038 12492 27889 34581 17986 28302  8122 27911 24040 27039  8102 24722
+  30222 17991  6873 24724 30670 16478 10239]
+ [ 9745 17987  8119 21932 12342 17986  6286 17991 30275 17971 14276 20148
+  19837 30176 30137 21846 21672 30145 20944]
+ [30391 35728  8099 36715 23204 10426 31391 35945 21346 33327  8122 23208
+   9611  8507 22141  1937 17843 26928 30185]
+ [34380  7653 25708  6210  8122 33563 10239 25160 10578  4858 26922  6215
+  31874 10238 25682 34424  6214  6823 11091]]
+top features for each cluster:
+cluster=0,top features=solutions, software, services, cloud, data, management, company, technology, enterprise, security, platform, information, provides, applications, analytics, application, products, support, business
+cluster=1,top features=mortgage, loans, securities, agency, residential, estate, backed, real, investment, rmbs, servicing, investments, assets, trust, mbs, commercial, company, related, income
+cluster=2,top features=gas, oil, natural, crude, exploration, basin, energy, texas, gathering, company, production, midstream, properties, liquids, storage, shale, wells, transportation, petroleum
+cluster=3,top features=loans, bank, banking, services, commercial, deposit, accounts, financial, mortgage, company, estate, savings, holding, real, credit, deposits, consumer, bancorp, management
+cluster=4,top features=services, management, segment, investment, financial, company, solutions, provides, funds, consulting, clients, payment, asset, transportation, technology, business, institutional, logistics, advisory
+cluster=5,top features=care, products, health, medical, services, company, healthcare, surgical, segment, diagnostic, hospitals, systems, pharmaceutical, blood, therapy, devices, pharmacy, surgery, testing
+cluster=6,top features=gas, energy, electric, electricity, power, natural, transmission, utility, regulated, distribution, company, generation, solar, services, segment, customers, utilities, water, operations
+cluster=7,top features=company, stores, products, segment, operates, retail, services, brands, states, united, restaurants, food, accessories, brand, apparel, segments, operations, international, offers
+cluster=8,top features=insurance, life, casualty, property, products, liability, segment, company, group, commercial, reinsurance, services, health, personal, coverage, annuities, policies, lines, automobile
+cluster=9,top features=products, systems, segment, equipment, industrial, power, company, components, manufactures, solutions, materials, services, markets, applications, used, control, manufacturing, aerospace, engineered
+cluster=10,top features=properties, estate, real, trust, investment, reit, company, realty, office, property, communities, ownership, self, invests, centers, owns, shopping, hotels, development
+cluster=11,top features=debt, investments, companies, million, equity, investment, capital, invests, senior, invest, fund, loans, lien, seeks, secured, middle, mezzanine, securities, market
+cluster=12,top features=services, video, communications, wireless, network, digital, solutions, voice, media, television, company, networks, data, content, mobile, advertising, internet, products, segment
+cluster=13,top features=treatment, clinical, phase, cancer, company, therapeutics, development, patients, diseases, biopharmaceutical, product, candidates, stage, developing, pharmaceuticals, trial, candidate, cell, drug
+cluster 0:
+    UIS
+    FNJN
+    SABR
+cluster 1:
+    WAC
+    BXMT
+    NYMT
+cluster 2:
+    RMP
+    QEP
+    CNNX
+cluster 3:
+    BOH
+    HCBK
+    NECB
+cluster 4:
+    AXP
+    PRGX
+    VRSN
+cluster 5:
+    HOLX
+    ENTL
+    ZEP
+cluster 6:
+    OGE
+    WEC
+    UTL
+cluster 7:
+    PGTI
+    DNKN
+    TMHC
+cluster 8:
+    CRD
+    CNO
+    TMK
+cluster 9:
+    CSL
+    DPW
+    FAST
+cluster 10:
+    OLP
+    INN
+    INTG
+cluster 11:
+    PSEC
+    MAIN
+    SVVC
+cluster 12:
+    RMGN
+    TCCO
+    CTL
+cluster 13:
+    PGNX
+    CMRX
+    REGN
