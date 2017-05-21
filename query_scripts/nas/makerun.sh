@@ -6,10 +6,10 @@ echo "Text read from file: $line"
 p=`echo $line | awk -F ',' '{print $1}'`
 echo  "
 echo ****************************doing $p ;
-while [[ ! -f $p.sec.txt ]]
+while [[ ! -f $p.nas.txt ]]
 do
-./curl.sh $p > $p.sec.txt ; 
-done; cat $p.sec.txt ; "  >> run_all.sh
+./curl.sh $p > $p.nas.txt ; 
+done; cat $p.nas.txt ; "  >> run_all.sh
 done < ../../data/urls.csv 
 
 chmod a+rwx run_all.sh
