@@ -1,0 +1,703 @@
+doing n_clusters= 50
+reading ../data/yf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3370 entries, 0 to 3369
+Data columns (total 2 columns):
+symbol     3370 non-null object
+content    3370 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+reading ../data/gf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3617 entries, 0 to 3616
+Data columns (total 2 columns):
+symbol     3617 non-null object
+content    3617 non-null object
+dtypes: object(2)
+memory usage: 56.6+ KB
+None
+reading ../data/mw_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3368 entries, 0 to 3367
+Data columns (total 2 columns):
+symbol     3368 non-null object
+content    3368 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 4 columns):
+symbol       3818 non-null object
+yfcontent    3371 non-null object
+gfcontent    3618 non-null object
+mwcontent    3368 non-null object
+dtypes: object(4)
+memory usage: 149.1+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 2 columns):
+symbol     3818 non-null object
+content    3818 non-null object
+dtypes: object(2)
+memory usage: 89.5+ KB
+None
+0    Agilent Technologies, Inc. provides applicatio...
+1    Alcoa Corporation produces and sells bauxite, ...
+2    AAC Holdings, Inc. provides inpatient substanc...
+3    American Airlines Group Inc., through its subs...
+4    Altisource Asset Management Corporation, an as...
+Name: content, dtype: object
+n,inertia 50 2820.99575601
+cluster 0:
+                               name            mc
+18      General Motors Company (GM)  4.943000e+10
+14           Ford Motor Company (F)  4.328000e+10
+34  O'Reilly Automotive Inc. (ORLY)  2.288000e+10
+37                PACCAR Inc (PCAR)  2.207000e+10
+7               AutoZone Inc. (AZO)  1.914000e+10
+20      Genuine Parts Company (GPC)  1.358000e+10
+24                CarMax Inc. (KMX)  1.199000e+10
+0     Advance Auto Parts Inc. (AAP)  1.118000e+10
+44       Snap-on Incorporated (SNA)  9.600000e+09
+27            LKQ Corporation (LKQ)  9.570000e+09
+[[u'vehicles, automotive, vehicle, parts, products, trucks, repair, truck, company, segment, aftermarket, services, collision, commercial, systems, replacement, car, components, finance']]
+cluster 1:
+                                      name            mc
+61                 Nucor Corporation (NUE)  1.808000e+10
+65              Steel Dynamics Inc. (STLD)  8.270000e+09
+62  Reliance Steel &amp; Aluminum Co. (RS)  5.250000e+09
+70     United States Steel Corporation (X)  3.420000e+09
+69       Worthington Industries Inc. (WOR)  2.650000e+09
+56         Commercial Metals Company (CMC)  2.120000e+09
+73       Quaker Chemical Corporation (KWR)  1.820000e+09
+53      AK Steel Holding Corporation (AKS)  1.750000e+09
+57  Carpenter Technology Corporation (CRS)  1.670000e+09
+59                    Ferroglobe PLC (GSM)  1.580000e+09
+[[u'steel, metals, products, aluminum, stainless, ferrous, scrap, metal, flat, finished, mills, rolled, tubular, alloy, segment, carbon, specialty, pipe, alloys']]
+cluster 2:
+                                            name            mc
+116               JPMorgan Chase &amp; Co. (JPM)  3.011700e+11
+146              Wells Fargo &amp; Company (WFC)  2.651600e+11
+78             Bank of America Corporation (BAC)  2.293900e+11
+86                            Citigroup Inc. (C)  1.682100e+11
+142                           U.S. Bancorp (USB)  8.612000e+10
+126  The PNC Financial Services Group Inc. (PNC)  5.747000e+10
+98       Capital One Financial Corporation (COF)  3.875000e+10
+80                    BB&amp;T Corporation (BBT)  3.428000e+10
+137                    SunTrust Banks Inc. (STI)  2.613000e+10
+120               M&amp;T Bank Corporation (MTB)  2.420000e+10
+[[u'banking, services, bank, financial, commercial, loans, management, wealth, investment, trust, lending, deposit, insurance, company, consumer, mortgage, segment, credit, accounts']]
+cluster 3:
+                                       name            mc
+161               Chevron Corporation (CVX)  2.018100e+11
+168                Kinder Morgan Inc. (KMI)  4.358000e+10
+178                       Phillips 66 (PSX)  4.038000e+10
+188         Valero Energy Corporation (VLO)  2.856000e+10
+171    Marathon Petroleum Corporation (MPC)  2.738000e+10
+170  Magellan Midstream Partners L.P. (MMP)  1.688000e+10
+186                Tesoro Corporation (TSO)  9.790000e+09
+157             Buckeye Partners L.P. (BPL)  9.350000e+09
+194    Sunoco Logistics Partners L.P. (SXL)  7.940000e+09
+184              Tesoro Logistics LP (TLLP)  5.920000e+09
+[[u'crude, oil, refined, petroleum, refining, storage, logistics, terminals, products, fuel, pipelines, transportation, segment, gasoline, pipeline, gas, assets, refinery, natural']]
+cluster 4:
+                                               name            mc
+210                             Equinix Inc. (EQIX)  3.325000e+10
+239                  Sirius XM Holdings Inc. (SIRI)  2.291000e+10
+243                     Symantec Corporation (SYMC)  1.796000e+10
+235                  Palo Alto Networks Inc. (PANW)  1.072000e+10
+218                        W.W. Grainger Inc. (GWW)  1.021000e+10
+244                       TAL Education Group (TAL)  1.001000e+10
+211  Fortune Brands Home &amp; Security Inc. (FBHS)  9.740000e+09
+249                            VeriSign Inc. (VRSN)  9.050000e+09
+236                              Rollins Inc. (ROL)  9.050000e+09
+199                                  Aramark (ARMK)  8.930000e+09
+[[u'security, education, services, company, learning, students, programs, university, solutions, systems, provides, software, products, offers, segment, online, college, degree, technology']]
+cluster 5:
+                                        name            mc
+329            Exxon Mobil Corporation (XOM)  3.471600e+11
+272                 EOG Resources Inc. (EOG)  5.415000e+10
+301  Pioneer Natural Resources Company (PXD)  3.004000e+10
+260         Continental Resources Inc. (CLR)  1.582000e+10
+292                  Noble Energy Inc. (NBL)  1.521000e+10
+262    Cabot Oil &amp; Gas Corporation (COG)  1.093000e+10
+294       Newfield Exploration Company (NFX)  6.820000e+09
+305        Range Resources Corporation (RRC)  6.220000e+09
+304                   Royal Gold Inc. (RGLD)  5.150000e+09
+261                 CONSOL Energy Inc. (CNX)  3.700000e+09
+[[u'oil, gas, natural, exploration, properties, texas, royalty, production, company, interests, energy, shale, acres, wells, net, basin, acquisition, approximately, reserves']]
+cluster 6:
+                                         name            mc
+393        Honeywell International Inc. (HON)  1.001700e+11
+415         Lockheed Martin Corporation (LMT)  7.896000e+10
+452       Thermo Fisher Scientific Inc. (TMO)  6.711000e+10
+385         General Dynamics Corporation (GD)  5.909000e+10
+371                 Danaher Corporation (DHR)  5.702000e+10
+343             Applied Materials Inc. (AMAT)  4.760000e+10
+403            Illinois Tool Works Inc. (ITW)  4.733000e+10
+442                    Raytheon Company (RTN)  4.665000e+10
+430        Northrop Grumman Corporation (NOC)  4.362000e+10
+405  Johnson Controls International plc (JCI)  3.996000e+10
+[[u'systems, segment, products, industrial, equipment, test, components, control, solutions, aerospace, instruments, defense, manufactures, company, electronic, services, semiconductor, markets, applications']]
+cluster 7:
+                                                  name            mc
+512  International Business Machines Corporation (IBM)  1.427800e+11
+468               Automatic Data Processing Inc. (ADP)  4.412000e+10
+489  Cognizant Technology Solutions Corporation (CTSH)  3.853000e+10
+535          Marsh &amp; McLennan Companies Inc. (MMC)  3.836000e+10
+532                         McKesson Corporation (MCK)  3.245000e+10
+508                                      HP Inc. (HPQ)  3.217000e+10
+574                  Thomson Reuters Corporation (TRI)  3.094000e+10
+533                          Moody's Corporation (MCO)  2.192000e+10
+554                    Quintiles IMS Holdings Inc. (Q)  1.827000e+10
+496                                 Equifax Inc. (EFX)  1.639000e+10
+[[u'services, solutions, management, technology, consulting, information, segment, software, provides, company, business, staffing, healthcare, data, support, enterprise, intelligence, engineering, financial']]
+cluster 8:
+                                       name            mc
+596                       Amgen Inc. (AMGN)  1.151000e+11
+649  United Therapeutics Corporation (UTHR)  5.480000e+09
+623    Ironwood Pharmaceuticals Inc. (IRWD)  2.620000e+09
+634                      Nevro Corp. (NVRO)  2.140000e+09
+637      Pacira Pharmaceuticals Inc. (PCRX)  1.940000e+09
+644        Sarepta Therapeutics Inc. (SRPT)  1.900000e+09
+646    Supernus Pharmaceuticals Inc. (SUPN)  1.690000e+09
+631     Momenta Pharmaceuticals Inc. (MNTA)  1.150000e+09
+619         Amicus Therapeutics Inc. (FOLD)  1.110000e+09
+622          INSYS Therapeutics Inc. (INSY)  9.081200e+08
+[[u'treatment, therapeutics, pain, pharmaceutical, company, drug, development, product, pharmaceuticals, clinical, patients, commercialization, diseases, chronic, developing, phase, products, candidate, candidates']]
+cluster 9:
+                                       name            mc
+670       Marriott International Inc. (MAR)  3.896000e+10
+662    Hilton Worldwide Holdings Inc. (HLT)  2.099000e+10
+664    Host Hotels &amp; Resorts Inc. (HST)  1.354000e+10
+680     Wyndham Worldwide Corporation (WYN)  9.980000e+09
+672                 Vail Resorts Inc. (MTN)  8.090000e+09
+661            Hyatt Hotels Corporation (H)  7.280000e+09
+663      Hospitality Properties Trust (HPT)  4.720000e+09
+656  Choice Hotels International Inc. (CHH)  3.630000e+09
+677     Sunstone Hotel Investors Inc. (SHO)  3.480000e+09
+679       Extended Stay America Inc. (STAY)  3.460000e+09
+[[u'hotels, hotel, resorts, trust, hospitality, hilton, upscale, marriott, lodging, suites, hyatt, inn, estate, properties, real, ashford, company, investment, rooms']]
+cluster 10:
+                                       name            mc
+685      Apollo Global Management LLC (APO)  1.074000e+10
+686         Ares Capital Corporation (ARCC)  7.030000e+09
+688               The Carlyle Group LP (CG)  5.760000e+09
+716     Prospect Capital Corporation (PSEC)  2.950000e+09
+696        FS Investment Corporation (FSIC)  2.210000e+09
+706  Main Street Capital Corporation (MAIN)  2.130000e+09
+684    Apollo Investment Corporation (AINV)  1.380000e+09
+728       TPG Specialty Lending Inc. (TSLX)  1.230000e+09
+698           Golub Capital BDC Inc. (GBDC)  1.160000e+09
+704            Hercules Capital Inc. (HTGC)  1.100000e+09
+[[u'debt, investments, million, companies, equity, investment, senior, invests, capital, invest, fund, loans, lien, seeks, secured, middle, mezzanine, subordinated, market']]
+cluster 11:
+                                        name            mc
+745                       Chubb Limited (CB)  6.466000e+10
+737  American International Group Inc. (AIG)  5.666000e+10
+785                       MetLife Inc. (MET)  5.431000e+10
+732                         Aetna Inc. (AET)  4.689000e+10
+798          Prudential Financial Inc. (PRU)  4.461000e+10
+746                   Cigna Corporation (CI)  4.083000e+10
+808       The Travelers Companies Inc. (TRV)  3.375000e+10
+740           The Allstate Corporation (ALL)  3.067000e+10
+735                 Aflac Incorporated (AFL)  2.932000e+10
+794        The Progressive Corporation (PGR)  2.387000e+10
+[[u'insurance, life, casualty, property, products, liability, segment, company, reinsurance, commercial, group, health, personal, services, coverage, policies, annuities, automobile, accident']]
+cluster 12:
+                                            name            mc
+818                           AbbVie Inc. (ABBV)  1.043700e+11
+860                   Celgene Corporation (CELG)  9.130000e+10
+850           Bristol-Myers Squibb Company (BMY)  8.899000e+10
+906                  Gilead Sciences Inc. (GILD)  8.394000e+10
+845                           Biogen Inc. (BIIB)  5.342000e+10
+974        Regeneron Pharmaceuticals Inc. (REGN)  4.758000e+10
+1009  Vertex Pharmaceuticals Incorporated (VRTX)  2.940000e+10
+921                    Incyte Corporation (INCY)  2.691000e+10
+831          Alexion Pharmaceuticals Inc. (ALXN)  2.556000e+10
+849          BioMarin Pharmaceutical Inc. (BMRN)  1.557000e+10
+[[u'clinical, treatment, phase, cancer, company, biopharmaceutical, diseases, development, patients, stage, cell, trial, therapeutics, candidates, developing, product, pharmaceuticals, candidate, ii']]
+cluster 13:
+                                              name            mc
+1050                  McDonald's Corporation (MCD)  1.207500e+11
+1067                        Yum! Brands Inc. (YUM)  2.440000e+10
+1035             Chipotle Mexican Grill Inc. (CMG)  1.390000e+10
+1040                 Darden Restaurants Inc. (DRI)  1.081000e+10
+1039              Dunkin' Brands Group Inc. (DNKN)  5.130000e+09
+1066                     The Wendy's Company (WEN)  3.930000e+09
+1033  Cracker Barrel Old Country Store Inc. (CBRL)  3.820000e+09
+1043                           GrubHub Inc. (GRUB)  3.740000e+09
+1065                   Texas Roadhouse Inc. (TXRH)  3.450000e+09
+1046                   Jack in the Box Inc. (JACK)  3.060000e+09
+[[u'restaurants, restaurant, company, grill, chicken, menu, casual, franchises, dining, operated, franchised, operates, owned, burgers, salads, franchise, taco, items, food']]
+cluster 14:
+                                            name            mc
+1123                        Public Storage (PSA)  3.729000e+10
+1092                    Equity Residential (EQR)  2.497000e+10
+1078                Boston Properties Inc. (BXP)  2.081000e+10
+1132                  Vornado Realty Trust (VNO)  1.899000e+10
+1087             Digital Realty Trust Inc. (DLR)  1.862000e+10
+1095             Essex Property Trust Inc. (ESS)  1.727000e+10
+1117               Realty Income Corporation (O)  1.482000e+10
+1075  Alexandria Real Estate Equities Inc. (ARE)  1.072000e+10
+1096              Extra Space Storage Inc. (EXR)  1.006000e+10
+1090      Equity LifeStyle Properties Inc. (ELS)  7.750000e+09
+[[u'properties, trust, estate, real, office, realty, investment, reit, company, square, self, property, income, feet, acquisition, 31, industrial, ownership, december']]
+cluster 15:
+                                           name            mc
+1148                   The Home Depot Inc. (HD)  1.877400e+11
+1177                      Weyerhaeuser Co. (WY)  2.483000e+10
+1162               Mohawk Industries Inc. (MHK)  1.710000e+10
+1161                    Masco Corporation (MAS)  1.184000e+10
+1167                         Owens Corning (OC)  6.880000e+09
+1157     Leggett &amp; Platt Incorporated (LEG)  6.700000e+09
+1159        Louisiana-Pacific Corporation (LPX)  3.270000e+09
+1138          Beacon Roofing Supply Inc. (BECN)  2.920000e+09
+1136      Armstrong World Industries Inc. (AWI)  2.270000e+09
+1143  Masonite International Corporation (DOOR)  2.240000e+09
+[[u'wood, furniture, products, building, doors, lumber, materials, residential, roofing, home, segment, company, flooring, seating, vinyl, construction, metal, siding, manufactures']]
+cluster 16:
+                                         name            mc
+1187                     ConocoPhillips (COP)  5.874000e+10
+1196  Enterprise Products Partners L.P. (EPD)  5.806000e+10
+1213   Occidental Petroleum Corporation (OXY)  4.636000e+10
+1232             Williams Partners L.P. (WPZ)  3.933000e+10
+1180     Anadarko Petroleum Corporation (APC)  2.987000e+10
+1201      Energy Transfer Partners L.P. (ETP)  2.685000e+10
+1231        The Williams Companies Inc. (WMB)  2.495000e+10
+1189           Devon Energy Corporation (DVN)  2.018000e+10
+1214  Plains All American Pipeline L.P. (PAA)  2.013000e+10
+1200        Energy Transfer Equity L.P. (ETE)  2.013000e+10
+[[u'gas, natural, gathering, oil, midstream, crude, ngl, liquids, storage, transportation, pipelines, processing, energy, production, exploration, lp, partners, segment, pipeline']]
+cluster 17:
+                                       name            mc
+1265      Discover Financial Services (DFS)  2.285000e+10
+1269          East West Bancorp Inc. (EWBC)  7.850000e+09
+1336                  Signature Bank (SBNY)  7.480000e+09
+1316         Bank of the Ozarks Inc. (OZRK)  5.720000e+09
+1317                 PacWest Bancorp (PACW)  5.570000e+09
+1362  Western Alliance Bancorporation (WAL)  4.790000e+09
+1318        Prosperity Bancshares Inc. (PB)  4.470000e+09
+1356          United Bankshares Inc. (UBSI)  4.010000e+09
+1287         Hancock Holding Company (HBHC)  3.970000e+09
+1358     Umpqua Holdings Corporation (UMPQ)  3.820000e+09
+[[u'bank, banking, loans, deposit, services, accounts, commercial, company, mortgage, estate, savings, holding, financial, credit, real, bancorp, checking, community, deposits']]
+cluster 18:
+                                       name            mc
+1431  The Procter &amp; Gamble Company (PG)  2.205700e+11
+1407             The Coca-Cola Company (KO)  1.875700e+11
+1428                     Pepsico Inc. (PEP)  1.624100e+11
+1442           Starbucks Corporation (SBUX)  8.886000e+10
+1377    Costco Wholesale Corporation (COST)  7.534000e+10
+1413     Mondelez International Inc. (MDLZ)  6.939000e+10
+1374         Colgate-Palmolive Company (CL)  6.609000e+10
+1406       Kimberly-Clark Corporation (KMB)  4.515000e+10
+1386   The Estée Lauder Companies Inc. (EL)  3.398000e+10
+1393               General Mills Inc. (GIS)  3.240000e+10
+[[u'products, foods, food, frozen, care, company, brands, beverages, supplements, stores, fresh, coffee, segment, nutritional, dairy, foodservice, health, snack, natural']]
+cluster 19:
+                                                   name            mc
+1513                    Simon Property Group Inc. (SPG)  5.677000e+10
+1466                   American Tower Corporation (AMT)  5.454000e+10
+1501                                Prologis Inc. (PLD)  2.973000e+10
+1510              SBA Communications Corporation (SBAC)  1.611000e+10
+1472                              CBRE Group Inc. (CBG)  1.122000e+10
+1511                        SL Green Realty Corp. (SLG)  1.056000e+10
+1477                      Duke Realty Corporation (DRE)  1.025000e+10
+1476                           CoStar Group Inc. (CSGP)  8.310000e+09
+1527                              Zillow Group Inc. (Z)  7.550000e+09
+1463  Apartment Investment and Management Company (AIV)  7.080000e+09
+[[u'real, estate, properties, investment, trust, commercial, property, land, company, segment, development, investments, services, office, management, invests, leasing, loans, realty']]
+cluster 20:
+                                       name            mc
+1601            Johnson &amp; Johnson (JNJ)  3.421200e+11
+1628                      Pfizer Inc. (PFE)  1.937200e+11
+1530              Abbott Laboratories (ABT)  7.489000e+10
+1647              Stryker Corporation (SYK)  5.113000e+10
+1549     Becton Dickinson and Company (BDX)  4.186000e+10
+1553    Boston Scientific Corporation (BSX)  3.617000e+10
+1599         Intuitive Surgical Inc. (ISRG)  3.206000e+10
+1546        Baxter International Inc. (BAX)  3.110000e+10
+1595                   Illumina Inc. (ILMN)  2.584000e+10
+1578  Edwards Lifesciences Corporation (EW)  2.368000e+10
+[[u'medical, products, surgical, diagnostic, company, care, blood, devices, systems, diagnostics, patient, tissue, testing, molecular, surgery, therapy, device, procedures, treatment']]
+cluster 21:
+                                          name            mc
+1672                            GGP Inc. (GGP)  2.034000e+10
+1677         Regency Centers Corporation (REG)  1.032000e+10
+1671     Federal Realty Investment Trust (FRT)  9.170000e+09
+1675                The Macerich Company (MAC)  9.050000e+09
+1673            Kimco Realty Corporation (KIM)  7.900000e+09
+1667         Brixmor Property Group Inc. (BRX)  5.690000e+09
+1681                Taubman Centers Inc. (TCO)  5.100000e+09
+1685         Weingarten Realty Investors (WRI)  3.950000e+09
+1670                           DDR Corp. (DDR)  3.420000e+09
+1680  Tanger Factory Outlet Centers Inc. (SKT)  2.620000e+09
+[[u'shopping, centers, properties, trust, estate, real, investment, neighborhood, ownership, community, partnership, realty, operating, retail, company, malls, 31, square, redevelopment']]
+cluster 22:
+                                         name            mc
+1697                        Ecolab Inc. (ECL)  3.686000e+10
+1689  American Water Works Company Inc. (AWK)  1.352000e+10
+1721                         Xylem Inc. (XYL)  9.350000e+09
+1687            A. O. Smith Corporation (AOS)  9.310000e+09
+1702            HD Supply Holdings Inc. (HDS)  8.450000e+09
+1686        Antero Midstream Partners LP (AM)  6.320000e+09
+1719                  Aqua America Inc. (WTR)  5.630000e+09
+1704                        Itron Inc. (ITRI)  2.530000e+09
+1713                Rexnord Corporation (RXN)  2.400000e+09
+1720      Watts Water Technologies Inc. (WTS)  2.170000e+09
+[[u'water, wastewater, services, company, systems, products, segment, industrial, regulated, treatment, gas, construction, customers, utility, drainage, provides, control, infrastructure, residential']]
+cluster 23:
+                                               name            mc
+1723                              Apple Inc. (AAPL)  7.980300e+11
+1724              Adobe Systems Incorporated (ADBE)  6.749000e+10
+1777                             Yahoo! Inc. (YHOO)  4.810000e+10
+1727                Activision Blizzard Inc. (ATVI)  4.211000e+10
+1733                      Electronic Arts Inc. (EA)  3.318000e+10
+1735                            Expedia Inc. (EXPE)  2.137000e+10
+1754                       Omnicom Group Inc. (OMC)  1.940000e+10
+1774                            Twitter Inc. (TWTR)  1.332000e+10
+1740  The Interpublic Group of Companies Inc. (IPG)  9.610000e+09
+1730                          CDK Global Inc. (CDK)  8.920000e+09
+[[u'advertising, digital, media, content, company, marketing, services, video, mobile, platform, online, websites, displays, advertisers, entertainment, com, local, travel, solutions']]
+cluster 24:
+                                        name            mc
+1858  New York Community Bancorp Inc. (NYCB)  6.350000e+09
+1882               TFS Financial Corp (TFSL)  4.440000e+09
+1841           Investors Bancorp Inc. (ISBC)  4.070000e+09
+1888           Valley National Bancorp (VLY)  3.010000e+09
+1880                  Sterling Bancorp (STL)  2.950000e+09
+1796           Cathay General Bancorp (CATY)  2.910000e+09
+1890          Washington Federal Inc. (WAFD)  2.870000e+09
+1798      Capital Bank Financial Corp. (CBF)  2.560000e+09
+1828             Glacier Bancorp Inc. (GBCI)  2.520000e+09
+1831        Great Western Bancorp Inc. (GWB)  2.220000e+09
+[[u'loans, bank, accounts, commercial, banking, deposit, savings, estate, deposits, real, services, bancorp, mortgage, company, financial, holding, residential, family, credit']]
+cluster 25:
+                                            name            mc
+1947                             NIKE Inc. (NKE)  8.546000e+10
+1905                  Carnival Corporation (CCL)  4.455000e+10
+1964             Constellation Brands Inc. (STZ)  3.565000e+10
+1956          Royal Caribbean Cruises Ltd. (RCL)  2.283000e+10
+1971                      V.F. Corporation (VFC)  2.098000e+10
+1909                            Coach Inc. (COH)  1.274000e+10
+1932                           Hasbro Inc. (HAS)  1.263000e+10
+1946  Norwegian Cruise Line Holdings Ltd. (NCLH)  1.125000e+10
+1930                          The Gap Inc. (GPS)  8.920000e+09
+1970                      Under Armour Inc. (UA)  8.100000e+09
+[[u'apparel, stores, footwear, accessories, brands, products, company, women, retail, brand, sports, men, com, outdoor, casual, segment, athletic, clubs, wholesale']]
+cluster 26:
+                                           name            mc
+2023                           3M Company (MMM)  1.169400e+11
+1999             The Dow Chemical Company (DOW)  7.488000e+10
+1998  E. I. du Pont de Nemours and Company (DD)  6.747000e+10
+2034                  PPG Industries Inc. (PPG)  2.734000e+10
+2010                 Corning Incorporated (GLW)  2.673000e+10
+2017           International Paper Company (IP)  2.110000e+10
+2022       Martin Marietta Materials Inc. (MLM)  1.434000e+10
+1989                     Ball Corporation (BLL)  1.406000e+10
+1983                Albemarle Corporation (ALB)  1.222000e+10
+1994                  Celanese Corporation (CE)  1.190000e+10
+[[u'packaging, materials, products, segment, specialty, industrial, engineered, paper, coatings, papers, company, performance, films, chemicals, food, solutions, manufactures, glass, used']]
+cluster 27:
+                                     name            mc
+2119         Microsoft Corporation (MSFT)  5.226000e+11
+2093                   Facebook Inc. (FB)  4.291000e+11
+2129            Oracle Corporation (ORCL)  1.823200e+11
+2080            Salesforce.com inc. (CRM)  6.217000e+10
+2087                     eBay Inc. (EBAY)  3.662000e+10
+2162                  Workday Inc. (WDAY)  2.014000e+10
+2124                ServiceNow Inc. (NOW)  1.687000e+10
+2084           Citrix Systems Inc. (CTXS)  1.251000e+10
+2061          Arista Networks Inc. (ANET)  1.037000e+10
+2165  Computer Sciences Corporation (CSC)  9.750000e+09
+[[u'cloud, software, solutions, services, management, platform, company, mobile, enterprise, applications, service, customer, analytics, content, solution, provides, data, video, business']]
+cluster 28:
+                                                name            mc
+2194                       NextEra Energy Inc. (NEE)  6.427000e+10
+2211                               Tesla Inc. (TSLA)  5.106000e+10
+2205                             Sempra Energy (SRE)  2.797000e+10
+2181                        DTE Energy Company (DTE)  1.902000e+10
+2190                      Cheniere Energy Inc. (LNG)  1.183000e+10
+2177             Cheniere Energy Partners L.P. (CQP)  1.120000e+10
+2212                           UGI Corporation (UGI)  8.320000e+09
+2191      Macquarie Infrastructure Corporation (MIC)  6.460000e+09
+2176  Cheniere Energy Partners LP Holdings LLC (CQH)  6.130000e+09
+2197                           NRG Energy Inc. (NRG)  4.970000e+09
+[[u'energy, gas, natural, power, solar, company, services, coal, electricity, infrastructure, electric, segment, renewable, projects, utility, lng, generation, wind, customers']]
+cluster 29:
+                                              name            mc
+2250             The Goldman Sachs Group Inc. (GS)  8.816000e+10
+2270                           Morgan Stanley (MS)  7.732000e+10
+2281         The Charles Schwab Corporation (SCHW)  5.116000e+10
+2228  The Bank of New York Mellon Corporation (BK)  4.840000e+10
+2232                          CME Group Inc. (CME)  3.970000e+10
+2230                The Blackstone Group L.P. (BX)  3.643000e+10
+2253          Intercontinental Exchange Inc. (ICE)  3.512000e+10
+2286                State Street Corporation (STT)  3.040000e+10
+2226                 Franklin Resources Inc. (BEN)  2.360000e+10
+2274             Northern Trust Corporation (NTRS)  1.996000e+10
+[[u'investment, funds, services, management, financial, institutional, asset, trading, equity, investors, income, advisory, securities, fixed, company, mutual, segment, provides, clients']]
+cluster 30:
+                                       name            mc
+2398                  Alphabet Inc. (GOOGL)  6.523600e+11
+2311                 Amazon.com Inc. (AMZN)  4.587800e+11
+2504  Philip Morris International Inc. (PM)  1.782100e+11
+2463                 Altria Group Inc. (MO)  1.369500e+11
+2507           Reynolds American Inc. (RAI)  9.466000e+10
+2497        The Priceline Group Inc. (PCLN)  8.886000e+10
+2485              NVIDIA Corporation (NVDA)  8.086000e+10
+2343                 Caterpillar Inc. (CAT)  6.034000e+10
+2465                 Monsanto Company (MON)  5.095000e+10
+2369               Deere &amp; Company (DE)  3.848000e+10
+[[u'company, products, equipment, segment, services, mining, industrial, construction, manufactures, sells, operates, markets, systems, america, industries, segments, used, related, produces']]
+cluster 31:
+                                           name            mc
+2605                Las Vegas Sands Corp. (LVS)  4.498000e+10
+2607            MGM Resorts International (MGM)  1.796000e+10
+2613                Wynn Resorts Limited (WYNN)  1.246000e+10
+2603  Gaming and Leisure Properties Inc. (GLPI)  7.530000e+09
+2614                          Zynga Inc. (ZNGA)  2.970000e+09
+2594              Boyd Gaming Corporation (BYD)  2.830000e+09
+2596        Churchill Downs Incorporated (CHDN)  2.710000e+09
+2595         Caesars Acquisition Company (CACQ)  2.400000e+09
+2611        Scientific Games Corporation (SGMS)  2.100000e+09
+2609           Penn National Gaming Inc. (PENN)  1.760000e+09
+[[u'casino, gaming, entertainment, games, vegas, las, casinos, hotel, table, resort, caesars, resorts, nevada, hollywood, poker, slot, racing, company, downs']]
+cluster 32:
+                                    name            mc
+2680          Waste Management Inc. (WM)  3.115000e+10
+2617                Autodesk Inc. (ADSK)  2.422000e+10
+2662        Republic Services Inc. (RSG)  2.075000e+10
+2681                  Xilinx Inc. (XLNX)  1.660000e+10
+2679        Waste Connections Inc. (WCN)  1.613000e+10
+2626           Cintas Corporation (CTAS)  1.275000e+10
+2667                Synopsys Inc. (SNPS)  1.069000e+10
+2620                   Ansys Inc. (ANSS)  1.045000e+10
+2623  Cadence Design Systems Inc. (CDNS)  9.170000e+09
+2669              Stericycle Inc. (SRCL)  7.130000e+09
+[[u'services, waste, design, engineering, manufacturing, management, company, solutions, segment, environmental, construction, 3d, industrial, provides, assembly, circuit, products, hazardous, assemblies']]
+cluster 33:
+                                        name            mc
+2694                 The Boeing Company (BA)  1.099200e+11
+2710   United Technologies Corporation (UTX)  9.708000e+10
+2697              Delta Air Lines Inc. (DAL)  3.534000e+10
+2703            Southwest Airlines Co. (LUV)  3.509000e+10
+2709  United Continental Holdings Inc. (UAL)  2.415000e+10
+2684      American Airlines Group Inc. (AAL)  2.227000e+10
+2708                      Textron Inc. (TXT)  1.244000e+10
+2691             Alaska Air Group Inc. (ALK)  1.045000e+10
+2702      JetBlue Airways Corporation (JBLU)  7.100000e+09
+2714         LATAM Airlines Group S.A. (LTM)  6.790000e+09
+[[u'aircraft, air, airlines, services, cargo, aviation, company, boeing, leasing, jet, segment, engines, systems, transportation, equipment, regional, commercial, components, parts']]
+cluster 34:
+                                        name            mc
+2763   UnitedHealth Group Incorporated (UNH)  1.663200e+11
+2766     Walgreens Boots Alliance Inc. (WBA)  8.714000e+10
+2732            CVS Health Corporation (CVS)  7.768000e+10
+2719                      Anthem Inc. (ANTM)  4.675000e+10
+2736  Express Scripts Holding Company (ESRX)  3.568000e+10
+2745                       Humana Inc. (HUM)  3.289000e+10
+2738               HCA Healthcare Inc. (HCA)  3.014000e+10
+2723              Cardinal Health Inc. (CAH)  2.322000e+10
+2725               Cerner Corporation (CERN)  2.118000e+10
+2715     AmerisourceBergen Corporation (ABC)  1.947000e+10
+[[u'care, health, services, healthcare, pharmacy, hospitals, acute, segment, medical, rehabilitation, management, home, company, centers, facilities, outpatient, medicare, specialty, medicaid']]
+cluster 35:
+                                         name            mc
+2778                   D.R. Horton Inc. (DHI)  1.269000e+10
+2782                 Lennar Corporation (LEN)  1.197000e+10
+2787                           NVR Inc. (NVR)  8.720000e+09
+2789                    PulteGroup Inc. (PHM)  7.300000e+09
+2773              American Homes 4 Rent (AMH)  6.980000e+09
+2791                 Toll Brothers Inc. (TOL)  6.150000e+09
+2790  Taylor Morrison Home Corporation (TMHC)  3.530000e+09
+2792              TRI Pointe Group Inc. (TPH)  2.020000e+09
+2781                            KB Home (KBH)  1.830000e+09
+2784               M.D.C. Holdings Inc. (MDC)  1.770000e+09
+[[u'homes, homebuilding, detached, title, land, family, single, operations, company, homebuyers, attached, arizona, communities, home, carolina, california, lots, mortgage, builds']]
+cluster 36:
+                                        name            mc
+2859                       AT&amp;T Inc. (T)  2.351000e+11
+2869        Verizon Communications Inc. (VZ)  1.852800e+11
+2817               Cisco Systems Inc. (CSCO)  1.563000e+11
+2810      Charter Communications Inc. (CHTR)  9.639000e+10
+2850            QUALCOMM Incorporated (QCOM)  8.520000e+10
+2863                 T-Mobile US Inc. (TMUS)  5.514000e+10
+2808  Crown Castle International Corp. (CCI)  3.641000e+10
+2819         DISH Network Corporation (DISH)  2.960000e+10
+2841      Level 3 Communications Inc. (LVLT)  2.153000e+10
+2838   Liberty Broadband Corporation (LBRDK)  1.518000e+10
+[[u'services, wireless, communications, voice, network, data, solutions, networks, video, broadband, internet, access, satellite, fiber, company, products, systems, mobile, networking']]
+cluster 37:
+                                name            mc
+2884     Concho Resources Inc. (CXO)  1.952000e+10
+2877        Apache Corporation (APA)  1.946000e+10
+2906        Cimarex Energy Co. (XEC)  1.118000e+10
+2889  Diamondback Energy Inc. (FANG)  1.012000e+10
+2896        Parsley Energy Inc. (PE)  9.050000e+09
+2902         RSP Permian Inc. (RSPP)  6.350000e+09
+2885       Energen Corporation (EGN)  5.690000e+09
+2905           WPX Energy Inc. (WPX)  5.030000e+09
+2892     Laredo Petroleum Inc. (LPI)  3.090000e+09
+2898        QEP Resources Inc. (QEP)  2.720000e+09
+[[u'basin, oil, gas, permian, natural, properties, texas, reserves, exploration, company, proved, net, royalty, midland, interests, energy, production, equivalent, wells']]
+cluster 38:
+                                              name            mc
+2917                          Welltower Inc. (HCN)  2.682000e+10
+2908              AvalonBay Communities Inc. (AVB)  2.635000e+10
+2930                             Ventas Inc. (VTR)  2.399000e+10
+2918                                HCP Inc. (HCP)  1.499000e+10
+2920  Mid-America Apartment Communities Inc. (MAA)  1.178000e+10
+2928                                UDR Inc. (UDR)  1.040000e+10
+2924         Omega Healthcare Investors Inc. (OHI)  6.600000e+09
+2927                    Sun Communities Inc. (SUI)  6.500000e+09
+2926         Senior Housing Properties Trust (SNH)  5.070000e+09
+2923          National Health Investors Inc. (NHI)  3.130000e+09
+[[u'communities, living, senior, nursing, assisted, facilities, housing, skilled, care, healthcare, estate, real, properties, services, trust, reit, investment, invests, health']]
+cluster 39:
+                                      name            mc
+2961            Schlumberger Limited (SLB)  9.970000e+10
+2944             Halliburton Company (HAL)  4.147000e+10
+2933       Baker Hughes Incorporated (BHI)  2.477000e+10
+2940                  TechnipFMC plc (FTI)  1.497000e+10
+2951     National Oilwell Varco Inc. (NOV)  1.323000e+10
+2947       Helmerich &amp; Payne Inc. (HP)  6.520000e+09
+2966      Patterson-UTI Energy Inc. (PTEN)  4.850000e+09
+2959                        RPC Inc. (RES)  4.360000e+09
+2953  Oceaneering International Inc. (OII)  2.660000e+09
+2938                  Dril-Quip Inc. (DRQ)  2.030000e+09
+[[u'drilling, offshore, services, oil, gas, production, subsea, completion, segment, rigs, rig, vessels, natural, oilfield, company, deepwater, equipment, exploration, companies']]
+cluster 40:
+                                            name            mc
+2976               Duke Energy Corporation (DUK)  5.835000e+10
+3002                   The Southern Company (SO)  4.961000e+10
+2975                 Dominion Resources Inc. (D)  4.943000e+10
+2968  American Electric Power Company Inc. (AEP)  3.379000e+10
+2995                  PG&amp;E Corporation (PCG)  3.349000e+10
+2983                    Exelon Corporation (EXC)  3.246000e+10
+3000                       PPL Corporation (PPL)  2.652000e+10
+2980                  Edison International (EIX)  2.548000e+10
+2978               Consolidated Edison Inc. (ED)  2.454000e+10
+3006                      Xcel Energy Inc. (XEL)  2.328000e+10
+[[u'electric, gas, electricity, transmission, natural, regulated, utility, distribution, energy, generation, power, company, customers, miles, segment, utilities, operations, wholesale, generates']]
+cluster 41:
+                                        name            mc
+3024    Annaly Capital Management Inc. (NLY)  1.172000e+10
+3007            AGNC Investment Corp. (AGNC)  7.160000e+09
+3025  New Residential Investment Corp. (NRZ)  4.940000e+09
+3022       MGIC Investment Corporation (MTG)  3.930000e+09
+3033                 Radian Group Inc. (RDN)  3.540000e+09
+3037      Two Harbors Investment Corp. (TWO)  3.460000e+09
+3013    Chimera Investment Corporation (CIM)  3.380000e+09
+3020                MFA Financial Inc. (MFA)  3.220000e+09
+3011   Blackstone Mortgage Trust Inc. (BXMT)  2.900000e+09
+3019     Invesco Mortgage Capital Inc. (IVR)  1.780000e+09
+[[u'mortgage, agency, residential, loans, securities, backed, investment, estate, real, rmbs, servicing, trust, assets, mbs, investments, income, government, federal, company']]
+cluster 42:
+                                                   name            mc
+3065                         Merck &amp; Co. Inc. (MRK)  1.744500e+11
+3062                        Eli Lilly and Company (LLY)  8.184000e+10
+3079                                  Zoetis Inc. (ZTS)  2.960000e+10
+3042               Archer-Daniels-Midland Company (ADM)  2.359000e+10
+3057                     IDEXX Laboratories Inc. (IDXX)  1.424000e+10
+3058  International Flavors &amp; Fragrances Inc. (IFF)  1.065000e+10
+3053                              FMC Corporation (FMC)  9.960000e+09
+3048                                 Bunge Limited (BG)  9.780000e+09
+3064                           The Mosaic Company (MOS)  8.300000e+09
+3059                      Ingredion Incorporated (INGR)  8.280000e+09
+[[u'animal, ingredients, products, food, health, pharmaceutical, ethanol, segment, corn, feed, company, nutrition, pet, human, flavors, specialty, flavor, companion, agricultural']]
+cluster 43:
+                                                   name            mc
+3107                   United Parcel Service Inc. (UPS)  8.974000e+10
+3106                    Union Pacific Corporation (UNP)  8.644000e+10
+3087                            FedEx Corporation (FDX)  5.063000e+10
+3083                              CSX Corporation (CSX)  4.648000e+10
+3098                 Norfolk Southern Corporation (NSC)  3.513000e+10
+3094                         Kansas City Southern (KSU)  9.580000e+09
+3086  Expeditors International of Washington Inc. (E...  9.500000e+09
+3082                C.H. Robinson Worldwide Inc. (CHRW)  9.490000e+09
+3092           J.B. Hunt Transport Services Inc. (JBHT)  9.250000e+09
+3109  Westinghouse Air Brake Technologies Corporatio...  7.860000e+09
+[[u'freight, truckload, transportation, logistics, services, intermodal, rail, brokerage, expedited, company, segment, ocean, ltl, haul, trailers, carrier, temperature, tractors, regional']]
+cluster 44:
+                                        name            mc
+3136           General Electric Company (GE)  2.435900e+11
+3125                      Cummins Inc. (CMI)  2.591000e+10
+3155      TransDigm Group Incorporated (TDG)  1.330000e+10
+3122                                     NaN  7.120000e+09
+3151              Seaboard Corporation (SEB)  4.480000e+09
+3140    Monolithic Power Systems Inc. (MPWR)  3.920000e+09
+3135                 First Solar Inc. (FSLR)  3.790000e+09
+3148          Regal Beloit Corporation (RBC)  3.520000e+09
+3132                           EnerSys (ENS)  3.470000e+09
+3113  Advanced Energy Industries Inc. (AEIS)  3.030000e+09
+[[u'power, systems, lighting, products, solutions, energy, industrial, company, segment, components, led, electric, equipment, markets, solar, dc, applications, control, voltage']]
+cluster 45:
+                                 name            mc
+3235       Wal-Mart Stores Inc. (WMT)  2.388000e+11
+3201      Lowe's Companies Inc. (LOW)  7.258000e+10
+3227     The TJX Companies Inc. (TJX)  4.787000e+10
+3224         Target Corporation (TGT)  3.089000e+10
+3198              The Kroger Co. (KR)  2.668000e+10
+3213          Ross Stores Inc. (ROST)  2.438000e+10
+3180  Dollar General Corporation (DG)  1.978000e+10
+3181          Dollar Tree Inc. (DLTR)  1.885000e+10
+3230          Ulta Beauty Inc. (ULTA)  1.827000e+10
+3200               L Brands Inc. (LB)  1.395000e+10
+[[u'stores, merchandise, retail, home, accessories, company, apparel, products, beauty, retailer, fashion, furniture, operates, items, operated, com, segment, wholesale, 2017']]
+cluster 46:
+                                         name            mc
+3244              Comcast Corporation (CMCSA)  1.846300e+11
+3245            The Walt Disney Company (DIS)  1.682600e+11
+3264                   Time Warner Inc. (TWX)  7.572000e+10
+3254                      Netflix Inc. (NFLX)  6.768000e+10
+3250     Twenty-First Century Fox Inc. (FOXA)  5.011000e+10
+3242                    CBS Corporation (CBS)  2.509000e+10
+3246    Discovery Communications Inc. (DISCA)  1.528000e+10
+3265                       Viacom Inc. (VIAB)  1.430000e+10
+3261  Scripps Networks Interactive Inc. (SNI)  8.830000e+09
+3255                  News Corporation (NWSA)  7.530000e+09
+[[u'television, media, content, entertainment, stations, networks, digital, programming, broadcast, cable, news, radio, segment, broadcasting, company, video, network, cbs, streaming']]
+cluster 47:
+                                       name            mc
+3290               Intel Corporation (INTC)  1.666300e+11
+3312                      VMware Inc. (VMW)  3.779000e+10
+3314      Western Digital Corporation (WDC)  2.524000e+10
+3292          KLA-Tencor Corporation (KLAC)  1.596000e+10
+3300                     Red Hat Inc. (RHT)  1.532000e+10
+3296                     NetApp Inc. (NTAP)  1.071000e+10
+3291       Iron Mountain Incorporated (IRM)  9.240000e+09
+3307                     Splunk Inc. (SPLK)  9.120000e+09
+3311              Veeva Systems Inc. (VEEV)  8.410000e+09
+3316  Zebra Technologies Corporation (ZBRA)  5.200000e+09
+[[u'data, cloud, software, services, storage, solutions, company, management, information, center, technology, products, security, systems, server, platform, flash, enterprise, provides']]
+cluster 48:
+                                                   name            mc
+3361                                      Visa Inc. (V)  2.132300e+11
+3345                       Mastercard Incorporated (MA)  1.260300e+11
+3322                     American Express Company (AXP)  6.864000e+10
+3342                                 Intuit Inc. (INTU)  3.207000e+10
+3333  Fidelity National Information Services Inc. (FIS)  2.750000e+10
+3334                                 Fiserv Inc. (FISV)  2.563000e+10
+3357                          Synchrony Financial (SYF)  2.177000e+10
+3351                                Paychex Inc. (PAYX)  2.066000e+10
+3337                         Global Payments Inc. (GPN)  1.373000e+10
+3320            Alliance Data Systems Corporation (ADS)  1.309000e+10
+[[u'payment, services, solutions, processing, financial, payments, credit, card, company, tax, segment, provides, cards, prepaid, electronic, consumer, products, management, institutions']]
+cluster 49:
+                                          name            mc
+3391               Micron Technology Inc. (MU)  3.078000e+10
+3367                 Analog Devices Inc. (ADI)  2.966000e+10
+3384           Lam Research Corporation (LRCX)  2.458000e+10
+3407            Skyworks Solutions Inc. (SWKS)  1.917000e+10
+3386  Microchip Technology Incorporated (MCHP)  1.735000e+10
+3392     Maxim Integrated Products Inc. (MXIM)  1.324000e+10
+3400                         Qorvo Inc. (QRVO)  9.550000e+09
+3396         ON Semiconductor Corporation (ON)  6.480000e+09
+3389              Microsemi Corporation (MSCC)  5.560000e+09
+3373    Cypress Semiconductor Corporation (CY)  4.330000e+09
+[[u'signal, semiconductor, analog, products, solutions, rf, power, circuits, integrated, wireless, radio, devices, applications, communications, mixed, frequency, company, high, markets']]
