@@ -78,10 +78,10 @@ if __name__ == '__main__':
 	print articles_df['content'].head()
 
 
-	n['all'] = articles_df['content'].apply(lambda x: len(x.split()))
-	n.plot(kind='hist',bins=100,xlim=(0,500))
-	plt.savefig('hist.counts.png')
-	sys.exit()
+	#n['all'] = articles_df['content'].apply(lambda x: len(x.split()))
+	#n.plot(kind='hist',bins=100,xlim=(0,500))
+	#plt.savefig('hist.counts.png')
+	#sys.exit()
 
 	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)
 	X = vectorizer.fit_transform(articles_df['content'])
@@ -95,14 +95,14 @@ if __name__ == '__main__':
 		print("Explained variance of the SVD step: {}%".format( int(explained_variance * 100)))
 
 	features = vectorizer.get_feature_names()
-	kmeans = KMeans()
+	kmeans = KMeans(n_clusters=14)
 	#KMeans(n_clusters=8, init='k-means++', n_init=10, max_iter=300, tol=0.0001, precompute_distances='auto', verbose=0, random_state=None, copy_x=True, n_jobs=1, algorithm='auto')
 	kmeans.fit(X)
 	
 	print "cluster centers:"
 	print kmeans.cluster_centers_
 	
-	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-11:-1]
+	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
 	print top_centroids
 	print "top features for each cluster:"
 	for num, centroid in enumerate(top_centroids):
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
 	for i in range(kmeans.n_clusters):
 		cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
-		sample_articles = np.random.choice(cluster, 3, replace=False)
+		sample_articles = np.random.choice(cluster, 10, replace=False)
 		print "cluster {}:".format( i )
 		for article in sample_articles:
 			print "    %s" % articles_df.ix[article]['symbol']
