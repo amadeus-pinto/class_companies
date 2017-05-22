@@ -38,15 +38,33 @@ def get_source(sourcestr=None,rewrite=False):
 		return b
 
 
+def get_mc():
+	mcap = pd.read_csv('../data/mcap.csv')
+	t = mcap['mc'].str.split('(\d+)([A-z]+)',expand=True)
+	t.columns=['a','b','c','d']
+	t['c']=t['c'].map({ 'M':10**6,'B':10**9, 'k':10**3, 'None':10**0})
+	t['d'] = t['b'].apply(lambda x: 10**(-len(str(x))))
+	t['a']  = pd.to_numeric(t['a'],errors='coerce')
+	t['b']  = pd.to_numeric(t['b'],errors='coerce')
+	mc = (t.d*t.b+t.a)*t.c
+	mcap['mc']=mc
+	return mcap
+
+def get_adf():
+
+	df= pd.read_csv('../data/sname.csv')
+	mc=get_mc()
+	return pd.merge(df,mc)
+
 if __name__ == '__main__':
 	
 	
-	dosvd=False
 	#http://scikit-learn.org/stable/auto_examples/text/document_clustering.html#sphx-glr-auto-examples-text-document-clustering-py
-
-
-	#mw =get_source(sourcestr='mw',rewrite=True)
-	#sys.exit()
+	try:
+		n_clusters=int(sys.argv[1])
+	except:
+		n_clusters=8
+	print 'doing n_clusters=',n_clusters
 
 	dfl=[]
 	articles_df = pd.DataFrame()
@@ -77,42 +95,43 @@ if __name__ == '__main__':
 	print articles_df.info(verbose=True)
 	print articles_df['content'].head()
 
+	
+	articles_df = pd.merge(articles_df,get_adf())
 
 	#n['all'] = articles_df['content'].apply(lambda x: len(x.split()))
 	#n.plot(kind='hist',bins=100,xlim=(0,500))
 	#plt.savefig('hist.counts.png')
 	#sys.exit()
 
-	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)
+	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)#None)
 	X = vectorizer.fit_transform(articles_df['content'])
 
-	if dosvd:
-		svd = TruncatedSVD(n_components=10)
-		normalizer = Normalizer(copy=False)
-		lsa = make_pipeline(svd, normalizer)
-		X = lsa.fit_transform(X)
-		explained_variance = svd.explained_variance_ratio_.sum()
-		print("Explained variance of the SVD step: {}%".format( int(explained_variance * 100)))
-
 	features = vectorizer.get_feature_names()
-	kmeans = KMeans(n_clusters=14)
+	kmeans = KMeans(n_clusters=n_clusters)
 	#KMeans(n_clusters=8, init='k-means++', n_init=10, max_iter=300, tol=0.0001, precompute_distances='auto', verbose=0, random_state=None, copy_x=True, n_jobs=1, algorithm='auto')
 	kmeans.fit(X)
 	
-	print "cluster centers:"
-	print kmeans.cluster_centers_
-	
-	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
-	print top_centroids
-	print "top features for each cluster:"
-	for num, centroid in enumerate(top_centroids):
-		print "cluster={},top features={}".format( num, ", ".join(features[i] for i in centroid) )
-		    
-	#random companies  from cluster
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
+
+	articles_df['cluster'] = assigned_cluster
+
+	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
+	cl = []
+	for num, centroid in enumerate(top_centroids):
+		cl.append([ num,  [", ".join(features[i] for i in centroid) ]])
+		    
+	l=pd.DataFrame(cl)
+	l.columns=['cluster','features']
+	articles_df = pd.merge(l,articles_df)
+	print 'n,inertia',n_clusters,kmeans.inertia_
+	articles_df.to_csv('../data/result.'+str(n_clusters)+'.csv',index=False)
 	for i in range(kmeans.n_clusters):
 		cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
-		sample_articles = np.random.choice(cluster, 10, replace=False)
+		#print cluster
+		ss = articles_df.loc[articles_df.cluster==i]
+		ss.sort('mc',ascending=False,inplace=True)
 		print "cluster {}:".format( i )
-		for article in sample_articles:
-			print "    %s" % articles_df.ix[article]['symbol']
+		print ss[['name','mc']][0:10]
+		print ss.iloc[0][['features']].values.tolist()
+
+

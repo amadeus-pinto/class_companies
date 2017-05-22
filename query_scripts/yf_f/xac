@@ -1,0 +1,60 @@
+ echo ****************************doing ENT ;
+while [[ ! -f ENT.yfq.csv ]]
+do ./curl.sh ENT > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing S ;
+while [[ ! -f S.yfq.csv ]]
+do ./curl.sh S > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing BDCV ;
+while [[ ! -f BDCV.yfq.csv ]]
+do ./curl.sh BDCV > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing MUR ;
+while [[ ! -f MUR.yfq.csv ]]
+do ./curl.sh MUR > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing CDNS ;
+while [[ ! -f CDNS.yfq.csv ]]
+do ./curl.sh CDNS > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing AEPI ;
+while [[ ! -f AEPI.yfq.csv ]]
+do ./curl.sh AEPI > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing NGVC ;
+while [[ ! -f NGVC.yfq.csv ]]
+do ./curl.sh NGVC > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing EPD ;
+while [[ ! -f EPD.yfq.csv ]]
+do ./curl.sh EPD > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing FSL ;
+while [[ ! -f FSL.yfq.csv ]]
+do ./curl.sh FSL > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing NVIV ;
+while [[ ! -f NVIV.yfq.csv ]]
+do ./curl.sh NVIV > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing LXK ;
+while [[ ! -f LXK.yfq.csv ]]
+do ./curl.sh LXK > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
+ echo ****************************doing MMLP ;
+while [[ ! -f MMLP.yfq.csv ]]
+do ./curl.sh MMLP > .yfq.csv ; 
+cat .yfq.csv; 
+done; 
