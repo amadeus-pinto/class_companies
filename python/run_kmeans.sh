@@ -1,12 +1,3 @@
-python cpy.py 2      > 02.out   
-python cpy.py 3      > 03.out  
-python cpy.py 4      > 04.out
-python cpy.py 5      > 05.out
-python cpy.py 6      > 06.out
-python cpy.py 7      > 07.out
-python cpy.py 8      > 08.out
-python cpy.py 9      > 09.out
-python cpy.py 10     > 10.out
-python cpy.py 20     > 20.out
-python cpy.py 30     > 30.out
-python cpy.py 50     > 50.out
+ipython cpy.py 5   > 05.out
+ipython cpy.py 10  > 10.out
+ipython cpy.py 15  > 15.out

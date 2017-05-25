@@ -39,6 +39,8 @@ def get_source(sourcestr=None,rewrite=False):
 
 
 def get_mc():
+        #old hack
+        sys.exit()
 	mcap = pd.read_csv('../data/mcap.csv')
 	t = mcap['mc'].str.split('(\d+)([A-z]+)',expand=True)
 	t.columns=['a','b','c','d']
@@ -52,14 +54,16 @@ def get_mc():
 
 def get_adf():
 
-	df= pd.read_csv('../data/sname.csv')
-	mc=get_mc()
-	return pd.merge(df,mc)
+	#df= pd.read_csv('../data/sname.csv')
+        df= pd.read_csv('../data/company_bio.csv')#,dtype={'gics8':np.int})
+        df.dropna(axis=0,how='any',inplace=True)
+        df.gics8 = df.gics8.astype(int)
+        print df.info(verbose=True,null_counts=True)
+        return df
 
 if __name__ == '__main__':
 	
 	
-	#http://scikit-learn.org/stable/auto_examples/text/document_clustering.html#sphx-glr-auto-examples-text-document-clustering-py
 	try:
 		n_clusters=int(sys.argv[1])
 	except:
@@ -86,7 +90,6 @@ if __name__ == '__main__':
 	for c in ccols: 
 		n[c] = articles_df[c].apply(lambda x: len(str(x).split(' ')))
 
-
 	print articles_df.info(verbose=True,null_counts=True)
 	articles_df.fillna(' ',inplace=True); 
 	mcc =   articles_df.iloc[:,1:].apply(lambda x:  ' '.join(x),axis=1); 
@@ -96,14 +99,15 @@ if __name__ == '__main__':
 	print articles_df['content'].head()
 
 	
-	articles_df = pd.merge(articles_df,get_adf())
+	articles_df = pd.merge(articles_df,get_adf(),how='inner')
+        print articles_df.head()
 
 	#n['all'] = articles_df['content'].apply(lambda x: len(x.split()))
 	#n.plot(kind='hist',bins=100,xlim=(0,500))
 	#plt.savefig('hist.counts.png')
 	#sys.exit()
 
-	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)#None)
+	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)
 	X = vectorizer.fit_transform(articles_df['content'])
 
 	features = vectorizer.get_feature_names()
@@ -113,7 +117,7 @@ if __name__ == '__main__':
 	
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
 
-	articles_df['cluster'] = assigned_cluster
+	articles_df['textgics_'+str(n_clusters).zfill(3)] = assigned_cluster
 
 	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
 	cl = []
@@ -121,17 +125,20 @@ if __name__ == '__main__':
 		cl.append([ num,  [", ".join(features[i] for i in centroid) ]])
 		    
 	l=pd.DataFrame(cl)
-	l.columns=['cluster','features']
+	l.columns=['textgics_'+str(n_clusters).zfill(3),'features']
 	articles_df = pd.merge(l,articles_df)
 	print 'n,inertia',n_clusters,kmeans.inertia_
-	articles_df.to_csv('../data/result.'+str(n_clusters)+'.csv',index=False)
+        writecols = ['symbol','gics8','textgics_'+str(n_clusters).zfill(3)]
+
+	articles_df[writecols].to_csv('../data/result.'+str(n_clusters).zfill(3)+'.csv',index=False)
 	for i in range(kmeans.n_clusters):
 		cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
 		#print cluster
-		ss = articles_df.loc[articles_df.cluster==i]
+		ss = articles_df.loc[articles_df['textgics_'+str(n_clusters).zfill(3)]==i]
 		ss.sort('mc',ascending=False,inplace=True)
 		print "cluster {}:".format( i )
-		print ss[['name','mc']][0:10]
+		print ss[['name','mc','gics8']][0:10]
 		print ss.iloc[0][['features']].values.tolist()
 
-
+	print articles_df.info(verbose=True,null_counts=True)
+	#http://scikit-learn.org/stable/auto_examples/text/document_clustering.html#sphx-glr-auto-examples-text-document-clustering-py
