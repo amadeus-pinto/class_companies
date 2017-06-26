@@ -1,0 +1,77 @@
+height has been deprecated.
+
+    kmeans.text_011                                              names
+0                 0  general electric co,nextera energy inc,caterpi...
+1                 1  alphabet inc,amazon.com inc,facebook inc,coca-...
+2                 2  johnson & johnson,wal-mart stores inc,procter ...
+3                 3  exxon mobil corp,chevron corp,conocophillips,e...
+4                 4  apple inc,microsoft corp,at&t inc,visa inc,ver...
+5                 5  3m co,boeing co,honeywell international inc,sc...
+6                 6  simon property group inc,public storage,prolog...
+7                 7  jpmorgan chase & co,wells fargo & co,bank of a...
+8                 8  american international group,metlife inc,anthe...
+9                 9  pfizer inc,amgen inc,abbvie inc,celgene corp,b...
+10               10  goldman sachs group inc,morgan stanley,blackro...
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+gics.011
+50     31
+55     84
+30    122
+15    142
+60    177
+10    260
+20    419
+25    444
+45    498
+35    501
+40    588
+Name: kmeans.text_011, dtype: int64
+kmeans.text_011
+10     92
+8     100
+0     108
+3     183
+6     201
+2     267
+9     286
+7     310
+4     426
+5     534
+1     759
+Name: gics.011, dtype: int64
+                    number  names
+kmeans.text_011                                                        
+label=0                108  general electric co,nextera energy inc,caterpi...
+label=1                759  alphabet inc,amazon.com inc,facebook inc,coca-...
+label=2                267  johnson & johnson,wal-mart stores inc,procter ...
+label=3                183  exxon mobil corp,chevron corp,conocophillips,e...
+label=4                426  apple inc,microsoft corp,at&t inc,visa inc,ver...
+label=5                534  3m co,boeing co,honeywell international inc,sc...
+label=6                201  simon property group inc,public storage,prolog...
+label=7                310  jpmorgan chase & co,wells fargo & co,bank of a...
+label=8                100  american international group,metlife inc,anthe...
+label=9                286  pfizer inc,amgen inc,abbvie inc,celgene corp,b...
+label=10                92  goldman sachs group inc,morgan stanley,blackro...
+
+
+0 :  general electric co,nextera energy inc,caterpillar inc,duke energy corp,tesla inc,southern co,dominion resources inc,american electric power co,pg&e corp,exelon corp
+1 :  alphabet inc,amazon.com inc,facebook inc,coca-cola co,comcast corp,philip morris international,disney (walt) co,pepsico inc,altria group inc,mcdonald's corp
+2 :  johnson & johnson,wal-mart stores inc,procter & gamble co,home depot inc,merck & co,unitedhealth group inc,walgreens boots alliance inc,lilly (eli) & co,nike inc,cvs health corp
+3 :  exxon mobil corp,chevron corp,conocophillips,enterprise prods prtnrs  -lp,eog resources inc,occidental petroleum corp,kinder morgan inc,phillips 66,pioneer natural resources co,anadarko petroleum corp
+4 :  apple inc,microsoft corp,at&t inc,visa inc,verizon communications inc,oracle corp,intel corp,cisco systems inc,intl business machines corp,mastercard inc
+5 :  3m co,boeing co,honeywell international inc,schlumberger ltd,united technologies corp,texas instruments inc,lockheed martin corp,dow chemical,thermo fisher scientific inc,du pont (e i) de nemours
+6 :  simon property group inc,public storage,prologis inc,welltower inc,avalonbay communities inc,equity residential,ventas inc,ggp inc,boston properties inc,digital realty trust inc
+7 :  jpmorgan chase & co,wells fargo & co,bank of america corp,citigroup inc,u s bancorp,pnc financial svcs group inc,capital one financial corp,bb&t corp,suntrust banks inc,m & t bank corp
+8 :  american international group,metlife inc,anthem inc,aetna inc,prudential financial inc,cigna corp,travelers cos inc,humana inc,allstate corp,aflac inc
+9 :  pfizer inc,amgen inc,abbvie inc,celgene corp,bristol-myers squibb co,gilead sciences inc,biogen inc,regeneron pharmaceuticals,baxter international inc,vertex pharmaceuticals inc
+10 :  goldman sachs group inc,morgan stanley,blackrock inc,bank of new york mellon corp,state street corp,franklin resources inc,northern trust corp,blackstone group lp,price (t. rowe) group,invesco ltd

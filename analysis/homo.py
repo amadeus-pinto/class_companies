@@ -11,38 +11,44 @@ import random
 
 if __name__ == '__main__':
 
-    gpath='../python/class_csvs/s.*.csv'
+    try:	
+    	var = str(sys.argv[1])
+    except Exception:
+    	var = '1d.AVERAGE' 
+
+
+    gpath='../python/class_csvs/s.'+var+'*.csv'
     gfi=glob.glob(gpath)
     
     l=[]
     for g in gfi:
-        print g
+        print 'doing', g
         l.append(pd.read_csv(g))
+    print 'concating... '
     A=  pd.concat(l)
+    print 'done'
     A['type']=A['type'].str.replace('.','_')
     A['n'] = A['type'].apply(lambda x: int(x.split('_')[-2]))
     A['g'] = A['type'].apply(lambda x: x.split('_')[-1])
-    A['t'] = A['type'].apply(lambda x: x.split('_')[0::-2][0])
+    A['t'] = A['type'].apply(lambda x: ".".join(x.split('_')[0:3]))
     A['g.t'] =  A['g'].apply(lambda x: 'extra' if x=='e' else 'intra') +'@'+A['t']
     A.drop('type',1,inplace=True)
-    print A
-
-    
 
     groups = A.groupby('g.t')
     fig, ax = plt.subplots()
     ax.margins(0.05) # Optional, just adds 5% padding to the autoscaling
     for name, group in groups:
-        print name
         if 'extra' in name: marker='x'
         else: marker='o'
         #ax.errorbar(group['n'], group['mu'],yerr=0.25*group['sigma'], fmt='-o',label=name,marker=marker, linestyle='-', ms=12)
         ax.plot(group['n'], group['mu'],label=name,marker=marker, linestyle='-', ms=12)
+        print name
 
     plt.xlabel('n_clusters')
     plt.ylabel('<R**2>')
 
     ax.legend()
-    plt.savefig('r2.v.n.price.pdf')
+    wrstr = 'r2.v.n.'+var+'.pdf'
+    plt.savefig(wrstr)
 
-    print 'wrote fig'
+    print 'wrote fig', wrstr

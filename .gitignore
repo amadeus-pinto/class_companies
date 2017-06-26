@@ -1,0 +1,7 @@
+*/*.gz
+*.gz
+*/*/*.gz
+*/*/*/*.gz
+query_scripts/10k/*.gz
+*/*.csv
+*/*/*.csv
