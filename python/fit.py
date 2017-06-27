@@ -104,12 +104,10 @@ def get_w_fits(indf=None,wrstr=None):
 
 if __name__ == '__main__':
 
-
-
         try:	
 		ncl = int(sys.argv[1])
         except Exception:
-		ncl = 2 
+		ncl = 11 
         
         try:	
 		ctype = str(sys.argv[2])
@@ -120,9 +118,12 @@ if __name__ == '__main__':
 		cname = str(sys.argv[3])
         except Exception:
 		cname = 'gics' 
+        try: 
+                var = str(sys.argv[4])
+        except Exception:
+                var = '1d.AVERAGE'
 
 
-        
         strncl=str(ncl).zfill(3)
 	cpath='../data/'+ctype+'.'+strncl+'.csv'
         print '------------------------'
@@ -132,8 +133,8 @@ if __name__ == '__main__':
         print '------------------------'
 
 
-	path='./AVERAGE.csv'
-	A = pd.read_csv('AVERAGE.csv',index_col='#TIMESTAMP')
+	path='./../data/'+var+'.csv'
+	A = pd.read_csv('../data/'+var+'.csv',index_col='#TIMESTAMP')
 	c = pd.read_csv(cpath)	
         c,cname=get_target(df=c,cname=cname,ncl=ncl)
 
@@ -163,8 +164,8 @@ if __name__ == '__main__':
 	egdf= pd.DataFrame(ew,columns=['n','r2'])
 
 
-        b=get_w_fits(indf=wgdf,wrstr=cname+'.i')
-        d=get_w_fits(indf=egdf,wrstr=cname+'.e')
+        b=get_w_fits(indf=wgdf,wrstr=var+'.'+cname+'.i')
+        d=get_w_fits(indf=egdf,wrstr=var+'.'+cname+'.e')
 
 
 	#wgdf.plot(kind='scatter',x='w',y='r2',title=cname+' w v.r2')
@@ -176,6 +177,8 @@ if __name__ == '__main__':
 	#plt.tight_layout()
 	#plt.savefig('hist.'+cname+'.pdf')
 	#plt.clf()
-        
+  
+
+
 	
 
