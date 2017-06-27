@@ -14,7 +14,7 @@ if __name__ == '__main__':
     try:	
     	var = str(sys.argv[1])
     except Exception:
-    	var = '1d.AVERAGE' 
+    	var = '1d.RETURN' 
 
 
     gpath='../python/class_csvs/s.'+var+'*.csv'
@@ -30,24 +30,34 @@ if __name__ == '__main__':
     A['type']=A['type'].str.replace('.','_')
     A['n'] = A['type'].apply(lambda x: int(x.split('_')[-2]))
     A['g'] = A['type'].apply(lambda x: x.split('_')[-1])
-    A['t'] = A['type'].apply(lambda x: ".".join(x.split('_')[0:3]))
+
+    print A.type
+    A['t'] = A['type'].str.replace('_fact','.fact')
+    A['t'] = A['t'].   str.replace   ('_text','.text')
+
+    A['t'] = A['t'].apply(lambda x: ".".join(x.split('_')[0:3]))
     A['g.t'] =  A['g'].apply(lambda x: 'extra' if x=='e' else 'intra') +'@'+A['t']
     A.drop('type',1,inplace=True)
 
+    print A['g.t']
     groups = A.groupby('g.t')
     fig, ax = plt.subplots()
     ax.margins(0.05) # Optional, just adds 5% padding to the autoscaling
     for name, group in groups:
-        if 'extra' in name: marker='x'
-        else: marker='o'
+        if 'extra' in name: 
+            marker='x'
+        elif 'intra' in name: 
+            marker='o'
         #ax.errorbar(group['n'], group['mu'],yerr=0.25*group['sigma'], fmt='-o',label=name,marker=marker, linestyle='-', ms=12)
-        ax.plot(group['n'], group['mu'],label=name,marker=marker, linestyle='-', ms=12)
+        ax.plot(group['n'], group['mu'],label=name,marker=marker,linestyle='--',ms=12)
         print name
+        print group[['n','mu']]
 
     plt.xlabel('n_clusters')
     plt.ylabel('<R**2>')
+    plt.legend(loc='best',prop={'size':6})
 
-    ax.legend()
+
     wrstr = 'r2.v.n.'+var+'.pdf'
     plt.savefig(wrstr)
 

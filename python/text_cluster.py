@@ -65,8 +65,8 @@ def get_adf():
 
 
 
-def do_kmeans(X=None,n_clusters=None,articles_df=None):
-	kmeans = KMeans(n_clusters=n_clusters)
+def do_kmeans(X=None,n_clusters=None,articles_df=None,features=None):
+	kmeans = KMeans(n_clusters=n_clusters,verbose=True)
 	kmeans.fit(X)
 	
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
@@ -74,6 +74,7 @@ def do_kmeans(X=None,n_clusters=None,articles_df=None):
 
 	articles_df['kmeans.text_'+str(n_clusters).zfill(3)] = assigned_cluster
 	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
+        print 'top centroids:\n',top_centroids
 
 	cl = []
 	for num, centroid in enumerate(top_centroids):
@@ -85,7 +86,7 @@ def do_kmeans(X=None,n_clusters=None,articles_df=None):
 	articles_df = pd.merge(l,articles_df)
 	print 'n,inertia',n_clusters,kmeans.inertia_
         writecols = ['symbol','gics8','kmeans.text_'+str(n_clusters).zfill(3)]
-	articles_df[writecols].to_csv('../data/kmeans.'+str(n_clusters).zfill(3)+'.csv',index=False)
+	articles_df[writecols].to_csv('../data/kmeans_text.'+str(n_clusters).zfill(3)+'.csv',index=False)
 	for i in range(kmeans.n_clusters):
 		cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
 		#print cluster
@@ -97,7 +98,7 @@ def do_kmeans(X=None,n_clusters=None,articles_df=None):
 	print articles_df.info(verbose=True,null_counts=True)
 
 
-def do_hiercl(X=None,n_clusters=None,articles_df=None):
+def do_hiercl(X=None,n_clusters=None,articles_df=None,features=None):
     connectivity='ward'
     model = AgglomerativeClustering(linkage='ward',connectivity=None,n_clusters=n_clusters)
 
@@ -116,7 +117,7 @@ def do_hiercl(X=None,n_clusters=None,articles_df=None):
     #articles_df = pd.merge(l,articles_df)
 
     writecols = ['symbol','gics8','hier.text_'+str(n_clusters).zfill(3)]
-    articles_df[writecols].to_csv('../data/hier.'+str(n_clusters).zfill(3)+'.csv',index=False)
+    articles_df[writecols].to_csv('../data/hier_text.'+str(n_clusters).zfill(3)+'.csv',index=False)
     for i in articles_df['hier.text_'+str(n_clusters).zfill(3)].unique(): 
     	cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
     	ss = articles_df.loc[articles_df['hier.text_'+str(n_clusters).zfill(3)]==i]
@@ -166,6 +167,7 @@ if __name__ == '__main__':
 
 	
 	articles_df = pd.merge(articles_df,get_adf(),how='inner')
+        print 'preview'
         print articles_df.head()
 
 	#n['all'] = articles_df['content'].apply(lambda x: len(x.split()))
@@ -173,14 +175,15 @@ if __name__ == '__main__':
 	#plt.savefig('hist.counts.png')
 	#sys.exit()
 
-	vectorizer = TfidfVectorizer(stop_words='english',max_features=None)
+	vectorizer = TfidfVectorizer(stop_words='english',max_features=1000)
 	X = vectorizer.fit_transform(articles_df['content'])
 
 	features = vectorizer.get_feature_names()
 
-        do_kmeans(X=X,n_clusters=n_clusters,articles_df=articles_df)
-        do_hiercl(X=X,n_clusters=n_clusters,articles_df=articles_df)
+        do_kmeans(X=X,n_clusters=n_clusters,articles_df=articles_df,features=features)
+        do_hiercl(X=X,n_clusters=n_clusters,articles_df=articles_df,features=features)
 
+        print 'done'
 
 
 

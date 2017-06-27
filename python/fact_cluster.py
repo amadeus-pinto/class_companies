@@ -10,16 +10,16 @@ import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import linkage, dendrogram
 from sklearn.decomposition import TruncatedSVD
 from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import Normalizer
+from sklearn import preprocessing
 from sklearn.cluster import AgglomerativeClustering
 from text_cluster import get_adf
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn import decomposition
 
-pd.set_option('display.height', 1000)
-pd.set_option('display.max_rows', 500)
-pd.set_option('display.max_columns', 500)
-pd.set_option('display.width', 1000)
+#pd.set_option('display.height', 1000)
+#pd.set_option('display.max_rows', 500)
+#pd.set_option('display.max_columns', 500)
+#pd.set_option('display.width', 1000)
 
 
 def do_kmeans(X=None,n_clusters=None,df=None,features=None):
@@ -27,7 +27,7 @@ def do_kmeans(X=None,n_clusters=None,df=None,features=None):
 	kmeans.fit(X)
 	
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
-        print 'kmean*******class dist:',Counter(assigned_cluster)
+        print 'kmeans_class dist:',Counter(assigned_cluster)
 
 	df['kmeans.fact_'+str(n_clusters).zfill(3)] = assigned_cluster
 	#top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-10:-1]
@@ -40,9 +40,10 @@ def do_kmeans(X=None,n_clusters=None,df=None,features=None):
 	l=pd.DataFrame(cl)
 	l.columns=['kmeans.fact_'+str(n_clusters).zfill(3),'features']
 	df = pd.merge(l,df)
-	print 'n,inertia',n_clusters,kmeans.inertia_
+	print '_n,inertia',n_clusters,kmeans.inertia_
         writecols = ['symbol','gics8','kmeans.fact_'+str(n_clusters).zfill(3)]
-	df[writecols].to_csv('../data/kmeans.fact.'+str(n_clusters).zfill(3)+'.csv',index=False)
+        print '******************writing: {}'.format('../data/kmeans_fact.'+str(n_clusters).zfill(3)+'.csv')
+	df[writecols].to_csv('../data/kmeans_fact.'+str(n_clusters).zfill(3)+'.csv',index=False)
 	for i in range(kmeans.n_clusters):
 		cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
 		#print cluster
@@ -67,7 +68,8 @@ def do_hiercl(X=None,n_clusters=None,df=None,features=None):
     df['hier.fact_'+str(n_clusters).zfill(3)] = assigned_cluster
 
     writecols = ['symbol','gics8','hier.fact_'+str(n_clusters).zfill(3)]
-    df[writecols].to_csv('../data/hier.fact.'+str(n_clusters).zfill(3)+'.csv',index=False)
+    print '************************writing: {}'.format('../data/hier_fact.'+str(n_clusters).zfill(3)+'.csv')
+    df[writecols].to_csv('../data/hier_fact.'+str(n_clusters).zfill(3)+'.csv',index=False)
     for i in df['hier.fact_'+str(n_clusters).zfill(3)].unique(): 
     	cluster = np.arange(0, X.shape[0])[assigned_cluster==i]
     	ss = df.loc[df['hier.fact_'+str(n_clusters).zfill(3)]==i]
@@ -85,6 +87,20 @@ def get_factor_df(q='q0'):
     df.rename(columns={'mktval':'mc'},inplace=True)
     return df
 
+def quick_anal(X=None):
+        print X.info(verbose=True,null_counts=True)
+        an = pd.concat([X.mean(),X.std(),X.quantile(1.),X.quantile(0.75),X.quantile(0.5),X.quantile(0.25),X.quantile(0)],axis=1).round(2)
+        an.columns = ['mu','sd','100%','75%','50%','25%','00%']
+        print an
+
+def get_zscore(X=None):
+    for c in X.columns:
+        X[c] = zscore(X[c])
+    return X
+
+def zscore(x):
+    return (x - x.mean())/ x.std()
+
 if __name__ == '__main__':
 	
 	try:
@@ -92,32 +108,25 @@ if __name__ == '__main__':
 	except:
 		n_clusters=8
 	print 'doing n_clusters=',n_clusters
+        quarter='q0'
 
-        df =  get_factor_df(q='q0')
+        df =  get_factor_df(q=quarter)
+
+
         df.dropna(thresh=30,inplace=True)
         df.fillna(0,inplace=True)
 
 
-        rdq =  [x for x in df.columns if 'xrdq2' in x]
-        for r in rdq:
-            df[r].fillna(0,inplace=True)
+        #rdq =  [x for x in df.columns if 'xrdq2' in x]
+        #for r in rdq:
+        #    df[r].fillna(0,inplace=True)
 
-        #df.dropna(how='any',inplace=True)
-        #
-        #remove if any null - 685 left
-        #30                ~ 1600
-        #25
-        #20
-        #15
-        #10
         print df.info(verbose=True,null_counts=True)
-
-
-
-
         
         objl = [key for key in dict(df.dtypes) if dict(df.dtypes)[key] in ['object', 'string']]
         ancdrl = ['mc','gics8','fyr_used']
+        #ancdrl = ['gics8']
+        #ancdrl=[]
 
         dropl = objl+ancdrl
         X = df.copy()
@@ -125,9 +134,11 @@ if __name__ == '__main__':
 
         for d in dropl:
             X.drop(d,1,inplace=True)
-        X.fillna(0,inplace=True)
-
-        print X.info(verbose=True,null_counts=True)
+        X = get_zscore(X=X)
+        quick_anal(X=X)
+        #############
+        #############
+        #sys.exit()
         features = X.columns.values.tolist()
         do_kmeans(X=X,n_clusters=n_clusters,df=df,features=features)
         do_hiercl(X=X,n_clusters=n_clusters,df=df,features=features)

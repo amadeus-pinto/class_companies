@@ -14,7 +14,9 @@ def get_intragroup(sdf=None):
 	b=sdf.mean(axis=1)
 	sdf['mean']=b
 	for symbol in sdf.columns:
-		if symbol=='mean':continue
+		if symbol=='mean':
+                    print 'continuing!!!'
+                    continue
 	        est=linear_model.LinearRegression(copy_X=True,fit_intercept=True)
 		ssdf = sdf[[symbol,'mean']].dropna(how='any',axis=0)
 	        y= ssdf[symbol].values.tolist()
@@ -29,8 +31,10 @@ def get_intragroup(sdf=None):
 		b=est.intercept_
 		myl=[symbol,r2,a,b]
 		l.append(myl)
+
 	gdf = pd.DataFrame(l,columns=['symbol','r2','a','b'])
-	return gdf
+        print 'intra-group:\n', gdf.mean()
+        return gdf
 
 def get_extragroup(sdf=None,other=None):
     l=[]
@@ -52,8 +56,8 @@ def get_extragroup(sdf=None,other=None):
 	myl=[symbol,r2,a,b]
 	l.append(myl)
     gdf = pd.DataFrame(l,columns=['symbol','r2','a','b'])
+    print 'extra-group:\n',gdf.mean()
     return gdf
-        
         
 def get_target(df=None, cname=None,ncl=None):
     c=df.copy()
@@ -68,9 +72,10 @@ def get_target(df=None, cname=None,ncl=None):
 	    c[cname] = c[mycol].astype(str).apply(lambda x: x[0:nd[ncl]])
         else:
             print 'gics not here... out' ; sys.exit()
-
     elif cname=='text':
         cname = [X for X in c.columns if 'text' in X][0]
+    elif cname=='fact':
+        cname = [X for X in c.columns if 'fact_' in X][0]
 
 
     c=c[['symbol',cname]]
@@ -92,9 +97,11 @@ def get_w_fits(indf=None,wrstr=None):
 	indf['w']=indf['n']/indf['n'].sum()
 	ws=np.sum(indf['n']/indf['n'].sum()*indf['r2'])
 	indf.sort('n',inplace=True,ascending=False)
+        indf=indf.loc[indf.n>0]
         b= get_w_mu_sig(values=indf.r2.values.tolist(),weights=indf.w.values.tolist())
         l = pd.DataFrame([[wrstr,b[0],b[1]]])#,columns=['type','mu','sigma'])
         l.columns  = ['type','mu','sigma']
+        print 'WRITING THESE!'
         print '**\n', l
         print '**\n',wrstr, b
         print '**\n',indf
@@ -136,12 +143,14 @@ if __name__ == '__main__':
 	path='./../data/'+var+'.csv'
 	A = pd.read_csv('../data/'+var+'.csv',index_col='#TIMESTAMP')
 	c = pd.read_csv(cpath)	
+
         c,cname=get_target(df=c,cname=cname,ncl=ncl)
 
 
 	Al=[]
         Bl=[]
 	for cluster in c[cname].unique():
+                print 'cluster={}'.format(cluster)
 		names= c.loc[c[cname]==cluster].symbol.values.tolist()
 		acols = list(set(A.columns.values.tolist()) & set(names))
                 bcols = list(set(A.columns.values.tolist()) - set(names))
@@ -162,7 +171,6 @@ if __name__ == '__main__':
         
 	wgdf= pd.DataFrame(gw,columns=['n','r2'])
 	egdf= pd.DataFrame(ew,columns=['n','r2'])
-
 
         b=get_w_fits(indf=wgdf,wrstr=var+'.'+cname+'.i')
         d=get_w_fits(indf=egdf,wrstr=var+'.'+cname+'.e')
