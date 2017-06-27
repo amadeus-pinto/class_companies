@@ -1,0 +1,367 @@
+------------------------
+n= 24
+cl= hier_fact
+type= fact
+------------------------
+cluster=12
+cluster=3
+cluster=9
+cluster=6
+cluster=2
+cluster=8
+cluster=7
+cluster=0
+cluster=5
+cluster=10
+cluster=1
+cluster=22
+cluster=13
+cluster=23
+cluster=15
+cluster=4
+cluster=21
+cluster=20
+cluster=18
+cluster=11
+cluster=14
+cluster=17
+cluster=16
+cluster=19
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.440892e-16
+dtype: float64
+extra-group:
+r2    0.052829
+a     1.230196
+b    -0.254052
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.583535e-01
+a     1.000000e+00
+b    -3.310360e-16
+dtype: float64
+extra-group:
+r2    0.079183
+a     0.625360
+b     0.361072
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.086599e-01
+a     1.000000e+00
+b    -2.103580e-16
+dtype: float64
+extra-group:
+r2    0.065238
+a     0.477072
+b     0.513415
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.998546e-01
+a     1.000000e+00
+b    -1.387779e-16
+dtype: float64
+extra-group:
+r2    0.059185
+a     0.894921
+b     0.087548
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.464592e-01
+a     1.000000e+00
+b    -1.515914e-15
+dtype: float64
+extra-group:
+r2    0.078298
+a     0.548176
+b     0.440292
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.684935e-01
+a     1.000000e+00
+b    -7.701648e-16
+dtype: float64
+extra-group:
+r2    0.089977
+a     0.560569
+b     0.427143
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.468615e-01
+a     1.000000e+00
+b     6.001206e-16
+dtype: float64
+extra-group:
+r2    0.080537
+a     0.552009
+b     0.436258
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.477563e-01
+a     1.000000e+00
+b    -4.782499e-16
+dtype: float64
+extra-group:
+r2    0.073847
+a     0.559830
+b     0.428832
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.271785e-02
+a     1.000000e+00
+b     6.996500e-16
+dtype: float64
+extra-group:
+r2    0.063541
+a     0.626467
+b     0.361724
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.446832e-02
+a     1.000000e+00
+b    -1.174565e-15
+dtype: float64
+extra-group:
+r2    0.059489
+a     0.461348
+b     0.530588
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.714680e-01
+a     1.000000e+00
+b    -2.590520e-16
+dtype: float64
+extra-group:
+r2    0.035880
+a     0.290549
+b     0.704580
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.129740e-01
+a     1.000000e+00
+b    -5.709718e-16
+dtype: float64
+extra-group:
+r2    0.047001
+a     0.817376
+b     0.164959
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -4.440892e-16
+dtype: float64
+extra-group:
+r2    0.051393
+a     0.614056
+b     0.372682
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.554312e-15
+dtype: float64
+extra-group:
+r2    0.001751
+a    -5.548728
+b     6.735238
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.776357e-15
+dtype: float64
+extra-group:
+r2    0.003647
+a     0.166102
+b     0.830122
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -6.661338e-16
+dtype: float64
+extra-group:
+r2    0.056023
+a     1.133603
+b    -0.158614
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.029798e-01
+a     1.000000e+00
+b     7.401487e-16
+dtype: float64
+extra-group:
+r2    0.056479
+a     0.365455
+b     0.627002
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.011151
+a     0.218764
+b     0.775802
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.024669
+a     0.356768
+b     0.636062
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+WRITING THESE!
+**
+                        type        mu     sigma
+0  1d.RETURN.hier.fact_024.i  0.145781  0.042414
+**
+1d.RETURN.hier.fact_024.i (0.14578079186339873, 0.042413965329166907)
+**
+      n        r2         w
+5   397  0.168493  0.365225
+1   164  0.158353  0.150874
+6   148  0.146862  0.136155
+4   133  0.146459  0.122355
+9    88  0.034468  0.080957
+8    53  0.092718  0.048758
+7    39  0.147756  0.035879
+2    38  0.108660  0.034959
+11    7  0.212974  0.006440
+10    6  0.271468  0.005520
+3     4  0.299855  0.003680
+18    3  0.402980  0.002760
+WRITING THESE!
+**
+                        type        mu     sigma
+0  1d.RETURN.hier.fact_024.e  0.079585  0.010702
+**
+1d.RETURN.hier.fact_024.e (0.079585260935910382, 0.010702192790307206)
+**
+      n        r2         w
+5   397  0.089977  0.365225
+1   164  0.079183  0.150874
+6   148  0.080537  0.136155
+4   133  0.078298  0.122355
+9    88  0.059489  0.080957
+8    53  0.063541  0.048758
+7    39  0.073847  0.035879
+2    38  0.065238  0.034959
+11    7  0.047001  0.006440
+10    6  0.035880  0.005520
+3     4  0.059185  0.003680
+18    3  0.056479  0.002760

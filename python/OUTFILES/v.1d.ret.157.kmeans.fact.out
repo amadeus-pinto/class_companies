@@ -1,0 +1,2262 @@
+------------------------
+n= 157
+cl= kmeans_fact
+type= fact
+------------------------
+cluster=0
+cluster=1
+cluster=2
+cluster=3
+cluster=4
+cluster=5
+cluster=6
+cluster=7
+cluster=8
+cluster=9
+cluster=10
+cluster=11
+cluster=12
+cluster=13
+cluster=14
+cluster=15
+cluster=16
+cluster=17
+cluster=18
+cluster=19
+cluster=20
+cluster=21
+cluster=22
+cluster=23
+cluster=24
+cluster=25
+cluster=26
+cluster=27
+cluster=28
+cluster=29
+cluster=30
+cluster=31
+cluster=32
+cluster=33
+cluster=34
+cluster=35
+cluster=36
+cluster=37
+cluster=38
+cluster=39
+cluster=40
+cluster=41
+cluster=42
+cluster=43
+cluster=44
+cluster=45
+cluster=46
+cluster=47
+cluster=48
+cluster=49
+cluster=50
+cluster=51
+cluster=52
+cluster=53
+cluster=54
+cluster=55
+cluster=56
+cluster=57
+cluster=58
+cluster=59
+cluster=60
+cluster=61
+cluster=62
+cluster=63
+cluster=64
+cluster=65
+cluster=66
+cluster=67
+cluster=68
+cluster=69
+cluster=70
+cluster=71
+cluster=72
+cluster=73
+cluster=74
+cluster=75
+cluster=76
+cluster=77
+cluster=78
+cluster=79
+cluster=80
+cluster=81
+cluster=82
+cluster=83
+cluster=84
+cluster=85
+cluster=86
+cluster=87
+cluster=88
+cluster=89
+cluster=90
+cluster=91
+cluster=92
+cluster=93
+cluster=94
+cluster=95
+cluster=96
+cluster=97
+cluster=98
+cluster=99
+cluster=100
+cluster=101
+cluster=102
+cluster=103
+cluster=104
+cluster=105
+cluster=106
+cluster=107
+cluster=108
+cluster=109
+cluster=110
+cluster=111
+cluster=112
+cluster=113
+cluster=114
+cluster=115
+cluster=116
+cluster=117
+cluster=118
+cluster=119
+cluster=120
+cluster=121
+cluster=122
+cluster=123
+cluster=124
+cluster=125
+cluster=126
+cluster=127
+cluster=128
+cluster=129
+cluster=130
+cluster=131
+cluster=132
+cluster=133
+cluster=134
+cluster=135
+cluster=136
+cluster=137
+cluster=138
+cluster=139
+cluster=140
+cluster=141
+cluster=142
+cluster=143
+cluster=144
+cluster=145
+cluster=146
+cluster=147
+cluster=148
+cluster=149
+cluster=150
+cluster=151
+cluster=152
+cluster=153
+cluster=154
+cluster=155
+cluster=156
+advance group... 
+continuing!!!
+intra-group:
+r2    2.071222e-01
+a     1.000000e+00
+b    -7.208164e-16
+dtype: float64
+extra-group:
+r2    0.111894
+a     0.620557
+b     0.367167
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.521241e-01
+a     1.000000e+00
+b     3.330669e-16
+dtype: float64
+extra-group:
+r2    0.132785
+a     0.517310
+b     0.472784
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.294013e-01
+a     1.000000e+00
+b    -2.588838e-15
+dtype: float64
+extra-group:
+r2    0.053812
+a     0.475389
+b     0.514710
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -6.661338e-16
+dtype: float64
+extra-group:
+r2    0.132648
+a     1.749008
+b    -0.784077
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.776357e-15
+dtype: float64
+extra-group:
+r2    0.003647
+a     0.166102
+b     0.830122
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.658007e-01
+a     1.000000e+00
+b     1.665335e-15
+dtype: float64
+extra-group:
+r2    0.084084
+a     0.542641
+b     0.446177
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.384145e-01
+a     1.000000e+00
+b    -7.743094e-16
+dtype: float64
+extra-group:
+r2    0.120277
+a     0.690646
+b     0.295345
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.554312e-15
+dtype: float64
+extra-group:
+r2    0.001751
+a    -5.548728
+b     6.735238
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.292525e-01
+a     1.000000e+00
+b     2.040035e-15
+dtype: float64
+extra-group:
+r2    0.093990
+a     0.593144
+b     0.395072
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.272235e-01
+a     1.000000e+00
+b     5.181041e-16
+dtype: float64
+extra-group:
+r2    0.084858
+a     0.712532
+b     0.272858
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.024669
+a     0.356768
+b     0.636062
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.229115e-01
+a     1.000000e+00
+b    -2.220446e-16
+dtype: float64
+extra-group:
+r2    0.044983
+a     0.383081
+b     0.610012
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.011151
+a     0.218764
+b     0.775802
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.887034e-01
+a     1.000000e+00
+b     1.947160e-15
+dtype: float64
+extra-group:
+r2    0.069807
+a     0.458033
+b     0.533348
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.854931e-01
+a     1.000000e+00
+b    -3.330669e-16
+dtype: float64
+extra-group:
+r2    0.094110
+a     0.506532
+b     0.482593
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -6.661338e-16
+dtype: float64
+extra-group:
+r2    0.056023
+a     1.133603
+b    -0.158614
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     2.220446e-16
+dtype: float64
+extra-group:
+r2    0.050009
+a     0.423796
+b     0.566633
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.319506e-01
+a     1.000000e+00
+b     1.480297e-16
+dtype: float64
+extra-group:
+r2    0.014238
+a     0.161754
+b     0.847083
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.205747e-01
+a     1.000000e+00
+b     3.947460e-16
+dtype: float64
+extra-group:
+r2    0.048897
+a     0.439009
+b     0.551785
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.531086e-01
+a     1.000000e+00
+b    -5.329071e-16
+dtype: float64
+extra-group:
+r2    0.076613
+a     0.562283
+b     0.426411
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.412989e-01
+a     1.000000e+00
+b    -1.140114e-15
+dtype: float64
+extra-group:
+r2    0.065293
+a     0.545449
+b     0.442966
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.012897
+a     0.805939
+b     0.180427
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.279458e-01
+a     1.000000e+00
+b    -7.771561e-16
+dtype: float64
+extra-group:
+r2    0.066762
+a     0.535933
+b     0.453432
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.078477e-01
+a     1.000000e+00
+b     1.665335e-16
+dtype: float64
+extra-group:
+r2    0.008705
+a     0.132792
+b     0.864764
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     3.330669e-16
+dtype: float64
+extra-group:
+r2    0.071156
+a     1.217848
+b    -0.244074
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     1.110223e-15
+dtype: float64
+extra-group:
+r2    0.049797
+a     0.302370
+b     0.692267
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.720579e-01
+a     1.000000e+00
+b    -6.661338e-16
+dtype: float64
+extra-group:
+r2    0.090888
+a     0.536067
+b     0.453023
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.440892e-16
+dtype: float64
+extra-group:
+r2    0.052829
+a     1.230196
+b    -0.254052
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.673843e-01
+a     1.000000e+00
+b     7.401487e-17
+dtype: float64
+extra-group:
+r2    0.066427
+a     0.541466
+b     0.453503
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.998489e-01
+a     1.000000e+00
+b    -2.055969e-17
+dtype: float64
+extra-group:
+r2    0.108163
+a     0.716705
+b     0.268381
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.626489e-01
+a     1.000000e+00
+b     7.105427e-16
+dtype: float64
+extra-group:
+r2    0.105501
+a     0.776719
+b     0.207504
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     8.881784e-16
+dtype: float64
+extra-group:
+r2    0.083671
+a     0.947845
+b     0.032970
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.168683
+a     1.000000
+b     0.000000
+dtype: float64
+extra-group:
+r2    0.038247
+a     0.527430
+b     0.467073
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.042083e-01
+a     1.000000e+00
+b    -6.490535e-16
+dtype: float64
+extra-group:
+r2    0.066901
+a     0.513854
+b     0.475704
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.766350e-01
+a     1.000000e+00
+b    -1.258253e-16
+dtype: float64
+extra-group:
+r2    0.081977
+a     0.559489
+b     0.429176
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -4.440892e-16
+dtype: float64
+extra-group:
+r2    0.051393
+a     0.614056
+b     0.372682
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.916921e-01
+a     1.000000e+00
+b     1.036208e-15
+dtype: float64
+extra-group:
+r2    0.130674
+a     0.612010
+b     0.375916
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.192942e-01
+a     1.000000e+00
+b     9.251859e-18
+dtype: float64
+extra-group:
+r2    0.083649
+a     0.712696
+b     0.271792
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.981745e-01
+a     1.000000e+00
+b     3.469447e-16
+dtype: float64
+extra-group:
+r2    0.083949
+a     0.563384
+b     0.425152
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.104976
+a     0.451121
+b     0.539641
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.263792e-01
+a     1.000000e+00
+b    -1.480297e-16
+dtype: float64
+extra-group:
+r2    0.039458
+a     0.703459
+b     0.281939
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.861798e-02
+a     1.000000e+00
+b     1.384236e-15
+dtype: float64
+extra-group:
+r2    0.097946
+a     0.619901
+b     0.368791
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.729234e-01
+a     1.000000e+00
+b    -1.471046e-15
+dtype: float64
+extra-group:
+r2    0.055999
+a     0.379207
+b     0.613245
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.618702e-01
+a     1.000000e+00
+b    -1.804112e-16
+dtype: float64
+extra-group:
+r2    0.108290
+a     0.674365
+b     0.311926
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.184640e-01
+a     1.000000e+00
+b    -1.274343e-15
+dtype: float64
+extra-group:
+r2    0.090875
+a     0.617112
+b     0.370452
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     1.110223e-15
+dtype: float64
+extra-group:
+r2    0.090642
+a     0.866241
+b     0.117653
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.528310e-01
+a     1.000000e+00
+b     4.533411e-16
+dtype: float64
+extra-group:
+r2    0.075939
+a     0.712552
+b     0.272932
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.920802e-01
+a     1.000000e+00
+b    -8.881784e-16
+dtype: float64
+extra-group:
+r2    0.090532
+a     0.684011
+b     0.302203
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -8.881784e-16
+dtype: float64
+extra-group:
+r2    0.002480
+a     0.577721
+b     0.413041
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.220004e-01
+a     1.000000e+00
+b     1.625684e-15
+dtype: float64
+extra-group:
+r2    0.102813
+a     0.561192
+b     0.427807
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.027377e-01
+a     1.000000e+00
+b     1.110223e-15
+dtype: float64
+extra-group:
+r2    0.050146
+a     0.562728
+b     0.426107
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.469565e-01
+a     1.000000e+00
+b    -2.590520e-16
+dtype: float64
+extra-group:
+r2    0.087752
+a     0.577452
+b     0.410504
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.057207e-01
+a     1.000000e+00
+b     9.674801e-16
+dtype: float64
+extra-group:
+r2    0.113135
+a     0.629442
+b     0.358167
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.506313e-01
+a     1.000000e+00
+b    -7.454355e-16
+dtype: float64
+extra-group:
+r2    0.085205
+a     0.583941
+b     0.403900
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.266729e-01
+a     1.000000e+00
+b    -8.049117e-16
+dtype: float64
+extra-group:
+r2    0.070809
+a     0.542808
+b     0.446940
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.972888e-01
+a     1.000000e+00
+b     2.886580e-16
+dtype: float64
+extra-group:
+r2    0.065863
+a     0.655617
+b     0.330940
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -4.440892e-16
+dtype: float64
+extra-group:
+r2    0.093293
+a     0.266853
+b     0.727095
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.014547
+a     0.222132
+b     0.774049
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.000031
+a     0.026615
+b     0.971027
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.240923e-01
+a     1.000000e+00
+b     9.992007e-16
+dtype: float64
+extra-group:
+r2    0.019001
+a     0.545349
+b     0.444427
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     2.220446e-16
+dtype: float64
+extra-group:
+r2    0.087561
+a     0.537922
+b     0.451922
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.004235
+a     0.398140
+b     0.596478
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.543036e-01
+a     1.000000e+00
+b    -5.551115e-16
+dtype: float64
+extra-group:
+r2    0.069874
+a     0.544904
+b     0.444433
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     2.220446e-16
+dtype: float64
+extra-group:
+r2    0.058674
+a     0.346531
+b     0.647383
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.218847e-15
+dtype: float64
+extra-group:
+r2    0.000280
+a    -0.000741
+b     1.000757
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.774065e-01
+a     1.000000e+00
+b     1.665335e-15
+dtype: float64
+extra-group:
+r2    0.075522
+a     0.516703
+b     0.472456
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     1.110223e-16
+dtype: float64
+extra-group:
+r2    0.001135
+a     0.152825
+b     0.841245
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.993161e-01
+a     1.000000e+00
+b     8.743006e-16
+dtype: float64
+extra-group:
+r2    0.062112
+a     0.525949
+b     0.463766
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.143260e-01
+a     1.000000e+00
+b    -3.145632e-16
+dtype: float64
+extra-group:
+r2    0.048565
+a     0.616213
+b     0.371475
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.377997e-01
+a     1.000000e+00
+b     8.326673e-16
+dtype: float64
+extra-group:
+r2    0.083380
+a     0.745733
+b     0.240678
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -9.769963e-15
+dtype: float64
+extra-group:
+r2    0.003178
+a     0.147275
+b     0.850564
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -2.220446e-16
+dtype: float64
+extra-group:
+r2    0.100794
+a     0.795965
+b     0.187327
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -6.661338e-16
+dtype: float64
+extra-group:
+r2    0.009882
+a     0.129729
+b     0.868620
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.941897e-01
+a     1.000000e+00
+b    -1.154632e-15
+dtype: float64
+extra-group:
+r2    0.074001
+a     0.694173
+b     0.291858
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.546657e-01
+a     1.000000e+00
+b    -1.110223e-16
+dtype: float64
+extra-group:
+r2    0.037849
+a     0.511941
+b     0.476255
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.772184e-01
+a     1.000000e+00
+b    -5.181041e-16
+dtype: float64
+extra-group:
+r2    0.065630
+a     0.766642
+b     0.217782
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.439769e-01
+a     1.000000e+00
+b     7.401487e-17
+dtype: float64
+extra-group:
+r2    0.075454
+a     0.487444
+b     0.503262
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.429785e-01
+a     1.000000e+00
+b    -7.930164e-16
+dtype: float64
+extra-group:
+r2    0.074313
+a     0.036517
+b     0.975156
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -2.220446e-16
+dtype: float64
+extra-group:
+r2    0.080373
+a     1.656726
+b    -0.689408
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.093868e-01
+a     1.000000e+00
+b    -4.194176e-16
+dtype: float64
+extra-group:
+r2    0.080470
+a     0.522110
+b     0.467706
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.951353e-01
+a     1.000000e+00
+b    -2.997602e-15
+dtype: float64
+extra-group:
+r2    0.001611
+a    -0.558450
+b     1.575455
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.788389e-01
+a     1.000000e+00
+b     1.110223e-16
+dtype: float64
+extra-group:
+r2    0.063464
+a     0.490528
+b     0.498399
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.095430e-01
+a     1.000000e+00
+b    -5.304399e-16
+dtype: float64
+extra-group:
+r2    0.082849
+a     0.489127
+b     0.500601
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.436535e-01
+a     1.000000e+00
+b     1.582068e-15
+dtype: float64
+extra-group:
+r2    0.021880
+a     0.251000
+b     0.743687
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.453625e-01
+a     1.000000e+00
+b    -5.181041e-16
+dtype: float64
+extra-group:
+r2    0.119001
+a     0.561392
+b     0.427072
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.077807
+a     0.500843
+b     0.488270
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.454750e-01
+a     1.000000e+00
+b     2.775558e-17
+dtype: float64
+extra-group:
+r2    0.065677
+a     0.447055
+b     0.544581
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.017918e-01
+a     1.000000e+00
+b     1.343370e-15
+dtype: float64
+extra-group:
+r2    0.028822
+a     0.421381
+b     0.568832
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.434508e-01
+a     1.000000e+00
+b    -4.255855e-16
+dtype: float64
+extra-group:
+r2    0.070822
+a     0.919674
+b     0.061703
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.425732e-01
+a     1.000000e+00
+b     1.572816e-15
+dtype: float64
+extra-group:
+r2    0.069803
+a     0.427645
+b     0.563218
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.110223e-15
+dtype: float64
+extra-group:
+r2    0.018513
+a     0.633859
+b     0.346805
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.613473e-01
+a     1.000000e+00
+b    -1.276756e-15
+dtype: float64
+extra-group:
+r2    0.079215
+a     1.243829
+b    -0.271082
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.099919e-01
+a     1.000000e+00
+b     6.217249e-16
+dtype: float64
+extra-group:
+r2    0.072627
+a     0.730699
+b     0.255114
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     2.442491e-15
+dtype: float64
+extra-group:
+r2    0.014032
+a     1.050755
+b    -0.070174
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.730064e-01
+a     1.000000e+00
+b    -2.220446e-16
+dtype: float64
+extra-group:
+r2    0.032003
+a     0.243713
+b     0.752681
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.964349e-01
+a     1.000000e+00
+b     4.247810e-16
+dtype: float64
+extra-group:
+r2    0.082300
+a     0.622276
+b     0.365325
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.555554e-01
+a     1.000000e+00
+b     6.800116e-16
+dtype: float64
+extra-group:
+r2    0.077191
+a     0.456319
+b     0.535088
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.0
+a     1.0
+b     0.0
+dtype: float64
+extra-group:
+r2    0.062290
+a     0.514921
+b     0.475632
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.157399e-01
+a     1.000000e+00
+b    -9.083643e-17
+dtype: float64
+extra-group:
+r2    0.056818
+a     0.687749
+b     0.299248
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.443590e-01
+a     1.000000e+00
+b    -1.788693e-15
+dtype: float64
+extra-group:
+r2    0.116794
+a     0.716559
+b     0.268799
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -8.881784e-16
+dtype: float64
+extra-group:
+r2    0.000813
+a     0.162914
+b     0.831736
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.673678e-01
+a     1.000000e+00
+b     7.401487e-16
+dtype: float64
+extra-group:
+r2    0.070348
+a     0.410139
+b     0.587084
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.083864e-01
+a     1.000000e+00
+b    -2.282125e-16
+dtype: float64
+extra-group:
+r2    0.101163
+a     0.726926
+b     0.258172
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.926545e-01
+a     1.000000e+00
+b     6.661338e-16
+dtype: float64
+extra-group:
+r2    0.058923
+a     0.633951
+b     0.352859
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.438116e-01
+a     1.000000e+00
+b     7.216450e-16
+dtype: float64
+extra-group:
+r2    0.063056
+a     0.610478
+b     0.376964
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     1.776357e-15
+dtype: float64
+extra-group:
+r2    0.075388
+a     0.536240
+b     0.452804
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.745743e-01
+a     1.000000e+00
+b     5.242720e-16
+dtype: float64
+extra-group:
+r2    0.084104
+a     0.558874
+b     0.429525
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.379457e-01
+a     1.000000e+00
+b    -3.608225e-16
+dtype: float64
+extra-group:
+r2    0.122626
+a     0.691874
+b     0.294172
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.467337e-01
+a     1.000000e+00
+b    -1.110223e-15
+dtype: float64
+extra-group:
+r2    0.064744
+a     0.593681
+b     0.394073
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -2.220446e-16
+dtype: float64
+extra-group:
+r2    0.007312
+a     0.164384
+b     0.831446
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.949227e-01
+a     1.000000e+00
+b    -4.440892e-16
+dtype: float64
+extra-group:
+r2    0.143638
+a     0.922028
+b     0.056298
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.910547e-01
+a     1.000000e+00
+b     5.551115e-17
+dtype: float64
+extra-group:
+r2    0.059871
+a     0.723600
+b     0.261567
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.589790e-01
+a     1.000000e+00
+b    -1.110223e-16
+dtype: float64
+extra-group:
+r2    0.069658
+a     0.794830
+b     0.187597
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.579424e-01
+a     1.000000e+00
+b     4.270089e-16
+dtype: float64
+extra-group:
+r2    0.094037
+a     0.779236
+b     0.204335
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.577840e-01
+a     1.000000e+00
+b    -1.554312e-15
+dtype: float64
+extra-group:
+r2    0.080587
+a     0.568548
+b     0.419480
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.576499e-01
+a     1.000000e+00
+b     5.551115e-17
+dtype: float64
+extra-group:
+r2    0.065249
+a     0.862291
+b     0.120079
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.412873e-01
+a     1.000000e+00
+b     4.070818e-16
+dtype: float64
+extra-group:
+r2    0.080684
+a     0.826242
+b     0.157709
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     2.220446e-16
+dtype: float64
+extra-group:
+r2    0.020865
+a     0.230756
+b     0.762924
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.256896e-01
+a     1.000000e+00
+b     1.942890e-16
+dtype: float64
+extra-group:
+r2    0.031329
+a     0.362667
+b     0.630394
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.745077e-01
+a     1.000000e+00
+b     1.480297e-16
+dtype: float64
+extra-group:
+r2    0.077068
+a     0.712082
+b     0.272796
+dtype: float64
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1d.RETURN.kmeans.fact_157.i  0.213872  0.092381
+**
+1d.RETURN.kmeans.fact_157.i (0.21387233136211115, 0.092380989529605162)
+**
+      n        r2         w
+0    67  0.207122  0.061638
+39   54  0.199849  0.049678
+112  48  0.245363  0.044158
+56   47  0.068618  0.043238
+35   40  0.172058  0.036799
+9    39  0.238415  0.035879
+129  36  0.244359  0.033119
+46   30  0.176635  0.027599
+57   28  0.172923  0.025759
+137  28  0.143812  0.025759
+26   27  0.120575  0.024839
+149  26  0.157784  0.023919
+45   26  0.104208  0.023919
+28   26  0.141299  0.023919
+27   25  0.153109  0.022999
+60   23  0.218464  0.021159
+124  23  0.196435  0.021159
+63   22  0.192080  0.020239
+3    22  0.129401  0.020239
+41   20  0.262649  0.018399
+139  18  0.174574  0.016559
+134  18  0.208386  0.016559
+58   16  0.261870  0.014719
+69   15  0.146956  0.013799
+66   14  0.222000  0.012879
+148  13  0.257942  0.011960
+20   13  0.188703  0.011960
+62   12  0.352831  0.011040
+50   12  0.219294  0.011040
+128  11  0.115740  0.010120
+..   ..       ...       ...
+2     4  0.352124  0.003680
+155   4  0.325690  0.003680
+95    4  0.337800  0.003680
+114   4  0.345475  0.003680
+77    4  0.426673  0.003680
+111   4  0.543654  0.003680
+135   3  0.492655  0.002760
+151   3  0.441287  0.002760
+145   3  0.394923  0.002760
+143   3  0.446734  0.002760
+88    3  0.354304  0.002760
+104   3  0.443977  0.002760
+103   3  0.377218  0.002760
+156   3  0.374508  0.002760
+55    3  0.426379  0.002760
+30    3  0.427946  0.002760
+49    3  0.591692  0.002760
+25    3  0.331951  0.002760
+109   2  0.578839  0.001840
+31    2  0.507848  0.001840
+8     2  0.565801  0.001840
+102   2  0.554666  0.001840
+147   2  0.558979  0.001840
+120   2  0.661347  0.001840
+84    2  0.524092  0.001840
+123   2  0.573006  0.001840
+150   2  0.557650  0.001840
+108   2  0.495135  0.001840
+21    2  0.585493  0.001840
+18    2  0.522911  0.001840
+
+[84 rows x 3 columns]
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1d.RETURN.kmeans.fact_157.e  0.085959  0.024149
+**
+1d.RETURN.kmeans.fact_157.e (0.085959282630594158, 0.024149368136160303)
+**
+      n        r2         w
+0    67  0.111894  0.061638
+39   54  0.108163  0.049678
+112  48  0.119001  0.044158
+56   47  0.097946  0.043238
+35   40  0.090888  0.036799
+9    39  0.120277  0.035879
+129  36  0.116794  0.033119
+46   30  0.081977  0.027599
+57   28  0.055999  0.025759
+137  28  0.063056  0.025759
+26   27  0.048897  0.024839
+149  26  0.080587  0.023919
+45   26  0.066901  0.023919
+28   26  0.065293  0.023919
+27   25  0.076613  0.022999
+60   23  0.090875  0.021159
+124  23  0.082300  0.021159
+63   22  0.090532  0.020239
+3    22  0.053812  0.020239
+41   20  0.105501  0.018399
+139  18  0.084104  0.016559
+134  18  0.101163  0.016559
+58   16  0.108290  0.014719
+69   15  0.087752  0.013799
+66   14  0.102813  0.012879
+148  13  0.094037  0.011960
+20   13  0.069807  0.011960
+62   12  0.075939  0.011040
+50   12  0.083649  0.011040
+128  11  0.056818  0.010120
+..   ..       ...       ...
+2     4  0.132785  0.003680
+155   4  0.031329  0.003680
+95    4  0.083380  0.003680
+114   4  0.065677  0.003680
+77    4  0.070809  0.003680
+111   4  0.021880  0.003680
+135   3  0.058923  0.002760
+151   3  0.080684  0.002760
+145   3  0.143638  0.002760
+143   3  0.064744  0.002760
+88    3  0.069874  0.002760
+104   3  0.075454  0.002760
+103   3  0.065630  0.002760
+156   3  0.077068  0.002760
+55    3  0.039458  0.002760
+30    3  0.066762  0.002760
+49    3  0.130674  0.002760
+25    3  0.014238  0.002760
+109   2  0.063464  0.001840
+31    2  0.008705  0.001840
+8     2  0.084084  0.001840
+102   2  0.037849  0.001840
+147   2  0.069658  0.001840
+120   2  0.079215  0.001840
+84    2  0.019001  0.001840
+123   2  0.032003  0.001840
+150   2  0.065249  0.001840
+108   2  0.001611  0.001840
+21    2  0.094110  0.001840
+18    2  0.044983  0.001840
+
+[84 rows x 3 columns]

@@ -1,0 +1,24 @@
+********doing n_clusters= 157
+getting quarter=q0 from ../data/fa_data/q0.csv
+000000000000000000000
+7               GENERAL MOTORS CO
+8             HARLEY-DAVIDSON INC
+2                       SOTHEBY'S
+3          CREDIT ACCEPTANCE CORP
+12    PORTFOLIO RECOVRY ASSOC INC
+15       WORLD ACCEPTANCE CORP/DE
+6        ENCORE CAPITAL GROUP INC
+11         NICHOLAS FINANCIAL INC
+0                             NaN
+1                             NaN
+Name: name, dtype: object
+
+TypeErrorTraceback (most recent call last)
+C:\Users\richie\class_companies\analysis\overlap.py in <module>()
+     58         print gdf.name[0:10]
+     59         #print names
+---> 60         names = ",".join( gdf.name[0:10].values.tolist())
+     61         #names=0
+     62 
+
+TypeError: sequence item 8: expected string, float found

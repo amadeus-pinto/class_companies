@@ -1,0 +1,188 @@
+------------------------
+n= 11
+cl= kmeans_text
+type= random
+------------------------
+cluster=2
+cluster=6
+cluster=9
+cluster=11
+cluster=10
+cluster=5
+cluster=4
+cluster=7
+cluster=8
+cluster=1
+cluster=3
+advance group... 
+continuing!!!
+intra-group:
+r2    1.188218e-01
+a     1.000000e+00
+b     3.139109e-15
+dtype: float64
+extra-group:
+r2    0.080397
+a     0.559448
+b     0.428878
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.265727e-02
+a     1.000000e+00
+b     2.949816e-16
+dtype: float64
+extra-group:
+r2    0.072578
+a     0.525690
+b     0.463241
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000044e-01
+a     1.000000e+00
+b     5.000209e-16
+dtype: float64
+extra-group:
+r2    0.076882
+a     0.591202
+b     0.396532
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.388931e-02
+a     1.000000e+00
+b     8.577174e-17
+dtype: float64
+extra-group:
+r2    0.073531
+a     0.512646
+b     0.476943
+dtype: float64
+advance group... 
+!!!!!!!!nan! ARTNA
+continuing!!!
+intra-group:
+r2    8.739174e-02
+a     1.000000e+00
+b     8.500461e-16
+dtype: float64
+!!!!!!!!nan! ARTNA
+extra-group:
+r2    0.072624
+a     0.606516
+b     0.380671
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.477228e-02
+a     1.000000e+00
+b     8.352578e-16
+dtype: float64
+extra-group:
+r2    0.072799
+a     0.573524
+b     0.415021
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.005263
+a     0.881590
+b     0.147490
+dtype: float64
+extra-group:
+r2    0.115077
+a     0.654241
+b     0.588657
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.781362e-02
+a     1.000000e+00
+b    -4.091047e-16
+dtype: float64
+extra-group:
+r2    0.075058
+a     0.552279
+b     0.435871
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.163595e-01
+a     1.000000e+00
+b    -1.062471e-16
+dtype: float64
+extra-group:
+r2    0.077801
+a     0.644947
+b     0.341275
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.762560e-02
+a     1.000000e+00
+b     1.050961e-15
+dtype: float64
+extra-group:
+r2    0.077294
+a     0.565642
+b     0.423020
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.272412e-02
+a     1.000000e+00
+b    -1.942513e-15
+dtype: float64
+extra-group:
+r2    0.075723
+a     0.593813
+b     0.394125
+dtype: float64
+WRITING THESE!
+**
+                     type        mu   sigma
+0  1d.RETURN.random.011.i  0.075767  0.0328
+**
+1d.RETURN.random.011.i (0.075767062484472181, 0.032799884472017614)
+**
+      n        r2         w
+4   329  0.087392  0.101044
+7   311  0.097814  0.095516
+1   309  0.082657  0.094902
+6   302  0.005263  0.092752
+5   300  0.044772  0.092138
+9   296  0.067626  0.090909
+0   295  0.118822  0.090602
+10  294  0.042724  0.090295
+8   279  0.116360  0.085688
+3   277  0.073889  0.085074
+2   264  0.100004  0.081081
+WRITING THESE!
+**
+                     type        mu     sigma
+0  1d.RETURN.random.011.e  0.079081  0.011756
+**
+1d.RETURN.random.011.e (0.0790805131031206, 0.011756115062412196)
+**
+      n        r2         w
+4   329  0.072624  0.101044
+7   311  0.075058  0.095516
+1   309  0.072578  0.094902
+6   302  0.115077  0.092752
+5   300  0.072799  0.092138
+9   296  0.077294  0.090909
+0   295  0.080397  0.090602
+10  294  0.075723  0.090295
+8   279  0.077801  0.085688
+3   277  0.073531  0.085074
+2   264  0.076882  0.081081

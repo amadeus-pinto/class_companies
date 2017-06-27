@@ -1,0 +1,188 @@
+------------------------
+n= 11
+cl= hier_text
+type= text
+------------------------
+cluster=3
+cluster=4
+cluster=1
+cluster=6
+cluster=2
+cluster=8
+cluster=5
+cluster=7
+cluster=10
+cluster=0
+cluster=9
+advance group... 
+!!!!!!!!nan! ARTNA
+continuing!!!
+intra-group:
+r2    1.065924e-01
+a     1.000000e+00
+b    -6.137103e-16
+dtype: float64
+!!!!!!!!nan! ARTNA
+extra-group:
+r2    0.069326
+a     0.518965
+b     0.468398
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.005255
+a     0.843611
+b     0.189091
+dtype: float64
+extra-group:
+r2    0.091294
+a     0.625387
+b     0.581241
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.111618e-01
+a     1.000000e+00
+b    -1.093836e-16
+dtype: float64
+extra-group:
+r2    0.064859
+a     0.419996
+b     0.570941
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.562166e-01
+a     1.000000e+00
+b    -5.992163e-16
+dtype: float64
+extra-group:
+r2    0.092862
+a     0.445875
+b     0.544912
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.225503e-01
+a     1.000000e+00
+b     2.973644e-16
+dtype: float64
+extra-group:
+r2    0.058758
+a     0.479939
+b     0.508436
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.981367e-01
+a     1.000000e+00
+b    -9.029159e-16
+dtype: float64
+extra-group:
+r2    0.094513
+a     0.551719
+b     0.436797
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.020661e-02
+a     1.000000e+00
+b    -7.546239e-16
+dtype: float64
+extra-group:
+r2    0.037228
+a     0.767946
+b     0.218799
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.688785e-01
+a     1.000000e+00
+b     8.073333e-16
+dtype: float64
+extra-group:
+r2    0.109725
+a     0.511839
+b     0.477510
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.538546e-01
+a     1.000000e+00
+b     2.288949e-15
+dtype: float64
+extra-group:
+r2    0.047138
+a     0.302432
+b     0.691105
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.416172e-01
+a     1.000000e+00
+b    -3.448778e-17
+dtype: float64
+extra-group:
+r2    0.046587
+a     0.467860
+b     0.522732
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.820462e-01
+a     1.000000e+00
+b     8.764919e-16
+dtype: float64
+extra-group:
+r2    0.056084
+a     0.486545
+b     0.503077
+dtype: float64
+WRITING THESE!
+**
+                        type        mu    sigma
+0  1d.RETURN.hier.text_011.i  0.139372  0.09165
+**
+1d.RETURN.hier.text_011.i (0.13937243393754351, 0.091650380993331407)
+**
+      n        r2         w
+0   845  0.106592  0.259680
+4   709  0.122550  0.217886
+1   354  0.005255  0.108789
+7   298  0.368879  0.091580
+2   271  0.211162  0.083282
+6   271  0.070207  0.083282
+9   235  0.141617  0.072219
+5   113  0.198137  0.034726
+3    73  0.256217  0.022434
+8    47  0.153855  0.014444
+10   38  0.182046  0.011678
+WRITING THESE!
+**
+                        type        mu     sigma
+0  1d.RETURN.hier.text_011.e  0.069353  0.019868
+**
+1d.RETURN.hier.text_011.e (0.069353152958180675, 0.019867654840977248)
+**
+      n        r2         w
+0   845  0.069326  0.259680
+4   709  0.058758  0.217886
+1   354  0.091294  0.108789
+7   298  0.109725  0.091580
+2   271  0.064859  0.083282
+6   271  0.037228  0.083282
+9   235  0.046587  0.072219
+5   113  0.094513  0.034726
+3    73  0.092862  0.022434
+8    47  0.047138  0.014444
+10   38  0.056084  0.011678

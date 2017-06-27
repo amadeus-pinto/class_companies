@@ -1,0 +1,328 @@
+********doing n_clusters= 24
+getting quarter=q0 from ../data/fa_data/q0.csv
+000000000000000000000
+0       ADVANCED CELL TECHNOLOGY INC
+1497                  VERMILLION INC
+Name: name, dtype: object
+000000000000000000000
+1096    PHILIP MORRIS INTERNATIONAL
+772                 KRAFT FOODS INC
+164                       BOEING CO
+515       FREEPORT-MCMORAN COP&GOLD
+968             NEWMONT MINING CORP
+988      NATIONAL OILWELL VARCO INC
+324                       COACH INC
+662                      HERSHEY CO
+247      CAMERON INTERNATIONAL CORP
+1177              RALPH LAUREN CORP
+Name: name, dtype: object
+000000000000000000000
+1342              SYMANTEC CORP
+143     ACTIVISION BLIZZARD INC
+238                      CA INC
+822               LINKEDIN CORP
+487         ELECTRONIC ARTS INC
+208            BMC SOFTWARE INC
+521             F5 NETWORKS INC
+1196                  ROVI CORP
+1499               VERISIGN INC
+704            INFORMATICA CORP
+Name: name, dtype: object
+000000000000000000000
+294             STAR SCIENTIFIC INC
+1330    SAVIENT PHARMACEUTICALS INC
+391         CYTORI THERAPEUTICS INC
+535         AMICUS THERAPEUTICS INC
+585         GENMARK DIAGNOSTICS INC
+944                 MICROVISION INC
+1284    SOMAXON PHARMACEUTICALS INC
+3                       BALQON CORP
+9                     ORAGENICS INC
+Name: name, dtype: object
+000000000000000000000
+1077             PROCTER & GAMBLE CO
+780                     COCA-COLA CO
+1072                     PEPSICO INC
+483     ENTERPRISE PRODS PRTNRS  -LP
+846             LAS VEGAS SANDS CORP
+1581                  YUM BRANDS INC
+44         AUTOMATIC DATA PROCESSING
+579                      CORNING INC
+776        KINDER MORGAN ENERGY  -LP
+1564                WYNN RESORTS LTD
+Name: name, dtype: object
+000000000000000000000
+1571            EXXON MOBIL CORP
+382                 CHEVRON CORP
+710                   INTEL CORP
+1265            SCHLUMBERGER LTD
+331               CONOCOPHILLIPS
+1468    UNITED TECHNOLOGIES CORP
+898                        3M CO
+250              CATERPILLAR INC
+380            CVS CAREMARK CORP
+1015                   NEWS CORP
+Name: name, dtype: object
+000000000000000000000
+19                        APPLE INC
+927                  MICROSOFT CORP
+679     INTL BUSINESS MACHINES CORP
+590                      GOOGLE INC
+562             GENERAL ELECTRIC CO
+857                 MCDONALD'S CORP
+468                     EMC CORP/MA
+1491               VMWARE INC -CL A
+450                        EBAY INC
+1425                TIME WARNER INC
+Name: name, dtype: object
+000000000000000000000
+493           EXPRESS SCRIPTS INC
+860                 MCKESSON CORP
+242           CARDINAL HEALTH INC
+22         AMERISOURCEBERGEN CORP
+152                     AVNET INC
+1010                      NVR INC
+411                D R HORTON INC
+699              INGRAM MICRO INC
+290     CATALYST HEALTH SOLUTIONS
+159              ANIXTER INTL INC
+Name: name, dtype: object
+000000000000000000000
+1511      VERIZON COMMUNICATIONS INC
+1051       OCCIDENTAL PETROLEUM CORP
+106                      APACHE CORP
+108          ANADARKO PETROLEUM CORP
+441                DEVON ENERGY CORP
+482                EOG RESOURCES INC
+922                MARATHON OIL CORP
+962                 NOBLE ENERGY INC
+1219              SPRINT NEXTEL CORP
+1139    PIONEER NATURAL RESOURCES CO
+Name: name, dtype: object
+000000000000000000000
+755           JOHNSON & JOHNSON
+1076                 PFIZER INC
+921                  MERCK & CO
+1143               QUALCOMM INC
+27          ABBOTT LABORATORIES
+907            ALTRIA GROUP INC
+91                    AMGEN INC
+212     BRISTOL-MYERS SQUIBB CO
+815            LILLY (ELI) & CO
+572         GILEAD SCIENCES INC
+Name: name, dtype: object
+000000000000000000000
+1445       UNITEDHEALTH GROUP INC
+668                    HUMANA INC
+504                   EXPEDIA INC
+59                AMERIGROUP CORP
+1519    WELLCARE HEALTH PLANS INC
+910         MOLINA HEALTHCARE INC
+435             DIGITAL RIVER INC
+979                 BLUE NILE INC
+1179               REACHLOCAL INC
+1231            SOCKET MOBILE INC
+Name: name, dtype: object
+000000000000000000000
+666     HERTZ GLOBAL HOLDINGS INC
+187        BRIGHAM EXPLORATION CO
+1567           EXCO RESOURCES INC
+1409      TESLA MOTORS INC  -REDH
+1018          OASIS PETROLEUM INC
+96                     AMYRIS INC
+1588                   ZIPCAR INC
+629                 HECKMANN CORP
+104              A123 SYSTEMS INC
+561       GOODRICH PETROLEUM CORP
+Name: name, dtype: object
+000000000000000000000
+307       CONTINENTAL RESOURCES INC
+170    BREITBURN ENERGY PARTNERS LP
+Name: name, dtype: object
+000000000000000000000
+175    BEACON POWER CORP
+Name: name, dtype: object
+000000000000000000000
+241    CADENCE PHARMACEUTICALS INC
+Name: name, dtype: object
+000000000000000000000
+861     MOLYCORP INC
+423    DENDREON CORP
+565         GEVO INC
+Name: name, dtype: object
+000000000000000000000
+447    DAXOR CORP
+Name: name, dtype: object
+000000000000000000000
+449    DYNEGY INC
+Name: name, dtype: object
+000000000000000000000
+709         WORLD FUEL SERVICES CORP
+747         JAZZ PHARMACEUTICALS INC
+1057        PRESTIGE BRANDS HOLDINGS
+1554    WAYSIDE TECHNOLOGY GROUP INC
+Name: name, dtype: object
+000000000000000000000
+956    NABI BIOPHARMACEUTICALS
+Name: name, dtype: object
+000000000000000000000
+977    NICHOLAS FINANCIAL INC
+Name: name, dtype: object
+000000000000000000000
+1111    PILGRIM'S PRIDE CORP
+Name: name, dtype: object
+000000000000000000000
+1426    TRANSWITCH CORP
+Name: name, dtype: object
+000000000000000000000
+1528    WORLD HEART CORP
+Name: name, dtype: object
+    hier.fact_024                                              names
+0              12        advanced cell technology inc,vermillion inc
+1               3  philip morris international,kraft foods inc,bo...
+2               9  symantec corp,activision blizzard inc,ca inc,l...
+3               6  star scientific inc,savient pharmaceuticals in...
+4               2  procter & gamble co,coca-cola co,pepsico inc,e...
+5               8  exxon mobil corp,chevron corp,intel corp,schlu...
+6               7  apple inc,microsoft corp,intl business machine...
+7               0  express scripts inc,mckesson corp,cardinal hea...
+8               5  verizon communications inc,occidental petroleu...
+9              10  johnson & johnson,pfizer inc,merck & co,qualco...
+10              1  unitedhealth group inc,humana inc,expedia inc,...
+11             22  hertz global holdings inc,brigham exploration ...
+12             13  continental resources inc,breitburn energy par...
+13             23                                  beacon power corp
+14             15                        cadence pharmaceuticals inc
+15              4                molycorp inc,dendreon corp,gevo inc
+16             21                                         daxor corp
+17             20                                         dynegy inc
+18             18  world fuel services corp,jazz pharmaceuticals ...
+19             11                            nabi biopharmaceuticals
+20             14                             nicholas financial inc
+21             17                               pilgrim's pride corp
+22             16                                    transwitch corp
+23             19                                   world heart corp
+1010
+1510
+2010
+2020
+2030
+2510
+2520
+2530
+2540
+2550
+3010
+3020
+3030
+3510
+3520
+4010
+4020
+4040
+4510
+4520
+4530
+5010
+5510
+gics.024
+4010      1
+4040      6
+4020      9
+5510     10
+3010     13
+2030     15
+3030     26
+2540     26
+2510     27
+5010     27
+2020     47
+3020     50
+2550     59
+2530     70
+2520     75
+3520     94
+4530    100
+1510    128
+1010    135
+4510    143
+4520    156
+3510    164
+2010    214
+Name: hier.fact_024, dtype: int64
+hier.fact_024
+11      1
+21      1
+20      1
+19      1
+17      1
+16      1
+15      1
+14      1
+23      1
+12      2
+13      2
+4       3
+18      4
+6       9
+1      10
+22     13
+0      60
+9      77
+5      92
+10    136
+2     194
+3     222
+7     231
+8     531
+Name: gics.024, dtype: int64
+                 n                                              names
+hier.fact_024                                                        
+0               60        advanced cell technology inc,vermillion inc
+1               10  philip morris international,kraft foods inc,bo...
+2              194  symantec corp,activision blizzard inc,ca inc,l...
+3              222  star scientific inc,savient pharmaceuticals in...
+4                3  procter & gamble co,coca-cola co,pepsico inc,e...
+5               92  exxon mobil corp,chevron corp,intel corp,schlu...
+6                9  apple inc,microsoft corp,intl business machine...
+7              231  express scripts inc,mckesson corp,cardinal hea...
+8              531  verizon communications inc,occidental petroleu...
+9               77  johnson & johnson,pfizer inc,merck & co,qualco...
+10             136  unitedhealth group inc,humana inc,expedia inc,...
+11               1  hertz global holdings inc,brigham exploration ...
+12               2  continental resources inc,breitburn energy par...
+13               2                                  beacon power corp
+14               1                        cadence pharmaceuticals inc
+15               1                molycorp inc,dendreon corp,gevo inc
+16               1                                         daxor corp
+17               1                                         dynegy inc
+18               4  world fuel services corp,jazz pharmaceuticals ...
+19               1                            nabi biopharmaceuticals
+20               1                             nicholas financial inc
+21               1                               pilgrim's pride corp
+22              13                                    transwitch corp
+23               1                                   world heart corp
+0 :  advanced cell technology inc,vermillion inc
+1 :  philip morris international,kraft foods inc,boeing co,freeport-mcmoran cop&gold,newmont mining corp,national oilwell varco inc,coach inc,hershey co,cameron international corp,ralph lauren corp
+2 :  symantec corp,activision blizzard inc,ca inc,linkedin corp,electronic arts inc,bmc software inc,f5 networks inc,rovi corp,verisign inc,informatica corp
+3 :  star scientific inc,savient pharmaceuticals inc,cytori therapeutics inc,amicus therapeutics inc,genmark diagnostics inc,microvision inc,somaxon pharmaceuticals inc,balqon corp,oragenics inc
+4 :  procter & gamble co,coca-cola co,pepsico inc,enterprise prods prtnrs  -lp,las vegas sands corp,yum brands inc,automatic data processing,corning inc,kinder morgan energy  -lp,wynn resorts ltd
+5 :  exxon mobil corp,chevron corp,intel corp,schlumberger ltd,conocophillips,united technologies corp,3m co,caterpillar inc,cvs caremark corp,news corp
+6 :  apple inc,microsoft corp,intl business machines corp,google inc,general electric co,mcdonald's corp,emc corp/ma,vmware inc -cl a,ebay inc,time warner inc
+7 :  express scripts inc,mckesson corp,cardinal health inc,amerisourcebergen corp,avnet inc,nvr inc,d r horton inc,ingram micro inc,catalyst health solutions,anixter intl inc
+8 :  verizon communications inc,occidental petroleum corp,apache corp,anadarko petroleum corp,devon energy corp,eog resources inc,marathon oil corp,noble energy inc,sprint nextel corp,pioneer natural resources co
+9 :  johnson & johnson,pfizer inc,merck & co,qualcomm inc,abbott laboratories,altria group inc,amgen inc,bristol-myers squibb co,lilly (eli) & co,gilead sciences inc
+10 :  unitedhealth group inc,humana inc,expedia inc,amerigroup corp,wellcare health plans inc,molina healthcare inc,digital river inc,blue nile inc,reachlocal inc,socket mobile inc
+11 :  hertz global holdings inc,brigham exploration co,exco resources inc,tesla motors inc  -redh,oasis petroleum inc,amyris inc,zipcar inc,heckmann corp,a123 systems inc,goodrich petroleum corp
+12 :  continental resources inc,breitburn energy partners lp
+13 :  beacon power corp
+14 :  cadence pharmaceuticals inc
+15 :  molycorp inc,dendreon corp,gevo inc
+16 :  daxor corp
+17 :  dynegy inc
+18 :  world fuel services corp,jazz pharmaceuticals inc,prestige brands holdings,wayside technology group inc
+19 :  nabi biopharmaceuticals
+20 :  nicholas financial inc
+21 :  pilgrim's pride corp
+22 :  transwitch corp
+23 :  world heart corp

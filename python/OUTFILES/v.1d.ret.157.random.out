@@ -1,0 +1,2190 @@
+------------------------
+n= 157
+cl= kmeans_text
+type= random
+------------------------
+cluster=88
+cluster=64
+cluster=40
+cluster=71
+cluster=131
+cluster=137
+cluster=77
+cluster=53
+cluster=113
+cluster=89
+cluster=70
+cluster=54
+cluster=85
+cluster=92
+cluster=95
+cluster=120
+cluster=38
+cluster=104
+cluster=76
+cluster=136
+cluster=110
+cluster=23
+cluster=59
+cluster=125
+cluster=87
+cluster=8
+cluster=128
+cluster=50
+cluster=29
+cluster=21
+cluster=86
+cluster=56
+cluster=124
+cluster=30
+cluster=67
+cluster=66
+cluster=62
+cluster=35
+cluster=79
+cluster=153
+cluster=117
+cluster=24
+cluster=119
+cluster=94
+cluster=4
+cluster=28
+cluster=16
+cluster=80
+cluster=10
+cluster=141
+cluster=157
+cluster=114
+cluster=115
+cluster=84
+cluster=73
+cluster=63
+cluster=130
+cluster=129
+cluster=15
+cluster=97
+cluster=116
+cluster=12
+cluster=5
+cluster=118
+cluster=41
+cluster=27
+cluster=47
+cluster=111
+cluster=144
+cluster=51
+cluster=103
+cluster=68
+cluster=81
+cluster=48
+cluster=17
+cluster=31
+cluster=93
+cluster=121
+cluster=147
+cluster=39
+cluster=44
+cluster=61
+cluster=139
+cluster=155
+cluster=123
+cluster=37
+cluster=105
+cluster=45
+cluster=9
+cluster=34
+cluster=156
+cluster=126
+cluster=72
+cluster=122
+cluster=151
+cluster=96
+cluster=14
+cluster=19
+cluster=60
+cluster=138
+cluster=98
+cluster=58
+cluster=142
+cluster=7
+cluster=69
+cluster=106
+cluster=1
+cluster=91
+cluster=145
+cluster=107
+cluster=102
+cluster=22
+cluster=65
+cluster=33
+cluster=13
+cluster=152
+cluster=134
+cluster=83
+cluster=143
+cluster=2
+cluster=75
+cluster=140
+cluster=49
+cluster=148
+cluster=74
+cluster=154
+cluster=146
+cluster=57
+cluster=3
+cluster=26
+cluster=36
+cluster=133
+cluster=78
+cluster=109
+cluster=25
+cluster=11
+cluster=108
+cluster=18
+cluster=127
+cluster=100
+cluster=150
+cluster=82
+cluster=135
+cluster=32
+cluster=46
+cluster=20
+cluster=6
+cluster=149
+cluster=101
+cluster=90
+cluster=52
+cluster=132
+cluster=42
+cluster=43
+cluster=112
+cluster=55
+cluster=99
+advance group... 
+continuing!!!
+intra-group:
+r2    5.925762e-02
+a     1.000000e+00
+b     3.552714e-16
+dtype: float64
+extra-group:
+r2    0.081569
+a     0.594538
+b     0.394704
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.873477e-02
+a     1.000000e+00
+b     3.700743e-16
+dtype: float64
+extra-group:
+r2    0.058637
+a     0.756171
+b     0.231059
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.540364e-01
+a     1.000000e+00
+b    -6.291264e-16
+dtype: float64
+extra-group:
+r2    0.094881
+a     0.610557
+b     0.377339
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.790544e-02
+a     1.000000e+00
+b    -1.702342e-15
+dtype: float64
+extra-group:
+r2    0.057565
+a     1.617390
+b    -0.637093
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.277138e-01
+a     1.000000e+00
+b     1.110223e-16
+dtype: float64
+extra-group:
+r2    0.067488
+a     0.582737
+b     0.405236
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.595846e-01
+a     1.000000e+00
+b     6.530724e-16
+dtype: float64
+extra-group:
+r2    0.087430
+a     0.587708
+b     0.400578
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.628421e-01
+a     1.000000e+00
+b     8.002858e-16
+dtype: float64
+extra-group:
+r2    0.071026
+a     0.522444
+b     0.467082
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.463106e-01
+a     1.000000e+00
+b     2.135044e-16
+dtype: float64
+extra-group:
+r2    0.073970
+a     0.463105
+b     0.527688
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.010716e-01
+a     1.000000e+00
+b    -2.114711e-16
+dtype: float64
+extra-group:
+r2    0.067923
+a     0.594547
+b     0.393692
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.134449e-01
+a     1.000000e+00
+b     5.551115e-16
+dtype: float64
+extra-group:
+r2    0.106433
+a     0.727019
+b     0.257937
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.812952e-01
+a     1.000000e+00
+b     6.352943e-16
+dtype: float64
+extra-group:
+r2    0.086679
+a     0.593090
+b     0.394985
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.650687e-01
+a     1.000000e+00
+b     2.606611e-16
+dtype: float64
+extra-group:
+r2    0.086196
+a     0.603885
+b     0.383764
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.412935e-02
+a     1.000000e+00
+b     6.207156e-16
+dtype: float64
+extra-group:
+r2    0.087927
+a     0.583126
+b     0.407021
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.267276e-01
+a     1.000000e+00
+b     4.945539e-16
+dtype: float64
+extra-group:
+r2    0.087263
+a     0.580743
+b     0.407419
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.431409e-01
+a     1.000000e+00
+b     3.730349e-16
+dtype: float64
+extra-group:
+r2    0.082713
+a     0.554855
+b     0.434286
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.698012e-01
+a     1.000000e+00
+b     2.467162e-16
+dtype: float64
+extra-group:
+r2    0.094805
+a     0.704242
+b     0.281975
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.315790e-01
+a     1.000000e+00
+b    -1.475011e-15
+dtype: float64
+extra-group:
+r2    0.094847
+a     0.628238
+b     0.359663
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.820455e-01
+a     1.000000e+00
+b     9.933574e-17
+dtype: float64
+extra-group:
+r2    0.095438
+a     0.712878
+b     0.272753
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.426551e-01
+a     1.000000e+00
+b     9.806970e-16
+dtype: float64
+extra-group:
+r2    0.110800
+a     0.565931
+b     0.422352
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.470630e-01
+a     1.000000e+00
+b    -8.987520e-16
+dtype: float64
+extra-group:
+r2    0.081189
+a     0.617764
+b     0.368952
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.040472
+a     0.999211
+b     0.003119
+dtype: float64
+extra-group:
+r2    0.093464
+a    -1.211084
+b     5.149858
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.480413e-01
+a     1.000000e+00
+b     4.517459e-16
+dtype: float64
+extra-group:
+r2    0.073576
+a     0.509076
+b     0.480513
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.350917e-01
+a     1.000000e+00
+b     8.478067e-16
+dtype: float64
+extra-group:
+r2    0.076083
+a     0.620173
+b     0.366973
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.096426e-01
+a     1.000000e+00
+b     3.182639e-15
+dtype: float64
+extra-group:
+r2    0.093511
+a     0.640489
+b     0.346387
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.769052e-01
+a     1.000000e+00
+b    -4.502571e-16
+dtype: float64
+extra-group:
+r2    0.117782
+a     0.675107
+b     0.310992
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.544914e-01
+a     1.000000e+00
+b    -2.775558e-16
+dtype: float64
+extra-group:
+r2    0.085746
+a     0.594074
+b     0.393872
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.804057e-01
+a     1.000000e+00
+b    -1.443290e-15
+dtype: float64
+extra-group:
+r2    0.079029
+a     0.620335
+b     0.366940
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.281930e-02
+a     1.000000e+00
+b    -4.718448e-16
+dtype: float64
+extra-group:
+r2    0.089534
+a     0.006860
+b     1.000440
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.598187e-02
+a     1.000000e+00
+b    -8.881784e-18
+dtype: float64
+extra-group:
+r2    0.083003
+a     0.579816
+b     0.409655
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.323054e-02
+a     1.000000e+00
+b    -8.074349e-16
+dtype: float64
+extra-group:
+r2    0.063768
+a     0.613898
+b     0.375140
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.364072e-01
+a     1.000000e+00
+b     9.349247e-17
+dtype: float64
+extra-group:
+r2    0.065210
+a     0.540708
+b     0.448891
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.156236e-02
+a     1.000000e+00
+b    -8.059397e-16
+dtype: float64
+extra-group:
+r2    0.087150
+a     0.476852
+b     0.514867
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.407306e-01
+a     1.000000e+00
+b     1.071039e-15
+dtype: float64
+extra-group:
+r2    0.110813
+a     0.629528
+b     0.358017
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.855171e-01
+a     1.000000e+00
+b     1.137979e-15
+dtype: float64
+extra-group:
+r2    0.099757
+a     0.594801
+b     0.393123
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.311820e-02
+a     1.000000e+00
+b    -2.829278e-16
+dtype: float64
+extra-group:
+r2    0.070801
+a     0.745528
+b     0.240146
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.319376e-01
+a     1.000000e+00
+b    -1.660507e-15
+dtype: float64
+extra-group:
+r2    0.070466
+a     0.642311
+b     0.343997
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.261174e-01
+a     1.000000e+00
+b     1.028417e-15
+dtype: float64
+extra-group:
+r2    0.066362
+a     0.621730
+b     0.365636
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.176776e-02
+a     1.000000e+00
+b    -3.714977e-16
+dtype: float64
+extra-group:
+r2    0.070988
+a     0.324551
+b     0.669673
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.434694e-02
+a     1.000000e+00
+b     1.247368e-15
+dtype: float64
+extra-group:
+r2    0.084497
+a     0.566208
+b     0.424195
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.634994e-01
+a     1.000000e+00
+b    -2.225997e-15
+dtype: float64
+extra-group:
+r2    0.080051
+a     0.724125
+b     0.261269
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.748017e-01
+a     1.000000e+00
+b    -7.510332e-16
+dtype: float64
+extra-group:
+r2    0.086005
+a     0.680284
+b     0.305917
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.405389e-01
+a     1.000000e+00
+b    -1.004487e-15
+dtype: float64
+extra-group:
+r2    0.077328
+a     0.650955
+b     0.335062
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.405501e-01
+a     1.000000e+00
+b     9.714451e-17
+dtype: float64
+extra-group:
+r2    0.053048
+a     0.658518
+b     0.327531
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.020715e-02
+a     1.000000e+00
+b     1.157804e-15
+dtype: float64
+extra-group:
+r2    0.063253
+a     0.219823
+b     0.779967
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.412452e-01
+a     1.000000e+00
+b    -8.540177e-17
+dtype: float64
+extra-group:
+r2    0.084631
+a     0.629321
+b     0.358164
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.326842e-01
+a     1.000000e+00
+b     1.709743e-15
+dtype: float64
+extra-group:
+r2    0.075931
+a     0.504949
+b     0.484286
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.711661e-02
+a     1.000000e+00
+b     6.922567e-16
+dtype: float64
+extra-group:
+r2    0.074942
+a     0.666146
+b     0.321613
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.743975e-02
+a     1.000000e+00
+b     9.397245e-16
+dtype: float64
+extra-group:
+r2    0.097354
+a     0.818034
+b     0.166182
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.286780e-02
+a     1.000000e+00
+b     4.758099e-17
+dtype: float64
+extra-group:
+r2    0.069473
+a     0.517726
+b     0.472863
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.695395e-01
+a     1.000000e+00
+b     9.758276e-16
+dtype: float64
+extra-group:
+r2    0.099280
+a     0.647041
+b     0.339705
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.726455e-01
+a     1.000000e+00
+b    -5.784846e-16
+dtype: float64
+extra-group:
+r2    0.081459
+a     0.524722
+b     0.464789
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.403353e-02
+a     1.000000e+00
+b    -2.837237e-16
+dtype: float64
+extra-group:
+r2    0.076036
+a     0.900398
+b     0.085877
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.863533e-01
+a     1.000000e+00
+b     1.592929e-15
+dtype: float64
+extra-group:
+r2    0.093057
+a     0.530127
+b     0.459117
+dtype: float64
+advance group... 
+!!!!!!!!nan! ARTNA
+continuing!!!
+intra-group:
+r2    5.366257e-02
+a     1.000000e+00
+b     5.736152e-16
+dtype: float64
+!!!!!!!!nan! ARTNA
+extra-group:
+r2    0.092146
+a     0.165857
+b     0.833773
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.138303e-01
+a     1.000000e+00
+b     1.422473e-15
+dtype: float64
+extra-group:
+r2    0.104247
+a     0.564374
+b     0.424798
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.083009e-01
+a     1.000000e+00
+b     1.586033e-16
+dtype: float64
+extra-group:
+r2    0.061489
+a     0.543586
+b     0.445413
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.204947e-01
+a     1.000000e+00
+b     1.718202e-15
+dtype: float64
+extra-group:
+r2    0.056790
+a     0.502206
+b     0.487937
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.684169e-02
+a     1.000000e+00
+b    -7.401487e-16
+dtype: float64
+extra-group:
+r2    0.107908
+a     0.753825
+b     0.232036
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.641898e-02
+a     1.000000e+00
+b     1.541502e-15
+dtype: float64
+extra-group:
+r2    0.075890
+a     0.441994
+b     0.550758
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.532962e-01
+a     1.000000e+00
+b     3.608225e-16
+dtype: float64
+extra-group:
+r2    0.081928
+a     0.732045
+b     0.252869
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.287245e-01
+a     1.000000e+00
+b     8.723181e-16
+dtype: float64
+extra-group:
+r2    0.061277
+a     0.507060
+b     0.482795
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.603657e-01
+a     1.000000e+00
+b     1.116754e-15
+dtype: float64
+extra-group:
+r2    0.067299
+a     0.572926
+b     0.415341
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.617822e-01
+a     1.000000e+00
+b     1.036208e-15
+dtype: float64
+extra-group:
+r2    0.090932
+a     0.732973
+b     0.252060
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.996897e-01
+a     1.000000e+00
+b     1.315187e-15
+dtype: float64
+extra-group:
+r2    0.060242
+a     0.516012
+b     0.473252
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.711684e-02
+a     1.000000e+00
+b    -7.930164e-17
+dtype: float64
+extra-group:
+r2    0.060009
+a     0.159205
+b     0.842351
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.534151e-01
+a     1.000000e+00
+b     6.128431e-16
+dtype: float64
+extra-group:
+r2    0.075787
+a     0.574384
+b     0.413833
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.474921e-01
+a     1.000000e+00
+b     1.601283e-15
+dtype: float64
+extra-group:
+r2    0.081645
+a     0.663333
+b     0.322772
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.352897e-01
+a     1.000000e+00
+b     2.448334e-15
+dtype: float64
+extra-group:
+r2    0.081011
+a     0.657087
+b     0.330012
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.147054e-02
+a     1.000000e+00
+b     1.998401e-16
+dtype: float64
+extra-group:
+r2    0.092214
+a     0.824330
+b     0.161081
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.524329e-01
+a     1.000000e+00
+b     2.305848e-16
+dtype: float64
+extra-group:
+r2    0.072685
+a     0.590818
+b     0.397636
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.768682e-02
+a     1.000000e+00
+b    -7.872491e-16
+dtype: float64
+extra-group:
+r2    0.104074
+a     0.711107
+b     0.275901
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.093912e-02
+a     1.000000e+00
+b    -2.035409e-15
+dtype: float64
+extra-group:
+r2    0.079394
+a     0.497458
+b     0.494212
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.951911e-01
+a     1.000000e+00
+b     8.673617e-16
+dtype: float64
+extra-group:
+r2    0.090660
+a     0.653139
+b     0.333320
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.272362e-01
+a     1.000000e+00
+b     4.123686e-16
+dtype: float64
+extra-group:
+r2    0.068469
+a     0.631101
+b     0.355953
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.724328e-02
+a     1.000000e+00
+b     5.652044e-16
+dtype: float64
+extra-group:
+r2    0.098942
+a     0.775845
+b     0.211352
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.672143e-01
+a     1.000000e+00
+b    -1.356939e-16
+dtype: float64
+extra-group:
+r2    0.088110
+a     0.690098
+b     0.295803
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.236279e-01
+a     1.000000e+00
+b     1.257059e-15
+dtype: float64
+extra-group:
+r2    0.065299
+a     0.521640
+b     0.468010
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.921738e-01
+a     1.000000e+00
+b    -5.551115e-16
+dtype: float64
+extra-group:
+r2    0.084589
+a     0.689962
+b     0.295767
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.602545e-01
+a     1.000000e+00
+b    -2.974473e-15
+dtype: float64
+extra-group:
+r2    0.085431
+a     0.639732
+b     0.347602
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.368748e-01
+a     1.000000e+00
+b    -4.348374e-16
+dtype: float64
+extra-group:
+r2    0.082091
+a     0.540662
+b     0.448618
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.427094e-01
+a     1.000000e+00
+b    -3.108624e-15
+dtype: float64
+extra-group:
+r2    0.114406
+a     0.601322
+b     0.386484
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.934226e-02
+a     1.000000e+00
+b     8.934652e-16
+dtype: float64
+extra-group:
+r2    0.062795
+a     0.513642
+b     0.475827
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.941293e-01
+a     1.000000e+00
+b     5.224579e-16
+dtype: float64
+extra-group:
+r2    0.096659
+a     0.652966
+b     0.333559
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.151547e-01
+a     1.000000e+00
+b    -6.730727e-16
+dtype: float64
+extra-group:
+r2    0.104702
+a     0.737266
+b     0.248426
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.371403e-02
+a     1.000000e+00
+b     6.938894e-16
+dtype: float64
+extra-group:
+r2    0.081918
+a     0.579093
+b     0.410665
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.351124e-01
+a     1.000000e+00
+b    -3.409971e-16
+dtype: float64
+extra-group:
+r2    0.076913
+a     0.624209
+b     0.362293
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.269525e-02
+a     1.000000e+00
+b     4.800082e-16
+dtype: float64
+extra-group:
+r2    0.056352
+a     0.470938
+b     0.519881
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.880533e-01
+a     1.000000e+00
+b    -2.081668e-16
+dtype: float64
+extra-group:
+r2    0.094694
+a     0.644871
+b     0.341898
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.833142e-01
+a     1.000000e+00
+b     3.677614e-16
+dtype: float64
+extra-group:
+r2    0.102425
+a     0.829803
+b     0.153366
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.065863e-01
+a     1.000000e+00
+b    -3.941292e-16
+dtype: float64
+extra-group:
+r2    0.073736
+a     0.733633
+b     0.251267
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.864920e-01
+a     1.000000e+00
+b    -4.625929e-17
+dtype: float64
+extra-group:
+r2    0.096753
+a     0.642279
+b     0.344269
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.248003e-01
+a     1.000000e+00
+b    -2.215400e-15
+dtype: float64
+extra-group:
+r2    0.065547
+a     0.647691
+b     0.339266
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.554185e-01
+a     1.000000e+00
+b    -8.326673e-16
+dtype: float64
+extra-group:
+r2    0.077982
+a     0.616750
+b     0.370607
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.032192e-02
+a     1.000000e+00
+b    -5.440093e-16
+dtype: float64
+extra-group:
+r2    0.051444
+a     0.510820
+b     0.481087
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.610503e-01
+a     1.000000e+00
+b     9.790148e-16
+dtype: float64
+extra-group:
+r2    0.096810
+a     0.678832
+b     0.307281
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.427044e-02
+a     1.000000e+00
+b     5.551115e-17
+dtype: float64
+extra-group:
+r2    0.059832
+a     0.608033
+b     0.382788
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.109551e-02
+a     1.000000e+00
+b     5.233909e-16
+dtype: float64
+extra-group:
+r2    0.063994
+a     0.947482
+b     0.035509
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.702194e-01
+a     1.000000e+00
+b     3.185857e-16
+dtype: float64
+extra-group:
+r2    0.090869
+a     0.655498
+b     0.331021
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.208438e-01
+a     1.000000e+00
+b    -6.476301e-17
+dtype: float64
+extra-group:
+r2    0.073344
+a     0.704791
+b     0.281026
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.443479e-01
+a     1.000000e+00
+b    -1.621891e-15
+dtype: float64
+extra-group:
+r2    0.078085
+a     0.607774
+b     0.380167
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.718873e-01
+a     1.000000e+00
+b    -5.124106e-17
+dtype: float64
+extra-group:
+r2    0.073229
+a     0.589084
+b     0.398430
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.266795e-01
+a     1.000000e+00
+b     5.898060e-17
+dtype: float64
+extra-group:
+r2    0.088746
+a     0.539495
+b     0.450163
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.556069e-01
+a     1.000000e+00
+b     1.725892e-15
+dtype: float64
+extra-group:
+r2    0.083658
+a     0.566825
+b     0.421017
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.698706e-01
+a     1.000000e+00
+b    -5.736152e-16
+dtype: float64
+extra-group:
+r2    0.090634
+a     0.615014
+b     0.372445
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.026790e-02
+a     1.000000e+00
+b     5.551115e-17
+dtype: float64
+extra-group:
+r2    0.067042
+a     0.481115
+b     0.510341
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.583838e-01
+a     1.000000e+00
+b    -5.119362e-16
+dtype: float64
+extra-group:
+r2    0.098806
+a     0.656138
+b     0.330595
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.460659e-01
+a     1.000000e+00
+b     1.054712e-15
+dtype: float64
+extra-group:
+r2    0.083822
+a     0.636623
+b     0.349958
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.584879e-01
+a     1.000000e+00
+b     3.241851e-15
+dtype: float64
+extra-group:
+r2    0.076412
+a     0.545534
+b     0.442993
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.918696e-01
+a     1.000000e+00
+b    -3.952394e-16
+dtype: float64
+extra-group:
+r2    0.095123
+a     0.575184
+b     0.413291
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.515596e-02
+a     1.000000e+00
+b     2.348122e-15
+dtype: float64
+extra-group:
+r2    0.058449
+a     0.384265
+b     0.612162
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.654181e-01
+a     1.000000e+00
+b    -7.723291e-17
+dtype: float64
+extra-group:
+r2    0.088969
+a     0.593061
+b     0.394309
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.598636e-01
+a     1.000000e+00
+b    -2.749124e-16
+dtype: float64
+extra-group:
+r2    0.096216
+a     0.600182
+b     0.387874
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.425686e-01
+a     1.000000e+00
+b    -1.249001e-16
+dtype: float64
+extra-group:
+r2    0.062532
+a     0.432280
+b     0.559037
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.603790e-01
+a     1.000000e+00
+b     6.077010e-16
+dtype: float64
+extra-group:
+r2    0.083336
+a     0.693414
+b     0.292428
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.666656e-01
+a     1.000000e+00
+b    -7.549517e-16
+dtype: float64
+extra-group:
+r2    0.089046
+a     0.691924
+b     0.294029
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.357620e-02
+a     1.000000e+00
+b     1.063964e-16
+dtype: float64
+extra-group:
+r2    0.087322
+a     0.873590
+b     0.118399
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.061523e-01
+a     1.000000e+00
+b     8.812395e-16
+dtype: float64
+extra-group:
+r2    0.053840
+a     0.411956
+b     0.579384
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.348284e-02
+a     1.000000e+00
+b    -1.691768e-16
+dtype: float64
+extra-group:
+r2    0.057852
+a     0.550325
+b     0.439218
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.497539e-01
+a     1.000000e+00
+b     3.914997e-16
+dtype: float64
+extra-group:
+r2    0.076244
+a     0.561746
+b     0.427123
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.195774e-01
+a     1.000000e+00
+b    -4.375585e-16
+dtype: float64
+extra-group:
+r2    0.095652
+a     0.564314
+b     0.423932
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.225308e-01
+a     1.000000e+00
+b     2.095546e-15
+dtype: float64
+extra-group:
+r2    0.095069
+a     0.492099
+b     0.498278
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.433388e-01
+a     1.000000e+00
+b     4.718448e-16
+dtype: float64
+extra-group:
+r2    0.065760
+a     0.520926
+b     0.468143
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.301609e-01
+a     1.000000e+00
+b    -1.765255e-15
+dtype: float64
+extra-group:
+r2    0.066903
+a     0.466842
+b     0.523636
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.368834e-01
+a     1.000000e+00
+b    -2.081668e-16
+dtype: float64
+extra-group:
+r2    0.086830
+a     0.734647
+b     0.250279
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.356342e-02
+a     1.000000e+00
+b    -1.171902e-16
+dtype: float64
+extra-group:
+r2    0.107777
+a     0.746820
+b     0.239325
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.731993e-01
+a     1.000000e+00
+b    -6.596031e-16
+dtype: float64
+extra-group:
+r2    0.082441
+a     0.623041
+b     0.364373
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.251772e-01
+a     1.000000e+00
+b    -8.881784e-16
+dtype: float64
+extra-group:
+r2    0.056891
+a     0.666338
+b     0.319996
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.351375e-01
+a     1.000000e+00
+b    -3.774758e-16
+dtype: float64
+extra-group:
+r2    0.064012
+a     0.494254
+b     0.495626
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.405006e-01
+a     1.000000e+00
+b    -1.687539e-16
+dtype: float64
+extra-group:
+r2    0.076579
+a     0.569302
+b     0.418498
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.954557e-02
+a     1.000000e+00
+b     1.221245e-15
+dtype: float64
+extra-group:
+r2    0.091998
+a     0.499640
+b     0.495054
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.921252e-01
+a     1.000000e+00
+b     1.145283e-15
+dtype: float64
+extra-group:
+r2    0.090546
+a     0.555604
+b     0.433101
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.015788e-02
+a     1.000000e+00
+b    -8.881784e-16
+dtype: float64
+extra-group:
+r2    0.095799
+a     0.549661
+b     0.440493
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.227296e-01
+a     1.000000e+00
+b    -5.498247e-16
+dtype: float64
+extra-group:
+r2    0.063951
+a     0.662431
+b     0.323767
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.718278e-01
+a     1.000000e+00
+b     6.272760e-16
+dtype: float64
+extra-group:
+r2    0.082140
+a     0.629578
+b     0.357928
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.286887e-01
+a     1.000000e+00
+b    -6.394885e-16
+dtype: float64
+extra-group:
+r2    0.078650
+a     0.561558
+b     0.427163
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.072810e-02
+a     1.000000e+00
+b    -5.474548e-16
+dtype: float64
+extra-group:
+r2    0.082787
+a     0.658159
+b     0.329123
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.991085e-02
+a     1.000000e+00
+b     3.542140e-16
+dtype: float64
+extra-group:
+r2    0.068091
+a     0.668497
+b     0.318690
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.381027e-01
+a     1.000000e+00
+b     1.513409e-15
+dtype: float64
+extra-group:
+r2    0.058972
+a     0.495640
+b     0.493722
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.936936e-01
+a     1.000000e+00
+b    -1.024821e-16
+dtype: float64
+extra-group:
+r2    0.110079
+a     0.753054
+b     0.230972
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.245043e-01
+a     1.000000e+00
+b    -8.780855e-16
+dtype: float64
+extra-group:
+r2    0.121097
+a     0.726128
+b     0.258982
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.168561e-01
+a     1.000000e+00
+b    -1.258253e-15
+dtype: float64
+extra-group:
+r2    0.053260
+a     0.612816
+b     0.373969
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.708185e-01
+a     1.000000e+00
+b    -6.530724e-17
+dtype: float64
+extra-group:
+r2    0.092488
+a     0.715018
+b     0.270848
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.071595e-01
+a     1.000000e+00
+b     4.863834e-16
+dtype: float64
+extra-group:
+r2    0.074918
+a     0.580071
+b     0.407974
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.728232e-01
+a     1.000000e+00
+b    -1.449133e-15
+dtype: float64
+extra-group:
+r2    0.090732
+a     0.604403
+b     0.382962
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.584970e-02
+a     1.000000e+00
+b    -4.282289e-16
+dtype: float64
+extra-group:
+r2    0.077267
+a     0.450669
+b     0.542589
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    6.682980e-02
+a     1.000000e+00
+b    -1.358391e-15
+dtype: float64
+extra-group:
+r2    0.073031
+a     1.333594
+b    -0.354899
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.367006e-01
+a     1.000000e+00
+b     5.747037e-16
+dtype: float64
+extra-group:
+r2    0.065163
+a     0.582232
+b     0.405488
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.447129e-01
+a     1.000000e+00
+b     1.119475e-15
+dtype: float64
+extra-group:
+r2    0.080094
+a     0.718203
+b     0.266828
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.305756e-01
+a     1.000000e+00
+b     5.847175e-16
+dtype: float64
+extra-group:
+r2    0.068071
+a     0.516958
+b     0.472376
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.415258e-02
+a     1.000000e+00
+b     3.848773e-16
+dtype: float64
+extra-group:
+r2    0.077930
+a     0.485043
+b     0.508435
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.757799e-01
+a     1.000000e+00
+b     5.046468e-17
+dtype: float64
+extra-group:
+r2    0.107754
+a     0.732160
+b     0.252921
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.286187e-01
+a     1.000000e+00
+b     3.281326e-15
+dtype: float64
+extra-group:
+r2    0.060599
+a     0.523083
+b     0.465859
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.231500e-01
+a     1.000000e+00
+b    -7.682743e-16
+dtype: float64
+extra-group:
+r2    0.075041
+a     0.619455
+b     0.367331
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.366378e-01
+a     1.000000e+00
+b     5.551115e-16
+dtype: float64
+extra-group:
+r2    0.072840
+a     0.578260
+b     0.410315
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.029346e-02
+a     1.000000e+00
+b     8.688702e-17
+dtype: float64
+extra-group:
+r2    0.059742
+a     0.687282
+b     0.299182
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.373184e-01
+a     1.000000e+00
+b    -4.493760e-16
+dtype: float64
+extra-group:
+r2    0.072074
+a     0.654725
+b     0.332123
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.681583e-02
+a     1.000000e+00
+b     1.030921e-16
+dtype: float64
+extra-group:
+r2    0.088424
+a     0.301157
+b     0.696170
+dtype: float64
+WRITING THESE!
+**
+                     type        mu     sigma
+0  1d.RETURN.random.157.i  0.128837  0.047263
+**
+1d.RETURN.random.157.i (0.12883655457739412, 0.047263117501066806)
+**
+      n        r2         w
+86   34  0.092695  0.010442
+101  32  0.126680  0.009828
+76   31  0.123628  0.009521
+34   31  0.073118  0.009521
+0    30  0.059258  0.009214
+140  30  0.116856  0.009214
+135  29  0.080728  0.008907
+4    29  0.127714  0.008907
+21   29  0.148041  0.008907
+16   28  0.131579  0.008600
+85   28  0.135112  0.008600
+84   28  0.063714  0.008600
+47   28  0.097440  0.008600
+156  28  0.036816  0.008600
+31   27  0.061562  0.008292
+44   26  0.141245  0.007985
+69   26  0.152433  0.007985
+66   26  0.147492  0.007985
+37   26  0.061768  0.007985
+138  26  0.193694  0.007985
+58   26  0.046419  0.007985
+134  25  0.128689  0.007678
+20   25  0.040472  0.007678
+128  25  0.140501  0.007678
+114  25  0.166666  0.007678
+108  25  0.191870  0.007678
+65   25  0.153415  0.007678
+28   25  0.055982  0.007678
+152  25  0.123150  0.007678
+14   25  0.143141  0.007678
+..   ..       ...       ...
+40   17  0.174802  0.005221
+46   17  0.077117  0.005221
+129  17  0.059546  0.005221
+42   16  0.140550  0.004914
+54   16  0.213830  0.004914
+121  16  0.143339  0.004914
+120  16  0.122531  0.004914
+116  16  0.106152  0.004914
+112  16  0.142569  0.004914
+104  16  0.070268  0.004914
+72   16  0.195191  0.004914
+83   16  0.115155  0.004914
+88   16  0.183314  0.004914
+87   16  0.188053  0.004914
+126  15  0.125177  0.004607
+148  15  0.130576  0.004607
+77   15  0.192174  0.004607
+127  15  0.135138  0.004607
+68   15  0.081471  0.004607
+45   15  0.132684  0.004607
+3    15  0.077905  0.004607
+149  15  0.074153  0.004607
+64   14  0.077117  0.004300
+144  14  0.075850  0.004300
+43   14  0.080207  0.004300
+63   13  0.199690  0.003993
+100  13  0.171887  0.003993
+7    13  0.146311  0.003993
+103  12  0.169871  0.003686
+150  11  0.175780  0.003378
+
+[157 rows x 3 columns]
+WRITING THESE!
+**
+                     type        mu     sigma
+0  1d.RETURN.random.157.e  0.080805  0.014658
+**
+1d.RETURN.random.157.e (0.080804743928587414, 0.014658135785405382)
+**
+      n        r2         w
+86   34  0.056352  0.010442
+101  32  0.088746  0.009828
+76   31  0.065299  0.009521
+34   31  0.070801  0.009521
+0    30  0.081569  0.009214
+140  30  0.053260  0.009214
+135  29  0.082787  0.008907
+4    29  0.067488  0.008907
+21   29  0.073576  0.008907
+16   28  0.094847  0.008600
+85   28  0.076913  0.008600
+84   28  0.081918  0.008600
+47   28  0.097354  0.008600
+156  28  0.088424  0.008600
+31   27  0.087150  0.008292
+44   26  0.084631  0.007985
+69   26  0.072685  0.007985
+66   26  0.081645  0.007985
+37   26  0.070988  0.007985
+138  26  0.110079  0.007985
+58   26  0.075890  0.007985
+134  25  0.078650  0.007678
+20   25  0.093464  0.007678
+128  25  0.076579  0.007678
+114  25  0.089046  0.007678
+108  25  0.095123  0.007678
+65   25  0.075787  0.007678
+28   25  0.083003  0.007678
+152  25  0.075041  0.007678
+14   25  0.082713  0.007678
+..   ..       ...       ...
+40   17  0.086005  0.005221
+46   17  0.074942  0.005221
+129  17  0.091998  0.005221
+42   16  0.053048  0.004914
+54   16  0.104247  0.004914
+121  16  0.065760  0.004914
+120  16  0.095069  0.004914
+116  16  0.053840  0.004914
+112  16  0.062532  0.004914
+104  16  0.067042  0.004914
+72   16  0.090660  0.004914
+83   16  0.104702  0.004914
+88   16  0.102425  0.004914
+87   16  0.094694  0.004914
+126  15  0.056891  0.004607
+148  15  0.068071  0.004607
+77   15  0.084589  0.004607
+127  15  0.064012  0.004607
+68   15  0.092214  0.004607
+45   15  0.075931  0.004607
+3    15  0.057565  0.004607
+149  15  0.077930  0.004607
+64   14  0.060009  0.004300
+144  14  0.077267  0.004300
+43   14  0.063253  0.004300
+63   13  0.060242  0.003993
+100  13  0.073229  0.003993
+7    13  0.073970  0.003993
+103  12  0.090634  0.003686
+150  11  0.107754  0.003378
+
+[157 rows x 3 columns]

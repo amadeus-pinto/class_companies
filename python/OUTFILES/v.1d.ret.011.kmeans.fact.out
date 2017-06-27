@@ -1,0 +1,180 @@
+------------------------
+n= 11
+cl= kmeans_fact
+type= fact
+------------------------
+cluster=0
+cluster=1
+cluster=2
+cluster=3
+cluster=4
+cluster=5
+cluster=6
+cluster=7
+cluster=8
+cluster=9
+cluster=10
+advance group... 
+continuing!!!
+intra-group:
+r2    1.298744e-01
+a     1.000000e+00
+b     1.912051e-15
+dtype: float64
+extra-group:
+r2    0.071543
+a     0.522239
+b     0.466293
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    4.418645e-02
+a     1.000000e+00
+b     1.820249e-16
+dtype: float64
+extra-group:
+r2    0.076934
+a     0.495802
+b     0.495159
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.554312e-15
+dtype: float64
+extra-group:
+r2    0.001751
+a    -5.548728
+b     6.735238
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.596061e-01
+a     1.000000e+00
+b     5.107385e-16
+dtype: float64
+extra-group:
+r2    0.074773
+a     0.518117
+b     0.469471
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.440892e-16
+dtype: float64
+extra-group:
+r2    0.052829
+a     1.230196
+b    -0.254052
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.316604e-01
+a     1.000000e+00
+b     6.560409e-16
+dtype: float64
+extra-group:
+r2    0.048854
+a     0.399676
+b     0.591618
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -1.776357e-15
+dtype: float64
+extra-group:
+r2    0.003647
+a     0.166102
+b     0.830122
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.626416e-01
+a     1.000000e+00
+b     1.548144e-15
+dtype: float64
+extra-group:
+r2    0.049387
+a     0.656351
+b     0.329908
+dtype: float64
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1d.RETURN.kmeans.fact_011.i  0.140589  0.031457
+**
+1d.RETURN.kmeans.fact_011.i (0.14058888242806822, 0.031456975962707689)
+**
+      n        r2         w
+4   618  0.159606  0.568537
+0   351  0.129874  0.322907
+2    86  0.044186  0.079117
+10   18  0.162642  0.016559
+6    11  0.131660  0.010120
+WRITING THESE!
+**
+                          type        mu    sigma
+0  1d.RETURN.kmeans.fact_011.e  0.073214  0.00434
+**
+1d.RETURN.kmeans.fact_011.e (0.073213715355180897, 0.00433998046185182)
+**
+      n        r2         w
+4   618  0.074773  0.568537
+0   351  0.071543  0.322907
+2    86  0.076934  0.079117
+10   18  0.049387  0.016559
+6    11  0.048854  0.010120

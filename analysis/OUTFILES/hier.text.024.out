@@ -1,0 +1,441 @@
+********doing n_clusters= 24
+getting quarter=q0 from ../data/fa_data/q0.csv
+000000000000000000000
+1586               JOHNSON & JOHNSON
+1901                      MERCK & CO
+25               ABBOTT LABORATORIES
+1710                LILLY (ELI) & CO
+843                     DANAHER CORP
+2861    THERMO FISHER SCIENTIFIC INC
+2773                    STRYKER CORP
+337            BECTON DICKINSON & CO
+1550          INTUITIVE SURGICAL INC
+437           BOSTON SCIENTIFIC CORP
+Name: name, dtype: object
+000000000000000000000
+1221          GENERAL ELECTRIC CO
+1514                   INTEL CORP
+3017     UNITED TECHNOLOGIES CORP
+490               CATERPILLAR INC
+302                     BOEING CO
+1088    FREEPORT-MCMORAN COP&GOLD
+1058                FORD MOTOR CO
+1251            GENERAL MOTORS CO
+969           EMERSON ELECTRIC CO
+2940        TEXAS INSTRUMENTS INC
+Name: name, dtype: object
+000000000000000000000
+2263            PROCTER & GAMBLE CO
+1641                   COCA-COLA CO
+2300    PHILIP MORRIS INTERNATIONAL
+2239                    PEPSICO INC
+1878               ALTRIA GROUP INC
+601            COLGATE-PALMOLIVE CO
+2548                 STARBUCKS CORP
+3225                 YUM BRANDS INC
+740                        CSX CORP
+2046          NORFOLK SOUTHERN CORP
+Name: name, dtype: object
+000000000000000000000
+2680     SIMON PROPERTY GROUP INC
+999            EQUITY RESIDENTIAL
+3061         VORNADO REALTY TRUST
+455         BOSTON PROPERTIES INC
+1344                      HCP INC
+2021    ANNALY CAPITAL MANAGEMENT
+1234     GENERAL GROWTH PPTYS INC
+2292                 PROLOGIS INC
+3088                   VENTAS INC
+1342         HEALTH CARE REIT INC
+Name: name, dtype: object
+000000000000000000000
+95      AMERICAN INTERNATIONAL GROUP
+1824                     METLIFE INC
+2346        PRUDENTIAL FINANCIAL INC
+2905               TRAVELERS COS INC
+1661                      LOEWS CORP
+128                    ALLSTATE CORP
+2267           PROGRESSIVE CORP-OHIO
+1370     HARTFORD FINANCIAL SERVICES
+2252     PRINCIPAL FINANCIAL GRP INC
+638               CNA FINANCIAL CORP
+Name: name, dtype: object
+000000000000000000000
+2785                        AT&T INC
+3094      VERIZON COMMUNICATIONS INC
+2375                    QUALCOMM INC
+1250                     CORNING INC
+747                  CENTURYLINK INC
+519           CROWN CASTLE INTL CORP
+849                DISH NETWORK CORP
+1196    FRONTIER COMMUNICATIONS CORP
+2620             SIRIUS XM RADIO INC
+3134                 WINDSTREAM CORP
+Name: name, dtype: object
+000000000000000000000
+2632                SCHLUMBERGER LTD
+1319                  HALLIBURTON CO
+2031      NATIONAL OILWELL VARCO INC
+357                 BAKER HUGHES INC
+3145            WASTE MANAGEMENT INC
+2494           REPUBLIC SERVICES INC
+1311              GRAINGER (W W) INC
+1133                      FLUOR CORP
+1065                     FASTENAL CO
+867     DIAMOND OFFSHRE DRILLING INC
+Name: name, dtype: object
+000000000000000000000
+9               APPLE INC
+172        AMAZON.COM INC
+847      DISNEY (WALT) CO
+625          COMCAST CORP
+2085            NEWS CORP
+909              EBAY INC
+2938      TIME WARNER INC
+2213    PRICELINE.COM INC
+3222            YAHOO INC
+511              CBS CORP
+Name: name, dtype: object
+000000000000000000000
+1287         GOLDMAN SACHS GROUP INC
+3003                     U S BANCORP
+1908                  MORGAN STANLEY
+383                    BLACKROCK INC
+342           FRANKLIN RESOURCES INC
+367     BANK OF NEW YORK MELLON CORP
+627                    CME GROUP INC
+2746               STATE STREET CORP
+452              BLACKSTONE GROUP LP
+2554           SCHWAB (CHARLES) CORP
+Name: name, dtype: object
+000000000000000000000
+2251                     PFIZER INC
+150                       AMGEN INC
+395         BRISTOL-MYERS SQUIBB CO
+310        BAXTER INTERNATIONAL INC
+1241            GILEAD SCIENCES INC
+542                    CELGENE CORP
+361                 BIOGEN IDEC INC
+138     ALEXION PHARMACEUTICALS INC
+3076     VERTEX PHARMACEUTICALS INC
+1700         LIFE TECHNOLOGIES CORP
+Name: name, dtype: object
+000000000000000000000
+3023                  VISA INC
+292        AMERICAN EXPRESS CO
+2985    UNITEDHEALTH GROUP INC
+783          CVS CAREMARK CORP
+1771            MASTERCARD INC
+1015       EXPRESS SCRIPTS INC
+1802             MCKESSON CORP
+78                   AFLAC INC
+1861      MARSH & MCLENNAN COS
+72                   AETNA INC
+Name: name, dtype: object
+000000000000000000000
+1594             JPMORGAN CHASE & CO
+3123                WELLS FARGO & CO
+460                    CITIGROUP INC
+304             BANK OF AMERICA CORP
+2306    PNC FINANCIAL SVCS GROUP INC
+656       CAPITAL ONE FINANCIAL CORP
+317                        BB&T CORP
+2731              SUNTRUST BANKS INC
+1122             FIFTH THIRD BANCORP
+1924                 M & T BANK CORP
+Name: name, dtype: object
+000000000000000000000
+208                ARES CAPITAL CORP
+98            APOLLO INVESTMENT CORP
+2639               SOLAR CAPITAL LTD
+1183       FIFTH STREET FINANCE CORP
+655     COMPASS DIVERSIFIED HOLDINGS
+368     BLACKROCK KELSO CAPITAL CORP
+1997           NEWSTAR FINANCIAL INC
+2310     PENNANTPARK INVESTMENT CORP
+1774        MAIN STREET CAPITAL CORP
+1427    HERCULES TECH GROWTH CAP INC
+Name: name, dtype: object
+000000000000000000000
+1762           LAS VEGAS SANDS CORP
+1988            NEWMONT MINING CORP
+3194               WYNN RESORTS LTD
+439             PEABODY ENERGY CORP
+272       AVALONBAY COMMUNITIES INC
+1862    MOTOROLA MOBILITY HLDGS INC
+696           CAMDEN PROPERTY TRUST
+1833      MGM RESORTS INTERNATIONAL
+2960                        UDR INC
+2438                 ROYAL GOLD INC
+Name: name, dtype: object
+000000000000000000000
+1916                 MICROSOFT CORP
+1452    INTL BUSINESS MACHINES CORP
+3058               VMWARE INC -CL A
+55        AUTOMATIC DATA PROCESSING
+755        COGNIZANT TECH SOLUTIONS
+1918         MOTOROLA SOLUTIONS INC
+2775                  SYMANTEC CORP
+3218                     XEROX CORP
+759              CITRIX SYSTEMS INC
+1588           JUNIPER NETWORKS INC
+Name: name, dtype: object
+000000000000000000000
+1864                           3M CO
+2987              UNION PACIFIC CORP
+817         DU PONT (E I) DE NEMOURS
+1396     HONEYWELL INTERNATIONAL INC
+871                     DOW CHEMICAL
+2367                     PRAXAIR INC
+51         ARCHER-DANIELS-MIDLAND CO
+194     AIR PRODUCTS & CHEMICALS INC
+553       CF INDUSTRIES HOLDINGS INC
+918                       ECOLAB INC
+Name: name, dtype: object
+000000000000000000000
+671              CONOCOPHILLIPS
+191                 APACHE CORP
+193     ANADARKO PETROLEUM CORP
+895           DEVON ENERGY CORP
+987           EOG RESOURCES INC
+577      CHESAPEAKE ENERGY CORP
+1358                  HESS CORP
+1904          MARATHON OIL CORP
+1971           NOBLE ENERGY INC
+2764     SOUTHWESTERN ENERGY CO
+Name: name, dtype: object
+000000000000000000000
+2667                     SOUTHERN CO
+1045                     EXELON CORP
+804           DOMINION RESOURCES INC
+889                 DUKE ENERGY CORP
+1987              NEXTERA ENERGY INC
+69        AMERICAN ELECTRIC POWER CO
+1094                FIRSTENERGY CORP
+2233    PUBLIC SERVICE ENTRP GRP INC
+2211                       PG&E CORP
+2324                        PPL CORP
+Name: name, dtype: object
+000000000000000000000
+658                  COACH INC
+3037                   VF CORP
+2453         RALPH LAUREN CORP
+1160                FOSSIL INC
+2910         TRACTOR SUPPLY CO
+824       DECKERS OUTDOOR CORP
+1329           HANESBRANDS INC
+715                  CROCS INC
+3191      WOLVERINE WORLD WIDE
+665     COLUMBIA SPORTSWEAR CO
+Name: name, dtype: object
+000000000000000000000
+84      AMERICAN CAPITAL AGENCY CORP
+1264          GENWORTH FINANCIAL INC
+593          CHIMERA INVESTMENT CORP
+1825               MFA FINANCIAL INC
+1563    INVESCO MORTGAGE CAPITAL INC
+2108            OCWEN FINANCIAL CORP
+632           CAPSTEAD MORTGAGE CORP
+2271                        PHH CORP
+2513               REDWOOD TRUST INC
+181           ANWORTH MTG ASSET CORP
+Name: name, dtype: object
+000000000000000000000
+1778               MARRIOTT INTL INC
+1419       HOST HOTELS & RESORTS INC
+1313               HYATT HOTELS CORP
+3193          WYNDHAM WORLDWIDE CORP
+1402    HOSPITALITY PROPERTIES TRUST
+576           CHOICE HOTELS INTL INC
+1699        LASALLE HOTEL PROPERTIES
+2458               RLJ LODGING TRUST
+879       DIAMONDROCK HOSPITALITY CO
+2229         PEBBLEBROOK HOTEL TRUST
+Name: name, dtype: object
+000000000000000000000
+3208                EXXON MOBIL CORP
+787                     CHEVRON CORP
+2180       OCCIDENTAL PETROLEUM CORP
+990     ENTERPRISE PRODS PRTNRS  -LP
+1632               KINDER MORGAN INC
+3147                WILLIAMS COS INC
+3163            WILLIAMS PARTNERS LP
+1893         MARATHON PETROLEUM CORP
+3053              VALERO ENERGY CORP
+2183    PLAINS ALL AMER PIPELNE  -LP
+Name: name, dtype: object
+000000000000000000000
+2993      UNITED PARCEL SERVICE INC
+583      C H ROBINSON WORLDWIDE INC
+1049       EXPEDITORS INTL WASH INC
+1570    HUNT (JB) TRANSPRT SVCS INC
+1749            LANDSTAR SYSTEM INC
+2112           OLD DOMINION FREIGHT
+3118         WERNER ENTERPRISES INC
+1430          HEARTLAND EXPRESS INC
+1640      KNIGHT TRANSPORTATION INC
+2760        SWIFT TRANSPORTATION CO
+Name: name, dtype: object
+000000000000000000000
+1797               MCDONALD'S CORP
+629     CHIPOTLE MEXICAN GRILL INC
+864       DUNKIN' BRANDS GROUP INC
+3117                    WENDY'S CO
+908               BRINKER INTL INC
+470         CHEESECAKE FACTORY INC
+366           BJ'S RESTAURANTS INC
+450         BUFFALO WILD WINGS INC
+2941           TEXAS ROADHOUSE INC
+1566           JACK IN THE BOX INC
+Name: name, dtype: object
+    hier.text_024                                              names
+0               6  johnson & johnson,merck & co,abbott laboratori...
+1               7  general electric co,intel corp,united technolo...
+2               2  procter & gamble co,coca-cola co,philip morris...
+3              14  simon property group inc,equity residential,vo...
+4              13  american international group,metlife inc,prude...
+5              11  at&t inc,verizon communications inc,qualcomm i...
+6               4  schlumberger ltd,halliburton co,national oilwe...
+7              15  apple inc,amazon.com inc,disney (walt) co,comc...
+8               8  goldman sachs group inc,u s bancorp,morgan sta...
+9               5  pfizer inc,amgen inc,bristol-myers squibb co,b...
+10              1  visa inc,american express co,unitedhealth grou...
+11              3  jpmorgan chase & co,wells fargo & co,citigroup...
+12             21  ares capital corp,apollo investment corp,solar...
+13              0  las vegas sands corp,newmont mining corp,wynn ...
+14             12  microsoft corp,intl business machines corp,vmw...
+15             10  3m co,union pacific corp,du pont (e i) de nemo...
+16             23  conocophillips,apache corp,anadarko petroleum ...
+17             18  southern co,exelon corp,dominion resources inc...
+18             17  coach inc,vf corp,ralph lauren corp,fossil inc...
+19             16  american capital agency corp,genworth financia...
+20             22  marriott intl inc,host hotels & resorts inc,hy...
+21              9  exxon mobil corp,chevron corp,occidental petro...
+22             20  united parcel service inc,c h robinson worldwi...
+23             19  mcdonald's corp,chipotle mexican grill inc,dun...
+1010
+1510
+2010
+2020
+2030
+2510
+2520
+2530
+2540
+2550
+3010
+3020
+3030
+3510
+3520
+4010
+4020
+4030
+4510
+4520
+4530
+5010
+5510
+6010
+gics.024
+3010     21
+3030     30
+5010     31
+2510     32
+2030     52
+2540     59
+3020     71
+4530     76
+4030     76
+5510     84
+2520    101
+2020    108
+2530    120
+2550    132
+1510    140
+4520    173
+6010    177
+4020    189
+3510    193
+4510    249
+2010    259
+1010    260
+3520    308
+4010    323
+Name: hier.text_024, dtype: int64
+hier.text_024
+20     26
+22     29
+16     32
+19     38
+21     47
+18     59
+17     66
+13     73
+8      81
+23     87
+9      92
+11     94
+0     111
+4     120
+14    133
+15    139
+6     141
+10    170
+1     224
+12    227
+5     271
+2     289
+3     298
+7     417
+Name: gics.024, dtype: int64
+                 n                                              names
+hier.text_024                                                        
+0              111  johnson & johnson,merck & co,abbott laboratori...
+1              224  general electric co,intel corp,united technolo...
+2              289  procter & gamble co,coca-cola co,philip morris...
+3              298  simon property group inc,equity residential,vo...
+4              120  american international group,metlife inc,prude...
+5              271  at&t inc,verizon communications inc,qualcomm i...
+6              141  schlumberger ltd,halliburton co,national oilwe...
+7              417  apple inc,amazon.com inc,disney (walt) co,comc...
+8               81  goldman sachs group inc,u s bancorp,morgan sta...
+9               92  pfizer inc,amgen inc,bristol-myers squibb co,b...
+10             170  visa inc,american express co,unitedhealth grou...
+11              94  jpmorgan chase & co,wells fargo & co,citigroup...
+12             227  ares capital corp,apollo investment corp,solar...
+13              73  las vegas sands corp,newmont mining corp,wynn ...
+14             133  microsoft corp,intl business machines corp,vmw...
+15             139  3m co,union pacific corp,du pont (e i) de nemo...
+16              32  conocophillips,apache corp,anadarko petroleum ...
+17              66  southern co,exelon corp,dominion resources inc...
+18              59  coach inc,vf corp,ralph lauren corp,fossil inc...
+19              38  american capital agency corp,genworth financia...
+20              26  marriott intl inc,host hotels & resorts inc,hy...
+21              47  exxon mobil corp,chevron corp,occidental petro...
+22              29  united parcel service inc,c h robinson worldwi...
+23              87  mcdonald's corp,chipotle mexican grill inc,dun...
+0 :  johnson & johnson,merck & co,abbott laboratories,lilly (eli) & co,danaher corp,thermo fisher scientific inc,stryker corp,becton dickinson & co,intuitive surgical inc,boston scientific corp
+1 :  general electric co,intel corp,united technologies corp,caterpillar inc,boeing co,freeport-mcmoran cop&gold,ford motor co,general motors co,emerson electric co,texas instruments inc
+2 :  procter & gamble co,coca-cola co,philip morris international,pepsico inc,altria group inc,colgate-palmolive co,starbucks corp,yum brands inc,csx corp,norfolk southern corp
+3 :  simon property group inc,equity residential,vornado realty trust,boston properties inc,hcp inc,annaly capital management,general growth pptys inc,prologis inc,ventas inc,health care reit inc
+4 :  american international group,metlife inc,prudential financial inc,travelers cos inc,loews corp,allstate corp,progressive corp-ohio,hartford financial services,principal financial grp inc,cna financial corp
+5 :  at&t inc,verizon communications inc,qualcomm inc,corning inc,centurylink inc,crown castle intl corp,dish network corp,frontier communications corp,sirius xm radio inc,windstream corp
+6 :  schlumberger ltd,halliburton co,national oilwell varco inc,baker hughes inc,waste management inc,republic services inc,grainger (w w) inc,fluor corp,fastenal co,diamond offshre drilling inc
+7 :  apple inc,amazon.com inc,disney (walt) co,comcast corp,news corp,ebay inc,time warner inc,priceline.com inc,yahoo inc,cbs corp
+8 :  goldman sachs group inc,u s bancorp,morgan stanley,blackrock inc,franklin resources inc,bank of new york mellon corp,cme group inc,state street corp,blackstone group lp,schwab (charles) corp
+9 :  pfizer inc,amgen inc,bristol-myers squibb co,baxter international inc,gilead sciences inc,celgene corp,biogen idec inc,alexion pharmaceuticals inc,vertex pharmaceuticals inc,life technologies corp
+10 :  visa inc,american express co,unitedhealth group inc,cvs caremark corp,mastercard inc,express scripts inc,mckesson corp,aflac inc,marsh & mclennan cos,aetna inc
+11 :  jpmorgan chase & co,wells fargo & co,citigroup inc,bank of america corp,pnc financial svcs group inc,capital one financial corp,bb&t corp,suntrust banks inc,fifth third bancorp,m & t bank corp
+12 :  ares capital corp,apollo investment corp,solar capital ltd,fifth street finance corp,compass diversified holdings,blackrock kelso capital corp,newstar financial inc,pennantpark investment corp,main street capital corp,hercules tech growth cap inc
+13 :  las vegas sands corp,newmont mining corp,wynn resorts ltd,peabody energy corp,avalonbay communities inc,motorola mobility hldgs inc,camden property trust,mgm resorts international,udr inc,royal gold inc
+14 :  microsoft corp,intl business machines corp,vmware inc -cl a,automatic data processing,cognizant tech solutions,motorola solutions inc,symantec corp,xerox corp,citrix systems inc,juniper networks inc
+15 :  3m co,union pacific corp,du pont (e i) de nemours,honeywell international inc,dow chemical,praxair inc,archer-daniels-midland co,air products & chemicals inc,cf industries holdings inc,ecolab inc
+16 :  conocophillips,apache corp,anadarko petroleum corp,devon energy corp,eog resources inc,chesapeake energy corp,hess corp,marathon oil corp,noble energy inc,southwestern energy co
+17 :  southern co,exelon corp,dominion resources inc,duke energy corp,nextera energy inc,american electric power co,firstenergy corp,public service entrp grp inc,pg&e corp,ppl corp
+18 :  coach inc,vf corp,ralph lauren corp,fossil inc,tractor supply co,deckers outdoor corp,hanesbrands inc,crocs inc,wolverine world wide,columbia sportswear co
+19 :  american capital agency corp,genworth financial inc,chimera investment corp,mfa financial inc,invesco mortgage capital inc,ocwen financial corp,capstead mortgage corp,phh corp,redwood trust inc,anworth mtg asset corp
+20 :  marriott intl inc,host hotels & resorts inc,hyatt hotels corp,wyndham worldwide corp,hospitality properties trust,choice hotels intl inc,lasalle hotel properties,rlj lodging trust,diamondrock hospitality co,pebblebrook hotel trust
+21 :  exxon mobil corp,chevron corp,occidental petroleum corp,enterprise prods prtnrs  -lp,kinder morgan inc,williams cos inc,williams partners lp,marathon petroleum corp,valero energy corp,plains all amer pipelne  -lp
+22 :  united parcel service inc,c h robinson worldwide inc,expeditors intl wash inc,hunt (jb) transprt svcs inc,landstar system inc,old dominion freight,werner enterprises inc,heartland express inc,knight transportation inc,swift transportation co
+23 :  mcdonald's corp,chipotle mexican grill inc,dunkin' brands group inc,wendy's co,brinker intl inc,cheesecake factory inc,bj's restaurants inc,buffalo wild wings inc,texas roadhouse inc,jack in the box inc

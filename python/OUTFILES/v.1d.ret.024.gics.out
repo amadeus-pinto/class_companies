@@ -1,0 +1,383 @@
+------------------------
+n= 24
+cl= kmeans_text
+type= gics
+------------------------
+cluster=3510
+cluster=3520
+cluster=4510
+cluster=3030
+cluster=4010
+cluster=4020
+cluster=2030
+cluster=2530
+cluster=2020
+cluster=2010
+cluster=4030
+cluster=1010
+cluster=3010
+cluster=6010
+cluster=2520
+cluster=2550
+cluster=2510
+cluster=4520
+cluster=5010
+cluster=2540
+cluster=4530
+cluster=1510
+cluster=5510
+cluster=3020
+advance group... 
+continuing!!!
+intra-group:
+r2    1.767641e-02
+a     1.000000e+00
+b    -1.409350e-16
+dtype: float64
+extra-group:
+r2    0.057057
+a     0.537005
+b     0.454185
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.541603e-02
+a     1.000000e+00
+b     1.935681e-16
+dtype: float64
+extra-group:
+r2    0.037613
+a     0.726948
+b     0.259889
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.310518e-01
+a     1.000000e+00
+b    -2.869568e-16
+dtype: float64
+extra-group:
+r2    0.065840
+a     0.545426
+b     0.443112
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    5.544258e-02
+a     1.000000e+00
+b    -9.177844e-16
+dtype: float64
+extra-group:
+r2    0.042612
+a     0.435350
+b     0.556387
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.634701e-01
+a     1.000000e+00
+b     9.617350e-16
+dtype: float64
+extra-group:
+r2    0.106056
+a     0.508955
+b     0.480367
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.637347e-01
+a     1.000000e+00
+b     1.114335e-15
+dtype: float64
+extra-group:
+r2    0.077275
+a     0.460918
+b     0.529199
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.016033e-01
+a     1.000000e+00
+b     5.487064e-16
+dtype: float64
+extra-group:
+r2    0.096514
+a     0.660697
+b     0.325850
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.409982e-01
+a     1.000000e+00
+b     8.604228e-16
+dtype: float64
+extra-group:
+r2    0.068168
+a     0.509134
+b     0.480557
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    8.678856e-02
+a     1.000000e+00
+b    -3.216534e-16
+dtype: float64
+extra-group:
+r2    0.079091
+a     0.567448
+b     0.421471
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.787267e-01
+a     1.000000e+00
+b     9.426179e-16
+dtype: float64
+extra-group:
+r2    0.112372
+a     0.704990
+b     0.280009
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.446087e-01
+a     1.000000e+00
+b    -1.130675e-15
+dtype: float64
+extra-group:
+r2    0.089804
+a     0.459621
+b     0.530931
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.682189e-01
+a     1.000000e+00
+b    -2.289835e-16
+dtype: float64
+extra-group:
+r2    0.044845
+a     0.529508
+b     0.459821
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.170370e-01
+a     1.000000e+00
+b     1.184238e-15
+dtype: float64
+extra-group:
+r2    0.053781
+a     0.399630
+b     0.591830
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    3.363673e-01
+a     1.000000e+00
+b     1.367393e-16
+dtype: float64
+extra-group:
+r2    0.067883
+a     0.377935
+b     0.613897
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.482556e-01
+a     1.000000e+00
+b    -5.716000e-16
+dtype: float64
+extra-group:
+r2    0.074597
+a     0.641497
+b     0.344922
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.008232
+a     0.954676
+b     0.070680
+dtype: float64
+extra-group:
+r2    0.094151
+a     0.570778
+b     0.984436
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.646118e-01
+a     1.000000e+00
+b     2.775558e-17
+dtype: float64
+extra-group:
+r2    0.109541
+a     0.724536
+b     0.260754
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.025957e-01
+a     1.000000e+00
+b    -2.301948e-15
+dtype: float64
+extra-group:
+r2    0.068631
+a     0.564188
+b     0.424665
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.243247e-01
+a     1.000000e+00
+b     9.669684e-17
+dtype: float64
+extra-group:
+r2    0.068376
+a     0.585413
+b     0.403649
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    9.458980e-02
+a     1.000000e+00
+b     1.234417e-15
+dtype: float64
+extra-group:
+r2    0.056875
+a     0.448810
+b     0.541877
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.431512e-01
+a     1.000000e+00
+b     3.973430e-16
+dtype: float64
+extra-group:
+r2    0.081214
+a     0.614029
+b     0.375089
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.155942e-01
+a     1.000000e+00
+b    -1.226877e-15
+dtype: float64
+extra-group:
+r2    0.099617
+a     0.677785
+b     0.308001
+dtype: float64
+advance group... 
+!!!!!!!!nan! ARTNA
+continuing!!!
+intra-group:
+r2    2.696852e-01
+a     1.000000e+00
+b     6.742574e-16
+dtype: float64
+!!!!!!!!nan! ARTNA
+extra-group:
+r2    0.041165
+a     0.325636
+b     0.668105
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.334920e-01
+a     1.000000e+00
+b     1.282229e-15
+dtype: float64
+extra-group:
+r2    0.043053
+a     0.358007
+b     0.634407
+dtype: float64
+WRITING THESE!
+**
+                   type        mu     sigma
+0  1d.RETURN.gics.024.i  0.166507  0.100046
+**
+1d.RETURN.gics.024.i (0.16650733354587699, 0.10004590659367273)
+**
+      n        r2         w
+4   323  0.363470  0.099262
+1   308  0.075416  0.094653
+9   259  0.178727  0.079594
+11  256  0.168219  0.078672
+2   248  0.131052  0.076214
+0   193  0.017676  0.059312
+5   189  0.163735  0.058082
+13  177  0.336367  0.054395
+17  173  0.102596  0.053165
+21  138  0.215594  0.042409
+15  132  0.008232  0.040565
+7   120  0.140998  0.036878
+8   107  0.086789  0.032883
+14  101  0.148256  0.031039
+22   82  0.269685  0.025200
+10   76  0.244609  0.023356
+20   76  0.143151  0.023356
+23   71  0.133492  0.021819
+19   59  0.094590  0.018132
+6    52  0.201603  0.015980
+16   32  0.264612  0.009834
+18   31  0.124325  0.009527
+3    30  0.055443  0.009219
+12   21  0.217037  0.006454
+WRITING THESE!
+**
+                   type        mu     sigma
+0  1d.RETURN.gics.024.e  0.073279  0.024012
+**
+1d.RETURN.gics.024.e (0.073278596181352795, 0.0240116508462393)
+**
+      n        r2         w
+4   323  0.106056  0.099262
+1   308  0.037613  0.094653
+9   259  0.112372  0.079594
+11  256  0.044845  0.078672
+2   248  0.065840  0.076214
+0   193  0.057057  0.059312
+5   189  0.077275  0.058082
+13  177  0.067883  0.054395
+17  173  0.068631  0.053165
+21  138  0.099617  0.042409
+15  132  0.094151  0.040565
+7   120  0.068168  0.036878
+8   107  0.079091  0.032883
+14  101  0.074597  0.031039
+22   82  0.041165  0.025200
+10   76  0.089804  0.023356
+20   76  0.081214  0.023356
+23   71  0.043053  0.021819
+19   59  0.056875  0.018132
+6    52  0.096514  0.015980
+16   32  0.109541  0.009834
+18   31  0.068376  0.009527
+3    30  0.042612  0.009219
+12   21  0.053781  0.006454
