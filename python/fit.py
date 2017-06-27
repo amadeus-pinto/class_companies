@@ -97,7 +97,7 @@ def get_w_fits(indf=None,wrstr=None):
 	indf['w']=indf['n']/indf['n'].sum()
 	ws=np.sum(indf['n']/indf['n'].sum()*indf['r2'])
 	indf.sort('n',inplace=True,ascending=False)
-        indf=indf.loc[indf.n>0]
+        indf=indf.loc[indf.n>1]
         b= get_w_mu_sig(values=indf.r2.values.tolist(),weights=indf.w.values.tolist())
         l = pd.DataFrame([[wrstr,b[0],b[1]]])#,columns=['type','mu','sigma'])
         l.columns  = ['type','mu','sigma']
@@ -145,7 +145,6 @@ if __name__ == '__main__':
 	c = pd.read_csv(cpath)	
 
         c,cname=get_target(df=c,cname=cname,ncl=ncl)
-
 
 	Al=[]
         Bl=[]

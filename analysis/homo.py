@@ -19,6 +19,8 @@ if __name__ == '__main__':
 
     gpath='../python/class_csvs/s.'+var+'*.csv'
     gfi=glob.glob(gpath)
+    print gfi
+    sys.exit()
     
     l=[]
     for g in gfi:

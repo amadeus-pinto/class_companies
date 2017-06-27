@@ -19,9 +19,12 @@ if __name__ == '__main__':
 
     
     rootpath='../data/fa_data/'
-    path=rootpath+'Basic_Factors_Cluster_Richie.txt'
+    #path=rootpath+'Basic_Factors_Cluster_Richie.txt'
+    path=rootpath+'Basic_Factor_Cluster_Richie_V2.txt'
 
     df = pd.read_csv(path,sep='\t',header=0,na_values='NULL')
+
+    print df.head()
 
     print df.info(verbose=True,null_counts=True)
     #df = df.dropna(how='any',axis=0)
@@ -36,7 +39,7 @@ if __name__ == '__main__':
     for x in exl:
         df.drop(x,1,inplace=True)
 
-    df.rename(columns={'gsubind':'gics8','ticker':'symbol'},inplace=True)
+    df.rename(columns={'gsubind':'gics8','ticker':'symbol','conm':'name'},inplace=True)
     print df.groupby('datadate').count()
     df=df.loc[df.datadate=='2011-06-30']
     df.drop('datadate',1,inplace=True)
@@ -57,13 +60,12 @@ if __name__ == '__main__':
 
 
     ql = [x for x in df.columns if 'q' in x]
-
     q='q0'
 
     for q in ql:
         qstr=rootpath+q+'.csv'
-        bcols = ['symbol','fyr_used','factor',q]
-        anccols = ['symbol','fyr_used','gics8','mktval']
+        bcols =   ['symbol','fyr_used','factor',q]
+        anccols = ['name','symbol','fyr_used','gics8','mktval']
     
         a = pd.pivot_table(df[bcols],values=q, index='symbol',columns = ['factor'])# .reset_index()
         b = df[anccols].drop_duplicates()
