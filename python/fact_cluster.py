@@ -113,8 +113,8 @@ if __name__ == '__main__':
         df =  get_factor_df(q=quarter)
 
 
-        df.dropna(thresh=30,inplace=True)
-        df.fillna(0,inplace=True)
+        df.dropna(thresh=15,inplace=True)
+        #df.fillna(0,inplace=True)
 
 
         #rdq =  [x for x in df.columns if 'xrdq2' in x]
@@ -122,6 +122,7 @@ if __name__ == '__main__':
         #    df[r].fillna(0,inplace=True)
 
         print df.info(verbose=True,null_counts=True)
+        sys.exit()
         
         objl = [key for key in dict(df.dtypes) if dict(df.dtypes)[key] in ['object', 'string']]
         ancdrl = ['mc','gics8','fyr_used']

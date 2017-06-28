@@ -55,7 +55,6 @@ if __name__ == '__main__':
     print 'sgms'
     print df.loc[df.symbol=='SGMS']
     print df.info()
-    print df.info()
     print 'n_symbols=', len(df.symbol.unique())
 
 

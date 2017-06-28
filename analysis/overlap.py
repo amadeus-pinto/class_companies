@@ -64,10 +64,10 @@ if __name__ == '__main__':
     q=pd.DataFrame(q)
     q.columns=[mycol,'names']
     q.names = q['names'].apply(lambda x: x.lower())
-    print q
 
 
     textvals=groups[mycol].value_counts()
+    print textvals
     li=[]
     for l in textvals.index.levels[0]:
         print l

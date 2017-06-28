@@ -71,6 +71,7 @@ def do_kmeans(X=None,n_clusters=None,articles_df=None,features=None):
 	
 	assigned_cluster = kmeans.transform(X).argmin(axis=1)
         print assigned_cluster
+        print 'kmeans_class dist:',Counter(assigned_cluster)
 
 	articles_df['kmeans.text_'+str(n_clusters).zfill(3)] = assigned_cluster
 	top_centroids = kmeans.cluster_centers_.argsort()[:,-1:-20:-1]
@@ -105,6 +106,7 @@ def do_hiercl(X=None,n_clusters=None,articles_df=None,features=None):
     X=X.toarray()
     assigned_cluster = model.fit_predict(X)
     #assigned_cluster = model.transform(X).argmin(axis=1)
+    print 'hc_class dist:',Counter(assigned_cluster)
     
     articles_df['hier.text_'+str(n_clusters).zfill(3)] = assigned_cluster
     print articles_df
