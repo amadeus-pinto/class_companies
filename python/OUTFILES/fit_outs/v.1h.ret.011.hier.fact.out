@@ -1,0 +1,178 @@
+------------------------
+n= 11
+cl= hier_fact
+type= fact
+------------------------
+cluster=5
+cluster=6
+cluster=3
+cluster=1
+cluster=2
+cluster=0
+cluster=7
+cluster=4
+cluster=10
+cluster=8
+cluster=9
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.729550e-14
+dtype: float64
+extra-group:
+r2    0.000411
+a     0.026278
+b     0.973659
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.103722
+a     0.999985
+b     0.000015
+dtype: float64
+extra-group:
+r2    0.001533
+a     0.012201
+b     0.987731
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    7.121690e-02
+a     1.000000e+00
+b     1.086757e-14
+dtype: float64
+extra-group:
+r2    0.001598
+a     0.015314
+b     0.984610
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.091147
+a     0.999983
+b     0.000017
+dtype: float64
+extra-group:
+r2    0.001629
+a     0.012925
+b     0.987000
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.089071
+a     0.999999
+b     0.000001
+dtype: float64
+extra-group:
+r2    0.001609
+a     0.015083
+b     0.984832
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     8.193446e-14
+dtype: float64
+extra-group:
+r2    0.000421
+a     0.008510
+b     0.991440
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     7.815970e-14
+dtype: float64
+extra-group:
+r2    0.000168
+a    -0.290392
+b     1.295324
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -7.194245e-14
+dtype: float64
+extra-group:
+r2    0.000003
+a     0.001384
+b     0.998620
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+WRITING THESE!
+**
+                        type        mu     sigma
+0  1h.RETURN.hier.fact_011.i  0.097849  0.008179
+**
+1h.RETURN.hier.fact_011.i (0.097848903914895757, 0.0081786877436299706)
+**
+     n        r2         w
+1  654  0.103722  0.601656
+3  342  0.091147  0.314627
+2   44  0.071217  0.040478
+4   43  0.089071  0.039558
+WRITING THESE!
+**
+                        type        mu     sigma
+0  1h.RETURN.hier.fact_011.e  0.001569  0.000045
+**
+1h.RETURN.hier.fact_011.e (0.0015692804941843962, 4.4851610983129929e-05)
+**
+     n        r2         w
+1  654  0.001533  0.601656
+3  342  0.001629  0.314627
+2   44  0.001598  0.040478
+4   43  0.001609  0.039558

@@ -1,0 +1,186 @@
+------------------------
+n= 11
+cl= kmeans_text
+type= random
+------------------------
+cluster=6
+cluster=8
+cluster=4
+cluster=1
+cluster=3
+cluster=2
+cluster=7
+cluster=10
+cluster=11
+cluster=5
+cluster=9
+advance group... 
+continuing!!!
+intra-group:
+r2    0.046811
+a     0.999970
+b     0.000030
+dtype: float64
+extra-group:
+r2    0.001603
+a     0.016537
+b     0.983394
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.019603
+a     0.999986
+b     0.000014
+dtype: float64
+extra-group:
+r2    0.001635
+a     0.011737
+b     0.988237
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.077775
+a     0.999955
+b     0.000045
+dtype: float64
+extra-group:
+r2    0.001728
+a     0.012822
+b     0.987116
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.003849
+a     0.989021
+b     0.013903
+dtype: float64
+extra-group:
+r2    0.067556
+a     0.570848
+b     0.695020
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.040082
+a     0.999987
+b     0.000013
+dtype: float64
+extra-group:
+r2    0.001467
+a     0.013553
+b     0.986397
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.028984
+a     0.999992
+b     0.000008
+dtype: float64
+extra-group:
+r2    0.001672
+a     0.019566
+b     0.980349
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.044494
+a     0.999983
+b     0.000017
+dtype: float64
+extra-group:
+r2    0.001470
+a     0.012446
+b     0.987514
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.058192
+a     0.999920
+b     0.000080
+dtype: float64
+extra-group:
+r2    0.001646
+a     0.016501
+b     0.983430
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.101683
+a     0.999982
+b     0.000018
+dtype: float64
+extra-group:
+r2    0.001788
+a     0.014867
+b     0.985046
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.055051
+a     0.999969
+b     0.000031
+dtype: float64
+extra-group:
+r2    0.001855
+a     0.018242
+b     0.981678
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.069274
+a     0.999961
+b     0.000039
+dtype: float64
+extra-group:
+r2    0.001723
+a     0.014381
+b     0.985552
+dtype: float64
+WRITING THESE!
+**
+                     type        mu     sigma
+0  1h.RETURN.random.011.i  0.049342  0.025798
+**
+1h.RETURN.random.011.i (0.049341808034319645, 0.025798418311380189)
+**
+      n        r2         w
+5   322  0.028984  0.098864
+0   320  0.046811  0.098250
+10  307  0.069274  0.094259
+4   305  0.040082  0.093644
+1   300  0.019603  0.092109
+2   295  0.077775  0.090574
+7   294  0.058192  0.090267
+6   292  0.044494  0.089653
+3   279  0.003849  0.085662
+8   279  0.101683  0.085662
+9   264  0.055051  0.081056
+WRITING THESE!
+**
+                     type        mu     sigma
+0  1h.RETURN.random.011.e  0.007301  0.018444
+**
+1h.RETURN.random.011.e (0.0073005282128247488, 0.018443640896747292)
+**
+      n        r2         w
+5   322  0.001672  0.098864
+0   320  0.001603  0.098250
+10  307  0.001723  0.094259
+4   305  0.001467  0.093644
+1   300  0.001635  0.092109
+2   295  0.001728  0.090574
+7   294  0.001646  0.090267
+6   292  0.001470  0.089653
+3   279  0.067556  0.085662
+8   279  0.001788  0.085662
+9   264  0.001855  0.081056

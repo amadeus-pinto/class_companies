@@ -1,0 +1,23 @@
+------------------------
+n= 11
+cl= kmeans_text
+type= gics
+------------------------
+cluster=35
+cluster=25
+cluster=20
+cluster=45
+cluster=40
+cluster=10
+cluster=30
+cluster=60
+cluster=15
+cluster=50
+cluster=55
+advance group... 
+continuing!!!
+intra-group:
+r2    0.030468
+a     0.999990
+b     0.000010
+dtype: float64

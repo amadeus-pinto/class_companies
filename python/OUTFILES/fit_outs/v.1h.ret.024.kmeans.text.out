@@ -1,0 +1,381 @@
+------------------------
+n= 24
+cl= kmeans_text
+type= text
+------------------------
+cluster=0
+cluster=1
+cluster=2
+cluster=3
+cluster=4
+cluster=5
+cluster=6
+cluster=7
+cluster=8
+cluster=9
+cluster=10
+cluster=11
+cluster=12
+cluster=13
+cluster=14
+cluster=15
+cluster=16
+cluster=17
+cluster=18
+cluster=19
+cluster=20
+cluster=21
+cluster=22
+cluster=23
+advance group... 
+continuing!!!
+intra-group:
+r2    0.011220
+a     0.999998
+b     0.000002
+dtype: float64
+extra-group:
+r2    0.001403
+a     0.016051
+b     0.983991
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.289028
+a     0.999953
+b     0.000047
+dtype: float64
+extra-group:
+r2    0.003841
+a     0.021555
+b     0.978335
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    2.516366e-02
+a     1.000000e+00
+b     6.615740e-14
+dtype: float64
+extra-group:
+r2    0.000900
+a     0.027026
+b     0.973003
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.108742
+a     0.999968
+b     0.000032
+dtype: float64
+extra-group:
+r2    0.001962
+a     0.015118
+b     0.984793
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.095095
+a     0.999983
+b     0.000017
+dtype: float64
+extra-group:
+r2    0.001922
+a     0.017438
+b     0.982470
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.140044
+a     0.999976
+b     0.000024
+dtype: float64
+extra-group:
+r2    0.002275
+a     0.019055
+b     0.980838
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.152473
+a     0.999991
+b     0.000009
+dtype: float64
+extra-group:
+r2    0.001181
+a     0.012668
+b     0.987261
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.007713
+a     0.994510
+b     0.008589
+dtype: float64
+extra-group:
+r2    0.051145
+a     0.465767
+b     1.096135
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.093864
+a     1.000001
+b    -0.000001
+dtype: float64
+extra-group:
+r2    0.000678
+a     0.024513
+b     0.975403
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.050488
+a     0.999994
+b     0.000006
+dtype: float64
+extra-group:
+r2    0.000732
+a     0.015060
+b     0.984937
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.039796
+a     0.999981
+b     0.000019
+dtype: float64
+extra-group:
+r2    0.001057
+a     0.013724
+b     0.986206
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.160199
+a     0.999897
+b     0.000103
+dtype: float64
+extra-group:
+r2    0.001859
+a     0.012012
+b     0.987921
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.048719
+a     0.999999
+b     0.000001
+dtype: float64
+extra-group:
+r2    0.001335
+a     0.018139
+b     0.981798
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.255352
+a     0.999974
+b     0.000026
+dtype: float64
+extra-group:
+r2    0.001100
+a     0.008499
+b     0.991445
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.093429
+a     0.999908
+b     0.000092
+dtype: float64
+extra-group:
+r2    0.002329
+a     0.017811
+b     0.982117
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.097246
+a     1.000007
+b    -0.000007
+dtype: float64
+extra-group:
+r2    0.001527
+a     0.013618
+b     0.986301
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.159505
+a     0.999923
+b     0.000077
+dtype: float64
+extra-group:
+r2    0.002367
+a     0.014163
+b     0.985754
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.187934
+a     0.999987
+b     0.000013
+dtype: float64
+extra-group:
+r2    0.002953
+a     0.020312
+b     0.979567
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.187074
+a     0.999904
+b     0.000096
+dtype: float64
+extra-group:
+r2    0.002417
+a     0.016225
+b     0.983696
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.180808
+a     1.000001
+b    -0.000001
+dtype: float64
+extra-group:
+r2    0.002321
+a     0.017710
+b     0.982189
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.048796
+a     0.999988
+b     0.000012
+dtype: float64
+extra-group:
+r2    0.001363
+a     0.010774
+b     0.989179
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.112454
+a     1.000004
+b    -0.000004
+dtype: float64
+extra-group:
+r2    0.001680
+a     0.017279
+b     0.982624
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.954271e-02
+a     1.000000e+00
+b     6.635840e-14
+dtype: float64
+extra-group:
+r2    0.000979
+a     0.005893
+b     0.994144
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.092309
+a     1.000003
+b    -0.000003
+dtype: float64
+extra-group:
+r2    0.000736
+a     0.007145
+b     0.992806
+dtype: float64
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1h.RETURN.kmeans.text_024.i  0.107917  0.073209
+**
+1h.RETURN.kmeans.text_024.i (0.10791700536758109, 0.073208732960226688)
+**
+      n        r2         w
+3   317  0.108742  0.097389
+20  285  0.048796  0.087558
+14  245  0.093429  0.075269
+18  197  0.187074  0.060522
+5   185  0.140044  0.056836
+4   183  0.095095  0.056221
+13  174  0.255352  0.053456
+9   154  0.050488  0.047312
+0   144  0.011220  0.044240
+10  137  0.039796  0.042089
+7   132  0.007713  0.040553
+8   116  0.093864  0.035637
+1   116  0.289028  0.035637
+2   112  0.025164  0.034409
+17  111  0.187934  0.034101
+12  100  0.048719  0.030722
+6    98  0.152473  0.030108
+22   91  0.019543  0.027957
+16   85  0.159505  0.026114
+19   78  0.180808  0.023963
+15   60  0.097246  0.018433
+23   48  0.092309  0.014747
+11   45  0.160199  0.013825
+21   42  0.112454  0.012903
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1h.RETURN.kmeans.text_024.e  0.003744  0.009772
+**
+1h.RETURN.kmeans.text_024.e (0.0037439162462730041, 0.0097718122747146516)
+**
+      n        r2         w
+3   317  0.001962  0.097389
+20  285  0.001363  0.087558
+14  245  0.002329  0.075269
+18  197  0.002417  0.060522
+5   185  0.002275  0.056836
+4   183  0.001922  0.056221
+13  174  0.001100  0.053456
+9   154  0.000732  0.047312
+0   144  0.001403  0.044240
+10  137  0.001057  0.042089
+7   132  0.051145  0.040553
+8   116  0.000678  0.035637
+1   116  0.003841  0.035637
+2   112  0.000900  0.034409
+17  111  0.002953  0.034101
+12  100  0.001335  0.030722
+6    98  0.001181  0.030108
+22   91  0.000979  0.027957
+16   85  0.002367  0.026114
+19   78  0.002321  0.023963
+15   60  0.001527  0.018433
+23   48  0.000736  0.014747
+11   45  0.001859  0.013825
+21   42  0.001680  0.012903

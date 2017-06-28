@@ -1,0 +1,959 @@
+doing n_clusters= 11
+reading ../data/yf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3370 entries, 0 to 3369
+Data columns (total 2 columns):
+symbol     3370 non-null object
+content    3370 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+reading ../data/gf_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3617 entries, 0 to 3616
+Data columns (total 2 columns):
+symbol     3617 non-null object
+content    3617 non-null object
+dtypes: object(2)
+memory usage: 56.6+ KB
+None
+reading ../data/mw_data.csv
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3368 entries, 0 to 3367
+Data columns (total 2 columns):
+symbol     3368 non-null object
+content    3368 non-null object
+dtypes: object(2)
+memory usage: 52.7+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 4 columns):
+symbol       3818 non-null object
+yfcontent    3371 non-null object
+gfcontent    3618 non-null object
+mwcontent    3368 non-null object
+dtypes: object(4)
+memory usage: 149.1+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3818 entries, 0 to 3817
+Data columns (total 2 columns):
+symbol     3818 non-null object
+content    3818 non-null object
+dtypes: object(2)
+memory usage: 89.5+ KB
+None
+0    Agilent Technologies, Inc. provides applicatio...
+1    Alcoa Corporation produces and sells bauxite, ...
+2    AAC Holdings, Inc. provides inpatient substanc...
+3    American Airlines Group Inc., through its subs...
+4    Altisource Asset Management Corporation, an as...
+Name: content, dtype: object
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3762 entries, 0 to 3843
+Data columns (total 4 columns):
+symbol    3762 non-null object
+name      3762 non-null object
+mc        3762 non-null float64
+gics8     3762 non-null int32
+dtypes: float64(1), int32(1), object(2)
+memory usage: 132.3+ KB
+None
+preview
+  symbol                                            content  \
+0      A  Agilent Technologies, Inc. provides applicatio...   
+1     AA  Alcoa Corporation produces and sells bauxite, ...   
+2    AAC  AAC Holdings, Inc. provides inpatient substanc...   
+3   AAMC  Altisource Asset Management Corporation, an as...   
+4   AAME  Atlantic American Corporation, through its sub...   
+
+                         name            mc     gics8  
+0    AGILENT TECHNOLOGIES INC  17983.699509  35203010  
+1                  ALCOA CORP   5880.946347  15104010  
+2            AAC HOLDINGS INC    157.941638  35102020  
+3  ALTISOURCE ASSET MGMT CORP    113.704504  60102040  
+4      ATLANTIC AMERICAN CORP     75.561401  40301030  
+Initialization complete
+Iteration  0, inertia 4802.489
+Iteration  1, inertia 2635.809
+Iteration  2, inertia 2580.967
+Iteration  3, inertia 2562.199
+Iteration  4, inertia 2553.094
+Iteration  5, inertia 2549.113
+Iteration  6, inertia 2546.885
+Iteration  7, inertia 2545.898
+Iteration  8, inertia 2545.431
+Iteration  9, inertia 2544.974
+Iteration 10, inertia 2544.576
+Iteration 11, inertia 2544.049
+Iteration 12, inertia 2543.616
+Iteration 13, inertia 2543.313
+Iteration 14, inertia 2542.944
+Iteration 15, inertia 2542.643
+Iteration 16, inertia 2542.223
+Iteration 17, inertia 2541.566
+Iteration 18, inertia 2541.094
+Iteration 19, inertia 2540.197
+Iteration 20, inertia 2539.554
+Iteration 21, inertia 2539.122
+Iteration 22, inertia 2538.721
+Iteration 23, inertia 2538.386
+Iteration 24, inertia 2538.248
+Iteration 25, inertia 2538.041
+Iteration 26, inertia 2537.846
+Iteration 27, inertia 2537.250
+Iteration 28, inertia 2535.062
+Iteration 29, inertia 2533.947
+Iteration 30, inertia 2533.922
+Iteration 31, inertia 2533.909
+Iteration 32, inertia 2533.905
+Converged at iteration 32: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4773.028
+Iteration  1, inertia 2620.405
+Iteration  2, inertia 2577.581
+Iteration  3, inertia 2555.318
+Iteration  4, inertia 2548.812
+Iteration  5, inertia 2546.394
+Iteration  6, inertia 2544.707
+Iteration  7, inertia 2543.475
+Iteration  8, inertia 2542.809
+Iteration  9, inertia 2541.655
+Iteration 10, inertia 2537.824
+Iteration 11, inertia 2537.059
+Iteration 12, inertia 2536.372
+Iteration 13, inertia 2535.898
+Iteration 14, inertia 2535.232
+Iteration 15, inertia 2534.180
+Iteration 16, inertia 2532.740
+Iteration 17, inertia 2531.381
+Iteration 18, inertia 2530.653
+Iteration 19, inertia 2530.184
+Iteration 20, inertia 2529.918
+Iteration 21, inertia 2529.718
+Iteration 22, inertia 2529.551
+Iteration 23, inertia 2529.452
+Iteration 24, inertia 2529.377
+Iteration 25, inertia 2529.343
+Iteration 26, inertia 2529.328
+Converged at iteration 26: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4776.255
+Iteration  1, inertia 2632.611
+Iteration  2, inertia 2600.227
+Iteration  3, inertia 2586.898
+Iteration  4, inertia 2573.398
+Iteration  5, inertia 2561.346
+Iteration  6, inertia 2556.744
+Iteration  7, inertia 2552.760
+Iteration  8, inertia 2547.457
+Iteration  9, inertia 2545.191
+Iteration 10, inertia 2543.790
+Iteration 11, inertia 2542.528
+Iteration 12, inertia 2541.493
+Iteration 13, inertia 2540.546
+Iteration 14, inertia 2539.762
+Iteration 15, inertia 2539.101
+Iteration 16, inertia 2538.703
+Iteration 17, inertia 2538.420
+Iteration 18, inertia 2538.155
+Iteration 19, inertia 2537.927
+Iteration 20, inertia 2537.651
+Iteration 21, inertia 2537.436
+Iteration 22, inertia 2537.276
+Iteration 23, inertia 2537.202
+Iteration 24, inertia 2537.142
+Iteration 25, inertia 2537.034
+Iteration 26, inertia 2536.935
+Iteration 27, inertia 2536.875
+Iteration 28, inertia 2536.846
+Iteration 29, inertia 2536.805
+Iteration 30, inertia 2536.770
+Iteration 31, inertia 2536.759
+Iteration 32, inertia 2536.754
+Converged at iteration 32: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4810.164
+Iteration  1, inertia 2594.129
+Iteration  2, inertia 2555.016
+Iteration  3, inertia 2545.888
+Iteration  4, inertia 2542.912
+Iteration  5, inertia 2541.254
+Iteration  6, inertia 2540.150
+Iteration  7, inertia 2539.658
+Iteration  8, inertia 2539.259
+Iteration  9, inertia 2538.772
+Iteration 10, inertia 2537.805
+Iteration 11, inertia 2537.059
+Iteration 12, inertia 2536.536
+Iteration 13, inertia 2535.953
+Iteration 14, inertia 2535.495
+Iteration 15, inertia 2535.185
+Iteration 16, inertia 2534.974
+Iteration 17, inertia 2534.801
+Iteration 18, inertia 2534.663
+Iteration 19, inertia 2534.569
+Iteration 20, inertia 2534.431
+Iteration 21, inertia 2534.222
+Iteration 22, inertia 2534.070
+Iteration 23, inertia 2533.960
+Iteration 24, inertia 2533.898
+Iteration 25, inertia 2533.861
+Iteration 26, inertia 2533.816
+Iteration 27, inertia 2533.804
+Iteration 28, inertia 2533.797
+Iteration 29, inertia 2533.789
+Iteration 30, inertia 2533.781
+Iteration 31, inertia 2533.766
+Iteration 32, inertia 2533.735
+Iteration 33, inertia 2533.730
+Converged at iteration 33: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4778.281
+Iteration  1, inertia 2601.958
+Iteration  2, inertia 2547.080
+Iteration  3, inertia 2533.743
+Iteration  4, inertia 2529.470
+Iteration  5, inertia 2527.941
+Iteration  6, inertia 2527.251
+Iteration  7, inertia 2526.911
+Iteration  8, inertia 2526.685
+Iteration  9, inertia 2526.526
+Iteration 10, inertia 2526.430
+Iteration 11, inertia 2526.351
+Iteration 12, inertia 2526.292
+Iteration 13, inertia 2526.242
+Iteration 14, inertia 2526.212
+Iteration 15, inertia 2526.181
+Iteration 16, inertia 2526.121
+Iteration 17, inertia 2526.108
+Iteration 18, inertia 2526.105
+Iteration 19, inertia 2526.102
+Converged at iteration 19: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4794.267
+Iteration  1, inertia 2632.722
+Iteration  2, inertia 2579.574
+Iteration  3, inertia 2560.765
+Iteration  4, inertia 2548.886
+Iteration  5, inertia 2543.875
+Iteration  6, inertia 2539.605
+Iteration  7, inertia 2537.913
+Iteration  8, inertia 2537.033
+Iteration  9, inertia 2536.441
+Iteration 10, inertia 2536.084
+Iteration 11, inertia 2535.724
+Iteration 12, inertia 2535.310
+Iteration 13, inertia 2535.125
+Iteration 14, inertia 2535.087
+Iteration 15, inertia 2535.036
+Iteration 16, inertia 2534.967
+Iteration 17, inertia 2534.933
+Iteration 18, inertia 2534.902
+Iteration 19, inertia 2534.869
+Iteration 20, inertia 2534.824
+Iteration 21, inertia 2534.801
+Iteration 22, inertia 2534.789
+Iteration 23, inertia 2534.781
+Iteration 24, inertia 2534.762
+Iteration 25, inertia 2534.758
+Iteration 26, inertia 2534.752
+Iteration 27, inertia 2534.742
+Iteration 28, inertia 2534.728
+Iteration 29, inertia 2534.703
+Iteration 30, inertia 2534.688
+Iteration 31, inertia 2534.672
+Iteration 32, inertia 2534.662
+Iteration 33, inertia 2534.658
+Converged at iteration 33: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4812.625
+Iteration  1, inertia 2581.251
+Iteration  2, inertia 2554.109
+Iteration  3, inertia 2544.847
+Iteration  4, inertia 2539.283
+Iteration  5, inertia 2535.391
+Iteration  6, inertia 2533.308
+Iteration  7, inertia 2532.366
+Iteration  8, inertia 2531.375
+Iteration  9, inertia 2530.921
+Iteration 10, inertia 2530.662
+Iteration 11, inertia 2530.515
+Iteration 12, inertia 2530.422
+Iteration 13, inertia 2530.345
+Iteration 14, inertia 2530.322
+Iteration 15, inertia 2530.259
+Iteration 16, inertia 2530.175
+Iteration 17, inertia 2530.163
+Converged at iteration 17: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4661.622
+Iteration  1, inertia 2577.723
+Iteration  2, inertia 2544.692
+Iteration  3, inertia 2540.362
+Iteration  4, inertia 2537.375
+Iteration  5, inertia 2535.540
+Iteration  6, inertia 2534.952
+Iteration  7, inertia 2534.840
+Iteration  8, inertia 2534.778
+Iteration  9, inertia 2534.722
+Iteration 10, inertia 2534.677
+Iteration 11, inertia 2534.631
+Iteration 12, inertia 2534.608
+Iteration 13, inertia 2534.571
+Iteration 14, inertia 2534.516
+Iteration 15, inertia 2534.443
+Iteration 16, inertia 2534.383
+Iteration 17, inertia 2534.346
+Iteration 18, inertia 2534.300
+Iteration 19, inertia 2534.243
+Iteration 20, inertia 2534.210
+Iteration 21, inertia 2534.190
+Iteration 22, inertia 2534.171
+Iteration 23, inertia 2534.147
+Iteration 24, inertia 2534.129
+Iteration 25, inertia 2534.103
+Iteration 26, inertia 2534.061
+Iteration 27, inertia 2534.016
+Iteration 28, inertia 2533.981
+Iteration 29, inertia 2533.885
+Iteration 30, inertia 2533.754
+Iteration 31, inertia 2533.461
+Iteration 32, inertia 2533.100
+Iteration 33, inertia 2532.543
+Iteration 34, inertia 2532.022
+Iteration 35, inertia 2531.613
+Iteration 36, inertia 2531.384
+Iteration 37, inertia 2531.275
+Iteration 38, inertia 2531.182
+Iteration 39, inertia 2531.117
+Iteration 40, inertia 2531.102
+Iteration 41, inertia 2531.095
+Iteration 42, inertia 2531.087
+Converged at iteration 42: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4770.331
+Iteration  1, inertia 2605.540
+Iteration  2, inertia 2559.785
+Iteration  3, inertia 2549.834
+Iteration  4, inertia 2545.964
+Iteration  5, inertia 2543.656
+Iteration  6, inertia 2541.894
+Iteration  7, inertia 2540.996
+Iteration  8, inertia 2540.427
+Iteration  9, inertia 2540.099
+Iteration 10, inertia 2539.730
+Iteration 11, inertia 2539.396
+Iteration 12, inertia 2538.964
+Iteration 13, inertia 2538.475
+Iteration 14, inertia 2537.482
+Iteration 15, inertia 2535.582
+Iteration 16, inertia 2533.412
+Iteration 17, inertia 2530.590
+Iteration 18, inertia 2528.650
+Iteration 19, inertia 2528.423
+Iteration 20, inertia 2528.269
+Iteration 21, inertia 2528.206
+Iteration 22, inertia 2528.141
+Iteration 23, inertia 2527.868
+Iteration 24, inertia 2527.436
+Iteration 25, inertia 2527.169
+Iteration 26, inertia 2527.087
+Iteration 27, inertia 2527.037
+Iteration 28, inertia 2526.984
+Iteration 29, inertia 2526.909
+Iteration 30, inertia 2526.836
+Iteration 31, inertia 2526.779
+Iteration 32, inertia 2526.712
+Iteration 33, inertia 2526.668
+Iteration 34, inertia 2526.625
+Iteration 35, inertia 2526.608
+Iteration 36, inertia 2526.564
+Iteration 37, inertia 2526.513
+Iteration 38, inertia 2526.467
+Iteration 39, inertia 2526.395
+Iteration 40, inertia 2526.238
+Iteration 41, inertia 2526.132
+Iteration 42, inertia 2526.015
+Iteration 43, inertia 2525.937
+Iteration 44, inertia 2525.788
+Iteration 45, inertia 2525.615
+Iteration 46, inertia 2525.492
+Iteration 47, inertia 2525.268
+Iteration 48, inertia 2525.035
+Iteration 49, inertia 2524.777
+Iteration 50, inertia 2524.461
+Iteration 51, inertia 2524.245
+Iteration 52, inertia 2524.149
+Iteration 53, inertia 2524.063
+Iteration 54, inertia 2524.000
+Iteration 55, inertia 2523.911
+Iteration 56, inertia 2523.852
+Iteration 57, inertia 2523.802
+Iteration 58, inertia 2523.776
+Iteration 59, inertia 2523.763
+Iteration 60, inertia 2523.747
+Iteration 61, inertia 2523.732
+Converged at iteration 61: center shift 0.000000e+00 within tolerance 9.206262e-08
+Initialization complete
+Iteration  0, inertia 4702.213
+Iteration  1, inertia 2612.224
+Iteration  2, inertia 2578.374
+Iteration  3, inertia 2567.623
+Iteration  4, inertia 2548.434
+Iteration  5, inertia 2538.755
+Iteration  6, inertia 2536.886
+Iteration  7, inertia 2535.786
+Iteration  8, inertia 2534.278
+Iteration  9, inertia 2533.076
+Iteration 10, inertia 2531.944
+Iteration 11, inertia 2531.272
+Iteration 12, inertia 2530.861
+Iteration 13, inertia 2530.703
+Iteration 14, inertia 2530.564
+Iteration 15, inertia 2530.480
+Iteration 16, inertia 2530.432
+Iteration 17, inertia 2530.418
+Iteration 18, inertia 2530.402
+Converged at iteration 18: center shift 0.000000e+00 within tolerance 9.206262e-08
+[ 7  7  9 ..., 10  9  9]
+top centroids:
+[[841 861 856 263 549 208 188 905 753 825 292 735 827 204 460 705 971 336
+  594]
+ [882 735 208 798 126 799  24  73 370 124 648 827 427 372 371 876 577 198
+  647]
+ [943 187 694 208 141 919 284 297 681 115 733 692 283 873 144 143 944 311
+  162]
+ [483 484 600 266 532 342 824 389 841 147 207 549 486 588 208 388  85 451
+  358]
+ [343 744 767 949 483 780 208 638 768 666 486 745 433 205 845 830 166 451
+  284]
+ [153 735 416 573 841 208 417 895 288 827 431 896 691 117 921 680 753 287
+  943]
+ [394 613 642 328 255 208 347 107 917 734 395 744 585 827 880 690 983 527
+  476]
+ [735 896 827 341 208 457 712 556 212 564 861 569  76 957 841 557 904 238
+  279]
+ [471 519 745 160 735 827 514 208 841 779 409 201 416 687 708 251 358  70
+   95]
+ [841 208 827 648 978 937 328 651 753 953 876 735 338 828 477  61 428 549
+  637]
+ [532 101 102 841 201 275  27 358 208 343 600 815 424 767 253 276 231 100
+  549]]
+    kmeans.text_011                                           features
+0                 0  [services, solutions, software, data, manageme...
+1                 1  [stores, products, company, restaurants, brand...
+2                 2  [treatment, clinical, phase, company, cancer, ...
+3                 3  [investment, investments, mortgage, debt, loan...
+4                 4  [estate, properties, real, trust, investment, ...
+5                 5  [care, products, health, medical, services, co...
+6                 6  [gas, natural, oil, energy, crude, company, ex...
+7                 7  [products, systems, segment, equipment, compan...
+8                 8  [insurance, life, property, casualty, products...
+9                 9  [services, company, segment, operates, water, ...
+10               10  [loans, bank, banking, services, commercial, d...
+n,inertia 11 2523.73168266
+cluster 0:
+                            name             mc     gics8
+0                      APPLE INC  794094.976211  45202030
+156                 ALPHABET INC  657848.626617  45101010
+250               MICROSOFT CORP  522924.322929  45103020
+364                     AT&T INC  233297.240554  50101020
+393                     VISA INC  211559.697815  45102020
+410   VERIZON COMMUNICATIONS INC  183734.783495  50101020
+280                  ORACLE CORP  181759.542465  45103020
+192                   INTEL CORP  165850.985748  45301020
+86             CISCO SYSTEMS INC  157119.655798  45201020
+179  INTL BUSINESS MACHINES CORP  141657.339506  45102010
+[[u'services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
+cluster 1:
+                             name             mc     gics8
+708           WAL-MART STORES INC  236341.922791  30101040
+547                HOME DEPOT INC  187307.096329  25504030
+606                   PEPSICO INC  163062.898254  30201030
+586               MCDONALD'S CORP  119813.145523  25301040
+700  WALGREENS BOOTS ALLIANCE INC   88022.629905  30101010
+638                STARBUCKS CORP   86601.410637  25301040
+597                      NIKE INC   85375.360504  25203020
+484         COSTCO WHOLESALE CORP   74936.009681  30101040
+580          LOWE'S COMPANIES INC   72787.302643  25504030
+587    MONDELEZ INTERNATIONAL INC   68441.160278  30202030
+[[u'stores, products, company, restaurants, brands, retail, accessories, apparel, food, brand, operates, segment, home, footwear, foods, states, merchandise, com, operated']]
+cluster 2:
+                            name             mc     gics8
+739                    AMGEN INC  116274.357086  35201010
+716                   ABBVIE INC  104441.344030  35201010
+779                 CELGENE CORP   91689.401192  35201010
+765      BRISTOL-MYERS SQUIBB CO   88575.657990  35202010
+833          GILEAD SCIENCES INC   84210.010399  35201010
+759                   BIOGEN INC   53624.844169  35201010
+919    REGENERON PHARMACEUTICALS   48598.100961  35201010
+958   VERTEX PHARMACEUTICALS INC   29351.716469  35201010
+850                  INCYTE CORP   26347.805886  35201010
+737  ALEXION PHARMACEUTICALS INC   26134.079590  35201010
+[[u'treatment, clinical, phase, company, cancer, therapeutics, development, diseases, patients, biopharmaceutical, product, pharmaceuticals, developing, stage, candidates, candidate, trial, drug, cell']]
+cluster 3:
+                              name            mc     gics8
+1029       GOLDMAN SACHS GROUP INC  84943.354559  40203020
+1060                MORGAN STANLEY  76503.752463  40203020
+993                  BLACKROCK INC  62855.652022  40203010
+1084  PNC FINANCIAL SVCS GROUP INC  56919.600296  40101015
+1094         SCHWAB (CHARLES) CORP  51241.724034  40203020
+991   BANK OF NEW YORK MELLON CORP  48042.318193  40203010
+1099             STATE STREET CORP  30067.400170  40203010
+990         FRANKLIN RESOURCES INC  23534.445603  40203010
+1071           NORTHERN TRUST CORP  19914.289022  40203010
+983     TD AMERITRADE HOLDING CORP  19298.399597  40203020
+[[u'investment, investments, mortgage, debt, loans, equity, securities, funds, services, capital, companies, management, invests, million, company, fund, asset, income, financial']]
+cluster 4:
+                           name            mc     gics8
+1274   SIMON PROPERTY GROUP INC  48082.260566  60101070
+1250             PUBLIC STORAGE  37506.181407  60101080
+1249               PROLOGIS INC  29039.766948  60101020
+1197              WELLTOWER INC  26587.627811  60101050
+1138  AVALONBAY COMMUNITIES INC  26435.738280  60101060
+1179         EQUITY RESIDENTIAL  24014.481987  60101060
+1292                 VENTAS INC  23928.412643  60101050
+1191                    GGP INC  19761.541373  60101070
+1146      BOSTON PROPERTIES INC  18503.446124  60101040
+1170   DIGITAL REALTY TRUST INC  18292.843967  60101080
+[[u'estate, properties, real, trust, investment, reit, company, office, realty, ownership, invests, property, hotels, communities, shopping, self, centers, income, development']]
+cluster 5:
+                              name             mc     gics8
+1436             JOHNSON & JOHNSON  342172.590836  35202010
+1489           PROCTER & GAMBLE CO  229101.167328  30301010
+1488                    PFIZER INC  192283.940965  35202010
+1462                    MERCK & CO  175086.441015  35202010
+1533        UNITEDHEALTH GROUP INC  165449.247055  35102030
+1445              LILLY (ELI) & CO   86254.191826  35202010
+1377               CVS HEALTH CORP   78688.742821  30101010
+1302           ABBOTT LABORATORIES   74581.993837  35101010
+1524  THERMO FISHER SCIENTIFIC INC   67188.109435  35203010
+1360          COLGATE-PALMOLIVE CO   65301.840425  30301010
+[[u'care, products, health, medical, services, company, healthcare, surgical, diagnostic, segment, hospitals, systems, pharmaceutical, blood, therapy, patient, provides, devices, treatment']]
+cluster 6:
+                              name             mc     gics8
+1783              EXXON MOBIL CORP  346374.750000  10102010
+1595                  CHEVRON CORP  199250.531264  10102010
+1677            NEXTERA ENERGY INC   64087.921143  55101010
+1605              DUKE ENERGY CORP   58275.000000  55101010
+1585                CONOCOPHILLIPS   57426.365596  10102020
+1622  ENTERPRISE PRODS PRTNRS  -LP   56635.612403  10102040
+1621             EOG RESOURCES INC   52928.803815  10102020
+1740                   SOUTHERN CO   49501.192685  55101010
+1597        DOMINION RESOURCES INC   49263.279808  55103010
+1697     OCCIDENTAL PETROLEUM CORP   46096.632965  10102010
+[[u'gas, natural, oil, energy, crude, company, exploration, basin, texas, production, gathering, properties, midstream, segment, storage, petroleum, wells, liquids, interests']]
+cluster 7:
+                             name             mc     gics8
+1972          GENERAL ELECTRIC CO  238635.296259  20105010
+2102             ALTRIA GROUP INC  136505.157282  30203010
+2100                        3M CO  116605.055559  20105010
+1845                    BOEING CO  107467.497103  20101010
+2003  HONEYWELL INTERNATIONAL INC   99223.533015  20105010
+2300     UNITED TECHNOLOGIES CORP   95642.526253  20101010
+2287        TEXAS INSTRUMENTS INC   79050.149702  45301020
+2144                  NVIDIA CORP   77845.954285  45301020
+2071         LOCKHEED MARTIN CORP   77373.919368  20101010
+1923                 DOW CHEMICAL   74010.755364  15101020
+[[u'products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
+cluster 8:
+                              name            mc     gics8
+2351  AMERICAN INTERNATIONAL GROUP  57858.846625  40301030
+2400                   METLIFE INC  53860.600495  40301020
+2346                     AETNA INC  46514.289583  35102030
+2414      PRUDENTIAL FINANCIAL INC  44410.669890  40301020
+2360                    CIGNA CORP  41020.343264  35102030
+2402          MARSH & MCLENNAN COS  38369.296112  40301010
+2428             TRAVELERS COS INC  33773.871233  40301040
+2354                 ALLSTATE CORP  30922.800446  40301040
+2349                     AFLAC INC  29340.707926  40301020
+2410         PROGRESSIVE CORP-OHIO  24148.012823  40301040
+[[u'insurance, life, property, casualty, products, segment, liability, company, services, reinsurance, group, commercial, health, personal, policies, coverage, financial, annuities, automobile']]
+cluster 9:
+                             name             mc     gics8
+2468               AMAZON.COM INC  458158.215332  25502020
+2593                 FACEBOOK INC  427918.690613  45101010
+2685                 COCA-COLA CO  187157.396740  30201030
+2528                 COMCAST CORP  183410.139714  25401025
+2785  PHILIP MORRIS INTERNATIONAL  176405.715031  30203010
+2562             DISNEY (WALT) CO  170688.000488  25401030
+2850             SCHLUMBERGER LTD   99216.270424  10101020
+2798        REYNOLDS AMERICAN INC   93572.119539  30203010
+2900    UNITED PARCEL SERVICE INC   89672.112122  20301010
+2772          PRICELINE GROUP INC   88329.024590  25502020
+[[u'services, company, segment, operates, water, transportation, energy, operations, provides, united, states, products, entertainment, segments, international, america, homes, management, offers']]
+cluster 10:
+                            name             mc     gics8
+3118         JPMORGAN CHASE & CO  298293.420587  40101010
+3256            WELLS FARGO & CO  261728.984637  40101010
+2965        BANK OF AMERICA CORP  226813.078317  40101010
+2997               CITIGROUP INC  165415.745681  40101010
+3246                 U S BANCORP   85840.615600  40101010
+3028  CAPITAL ONE FINANCIAL CORP   38268.779929  40202010
+2969                   BB&T CORP   34183.018967  40101015
+3216          SUNTRUST BANKS INC   26262.447692  40101015
+3138             M & T BANK CORP   24151.364442  40101015
+3042     DISCOVER FINANCIAL SVCS   22665.826093  40202010
+[[u'loans, bank, banking, services, commercial, deposit, accounts, financial, company, estate, mortgage, savings, holding, real, credit, deposits, consumer, bancorp, management']]
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3264 entries, 0 to 3263
+Data columns (total 7 columns):
+kmeans.text_011    3264 non-null int64
+features           3264 non-null object
+symbol             3264 non-null object
+content            3264 non-null object
+name               3264 non-null object
+mc                 3264 non-null float64
+gics8              3264 non-null int32
+dtypes: float64(1), int32(1), int64(1), object(4)
+memory usage: 191.2+ KB
+None
+     symbol                                            content  \
+0         A  Agilent Technologies, Inc. provides applicatio...   
+1        AA  Alcoa Corporation produces and sells bauxite, ...   
+2       AAC  AAC Holdings, Inc. provides inpatient substanc...   
+3      AAMC  Altisource Asset Management Corporation, an as...   
+4      AAME  Atlantic American Corporation, through its sub...   
+5       AAN  Aaron?s, Inc. operates an omnichannel provider...   
+6      AAOI  Applied Optoelectronics, Inc. designs, manufac...   
+7      AAON  AAON, Inc., together with its subsidiaries, en...   
+8       AAP  Advance Auto Parts, Inc. provides automotive r...   
+9      AAPL  Apple Inc. designs, manufactures, and markets ...   
+10      AAT  American Assets Trust, Inc. operates as a real...   
+11     AAWW  Atlas Air Worldwide Holdings, Inc., through it...   
+12       AB  AllianceBernstein Holding L.P. is publicly own...   
+13     ABAX  Abaxis, Inc. develops, manufactures, markets, ...   
+14     ABBV  AbbVie Inc. discovers, develops, manufactures,...   
+15      ABC  AmerisourceBergen Corporation sources and dist...   
+16     ABCB  Ameris Bancorp operates as the holding company...   
+17     ABCD  Cambium Learning Group, Inc. operates as an ed...   
+18     ABCO  The Advisory Board Company provides best pract...   
+19     ABDC  Alcentra Capital Corporation is a business dev...   
+20      ABG  Asbury Automotive Group, Inc. operates as an a...   
+21     ABIO  ARCA biopharma, Inc., a biopharmaceutical comp...   
+22      ABM  ABM Industries Incorporated provides integrate...   
+23     ABMD  ABIOMED, Inc. engages in the research, develop...   
+24      ABR  Arbor Realty Trust, Inc. invests in a diversif...   
+25      ABT  Abbott Laboratories manufactures and sells hea...   
+26     ABTL  Autobytel Inc. operates as an automotive marke...   
+27     ACAD  ACADIA Pharmaceuticals Inc., a biopharmaceutic...   
+28      ACC  American Campus Communities, Inc. is a real es...   
+29     ACCO  ACCO Brands Corporation designs, manufactures,...   
+...     ...                                                ...   
+3234   ZEUS  Olympic Steel, Inc. processes and distributes ...   
+3235   ZFGN  Zafgen, Inc., a biopharmaceutical company, foc...   
+3236   ZGNX  Zogenix, Inc., a pharmaceutical company, devel...   
+3237   ZION  Zions Bancorporation, a financial holding comp...   
+3238   ZIOP  ZIOPHARM Oncology, Inc., a biotechnology compa...   
+3239   ZIXI  Zix Corporation provides email encryption, dat...   
+3240     ZN  Zion Oil &amp; Gas, Inc. engages in the explor...   
+3241   ZNGA  Zynga Inc. develops, markets, and operates soc...   
+3242   ZOES  Zoe&#x27;s Kitchen, Inc., through its subsidia...   
+3243    ZTS  Zoetis Inc. engages in the discovery, developm...   
+3244   ZUMZ  Zumiez Inc. operates as a specialty retailer o...   
+3245   AFAM    Almost Family, Inc. is a provider of home he...   
+3246   AGTC    Applied Genetic Technologies Corporation is ...   
+3247    ATU    Actuant Corporation designs, manufactures an...   
+3248    BDE    Black Diamond, Inc., through its ownership o...   
+3249   DORM    Dorman Products, Inc. is a supplier of repla...   
+3250   FRSH    Papa Murphy's Holdings, Inc. is a holding co...   
+3251    GHC    Graham Holdings Company is a diversified edu...   
+3252   HRTX    Heron Therapeutics, Inc. is a biotechnology ...   
+3253   IMDZ    Immune Design Corp. is a clinical-stage immu...   
+3254   INFU    InfuSystem Holdings, Inc. is a provider of i...   
+3255    KWR    Quaker Chemical Corporation is a provider of...   
+3256   LIVE    Live Ventures Incorporated is a holding comp...   
+3257    MPO    Molopo Energy Limited is an Australia-based ...   
+3258   ONVO    Organovo Holdings, Inc. is an early commerci...   
+3259    OZM    Och-Ziff Capital Management Group LLC (Och-Z...   
+3260   PTEN    Patterson-UTI Energy, Inc. is an oilfield se...   
+3261   XBKS    Xenith Bankshares, Inc., formerly Hampton Ro...   
+3262   NYLD      NRG Yield, Inc. operates as a dividend gro...   
+3263   VBIV      VBI Vaccines, Inc. is a biopharmaceutical ...   
+
+                              name             mc     gics8  kmeans.text_011  \
+0         AGILENT TECHNOLOGIES INC   17983.699509  35203010                7   
+1                       ALCOA CORP    5880.946347  15104010                7   
+2                 AAC HOLDINGS INC     157.941638  35102020                9   
+3       ALTISOURCE ASSET MGMT CORP     113.704504  60102040                3   
+4           ATLANTIC AMERICAN CORP      75.561401  40301030                8   
+5                      AARON'S INC    2468.972825  25504060                1   
+6      APPLIED OPTOELECTRONICS INC    1214.596263  45201020                7   
+7                         AAON INC    1868.100153  20102010                7   
+8           ADVANCE AUTO PARTS INC   10952.463666  25504050                1   
+9                        APPLE INC  794094.976211  45202030                0   
+10       AMERICAN ASSETS TRUST INC    1812.215115  60101010                4   
+11    ATLAS AIR WORLDWIDE HLDG INC    1163.147455  20301010                9   
+12    ALLIANCEBERNSTEIN HOLDING LP    2023.837189  40203010                3   
+13                      ABAXIS INC    1049.322781  35101010                5   
+14                      ABBVIE INC  104441.344030  35201010                2   
+15          AMERISOURCEBERGEN CORP   18925.695025  35102010                5   
+16                  AMERIS BANCORP    1631.819578  40101015               10   
+17      CAMBIUM LEARNING GROUP INC     230.592872  25302010                0   
+18               ADVISORY BOARD CO    2084.183746  20202020                0   
+19           ALCENTRA CAPITAL CORP     181.736523  40203010                3   
+20     ASBURY AUTOMOTIVE GROUP INC    1194.009014  25504050                9   
+21              ARCA BIOPHARMA INC      22.014888  35201010                2   
+22              ABM INDUSTRIES INC    2305.177016  20201050                0   
+23                     ABIOMED INC    5819.029433  35101010                5   
+24          ARBOR REALTY TRUST INC     423.616548  40204010                4   
+25             ABBOTT LABORATORIES   74581.993837  35101010                5   
+26                   AUTOBYTEL INC     144.699981  45101010                9   
+27      ACADIA PHARMACEUTICALS INC    3331.460516  35201010                2   
+28     AMERICAN CAMPUS COMMUNITIES    6253.346401  60101060                4   
+29                ACCO BRANDS CORP    1270.787157  20201060                1   
+...                            ...            ...       ...              ...   
+3234             OLYMPIC STEEL INC     186.714536  15104050                7   
+3235                    ZAFGEN INC     110.770419  35201010                2   
+3236                   ZOGENIX INC     339.938092  35202010                2   
+3237          ZIONS BANCORPORATION    8018.710471  40101015               10   
+3238         ZIOPHARM ONCOLOGY INC     974.329095  35201010                2   
+3239                      ZIX CORP     314.967260  45103010                0   
+3240            ZION OIL & GAS INC      68.549842  10102020                6   
+3241                     ZYNGA INC    2931.524325  45103030                9   
+3242             ZOE'S KITCHEN INC     347.953191  25301040                1   
+3243                    ZOETIS INC   29435.489833  35202010                5   
+3244                    ZUMIEZ INC     380.411245  25504010                1   
+3245             ALMOST FAMILY INC     777.768104  35102015                5   
+3246  APPLIED GENETIC TECHNOLOGIES      92.192697  35201010                2   
+3247           ACTUANT CORP  -CL A    1487.613339  20106020                7   
+3248             BLACK DIAMOND INC     177.076706  25202010                7   
+3249           DORMAN PRODUCTS INC    2809.012346  25101010                7   
+3250    PAPA MURPHY'S HOLDINGS INC      82.220786  25301040                1   
+3251            GRAHAM HOLDINGS CO    3306.928754  25302010                9   
+3252        HERON THERAPEUTICS INC     757.126464  35201010                2   
+3253            IMMUNE DESIGN CORP     171.148480  35201010                2   
+3254       INFUSYSTEM HOLDINGS INC      29.494607  35102015                5   
+3255          QUAKER CHEMICAL CORP    1821.106792  15101050                7   
+3256             LIVE VENTURES INC      22.041822  25201020                9   
+3257    MIDSTATES PETROLEUM CO INC     431.911357  10102020                6   
+3258         ORGANOVO HOLDINGS INC     299.795725  35201010                5   
+3259     OCH-ZIFF CAPITAL MGMT LLC    1054.596235  40203010                3   
+3260      PATTERSON-UTI ENERGY INC    3672.547897  10101010                6   
+3261         XENITH BANKSHARES INC     621.124373  40101015               10   
+3262                 NRG YIELD INC    3124.882474  55105010                9   
+3263              VBI VACCINES INC     169.278261  35201010                9   
+
+      hier.text_011  
+0                 3  
+1                 3  
+2                 4  
+3                 1  
+4                 6  
+5                 4  
+6                 2  
+7                 3  
+8                 3  
+9                 2  
+10                1  
+11                4  
+12                8  
+13                3  
+14                5  
+15                2  
+16                7  
+17                2  
+18                2  
+19               10  
+20                3  
+21                5  
+22                2  
+23                3  
+24                1  
+25                3  
+26                2  
+27                5  
+28                1  
+29                4  
+...             ...  
+3234              3  
+3235              5  
+3236              5  
+3237              7  
+3238              5  
+3239              2  
+3240              0  
+3241              2  
+3242              9  
+3243              3  
+3244              4  
+3245              2  
+3246              5  
+3247              3  
+3248              4  
+3249              3  
+3250              4  
+3251              2  
+3252              5  
+3253              5  
+3254              3  
+3255              3  
+3256              2  
+3257              0  
+3258              3  
+3259              8  
+3260              3  
+3261              7  
+3262              3  
+3263              5  
+
+[3264 rows x 7 columns]
+cluster 3:
+                             name             mc     gics8
+1586            JOHNSON & JOHNSON  342172.590836  35202010
+1221          GENERAL ELECTRIC CO  238635.296259  20105010
+1901                   MERCK & CO  175086.441015  35202010
+1514                   INTEL CORP  165850.985748  45301020
+1864                        3M CO  116605.055559  20105010
+302                     BOEING CO  107467.497103  20101010
+1396  HONEYWELL INTERNATIONAL INC   99223.533015  20105010
+2632             SCHLUMBERGER LTD   99216.270424  10101020
+3017     UNITED TECHNOLOGIES CORP   95642.526253  20101010
+2987           UNION PACIFIC CORP   86694.379925  20304010
+[nan]
+cluster 4:
+                             name             mc     gics8
+3152          WAL-MART STORES INC  236341.922791  30101040
+2263          PROCTER & GAMBLE CO  229101.167328  30301010
+1346               HOME DEPOT INC  187307.096329  25504030
+1641                 COCA-COLA CO  187157.396740  30201030
+2300  PHILIP MORRIS INTERNATIONAL  176405.715031  30203010
+2239                  PEPSICO INC  163062.898254  30201030
+1878             ALTRIA GROUP INC  136505.157282  30203010
+2393        REYNOLDS AMERICAN INC   93572.119539  30203010
+2548               STARBUCKS CORP   86601.410637  25301040
+2014                     NIKE INC   85375.360504  25203020
+[nan]
+cluster 1:
+                           name            mc     gics8
+2680   SIMON PROPERTY GROUP INC  48082.260566  60101070
+1762       LAS VEGAS SANDS CORP  45025.198792  25301010
+1778          MARRIOTT INTL INC  39063.929535  25301020
+2292               PROLOGIS INC  29039.766948  60101020
+1342              WELLTOWER INC  26587.627811  60101050
+272   AVALONBAY COMMUNITIES INC  26435.738280  60101060
+999          EQUITY RESIDENTIAL  24014.481987  60101060
+3088                 VENTAS INC  23928.412643  60101050
+1379  HILTON WORLDWIDE HOLDINGS  20582.026548  25301020
+1234                    GGP INC  19761.541373  60101070
+[nan]
+cluster 6:
+                              name            mc     gics8
+95    AMERICAN INTERNATIONAL GROUP  57858.846625  40301030
+1824                   METLIFE INC  53860.600495  40301020
+2346      PRUDENTIAL FINANCIAL INC  44410.669890  40301020
+2905             TRAVELERS COS INC  33773.871233  40301040
+128                  ALLSTATE CORP  30922.800446  40301040
+2267         PROGRESSIVE CORP-OHIO  24148.012823  40301040
+1370   HARTFORD FINANCIAL SERVICES  17976.152733  40301030
+2252   PRINCIPAL FINANCIAL GRP INC  17444.454780  40301020
+1661                    LOEWS CORP  15505.034743  40301030
+1719         LINCOLN NATIONAL CORP  14525.515096  40301020
+[nan]
+cluster 2:
+                            name             mc     gics8
+9                      APPLE INC  794094.976211  45202030
+1267                ALPHABET INC  657848.626617  45101010
+1916              MICROSOFT CORP  522924.322929  45103020
+172               AMAZON.COM INC  458158.215332  25502020
+1067                FACEBOOK INC  427918.690613  45101010
+2785                    AT&T INC  233297.240554  50101020
+3023                    VISA INC  211559.697815  45102020
+3094  VERIZON COMMUNICATIONS INC  183734.783495  50101020
+625                 COMCAST CORP  183410.139714  25401025
+2160                 ORACLE CORP  181759.542465  45103020
+[nan]
+cluster 8:
+                              name            mc     gics8
+3003                   U S BANCORP  85840.615600  40101010
+1287       GOLDMAN SACHS GROUP INC  84943.354559  40203020
+1908                MORGAN STANLEY  76503.752463  40203020
+383                  BLACKROCK INC  62855.652022  40203010
+2554         SCHWAB (CHARLES) CORP  51241.724034  40203020
+367   BANK OF NEW YORK MELLON CORP  48042.318193  40203010
+627                  CME GROUP INC  39185.817005  40203040
+1460     INTERCONTINENTAL EXCHANGE  34743.870090  40203040
+2746             STATE STREET CORP  30067.400170  40203010
+342         FRANKLIN RESOURCES INC  23534.445603  40203010
+[nan]
+cluster 5:
+                            name             mc     gics8
+2251                  PFIZER INC  192283.940965  35202010
+150                    AMGEN INC  116274.357086  35201010
+14                    ABBVIE INC  104441.344030  35201010
+542                 CELGENE CORP   91689.401192  35201010
+395      BRISTOL-MYERS SQUIBB CO   88575.657990  35202010
+1241         GILEAD SCIENCES INC   84210.010399  35201010
+361                   BIOGEN INC   53624.844169  35201010
+2418   REGENERON PHARMACEUTICALS   48598.100961  35201010
+310     BAXTER INTERNATIONAL INC   30972.544387  35101010
+3076  VERTEX PHARMACEUTICALS INC   29351.716469  35201010
+[nan]
+cluster 7:
+                              name             mc     gics8
+1594           JPMORGAN CHASE & CO  298293.420587  40101010
+3123              WELLS FARGO & CO  261728.984637  40101010
+304           BANK OF AMERICA CORP  226813.078317  40101010
+460                  CITIGROUP INC  165415.745681  40101010
+2306  PNC FINANCIAL SVCS GROUP INC   56919.600296  40101015
+656     CAPITAL ONE FINANCIAL CORP   38268.779929  40202010
+317                      BB&T CORP   34183.018967  40101015
+2731            SUNTRUST BANKS INC   26262.447692  40101015
+1924               M & T BANK CORP   24151.364442  40101015
+1618                       KEYCORP   19403.429055  40101015
+[nan]
+cluster 10:
+                           name           mc     gics8
+208           ARES CAPITAL CORP  6986.399837  40203010
+2351      PROSPECT CAPITAL CORP  2933.068413  40203010
+1185         FS INVESTMENT CORP  2213.626926  40203010
+1774   MAIN STREET CAPITAL CORP  2110.522481  40203010
+563            CARLYLE GROUP LP  1480.366699  40203010
+98       APOLLO INVESTMENT CORP  1384.076377  40203010
+2913  TPG SPECIALTY LENDING INC  1229.692203  40203010
+1210      GOLUB CAPITAL BDC INC  1160.912529  40203010
+1427       HERCULES CAPITAL INC  1104.565386  40203010
+2022  NEW MOUNTAIN FINANCE CORP  1008.923457  40203010
+[nan]
+cluster 0:
+                              name             mc     gics8
+3208              EXXON MOBIL CORP  346374.750000  10102010
+787                   CHEVRON CORP  199250.531264  10102010
+1987            NEXTERA ENERGY INC   64087.921143  55101010
+889               DUKE ENERGY CORP   58275.000000  55101010
+671                 CONOCOPHILLIPS   57426.365596  10102020
+990   ENTERPRISE PRODS PRTNRS  -LP   56635.612403  10102040
+987              EOG RESOURCES INC   52928.803815  10102020
+2912                     TESLA INC   51393.181898  25102010
+2667                   SOUTHERN CO   49501.192685  55101010
+804         DOMINION RESOURCES INC   49263.279808  55103010
+[nan]
+cluster 9:
+                              name             mc     gics8
+1797               MCDONALD'S CORP  119813.145523  25301040
+629     CHIPOTLE MEXICAN GRILL INC   13901.373196  25301040
+880         DARDEN RESTAURANTS INC   10749.076881  25301040
+864       DUNKIN' BRANDS GROUP INC    5136.746689  25301040
+3117                    WENDY'S CO    3917.073716  25301040
+1286                   GRUBHUB INC    3787.429678  45101010
+2941           TEXAS ROADHOUSE INC    3427.128173  25301040
+1566           JACK IN THE BOX INC    3060.001061  25301040
+2371  PAPA JOHNS INTERNATIONAL INC    2870.008259  25301040
+470         CHEESECAKE FACTORY INC    2808.586780  25301040
+[nan]
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 3264 entries, 0 to 3263
+Data columns (total 7 columns):
+symbol             3264 non-null object
+content            3264 non-null object
+name               3264 non-null object
+mc                 3264 non-null float64
+gics8              3264 non-null int32
+kmeans.text_011    3264 non-null int64
+hier.text_011      3264 non-null int64
+dtypes: float64(1), int32(1), int64(2), object(3)
+memory usage: 191.2+ KB
+None
+done

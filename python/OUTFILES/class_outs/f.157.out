@@ -1,0 +1,2651 @@
+doing n_clusters= 157
+getting quarter=q0 from ../data/fa_data/q0.csv
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 1595 entries, 0 to 3264
+Data columns (total 32 columns):
+symbol                        1595 non-null object
+act_m_che__ppent              1595 non-null float64
+ap__act_m_che_ppent           1595 non-null float64
+ap_revtq2                     1595 non-null float64
+capxq__act_m_che_ppent        1595 non-null float64
+capxq_revtq2                  1595 non-null float64
+cfroq__act_m_che_ppent        1595 non-null float64
+cfroq_revtq2                  1595 non-null float64
+cogsq_revtq2                  1595 non-null float64
+dpq_capxq                     1595 non-null float64
+dpq_gpq                       1595 non-null float64
+dpq_revtq2                    1595 non-null float64
+gpq__act_m_che_ppent          1595 non-null float64
+gpq_revtq2                    1595 non-null float64
+invt__act_m_che               1595 non-null float64
+invt_revtq2                   1595 non-null float64
+lct_m_dlc__act_m_che          1595 non-null float64
+lct_m_dlc__act_m_che_ppent    1595 non-null float64
+oiadpq_revtq2                 1595 non-null float64
+ppent_ppegt                   1595 non-null float64
+rect__act_m_che               1595 non-null float64
+rect_revtq2                   1595 non-null float64
+revtltm_pqoq                  1595 non-null float64
+revtq2_ppent                  1595 non-null float64
+revtq2_pqoq                   1595 non-null float64
+revtq2_pyoy                   1595 non-null float64
+xrdq2__act_m_che_ppent        1595 non-null float64
+xrdq2_revtq2                  1595 non-null float64
+name                          1595 non-null object
+fyr_used                      1595 non-null float64
+gics8                         1595 non-null int32
+mc                            1595 non-null float64
+dtypes: float64(29), int32(1), object(2)
+memory usage: 405.0+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 1595 entries, 0 to 3264
+Data columns (total 27 columns):
+act_m_che__ppent              1595 non-null float64
+ap__act_m_che_ppent           1595 non-null float64
+ap_revtq2                     1595 non-null float64
+capxq__act_m_che_ppent        1595 non-null float64
+capxq_revtq2                  1595 non-null float64
+cfroq__act_m_che_ppent        1595 non-null float64
+cfroq_revtq2                  1595 non-null float64
+cogsq_revtq2                  1595 non-null float64
+dpq_capxq                     1595 non-null float64
+dpq_gpq                       1595 non-null float64
+dpq_revtq2                    1595 non-null float64
+gpq__act_m_che_ppent          1595 non-null float64
+gpq_revtq2                    1595 non-null float64
+invt__act_m_che               1595 non-null float64
+invt_revtq2                   1595 non-null float64
+lct_m_dlc__act_m_che          1595 non-null float64
+lct_m_dlc__act_m_che_ppent    1595 non-null float64
+oiadpq_revtq2                 1595 non-null float64
+ppent_ppegt                   1595 non-null float64
+rect__act_m_che               1595 non-null float64
+rect_revtq2                   1595 non-null float64
+revtltm_pqoq                  1595 non-null float64
+revtq2_ppent                  1595 non-null float64
+revtq2_pqoq                   1595 non-null float64
+revtq2_pyoy                   1595 non-null float64
+xrdq2__act_m_che_ppent        1595 non-null float64
+xrdq2_revtq2                  1595 non-null float64
+dtypes: float64(27)
+memory usage: 348.9 KB
+None
+                             mu   sd   100%   75%   50%   25%    00%
+act_m_che__ppent            0.0  1.0  27.09  0.00 -0.21 -0.32  -0.40
+ap__act_m_che_ppent         0.0  1.0  15.04  0.17 -0.22 -0.49  -0.84
+ap_revtq2                   0.0  1.0  35.03  0.02 -0.09 -0.19  -0.34
+capxq__act_m_che_ppent      0.0  1.0  13.41  0.18 -0.29 -0.55  -0.94
+capxq_revtq2                0.0  1.0  30.74 -0.08 -0.17 -0.22  -0.29
+cfroq__act_m_che_ppent      0.0  1.0   5.77  0.19 -0.10 -0.24 -21.83
+cfroq_revtq2                0.0  1.0   0.25  0.07  0.04  0.01 -38.60
+cogsq_revtq2                0.0  1.0  39.48  0.08 -0.01 -0.13  -0.38
+dpq_capxq                   0.0  1.0  35.25 -0.01 -0.12 -0.18  -5.49
+dpq_gpq                     0.0  1.0  31.60  0.04 -0.07 -0.12 -19.72
+dpq_revtq2                  0.0  1.0  30.14  0.03 -0.19 -0.30  -0.47
+gpq__act_m_che_ppent        0.0  1.0  11.66  0.23 -0.29 -0.58  -1.70
+gpq_revtq2                  0.0  1.0   0.38  0.13  0.01 -0.08 -39.48
+invt__act_m_che             0.0  1.0   2.93  0.70  0.05 -0.84  -1.51
+invt_revtq2                 0.0  1.0  39.82 -0.01 -0.04 -0.07  -0.08
+lct_m_dlc__act_m_che        0.0  1.0  33.39  0.04 -0.17 -0.28  -0.53
+lct_m_dlc__act_m_che_ppent  0.0  1.0  14.78  0.09 -0.25 -0.47  -0.83
+oiadpq_revtq2               0.0  1.0   0.14  0.05  0.04  0.03 -39.32
+ppent_ppegt                 0.0  1.0   2.92  0.63 -0.08 -0.70  -2.49
+rect__act_m_che             0.0  1.0   2.49  0.65 -0.04 -0.61  -2.48
+rect_revtq2                 0.0  1.0  36.44  0.08 -0.04 -0.17  -0.48
+revtltm_pqoq                0.0  1.0  39.23  0.01 -0.05 -0.09  -0.72
+revtq2_ppent                0.0  1.0  15.94 -0.02 -0.26 -0.39  -0.50
+revtq2_pqoq                 0.0  1.0  24.23  0.06 -0.04 -0.11 -23.02
+revtq2_pyoy                 0.0  1.0  32.17  0.01 -0.08 -0.14  -0.78
+xrdq2__act_m_che_ppent      0.0  1.0  19.14  0.02 -0.36 -0.36  -0.36
+xrdq2_revtq2                0.0  1.0  39.62 -0.02 -0.05 -0.05  -0.05
+kmeans_class dist: Counter({83: 67, 156: 67, 138: 61, 140: 59, 95: 52, 72: 45, 24: 44, 61: 40, 45: 38, 6: 37, 55: 35, 92: 33, 126: 33, 30: 32, 68: 32, 33: 31, 130: 31, 36: 28, 29: 26, 136: 26, 82: 25, 0: 23, 139: 23, 102: 22, 50: 21, 71: 21, 60: 20, 101: 20, 122: 20, 10: 19, 37: 19, 78: 19, 151: 19, 64: 18, 58: 17, 90: 17, 144: 17, 148: 17, 70: 16, 116: 16, 38: 15, 88: 14, 14: 13, 28: 13, 96: 12, 119: 12, 19: 11, 147: 11, 103: 10, 110: 10, 128: 10, 2: 9, 132: 9, 84: 8, 89: 8, 109: 8, 31: 7, 44: 7, 49: 7, 65: 7, 67: 7, 93: 7, 111: 7, 43: 6, 76: 6, 153: 6, 22: 5, 47: 5, 74: 5, 17: 4, 32: 4, 57: 4, 91: 4, 107: 4, 117: 4, 16: 3, 20: 3, 75: 3, 86: 3, 98: 3, 99: 3, 106: 3, 125: 3, 135: 3, 154: 3, 46: 2, 73: 2, 94: 2, 114: 2, 142: 2, 149: 2, 152: 2, 155: 2, 1: 1, 3: 1, 4: 1, 5: 1, 7: 1, 8: 1, 9: 1, 11: 1, 12: 1, 13: 1, 15: 1, 18: 1, 21: 1, 23: 1, 25: 1, 26: 1, 27: 1, 34: 1, 35: 1, 39: 1, 40: 1, 41: 1, 42: 1, 48: 1, 51: 1, 52: 1, 53: 1, 54: 1, 56: 1, 59: 1, 62: 1, 63: 1, 66: 1, 69: 1, 77: 1, 79: 1, 80: 1, 81: 1, 85: 1, 87: 1, 97: 1, 100: 1, 104: 1, 105: 1, 108: 1, 112: 1, 113: 1, 115: 1, 118: 1, 120: 1, 121: 1, 123: 1, 124: 1, 127: 1, 129: 1, 131: 1, 133: 1, 134: 1, 137: 1, 141: 1, 143: 1, 145: 1, 146: 1, 150: 1})
+_n,inertia 157 2484.84258994
+******************writing: ../data/kmeans_fact.157.csv
+cluster 0:
+                         name             mc     gics8
+22           EXXON MOBIL CORP  359893.717184  10102010
+2                CHEVRON CORP  197974.835570  10102010
+1              CONOCOPHILLIPS   95927.214985  10102010
+5              HALLIBURTON CO   40731.659020  10101020
+0            BAKER HUGHES INC   26560.528928  10101020
+6                   HESS CORP   20168.620793  10102010
+13            MURPHY OIL CORP   10368.425285  10102010
+15           NII HOLDINGS INC    6589.361753  50102010
+16  OCEANEERING INTERNATIONAL    4633.280990  10101020
+10         MCDERMOTT INTL INC    3381.175581  10101020
+[['ppent_ppegt, capxq__act_m_che_ppent, rect__act_m_che, revtq2_pyoy, revtq2_pqoq, dpq_gpq, revtltm_pqoq, cogsq_revtq2, capxq_revtq2']]
+cluster 1:
+                name         mc     gics8
+23  WORLD HEART CORP  11.740225  35101010
+[['invt_revtq2, xrdq2_revtq2, cogsq_revtq2, rect_revtq2, ap_revtq2, dpq_revtq2, invt__act_m_che, xrdq2__act_m_che_ppent, capxq_revtq2']]
+cluster 2:
+                      name           mc     gics8
+29          PMC-SIERRA INC  1422.228208  45301020
+25      GENOMIC HEALTH INC   719.609178  35201010
+28                MOVE INC   289.872778  45101010
+32            XO GROUP INC   276.790150  45101010
+24           DIGIMARC CORP   233.366177  45103010
+26          GLU MOBILE INC   170.732899  45103030
+30  PERVASIVE SOFTWARE INC   104.463000  45103020
+31                XOMA LTD    63.113431  35201010
+27           LOOKSMART LTD    25.222959  45101010
+[['gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che_ppent, ap__act_m_che_ppent, revtq2_ppent, capxq__act_m_che_ppent, gpq_revtq2']]
+cluster 3:
+                           name          mc     gics8
+33  CADENCE PHARMACEUTICALS INC  415.833268  35202010
+[['revtltm_pqoq, revtq2_pqoq, invt__act_m_che, ppent_ppegt, capxq__act_m_che_ppent, ap__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap_revtq2']]
+cluster 4:
+                        name          mc     gics8
+34  PRESTIGE BRANDS HOLDINGS  540.912492  30302010
+[['revtq2_ppent, act_m_che__ppent, dpq_capxq, cfroq__act_m_che_ppent, gpq__act_m_che_ppent, invt__act_m_che, ap__act_m_che_ppent, cfroq_revtq2, gpq_revtq2']]
+cluster 5:
+                 name         mc     gics8
+35  BEACON POWER CORP  25.819938  20104020
+[['capxq_revtq2, dpq_revtq2, dpq_gpq, ap_revtq2, lct_m_dlc__act_m_che, ppent_ppegt, capxq__act_m_che_ppent, revtq2_pyoy, xrdq2_revtq2']]
+cluster 6:
+                           name             mc     gics8
+58  PHILIP MORRIS INTERNATIONAL  122100.113764  30203010
+60        REYNOLDS AMERICAN INC   21899.998599  30203010
+49                   HERSHEY CO   13331.565247  30202030
+62            RALPH LAUREN CORP   12668.964266  25203010
+71       WHOLE FOODS MARKET INC   11701.363909  30101030
+44                  FASTENAL CO    9876.975093  20107010
+48                  HOSPIRA INC    7627.620408  35202010
+46                   FOSSIL INC    6111.258806  25203010
+69             UNDER ARMOUR INC    3652.419134  25203010
+41    COMPASS MINERALS INTL INC    2487.668067  15104020
+[['invt__act_m_che, capxq__act_m_che_ppent, cfroq_revtq2, oiadpq_revtq2, ppent_ppegt, gpq_revtq2, invt_revtq2, cfroq__act_m_che_ppent, revtltm_pqoq']]
+cluster 7:
+              name         mc     gics8
+73  VERMILLION INC  41.324363  35101010
+[['xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap__act_m_che_ppent, lct_m_dlc__act_m_che, ap_revtq2, capxq__act_m_che_ppent, xrdq2_revtq2, capxq_revtq2, gpq__act_m_che_ppent']]
+cluster 8:
+          name         mc     gics8
+74  DAXOR CORP  44.544089  35101010
+[['lct_m_dlc__act_m_che, lct_m_dlc__act_m_che_ppent, ap_revtq2, ppent_ppegt, dpq_revtq2, xrdq2__act_m_che_ppent, invt__act_m_che, xrdq2_revtq2, ap__act_m_che_ppent']]
+cluster 9:
+               name        mc     gics8
+75  TRANSWITCH CORP  86.67639  45301020
+[['dpq_capxq, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, rect__act_m_che, gpq__act_m_che_ppent, act_m_che__ppent, rect_revtq2, revtq2_ppent, gpq_revtq2']]
+cluster 10:
+                            name            mc     gics8
+84         MCGRAW-HILL COMPANIES  12687.742670  25401040
+78            CITRIX SYSTEMS INC  11362.108851  45103010
+83          JUNIPER NETWORKS INC  11145.727207  45201020
+92       RIVERBED TECHNOLOGY INC   3850.489803  45201020
+91                   ROLLINS INC   3071.770740  20201050
+77    CADENCE DESIGN SYSTEMS INC   2486.513603  45103010
+86  MEDICIS PHARMACEUT CP  -CL A   2381.198604  35202010
+88    PARAMETRIC TECHNOLOGY CORP   2115.305969  45103010
+79                   DELUXE CORP   1129.205359  20201010
+82        JDA SOFTWARE GROUP INC   1123.278011  45103010
+[['gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, gpq_revtq2, rect__act_m_che, revtq2_ppent, dpq_capxq']]
+cluster 11:
+                         name           mc     gics8
+95  CONTINENTAL RESOURCES INC  10089.65392  10102020
+[['capxq__act_m_che_ppent, capxq_revtq2, rect__act_m_che, ppent_ppegt, revtltm_pqoq, dpq_revtq2, ap_revtq2, revtq2_pyoy, rect_revtq2']]
+cluster 12:
+            name           mc     gics8
+96  MOLYCORP INC  4741.765084  15104020
+[['revtq2_pyoy, capxq__act_m_che_ppent, revtq2_pqoq, revtltm_pqoq, ppent_ppegt, capxq_revtq2, invt__act_m_che, ap_revtq2, cfroq_revtq2']]
+cluster 13:
+                      name         mc     gics8
+97  NICHOLAS FINANCIAL INC  132.24829  40202010
+[['act_m_che__ppent, rect_revtq2, rect__act_m_che, revtq2_ppent, gpq_revtq2, cfroq_revtq2, ap_revtq2, oiadpq_revtq2, xrdq2_revtq2']]
+cluster 14:
+                             name            mc     gics8
+102                    FLUOR CORP  10553.362467  20103010
+103           HANSEN NATURAL CORP   7561.058607  30201030
+104            SCHEIN (HENRY) INC   6089.070184  35102010
+98          ARROW ELECTRONICS INC   3585.691366  45203030
+107                  OSHKOSH CORP   1797.705751  20106010
+100  COMPASS DIVERSIFIED HOLDINGS    641.066992  40201030
+106         MAIDENFORM BRANDS INC    581.970841  25203010
+108                SKULLCANDY INC    442.979440  25201010
+110                      ZAGG INC    439.954559  25201010
+101           DXP ENTERPRISES INC    339.177804  20107010
+[['revtq2_ppent, ap__act_m_che_ppent, ppent_ppegt, act_m_che__ppent, invt__act_m_che, revtq2_pqoq, dpq_capxq, oiadpq_revtq2, lct_m_dlc__act_m_che_ppent']]
+cluster 15:
+                     name          mc     gics8
+111  PILGRIM'S PRIDE CORP  746.397027  30202030
+[['dpq_gpq, invt__act_m_che, cogsq_revtq2, ppent_ppegt, oiadpq_revtq2, invt_revtq2, cfroq_revtq2, revtltm_pqoq, xrdq2_revtq2']]
+cluster 16:
+                    name           mc     gics8
+113       D R HORTON INC  3323.962822  25201030
+114  MERITAGE HOMES CORP   607.031780  25201030
+112          AETRIUM INC    17.142506  45301010
+[['act_m_che__ppent, invt__act_m_che, revtq2_ppent, revtq2_pqoq, invt_revtq2, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, xrdq2_revtq2']]
+cluster 17:
+                             name           mc     gics8
+116  PIONEER NATURAL RESOURCES CO  9086.761320  10102020
+117                TEJON RANCH CO   542.894054  40403010
+115    NATURAL GAS SERVICES GROUP   158.205206  10101020
+118          UQM TECHNOLOGIES INC    78.244426  20104010
+[['capxq_revtq2, ppent_ppegt, dpq_revtq2, capxq__act_m_che_ppent, invt__act_m_che, dpq_gpq, rect_revtq2, ap_revtq2, gpq_revtq2']]
+cluster 18:
+               name          mc     gics8
+119  REACHLOCAL INC  425.180107  25401010
+[['gpq__act_m_che_ppent, ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, capxq__act_m_che_ppent, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, revtq2_ppent, rect__act_m_che']]
+cluster 19:
+                            name            mc     gics8
+128   MEDCO HEALTH SOLUTIONS INC  21198.012172  35102015
+123              EMCOR GROUP INC   1531.881286  20103010
+129      INSIGHT ENTERPRISES INC    863.574536  45203030
+124      COMFORT SYSTEMS USA INC    361.140883  20103010
+125            INNERWORKINGS INC    352.141864  20201010
+122                 BIOSCRIP INC    344.967465  35102015
+126            KEYW HOLDING CORP    309.831961  20101010
+121  AMN HEALTHCARE SERVICES INC    218.824153  35102015
+130                    EPLUS INC    216.264290  45103010
+120                 AGILYSYS INC    208.168008  45203030
+[['rect__act_m_che, revtq2_ppent, ap__act_m_che_ppent, act_m_che__ppent, lct_m_dlc__act_m_che_ppent, cogsq_revtq2, rect_revtq2, dpq_capxq, oiadpq_revtq2']]
+cluster 20:
+                     name           mc     gics8
+131             ARIBA INC  2646.639961  45103020
+132         ELLIE MAE INC   113.380597  45103010
+133  INSIGNIA SYSTEMS INC    51.321764  25401010
+[['capxq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che, xrdq2__act_m_che_ppent, capxq_revtq2, cfroq__act_m_che_ppent, ap__act_m_che_ppent']]
+cluster 21:
+           name         mc     gics8
+134  DYNEGY INC  538.03496  55105010
+[['ppent_ppegt, dpq_revtq2, capxq_revtq2, cogsq_revtq2, revtq2_pyoy, ap_revtq2, oiadpq_revtq2, revtltm_pqoq, invt_revtq2']]
+cluster 22:
+                          name            mc     gics8
+138     UNITEDHEALTH GROUP INC  50798.880489  35102030
+136                 HUMANA INC  12952.643330  35102030
+135            AMERIGROUP CORP   2392.097165  35102030
+139  WELLCARE HEALTH PLANS INC   1955.841158  35102030
+137      MOLINA HEALTHCARE INC    885.772244  35102030
+[['ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, revtq2_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, rect__act_m_che, cfroq__act_m_che_ppent, ap_revtq2, capxq__act_m_che_ppent']]
+cluster 23:
+              name         mc     gics8
+140  ORAGENICS INC  13.355238  35201010
+[['ap__act_m_che_ppent, xrdq2__act_m_che_ppent, ap_revtq2, lct_m_dlc__act_m_che_ppent, invt__act_m_che, lct_m_dlc__act_m_che, xrdq2_revtq2, dpq_gpq, cogsq_revtq2']]
+cluster 24:
+                             name             mc     gics8
+157   INTL BUSINESS MACHINES CORP  205308.369433  45102010
+177               TIME WARNER INC   33306.319839  25401030
+170                   PRAXAIR INC   29759.581820  15101040
+144                      CBS CORP   16733.399490  25401020
+182          WASTE MANAGEMENT INC   15605.835620  20201050
+165         NORTHROP GRUMMAN CORP   15183.352913  20101010
+184                    XEROX CORP   11648.834460  45204010
+145                   CERNER CORP   11142.749984  35103010
+155           HARLEY-DAVIDSON INC    9139.677955  25102020
+150  DIAMOND OFFSHRE DRILLING INC    8860.193105  10101010
+[['rect__act_m_che, rect_revtq2, ppent_ppegt, dpq_capxq, oiadpq_revtq2, cfroq_revtq2, gpq_revtq2, cogsq_revtq2, dpq_gpq']]
+cluster 25:
+                       name           mc     gics8
+185  BRIGHAM EXPLORATION CO  3388.479379  10102020
+[['capxq__act_m_che_ppent, capxq_revtq2, revtq2_pqoq, ppent_ppegt, revtq2_pyoy, dpq_revtq2, revtltm_pqoq, ap_revtq2, rect__act_m_che']]
+cluster 26:
+                        name         mc     gics8
+186  NABI BIOPHARMACEUTICALS  81.052293  35201010
+[['xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, dpq_capxq, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, lct_m_dlc__act_m_che, revtq2_ppent, ap__act_m_che_ppent, xrdq2_revtq2']]
+cluster 27:
+                   name          mc     gics8
+187  PENN VIRGINIA CORP  371.491912  10102020
+[['dpq_revtq2, capxq_revtq2, dpq_gpq, rect__act_m_che, ppent_ppegt, capxq__act_m_che_ppent, rect_revtq2, gpq_revtq2, cfroq_revtq2']]
+cluster 28:
+                             name           mc     gics8
+193  FREESCALE SMCNDCTR HLD I LTD  2817.500000  45301020
+192                FORMFACTOR INC   401.203261  45301010
+188                AFFYMETRIX INC   394.050219  35203010
+190           AVID TECHNOLOGY INC   378.272527  45202010
+191                     EXAR CORP   270.772127  45301020
+194            HANSEN MEDICAL INC   206.837273  35101010
+189                 ANADIGICS INC   187.844385  45301020
+196                    OPNEXT INC   144.459121  45201020
+200             SOLTA MEDICAL INC   103.870891  35101010
+195     HUTCHINSON TECHNOLOGY INC    52.836539  45202020
+[['invt__act_m_che, dpq_revtq2, dpq_capxq, xrdq2__act_m_che_ppent, dpq_gpq, rect_revtq2, gpq_revtq2, xrdq2_revtq2, invt_revtq2']]
+cluster 29:
+                            name           mc     gics8
+221                 SANDISK CORP  8767.628715  45202020
+202       ADVANCED MICRO DEVICES  4719.529947  45301020
+217                  POLYCOM INC  4209.010763  45201020
+220     SILICON LABORATORIES INC  1531.174420  45301020
+214                  MASIMO CORP  1478.523648  35101010
+218                  QLOGIC CORP  1460.032682  45202020
+212   INTEGRATED DEVICE TECH INC   830.655933  45301020
+205                    CALIX INC   690.270314  45201020
+213   LATTICE SEMICONDUCTOR CORP   665.032510  45301020
+209  ELECTRONICS FOR IMAGING INC   657.951395  45202020
+[['gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, revtq2_ppent, rect__act_m_che, ap__act_m_che_ppent, gpq_revtq2, act_m_che__ppent, lct_m_dlc__act_m_che_ppent']]
+cluster 30:
+                             name           mc     gics8
+229                    AIRGAS INC  4899.932203  15101040
+256           VULCAN MATERIALS CO  4526.733098  15102010
+227                 ARCH COAL INC  4281.347949  10102050
+247         ROCKWOOD HOLDINGS INC  3902.468857  15101050
+234            CARBO CERAMICS INC  3709.424504  10101020
+248                  RAYONIER INC  3405.787182  40402070
+243                   HEXCEL CORP  2257.951003  20101010
+238            FEDERAL-MOGUL CORP  1756.552823  25101010
+233   CHARLES RIVER LABS INTL INC  1703.972928  35203010
+250  SUBURBAN PROPANE PRTNRS  -LP  1682.261534  55102010
+[['ppent_ppegt, dpq_gpq, invt__act_m_che, dpq_revtq2, cogsq_revtq2, rect_revtq2, oiadpq_revtq2, cfroq_revtq2, invt_revtq2']]
+cluster 31:
+                             name           mc     gics8
+263       O'REILLY AUTOMOTIVE INC  8820.774005  25504050
+259        ADVANCE AUTO PARTS INC  4497.651845  25504050
+265             TRACTOR SUPPLY CO  4393.611909  25504040
+262  LUMBER LIQUIDATORS HLDGS INC   420.210408  25504030
+261                   HHGREGG INC   419.891662  25504020
+264     US AUTO PARTS NETWORK INC   193.139142  25502020
+260   GOLFSMITH INTL HOLDINGS INC    50.126705  25504040
+[['invt__act_m_che, ap__act_m_che_ppent, ppent_ppegt, capxq__act_m_che_ppent, ap_revtq2, oiadpq_revtq2, invt_revtq2, revtq2_pqoq, cfroq_revtq2']]
+cluster 32:
+                             name          mc     gics8
+269  SCICLONE PHARMACEUTICALS INC  272.477915  35201010
+267                 DATALINK CORP  148.861157  45202020
+266                ADAMS GOLF INC   44.983419  25202010
+268                   IRIDEX CORP   35.882240  35101010
+[['act_m_che__ppent, revtq2_ppent, rect__act_m_che, rect_revtq2, dpq_capxq, gpq__act_m_che_ppent, revtq2_pqoq, gpq_revtq2, oiadpq_revtq2']]
+cluster 33:
+                            name             mc     gics8
+286            JOHNSON & JOHNSON  180330.177504  35202010
+270          ABBOTT LABORATORIES   81735.831402  35202010
+273      BRISTOL-MYERS SQUIBB CO   50575.000000  35202010
+274         COLGATE-PALMOLIVE CO   43770.040420  30301010
+277                 DANAHER CORP   31395.150765  20105010
+281          GILEAD SCIENCES INC   30966.913290  35201010
+290    MEAD JOHNSON NUTRITION CO   14530.974140  30202030
+294   STANLEY BLACK & DECKER INC   10310.213472  20106020
+280    EDWARDS LIFESCIENCES CORP    8669.204764  35101010
+278  DR PEPPER SNAPPLE GROUP INC    8348.574574  30201030
+[['cfroq__act_m_che_ppent, ppent_ppegt, gpq__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, rect_revtq2, ap__act_m_che_ppent, rect__act_m_che']]
+cluster 34:
+                             name          mc     gics8
+301  ADVANCED CELL TECHNOLOGY INC  263.719339  35201010
+[['xrdq2__act_m_che_ppent, ap__act_m_che_ppent, ap_revtq2, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, xrdq2_revtq2, cogsq_revtq2, dpq_revtq2, capxq__act_m_che_ppent']]
+cluster 35:
+                    name          mc     gics8
+302  STAR SCIENTIFIC INC  317.380439  30203010
+[['ap_revtq2, invt__act_m_che, dpq_revtq2, capxq_revtq2, invt_revtq2, revtq2_pqoq, cogsq_revtq2, ap__act_m_che_ppent, xrdq2_revtq2']]
+cluster 36:
+                             name            mc     gics8
+317               MCDONALD'S CORP  93275.996364  25301040
+309  ENTERPRISE PRODS PRTNRS  -LP  36011.814939  10102040
+316          LAS VEGAS SANDS CORP  33993.774688  25301010
+315     KINDER MORGAN ENERGY  -LP  23132.377128  10102040
+323         REPUBLIC SERVICES INC  11430.540230  20201050
+307   ENBRIDGE ENERGY PRTNRS  -LP   7287.536888  10102040
+321           QUANTA SERVICES INC   3986.813677  20103010
+318   MARKWEST ENERGY PARTNERS LP   3611.438119  10102040
+319   TARGA RESOURCES PARTNERS LP   2966.460054  10102040
+304             CLEAN HARBORS INC   2854.362137  20201050
+[['ppent_ppegt, rect__act_m_che, dpq_gpq, revtq2_pqoq, dpq_revtq2, lct_m_dlc__act_m_che, cfroq_revtq2, cogsq_revtq2, oiadpq_revtq2']]
+cluster 37:
+                            name           mc     gics8
+340   CHIPOTLE MEXICAN GRILL INC  9806.914021  25301040
+342           SOUTHWEST AIRLINES  6930.462546  20302010
+332         ALASKA AIR GROUP INC  2081.916958  20302010
+346    REGAL ENTERTAINMENT GROUP  2020.196843  25401030
+349          TEXAS ROADHOUSE INC  1020.462642  25301040
+331          ALLEGIANT TRAVEL CO   894.456671  20302010
+345  P F CHANGS CHINA BISTRO INC   673.332707  25301040
+336        CEC ENTERTAINMENT INC   602.910900  25301040
+347    RED ROBIN GOURMET BURGERS   478.053896  25301040
+334         BIGLARI HOLDINGS INC   404.054706  25301040
+[['lct_m_dlc__act_m_che, ppent_ppegt, dpq_gpq, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, dpq_revtq2, dpq_capxq, xrdq2_revtq2']]
+cluster 38:
+                          name             mc     gics8
+358             MICROSOFT CORP  222801.603195  45103020
+363              TERADATA CORP    8817.423783  45102010
+359  NUANCE COMMUNICATIONS INC    5646.081771  45103010
+354        IAC/INTERACTIVECORP    3451.301668  45101010
+357            MORNINGSTAR INC    3015.163192  25401040
+360      QLIK TECHNOLOGIES INC    2102.663571  45103010
+350        ADVENT SOFTWARE INC    1212.400358  45103010
+352   CORNERSTONE ONDEMAND INC     743.702882  45101010
+356              MEDASSETS INC     672.689815  35103010
+362               COMSCORE INC     507.869353  45101010
+[['rect__act_m_che, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, ppent_ppegt, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, gpq_revtq2, rect_revtq2']]
+cluster 39:
+                            name         mc     gics8
+365  SOMAXON PHARMACEUTICALS INC  47.198002  35202010
+[['revtltm_pqoq, revtq2_pqoq, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ppent_ppegt, revtq2_ppent, ap__act_m_che_ppent, gpq_revtq2, capxq__act_m_che_ppent']]
+cluster 40:
+         name          mc     gics8
+366  GEVO INC  276.963744  10102030
+[['revtq2_pyoy, ppent_ppegt, invt__act_m_che, xrdq2__act_m_che_ppent, revtltm_pqoq, capxq__act_m_che_ppent, dpq_gpq, cogsq_revtq2, dpq_revtq2']]
+cluster 41:
+                         name           mc     gics8
+367  WORLD FUEL SERVICES CORP  2641.953936  10102030
+[['revtq2_ppent, act_m_che__ppent, ap__act_m_che_ppent, rect__act_m_che, ppent_ppegt, revtq2_pyoy, lct_m_dlc__act_m_che_ppent, revtltm_pqoq, cogsq_revtq2']]
+cluster 42:
+                     name         mc     gics8
+368  U S HOME SYSTEMS INC  36.356849  20102010
+[['gpq__act_m_che_ppent, revtq2_ppent, ap__act_m_che_ppent, act_m_che__ppent, cfroq__act_m_che_ppent, gpq_revtq2, rect__act_m_che, lct_m_dlc__act_m_che_ppent, revtq2_pqoq']]
+cluster 43:
+                         name            mc     gics8
+373             SYMANTEC CORP  12858.137894  45103020
+370                    CA INC  10472.475735  45103020
+369          BMC SOFTWARE INC   7127.055107  45103020
+374              WEBSENSE INC    818.632535  45103020
+372  RENAISSANCE LEARNING INC    456.428173  45103030
+371                   PDI INC    106.593285  35102015
+[['lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, dpq_capxq, rect__act_m_che, xrdq2__act_m_che_ppent, revtq2_ppent, gpq_revtq2']]
+cluster 44:
+                           name           mc     gics8
+378     NEWFIELD EXPLORATION CO  6871.516381  10102020
+381        ULTRA PETROLEUM CORP  5122.904282  10102020
+380        SANDRIDGE ENERGY INC  3008.798177  10102020
+375             FOREST OIL CORP  2227.610078  10102020
+376     GOODRICH PETROLEUM CORP   578.673811  10102020
+377  IRIDIUM COMMUNICATIONS INC   540.985010  50101010
+379       PETROQUEST ENERGY INC   471.351998  10102020
+[['capxq_revtq2, capxq__act_m_che_ppent, dpq_revtq2, rect__act_m_che, lct_m_dlc__act_m_che, ap_revtq2, dpq_gpq, ppent_ppegt, gpq_revtq2']]
+cluster 45:
+                             name            mc     gics8
+393     FREEPORT-MCMORAN COP&GOLD  44660.280579  15104020
+388  CLIFFS NATURAL RESOURCES INC  12096.942992  15104050
+385                     BUNGE LTD   9534.669222  30202010
+386           BUCKEYE PARTNERS LP   5852.230696  10102040
+405              NUSTAR ENERGY LP   3824.944605  10102030
+418                   TESORO CORP   3460.769676  10102030
+416             TRIUMPH GROUP INC   2568.485914  20101010
+387      COEUR D'ALENE MINES CORP   2552.517904  15104040
+383    AMYLIN PHARMACEUTICALS INC   1650.027344  35201010
+419          WESTERN REFINING INC   1555.087693  10102030
+[['ppent_ppegt, invt__act_m_che, revtq2_pyoy, cogsq_revtq2, revtltm_pqoq, revtq2_pqoq, oiadpq_revtq2, cfroq_revtq2, invt_revtq2']]
+cluster 46:
+                             name           mc     gics8
+421  J2 GLOBAL COMMUNICATIONS INC  1454.469110  45101010
+420                       8X8 INC   270.855135  50101010
+[['gpq__act_m_che_ppent, cfroq__act_m_che_ppent, ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, xrdq2__act_m_che_ppent, capxq__act_m_che_ppent, revtq2_ppent, gpq_revtq2']]
+cluster 47:
+                           name           mc     gics8
+423      BUFFALO WILD WINGS INC  1130.516046  25301040
+425     HIGHER ONE HOLDINGS INC   908.218262  20201070
+424  HERITAGE-CRYSTAL CLEAN INC   237.029918  20201050
+422           U S ANTIMONY CORP   175.080439  15104020
+426            PRIMO WATER CORP   167.170157  30201030
+[['capxq__act_m_che_ppent, ppent_ppegt, capxq_revtq2, dpq_gpq, revtq2_pyoy, revtltm_pqoq, lct_m_dlc__act_m_che, cogsq_revtq2, oiadpq_revtq2']]
+cluster 48:
+                             name           mc     gics8
+427  BREITBURN ENERGY PARTNERS LP  1091.648263  10102020
+[['ppent_ppegt, dpq_revtq2, capxq_revtq2, gpq_revtq2, cfroq_revtq2, dpq_gpq, oiadpq_revtq2, ap_revtq2, revtltm_pqoq']]
+cluster 49:
+                          name            mc     gics8
+431        EXPRESS SCRIPTS INC  22916.341399  35102015
+433              MCKESSON CORP  19687.102037  35102010
+429        CARDINAL HEALTH INC  14921.750259  35102010
+428     AMERISOURCEBERGEN CORP  10767.737807  35102010
+432           INGRAM MICRO INC   2808.750628  45203030
+430  CATALYST HEALTH SOLUTIONS   2661.235219  35102015
+434               NAVARRE CORP     65.514570  25401030
+[['ap__act_m_che_ppent, revtq2_ppent, act_m_che__ppent, lct_m_dlc__act_m_che_ppent, rect__act_m_che, cogsq_revtq2, ap_revtq2, invt__act_m_che, lct_m_dlc__act_m_che']]
+cluster 50:
+                             name             mc     gics8
+443                    GOOGLE INC  174550.487974  45101010
+444          INTL GAME TECHNOLOGY    4559.687882  25301010
+436       AKAMAI TECHNOLOGIES INC    4080.440375  45101010
+440  COMPLETE PRODUCTION SERVICES    2252.753010  10101020
+438              ATHENAHEALTH INC    2027.736334  35103010
+454            WMS INDUSTRIES INC    1239.375966  25301010
+451        SERVICESOURCE INTL INC    1228.579241  45102010
+450      SYNCHRONOSS TECHNOLOGIES    1033.655238  45103010
+437                  ARBITRON INC    1021.322407  25401010
+447                 RESPONSYS INC     684.451043  45101010
+[['capxq__act_m_che_ppent, rect__act_m_che, dpq_revtq2, cfroq__act_m_che_ppent, ppent_ppegt, rect_revtq2, gpq_revtq2, capxq_revtq2, cfroq_revtq2']]
+cluster 51:
+                         name           mc     gics8
+456  JAZZ PHARMACEUTICALS INC  1790.197724  35202010
+[['revtq2_ppent, gpq__act_m_che_ppent, act_m_che__ppent, cfroq__act_m_che_ppent, dpq_capxq, lct_m_dlc__act_m_che_ppent, rect__act_m_che, xrdq2__act_m_che_ppent, gpq_revtq2']]
+cluster 52:
+                  name          mc     gics8
+457  DICE HOLDINGS INC  676.090517  45101010
+[['lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, capxq__act_m_che_ppent, cfroq__act_m_che_ppent, lct_m_dlc__act_m_che, rect__act_m_che, ap__act_m_che_ppent, revtq2_ppent, gpq_revtq2']]
+cluster 53:
+             name         mc     gics8
+458  ACTUATE CORP  301.02851  45103010
+[['dpq_capxq, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, revtq2_ppent, rect__act_m_che, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, act_m_che__ppent, lct_m_dlc__act_m_che']]
+cluster 54:
+                        name          mc     gics8
+459  CYTORI THERAPEUTICS INC  173.151757  35201010
+[['ap__act_m_che_ppent, ap_revtq2, xrdq2__act_m_che_ppent, invt__act_m_che, lct_m_dlc__act_m_che_ppent, xrdq2_revtq2, rect_revtq2, capxq__act_m_che_ppent, dpq_revtq2']]
+cluster 55:
+                          name            mc     gics8
+483         PPG INDUSTRIES INC  12064.333840  15101020
+470           GENUINE PARTS CO   8625.320318  25501010
+487        SHERWIN-WILLIAMS CO   8049.553847  15101050
+465         CROWN HOLDINGS INC   5359.021094  15103010
+493             WHIRLPOOL CORP   4764.439896  25201040
+471  HARMAN INTERNATIONAL INDS   2530.413749  25201010
+490                TENNECO INC   1976.397689  25101010
+474   LENNOX INTERNATIONAL INC   1658.381678  20102010
+482               POLYONE CORP   1169.881801  15101050
+468           EASTMAN KODAK CO    855.420018  25202020
+[['ap__act_m_che_ppent, invt__act_m_che, ap_revtq2, cogsq_revtq2, lct_m_dlc__act_m_che_ppent, revtq2_pqoq, oiadpq_revtq2, cfroq_revtq2, rect_revtq2']]
+cluster 56:
+                            name          mc     gics8
+495  SAVIENT PHARMACEUTICALS INC  306.800709  35201010
+[['lct_m_dlc__act_m_che_ppent, xrdq2__act_m_che_ppent, ap_revtq2, ap__act_m_che_ppent, act_m_che__ppent, xrdq2_revtq2, invt__act_m_che, lct_m_dlc__act_m_che, revtq2_pqoq']]
+cluster 57:
+                            name          mc     gics8
+497                     NVE CORP  315.515748  45301020
+496     DUSA PHARMACEUTICALS INC  107.471216  35201010
+499   VITESSE SEMICONDUCTOR CORP   83.635828  45301020
+498  TECHNICAL COMMUNICATIONS CP   13.686626  45201020
+[['gpq__act_m_che_ppent, cfroq__act_m_che_ppent, invt__act_m_che, xrdq2__act_m_che_ppent, revtq2_ppent, gpq_revtq2, cfroq_revtq2, act_m_che__ppent, oiadpq_revtq2']]
+cluster 58:
+                            name            mc     gics8
+504                BROADCOM CORP  19072.750816  45301020
+508                     LSI CORP   3890.062834  45301020
+511    NETLOGIC MICROSYSTEMS INC   2071.546082  45301020
+505                   CAVIUM INC   1564.280759  45301020
+506                   DEXCOM INC    809.991927  35101010
+500                  ABIOMED INC    479.061753  35101010
+516                   ZORAN CORP    405.529435  45301020
+501  APPLIED MICRO CIRCUITS CORP    366.285028  45301020
+509   MINDSPEED TECHNOLOGIES INC    196.411197  45301020
+510                MAXLINEAR INC    187.564994  45301020
+[['xrdq2__act_m_che_ppent, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, invt__act_m_che, ap__act_m_che_ppent, capxq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, gpq_revtq2, cfroq_revtq2']]
+cluster 59:
+             name          mc     gics8
+517  WINMARK CORP  233.185319  25504040
+[['capxq__act_m_che_ppent, rect__act_m_che, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, capxq_revtq2, revtq2_ppent, act_m_che__ppent, revtq2_pqoq, rect_revtq2']]
+cluster 60:
+                          name            mc     gics8
+528  OCCIDENTAL PETROLEUM CORP  70499.727994  10102010
+518                APACHE CORP  39561.916488  10102020
+519    ANADARKO PETROLEUM CORP  36713.431053  10102020
+527          MARATHON OIL CORP  19220.880054  10102020
+537           VIRGIN MEDIA INC   7944.090048  25401025
+533          QEP RESOURCES INC   6228.824888  10102020
+525          HELMERICH & PAYNE   6100.393541  10101010
+532   PATTERSON-UTI ENERGY INC   3801.918495  10101010
+536                  UNIT CORP   2296.737046  10101010
+522                 EMDEON INC   2169.605245  35103010
+[['rect__act_m_che, dpq_revtq2, ppent_ppegt, capxq__act_m_che_ppent, capxq_revtq2, dpq_gpq, cfroq_revtq2, gpq_revtq2, rect_revtq2']]
+cluster 61:
+                             name            mc     gics8
+549  LAUDER (ESTEE) COS INC -CL A  19266.508460  30302010
+568                  STRYKER CORP  18965.947175  35101010
+577           ZIMMER HOLDINGS INC  10831.855537  35101010
+559      MICROCHIP TECHNOLOGY INC   6252.315835  45301020
+556               KLA-TENCOR CORP   6129.888152  45301010
+575  VARIAN SEMICONDUCTOR EQUIPMT   4652.551347  45301010
+541                    ATMEL CORP   4183.566893  45301020
+570        TUPPERWARE BRANDS CORP   4075.828947  25201050
+567        SKYWORKS SOLUTIONS INC   3840.357007  45301020
+564        POLARIS INDUSTRIES INC   3788.207835  25202010
+[['invt__act_m_che, cfroq__act_m_che_ppent, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, xrdq2_revtq2, invt_revtq2']]
+cluster 62:
+                        name         mc     gics8
+578  AMICUS THERAPEUTICS INC  158.79936  35201010
+[['xrdq2__act_m_che_ppent, ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap_revtq2, lct_m_dlc__act_m_che, revtltm_pqoq, xrdq2_revtq2, cogsq_revtq2, dpq_revtq2']]
+cluster 63:
+              name           mc     gics8
+579  DENDREON CORP  1828.083589  35201010
+[['revtq2_pyoy, ppent_ppegt, revtltm_pqoq, revtq2_pqoq, dpq_revtq2, invt__act_m_che, dpq_gpq, gpq_revtq2, capxq_revtq2']]
+cluster 64:
+                            name           mc     gics8
+587  LABORATORY CP OF AMER HLDGS  8469.942004  35102015
+588         LINCARE HOLDINGS INC  2011.307493  35102015
+589                  NEUSTAR INC  1839.758301  45102020
+583               CONVERGYS CORP  1277.999954  45102020
+582                  CHEMED CORP  1236.795886  35102015
+592         STURM RUGER & CO INC   629.137036  25202010
+586              HARTE HANKS INC   499.141070  25401010
+595                      TNS INC   433.060505  45102020
+584            VAALCO ENERGY INC   363.348541  10102020
+594            SCHAWK INC  -CL A   314.896570  20201070
+[['rect__act_m_che, capxq__act_m_che_ppent, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, rect_revtq2, dpq_revtq2']]
+cluster 65:
+                           name           mc     gics8
+604  TAKE-TWO INTERACTIVE SFTWR  1141.679231  45103030
+603           PC CONNECTION INC   236.480309  45203030
+600          GP STRATEGIES CORP   234.165382  20202010
+602         NETWORK ENGINES INC    53.699098  45201020
+601             INTERPHASE CORP    32.809920  45202020
+599      FORWARD INDUSTRIES INC    21.352030  25203010
+598                     CSP INC    12.152722  45102010
+[['revtq2_ppent, act_m_che__ppent, ap__act_m_che_ppent, rect__act_m_che, revtq2_pqoq, cogsq_revtq2, rect_revtq2, oiadpq_revtq2, cfroq_revtq2']]
+cluster 66:
+                  name          mc     gics8
+605  GMX RESOURCES INC  171.638438  10102020
+[['capxq_revtq2, capxq__act_m_che_ppent, dpq_revtq2, dpq_gpq, lct_m_dlc__act_m_che, ap_revtq2, revtq2_pyoy, revtltm_pqoq, cfroq_revtq2']]
+cluster 67:
+                          name           mc     gics8
+608                    NVR INC  3551.027124  25201030
+612                 WATSCO INC  1965.187258  20107010
+606                   PAID INC    68.684470  25502020
+609      PARLUX FRAGRANCES INC    68.504072  30302010
+607                    IGO INC    45.131552  45202020
+611          WILLDAN GROUP INC    29.390851  20103010
+610  UNIVERSAL POWER GROUP INC    11.847199  20107010
+[['act_m_che__ppent, revtq2_ppent, invt__act_m_che, revtq2_pqoq, dpq_capxq, ap__act_m_che_ppent, invt_revtq2, cogsq_revtq2, oiadpq_revtq2']]
+cluster 68:
+                             name             mc     gics8
+637              SCHLUMBERGER LTD  105412.577930  10101020
+615  AIR PRODUCTS & CHEMICALS INC   17449.196437  15101040
+644          WESTERN DIGITAL CORP    6871.169947  45202020
+627                     MOLEX INC    3831.222663  45203020
+617                APTARGROUP INC    3367.015815  15103010
+638            SONOCO PRODUCTS CO    3155.304087  15103020
+634     DONNELLEY (R R) & SONS CO    2863.950047  20201010
+633     PACKAGING CORP OF AMERICA    2574.572473  15103020
+616        AMERIGAS PARTNERS  -LP    2473.469156  55102010
+618                    CABOT CORP    2251.931954  15101020
+[['rect__act_m_che, ap__act_m_che_ppent, capxq__act_m_che_ppent, dpq_gpq, cogsq_revtq2, ap_revtq2, rect_revtq2, oiadpq_revtq2, cfroq_revtq2']]
+cluster 69:
+                       name          mc     gics8
+645  ALLOS THERAPEUTICS INC  178.589046  35201010
+[['gpq__act_m_che_ppent, revtq2_pqoq, revtq2_ppent, revtq2_pyoy, xrdq2__act_m_che_ppent, rect__act_m_che, revtltm_pqoq, lct_m_dlc__act_m_che_ppent, dpq_capxq']]
+cluster 70:
+                           name            mc     gics8
+658                QUALCOMM INC  86298.418465  45201020
+650                CELGENE CORP  27356.794027  35201010
+646                ALLERGAN INC  24976.756034  35202010
+648             BIOGEN IDEC INC  22847.811394  35201010
+656      INTUITIVE SURGICAL INC  14910.784657  35101010
+647                 ALTERA CORP  11789.122667  45301020
+654  FOREST LABORATORIES  -CL A   9399.873137  35202010
+657      LINEAR TECHNOLOGY CORP   6516.388065  45301020
+653      DOLBY LABORATORIES INC   3710.416567  45203015
+649  CUBIST PHARMACEUTICALS INC   2114.702682  35201010
+[['cfroq__act_m_che_ppent, gpq__act_m_che_ppent, ppent_ppegt, xrdq2__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, capxq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent']]
+cluster 71:
+                             name            mc     gics8
+675                     NEWS CORP  45365.462059  25401030
+666                      EBAY INC  39773.339422  45101010
+670          JOHNSON CONTROLS INC  21670.067511  25101010
+664     COCA-COLA ENTERPRISES INC   8809.857297  30201030
+665         QUEST DIAGNOSTICS INC   7921.675073  35102015
+663                BORGWARNER INC   7758.299687  25101010
+680  TRW AUTOMOTIVE HOLDINGS CORP   5157.606780  25101010
+677              PITNEY BOWES INC   4105.499229  20201060
+682        WASHINGTON POST  -CL B   2821.682003  25401040
+673                    MASTEC INC   1879.351539  20103010
+[['ap__act_m_che_ppent, rect__act_m_che, ap_revtq2, lct_m_dlc__act_m_che_ppent, rect_revtq2, cogsq_revtq2, oiadpq_revtq2, lct_m_dlc__act_m_che, cfroq_revtq2']]
+cluster 72:
+                           name            mc     gics8
+702               GOODRICH CORP  11147.966785  20101010
+720          SIGMA-ALDRICH CORP   7860.884515  15101050
+726      TYSON FOODS INC  -CL A   6555.942992  30202030
+689            BE AEROSPACE INC   3604.905190  20101010
+703             HANESBRANDS INC   2762.903439  25203010
+721         SILGAN HOLDINGS INC   2660.347402  15103010
+687                    AVX CORP   2228.388702  45203015
+724        TIMBERLAND CO  -CL A   2181.970746  25203020
+705                     HSN INC   1888.617053  25502010
+723  SENSIENT TECHNOLOGIES CORP   1819.728535  15101050
+[['invt__act_m_che, invt_revtq2, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, act_m_che__ppent, gpq_revtq2, xrdq2_revtq2, ap_revtq2']]
+cluster 73:
+                    name             mc     gics8
+729  GENERAL ELECTRIC CO  172891.489407  20105010
+728          CABELAS INC    1627.798463  25504040
+[['rect_revtq2, rect__act_m_che, ppent_ppegt, gpq_revtq2, oiadpq_revtq2, cfroq_revtq2, ap_revtq2, act_m_che__ppent, invt_revtq2']]
+cluster 74:
+                   name           mc     gics8
+731        HOMEAWAY INC  3340.078989  25502020
+733  SUCCESSFACTORS INC  1933.997819  45103010
+730        ACCELRYS INC   360.892996  45103010
+734        SCIQUEST INC   331.498842  45101010
+732            REIS INC   106.036901  45101010
+[['lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, rect__act_m_che, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, dpq_revtq2, gpq_revtq2, dpq_capxq']]
+cluster 75:
+                          name           mc     gics8
+735  HERTZ GLOBAL HOLDINGS INC  4663.858612  20304020
+737         EXCO RESOURCES INC  2863.569103  10102020
+736        OASIS PETROLEUM INC  2458.627490  10102020
+[['capxq__act_m_che_ppent, capxq_revtq2, rect__act_m_che, dpq_revtq2, ppent_ppegt, ap_revtq2, dpq_gpq, revtq2_pyoy, rect_revtq2']]
+cluster 76:
+                     name          mc     gics8
+740   SELECT COMFORT CORP  889.137104  25504060
+742  VONAGE HOLDINGS CORP  814.232076  50101010
+738  CONSTANT CONTACT INC  567.356183  45101010
+741     UNITED ONLINE INC  480.716071  45101010
+739    SPARK NETWORKS INC   67.136471  45101010
+743         ZIPREALTY INC   46.047678  40403040
+[['gpq__act_m_che_ppent, capxq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, ap__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_ppent, gpq_revtq2']]
+cluster 77:
+                name         mc     gics8
+744  MICROVISION INC  97.439396  45203010
+[['ap_revtq2, dpq_revtq2, ap__act_m_che_ppent, xrdq2__act_m_che_ppent, invt__act_m_che, cogsq_revtq2, lct_m_dlc__act_m_che_ppent, xrdq2_revtq2, invt_revtq2']]
+cluster 78:
+                          name           mc     gics8
+746                  AVNET INC  4009.398373  45203030
+747           ANIXTER INTL INC  2060.183550  45203030
+758          OWENS & MINOR INC  1877.359424  35102010
+762             WESCO INTL INC  1864.985617  20107010
+761      UNITED STATIONERS INC  1412.230299  20201060
+757                NETGEAR INC  1042.781447  45201020
+756      MWI VETERINARY SUPPLY   929.366001  35102010
+748  BEACON ROOFING SUPPLY INC   855.091809  20107010
+754          INTER PARFUMS INC   505.644357  30302010
+759               SYSTEMAX INC   491.183985  25504020
+[['revtq2_ppent, act_m_che__ppent, invt__act_m_che, ap__act_m_che_ppent, revtq2_pqoq, cogsq_revtq2, oiadpq_revtq2, ap_revtq2, invt_revtq2']]
+cluster 79:
+             name          mc     gics8
+764  AMBIENT CORP  124.742841  45201020
+[['cfroq__act_m_che_ppent, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, ap__act_m_che_ppent, invt__act_m_che, revtq2_ppent, revtq2_pyoy, lct_m_dlc__act_m_che_ppent, revtltm_pqoq']]
+cluster 80:
+                        name          mc     gics8
+765  GENMARK DIAGNOSTICS INC  127.966058  35101010
+[['xrdq2__act_m_che_ppent, ap_revtq2, dpq_revtq2, capxq__act_m_che_ppent, ap__act_m_che_ppent, capxq_revtq2, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, xrdq2_revtq2']]
+cluster 81:
+               name           mc     gics8
+766  CLEARWIRE CORP  2935.166316  50102010
+[['dpq_gpq, dpq_revtq2, ppent_ppegt, lct_m_dlc__act_m_che, revtq2_pyoy, revtltm_pqoq, revtq2_pqoq, capxq_revtq2, cogsq_revtq2']]
+cluster 82:
+                             name            mc     gics8
+778                   CORNING INC  23567.039581  45203015
+790              WILLIAMS COS INC  15870.119865  10102040
+791          WILLIAMS PARTNERS LP  15738.053314  10102040
+772           PEABODY ENERGY CORP  13216.492713  10102050
+774             CONSOL ENERGY INC  10350.903057  10102050
+777  ENERGY TRANSFER PARTNERS -LP   9410.255578  10102040
+776     ENERGY TRANSFER EQUITY LP   8526.477083  10102040
+768                      AES CORP   8495.487937  55105010
+779             HYATT HOTELS CORP   5862.816893  25301020
+782                     INERGY LP   3716.590283  10102040
+[['ppent_ppegt, capxq_revtq2, dpq_revtq2, dpq_gpq, rect__act_m_che, capxq__act_m_che_ppent, cfroq_revtq2, oiadpq_revtq2, cogsq_revtq2']]
+cluster 83:
+                             name            mc     gics8
+807             CVS CAREMARK CORP  48334.859795  30101010
+837    NATIONAL OILWELL VARCO INC  27983.902642  10101020
+839      PRECISION CASTPARTS CORP  23598.603636  20101010
+816         GENERAL DYNAMICS CORP  23181.891068  20101010
+792                     ALCOA INC  13620.528328  15104010
+802    CAMERON INTERNATIONAL CORP  12733.603466  10101020
+836                     MYLAN INC   8842.725090  35202010
+820  STARWOOD HOTELS&RESORTS WRLD   8709.755962  25301020
+796    ALLEGHENY TECHNOLOGIES INC   5329.251548  15104050
+841          RALCORP HOLDINGS INC   4772.838645  30202030
+[['invt__act_m_che, ppent_ppegt, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, invt_revtq2, dpq_capxq, dpq_gpq, revtq2_pqoq']]
+cluster 84:
+                             name           mc     gics8
+863     HEALTHCARE SERVICES GROUP  1041.544068  20201070
+864    IPC THE HOSPITALIST CO INC   658.565883  35102015
+865  METROPOLITAN HLTH NTWRKS INC   210.776324  35102030
+860             ALMOST FAMILY INC   184.968123  35102015
+866             PDF SOLUTIONS INC   140.880243  45301010
+862                 ENGLOBAL CORP    87.255082  10101020
+859           ADDUS HOMECARE CORP    53.977743  35102015
+861                  BSQUARE CORP    50.003109  45103010
+[['revtq2_ppent, rect__act_m_che, act_m_che__ppent, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, dpq_capxq, cogsq_revtq2, rect_revtq2, lct_m_dlc__act_m_che_ppent']]
+cluster 85:
+                             name         mc     gics8
+867  WAYSIDE TECHNOLOGY GROUP INC  54.785525  45203030
+[['revtq2_ppent, act_m_che__ppent, ap__act_m_che_ppent, rect__act_m_che, dpq_capxq, lct_m_dlc__act_m_che_ppent, cogsq_revtq2, ap_revtq2, revtq2_pqoq']]
+cluster 86:
+                        name           mc     gics8
+870  TESLA MOTORS INC  -REDH  2572.489608  25102010
+868               AMYRIS INC   901.024347  10102030
+869         A123 SYSTEMS INC   602.399242  20104010
+[['capxq__act_m_che_ppent, capxq_revtq2, ppent_ppegt, invt__act_m_che, xrdq2__act_m_che_ppent, ap_revtq2, revtq2_pyoy, lct_m_dlc__act_m_che, revtq2_pqoq']]
+cluster 87:
+                             name         mc     gics8
+871  MCCORMICK & SCHMICKS SEAFOOD  92.788796  25301040
+[['dpq_capxq, lct_m_dlc__act_m_che, ppent_ppegt, invt__act_m_che, dpq_gpq, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, revtq2_pqoq']]
+cluster 88:
+                            name           mc     gics8
+874              F5 NETWORKS INC  6584.901151  45201020
+873                    ANSYS INC  4975.039114  45103010
+884               SOLARWINDS INC  1803.289180  45103010
+882                 REALPAGE INC  1480.292892  45103010
+881           QUEST SOFTWARE INC  1477.506902  45103010
+883  SS&C TECHNOLOGIES HLDGS INC  1275.913732  45103010
+872            ACI WORLDWIDE INC  1001.051448  45103010
+875              FAIR ISAAC CORP   988.401756  45103010
+880       OPNET TECHNOLOGIES INC   770.602675  45103020
+878     MANHATTAN ASSOCIATES INC   753.299147  45103010
+[['gpq__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che_ppent, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, gpq_revtq2, revtq2_ppent, dpq_capxq']]
+cluster 89:
+                         name            mc     gics8
+892          VMWARE INC -CL A  39781.045135  45103020
+889             LINKEDIN CORP   8098.090548  45101010
+890         MICROSTRATEGY INC   1316.044775  45103010
+887          COSTAR GROUP INC   1295.234289  20202020
+893                 VOCUS INC    416.806823  45101010
+888             EPOCRATES INC    249.029013  35103010
+886                CONVIO INC    167.369925  45103010
+891  SCIENTIFIC LEARNING CORP     53.051676  45103010
+[['capxq__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, gpq_revtq2, ppent_ppegt']]
+cluster 90:
+                             name           mc     gics8
+903  ALLSCRIPTS HEALTHCARE SOLTNS  3374.534510  35103010
+894          ASPEN TECHNOLOGY INC  1582.262366  45103010
+895                BLACKBOARD INC  1482.708842  45103010
+897                    CUBIC CORP  1121.053447  20101010
+910                   UNISYS CORP   759.306326  45102010
+909                       TEKELEC   497.795952  45201020
+908                       S1 CORP   495.577451  45103010
+904             PROS HOLDINGS INC   426.382754  45103010
+901                 ICG GROUP INC   380.120237  40203010
+896         CALLIDUS SOFTWARE INC   154.783203  45103010
+[['rect__act_m_che, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, rect_revtq2, revtq2_ppent, lct_m_dlc__act_m_che, act_m_che__ppent, dpq_capxq']]
+cluster 91:
+                         name            mc     gics8
+911   ACTIVISION BLIZZARD INC  11174.534448  45103030
+913       ELECTRONIC ARTS INC   7473.979975  45103030
+914  TESSERA TECHNOLOGIES INC    720.496547  45301010
+912                  CEVA INC    621.489191  45301020
+[['gpq__act_m_che_ppent, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, gpq_revtq2, revtq2_ppent, dpq_capxq, cfroq_revtq2']]
+cluster 92:
+                             name            mc     gics8
+933           NEWMONT MINING CORP  30945.420665  15104030
+946               WEYERHAEUSER CO   9711.679834  40402070
+931  MAGELLAN MIDSTREAM PRTNRS LP   6760.837998  10102040
+917                AUTONATION INC   5882.311184  25504050
+930                      LKQ CORP   3741.972712  25501010
+924              GNC HOLDINGS INC   2513.073295  25504040
+921                CVR ENERGY INC   2460.783035  10102030
+939   SPIRIT AEROSYSTEMS HOLDINGS   2396.408186  20101010
+941           TREEHOUSE FOODS INC   1964.848998  30202030
+943               CVR PARTNERS LP   1776.162984  15101030
+[['invt__act_m_che, ppent_ppegt, cogsq_revtq2, invt_revtq2, oiadpq_revtq2, cfroq_revtq2, revtq2_pqoq, revtq2_pyoy, revtltm_pqoq']]
+cluster 93:
+                             name           mc     gics8
+951              INFORMATICA CORP  4457.132040  45103010
+950                  FORTINET INC  2925.225454  45103020
+953  QUESTCOR PHARMACEUTICALS INC  1872.644413  35202010
+948         COMMVAULT SYSTEMS INC  1505.807393  45103020
+952             MERU NETWORKS INC   159.880901  45201020
+954               SUPPORT.COM INC   120.792983  45101010
+949                DATAWATCH CORP    33.022425  45103010
+[['revtq2_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, act_m_che__ppent, rect__act_m_che, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, lct_m_dlc__act_m_che, gpq_revtq2']]
+cluster 94:
+                     name          mc     gics8
+956        GLOBALSTAR INC  239.846185  50101010
+955  DELTA PETROLEUM CORP   93.685895  10102020
+[['dpq_revtq2, capxq_revtq2, ppent_ppegt, dpq_gpq, ap_revtq2, invt_revtq2, lct_m_dlc__act_m_che, invt__act_m_che, gpq_revtq2']]
+cluster 95:
+                            name            mc     gics8
+988                        3M CO  58877.275230  20105010
+973  HONEYWELL INTERNATIONAL INC  37407.751413  20101010
+967          EMERSON ELECTRIC CO  34766.331748  20104010
+980                   KELLOGG CO  19609.519890  30202030
+966                   ECOLAB INC  12429.839319  15101050
+994         PARKER-HANNIFIN CORP  11388.296574  20106020
+964                   DOVER CORP  10700.062944  20106020
+985                   MATTEL INC   9251.340961  25202010
+999          ROCKWELL AUTOMATION   9184.025045  20104010
+963                 CLOROX CO/DE   9135.360022  30301010
+[['rect__act_m_che, rect_revtq2, oiadpq_revtq2, cfroq_revtq2, cfroq__act_m_che_ppent, gpq_revtq2, invt__act_m_che, cogsq_revtq2, revtq2_pqoq']]
+cluster 96:
+                              name           mc     gics8
+1014  PLAINS ALL AMER PIPELNE  -LP  9055.522145  10102040
+1013                     LEAR CORP  4962.452574  25101010
+1016                    SUNOCO INC  4620.249822  10102030
+1011            HOLLYFRONTIER CORP  3832.695133  10102030
+1017  SUNOCO LOGISTICS PARTNERS LP  2840.791935  10102040
+1019                  VISTEON CORP  2605.080093  25101010
+1010           GENESIS ENERGY  -LP  1599.221250  10102040
+1009  COOPER-STANDARD HOLDINGS INC   889.670950  25101010
+1018             TUTOR PERINI CORP   663.896821  20103010
+1012           HARBINGER GROUP INC   637.544851  30202030
+[['ppent_ppegt, rect__act_m_che, ap__act_m_che_ppent, cogsq_revtq2, rect_revtq2, ap_revtq2, revtq2_pqoq, oiadpq_revtq2, dpq_gpq']]
+cluster 97:
+             name         mc     gics8
+1021  BALQON CORP  29.540969  20106010
+[['revtq2_pqoq, act_m_che__ppent, ap_revtq2, dpq_revtq2, ap__act_m_che_ppent, invt__act_m_che, lct_m_dlc__act_m_che_ppent, dpq_gpq, invt_revtq2']]
+cluster 98:
+                           name          mc     gics8
+1023                LOGMEIN INC  755.596578  45101010
+1024                   ZIX CORP  217.595039  45101010
+1022  FRIENDFINDER NETWORKS INC   88.908749  45101010
+[['lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, lct_m_dlc__act_m_che, capxq__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_ppent, gpq_revtq2, cfroq_revtq2']]
+cluster 99:
+                         name           mc     gics8
+1025  ACORDA THERAPEUTICS INC  1018.410144  35201010
+1027       PETMED EXPRESS INC   215.353680  25502020
+1026               CUTERA INC   109.332829  35101010
+[['revtq2_ppent, invt__act_m_che, gpq__act_m_che_ppent, act_m_che__ppent, lct_m_dlc__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_pqoq, cfroq__act_m_che_ppent, ap__act_m_che_ppent']]
+cluster 100:
+           name           mc     gics8
+1028  SOTHEBY'S  2513.647404  25302020
+[['revtq2_pqoq, rect__act_m_che, rect_revtq2, ppent_ppegt, lct_m_dlc__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, revtltm_pqoq, cfroq__act_m_che_ppent']]
+cluster 101:
+                          name          mc     gics8
+1044              QUANTUM CORP  448.730104  45202020
+1046         STAAR SURGICAL CO  290.867830  35101020
+1047              SUPERTEX INC  247.226033  45301020
+1036                  CRAY INC  205.509379  45202010
+1030  CROSS (A.T.) & CO  -CL A  139.474980  20201060
+1037              CYNOSURE INC  129.146882  35101010
+1039    HARVARD BIOSCIENCE INC  124.423646  35203010
+1031    BIOLASE TECHNOLOGY INC  101.281987  35101010
+1035                CERUS CORP   97.784999  35101020
+1041    MATTSON TECHNOLOGY INC   85.570170  45301010
+[['invt__act_m_che, xrdq2__act_m_che_ppent, act_m_che__ppent, dpq_capxq, revtq2_ppent, ap__act_m_che_ppent, gpq_revtq2, lct_m_dlc__act_m_che_ppent, invt_revtq2']]
+cluster 102:
+                           name            mc     gics8
+1051                  BOEING CO  49514.577512  20101010
+1066                SAFEWAY INC   6413.666861  30101030
+1063  SALLY BEAUTY HOLDINGS INC   3099.713317  25504040
+1060    MONRO MUFFLER BRAKE INC   1207.220036  25504050
+1070           WEIS MARKETS INC   1051.728940  30101030
+1057  ETHAN ALLEN INTERIORS INC    494.710522  25201020
+1064          SENECA FOODS CORP    274.731097  30202030
+1058          HAVERTY FURNITURE    260.107517  25504060
+1069            WEST MARINE INC    214.981439  25504040
+1061       MARINE PRODUCTS CORP    208.386284  25202010
+[['invt__act_m_che, dpq_capxq, invt_revtq2, oiadpq_revtq2, gpq_revtq2, cogsq_revtq2, revtq2_pqoq, cfroq_revtq2, gpq__act_m_che_ppent']]
+cluster 103:
+                          name             mc     gics8
+1071                 APPLE INC  356700.380215  45202010
+1078                 ROVI CORP    5463.079209  45103020
+1073  COVENTRY HEALTH CARE INC    4881.069171  35102030
+1072    CHOICE HOTELS INTL INC    1859.897744  25301020
+1080            VALUECLICK INC    1210.677650  45101010
+1079                TALEO CORP    1063.945216  45103010
+1077            QUINSTREET INC     571.492405  45101010
+1076                DELTEK INC     457.647998  45103010
+1075               MARCHEX INC     371.267143  45101010
+1074     DOT HILL SYSTEMS CORP     100.657922  45202020
+[['ap__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, revtq2_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, act_m_che__ppent']]
+cluster 104:
+             name          mc     gics8
+1081  ADOLOR CORP  101.292572  35202010
+[['lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, revtq2_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, act_m_che__ppent, revtq2_pqoq, rect__act_m_che, gpq_revtq2']]
+cluster 105:
+                           name         mc     gics8
+1082  MONOTYPE IMAGING HOLDINGS  420.57918  45103010
+[['gpq__act_m_che_ppent, cfroq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_ppent, rect__act_m_che, lct_m_dlc__act_m_che, capxq__act_m_che_ppent, dpq_capxq']]
+cluster 106:
+                    name          mc     gics8
+1084      STAMPS.COM INC  279.555755  45101010
+1085          VERTRO INC   10.927260  45101010
+1083  ASURE SOFTWARE INC   10.797500  45103010
+[['gpq__act_m_che_ppent, ap__act_m_che_ppent, revtq2_ppent, rect__act_m_che, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, act_m_che__ppent, gpq_revtq2']]
+cluster 107:
+                            name           mc     gics8
+1089  VERTEX PHARMACEUTICALS INC  9392.303131  35201010
+1088               NEOPROBE CORP   299.299760  35101010
+1086          ANTARES PHARMA INC   251.469081  35101020
+1087                    ICAD INC    31.712979  35103010
+[['xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, revtq2_pyoy, gpq_revtq2, xrdq2_revtq2, revtltm_pqoq']]
+cluster 108:
+             name         mc     gics8
+1090  LOOPNET INC  584.97465  45101010
+[['gpq__act_m_che_ppent, capxq__act_m_che_ppent, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, revtq2_ppent, gpq_revtq2, cfroq_revtq2']]
+cluster 109:
+                              name            mc     gics8
+1092             EOG RESOURCES INC  24865.567952  10102020
+1091          CABOT OIL & GAS CORP   7909.532500  10102020
+1098             CIMAREX ENERGY CO   6083.070083  10102020
+1095  PLAINS EXPLORATION & PROD CO   4146.809978  10102020
+1094        MCMORAN EXPLORATION CO   2039.721971  10102020
+1096               SWIFT ENERGY CO   1310.067748  10102020
+1097                    VENOCO INC    713.535641  10102020
+1093         COMPLETE GENOMICS INC    299.528154  35203010
+[['capxq_revtq2, dpq_revtq2, capxq__act_m_che_ppent, rect__act_m_che, dpq_gpq, lct_m_dlc__act_m_che, revtq2_pyoy, ppent_ppegt, ap_revtq2']]
+cluster 110:
+                            name            mc     gics8
+1105            ALTRIA GROUP INC  56317.275330  30203010
+1101                   COACH INC  16220.287025  25203010
+1102               LORILLARD INC  15487.379746  30203010
+1107  NU SKIN ENTERPRISES  -CL A   2626.208992  30302010
+1103      LIQUIDITY SERVICES INC    674.335419  45101010
+1108   USANA HEALTH SCIENCES INC    411.453888  30302010
+1106             NUTRISYSTEM INC    357.196307  25502020
+1100           BODY CENTRAL CORP    274.416971  25504010
+1104                MEDIFAST INC    253.537609  30302010
+1099      ARDEN GROUP INC  -CL A    250.440067  30101030
+[['gpq__act_m_che_ppent, invt__act_m_che, cfroq__act_m_che_ppent, capxq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ppent_ppegt, gpq_revtq2, lct_m_dlc__act_m_che, oiadpq_revtq2']]
+cluster 111:
+                              name            mc     gics8
+1114              NOBLE ENERGY INC  15639.720108  10102020
+1110  DUPONT FABROS TECHNOLOGY INC   1416.346833  40402020
+1112                    GEOEYE INC    802.452777  20101010
+1113                 HECKMANN CORP    675.850636  30201030
+1115           VANTAGE DRILLING CO    444.712832  10101010
+1109             BPZ RESOURCES INC    425.308971  10102020
+1111       EAGLE BULK SHIPPING INC    121.527404  20303010
+[['capxq_revtq2, ppent_ppegt, capxq__act_m_che_ppent, rect__act_m_che, dpq_revtq2, revtq2_pyoy, dpq_gpq, rect_revtq2, revtltm_pqoq']]
+cluster 112:
+                name          mc     gics8
+1116  IMMERSION CORP  202.186039  45202020
+[['gpq__act_m_che_ppent, dpq_capxq, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, gpq_revtq2, revtq2_ppent, ap__act_m_che_ppent']]
+cluster 113:
+                         name         mc     gics8
+1117  INFUSYSTEM HOLDINGS INC  31.999451  35102015
+[['dpq_revtq2, rect__act_m_che, gpq__act_m_che_ppent, ppent_ppegt, gpq_revtq2, cfroq__act_m_che_ppent, dpq_gpq, cfroq_revtq2, oiadpq_revtq2']]
+cluster 114:
+                        name           mc     gics8
+1118  LEUCADIA NATIONAL CORP  7246.685520  40201030
+1119             RENTECH INC   223.343994  10102030
+[['revtq2_pqoq, cfroq__act_m_che_ppent, ppent_ppegt, capxq__act_m_che_ppent, gpq__act_m_che_ppent, revtq2_pyoy, revtltm_pqoq, rect__act_m_che, gpq_revtq2']]
+cluster 115:
+                             name         mc     gics8
+1120  BROADCAST INTERNATIONAL INC  45.346044  50101010
+[['lct_m_dlc__act_m_che_ppent, lct_m_dlc__act_m_che, rect__act_m_che, xrdq2__act_m_che_ppent, ap__act_m_che_ppent, dpq_revtq2, revtq2_pqoq, dpq_gpq, dpq_capxq']]
+cluster 116:
+                            name             mc     gics8
+1129                COCA-COLA CO  161541.843002  30201030
+1132                 PEPSICO INC  102057.120483  30201030
+1121    BAXTER INTERNATIONAL INC   31719.339233  35101010
+1131     MARATHON PETROLEUM CORP   13193.360489  10102030
+1136  WATSON PHARMACEUTICALS INC    8517.528451  35202010
+1124         CHURCH & DWIGHT INC    6248.459839  30301010
+1127      DRESSER-RAND GROUP INC    3387.347933  10101020
+1128        ICAHN ENTERPRISES LP    3386.072486  25101010
+1125           DANA HOLDING CORP    1872.553528  25101010
+1126               DEAN FOODS CO    1586.618676  30202030
+[['ap__act_m_che_ppent, ppent_ppegt, ap_revtq2, invt__act_m_che, rect__act_m_che, revtq2_pqoq, rect_revtq2, cogsq_revtq2, oiadpq_revtq2']]
+cluster 117:
+                            name           mc     gics8
+1139         SIRIUS XM RADIO INC  7108.043366  25401025
+1140                VERISIGN INC  5181.740361  45101010
+1138       HUGHES TELEMATICS INC   395.375931  45201020
+1137  ECOSPHERE TECHNOLOGIES INC    65.027923  55104010
+[['lct_m_dlc__act_m_che, lct_m_dlc__act_m_che_ppent, ppent_ppegt, dpq_revtq2, gpq_revtq2, capxq__act_m_che_ppent, gpq__act_m_che_ppent, ap_revtq2, dpq_gpq']]
+cluster 118:
+                        name           mc     gics8
+1141  TERRA NITROGEN CO  -LP  3426.574565  15101030
+[['cfroq__act_m_che_ppent, gpq__act_m_che_ppent, invt__act_m_che, ap__act_m_che_ppent, dpq_capxq, cfroq_revtq2, gpq_revtq2, lct_m_dlc__act_m_che, oiadpq_revtq2']]
+cluster 119:
+                              name           mc     gics8
+1143               ACME PACKET INC  3130.928863  45201020
+1151     SALIX PHARMACEUTICALS LTD  1780.827774  35202010
+1148           MYRIAD GENETICS INC  1710.218579  35201010
+1142          ALIGN TECHNOLOGY INC  1495.625536  35101020
+1153                 SYNAPTICS INC   817.567764  45202020
+1145                SOURCEFIRE INC   792.027262  45103020
+1144                      EBIX INC   630.376092  45103010
+1147                LIVEPERSON INC   622.523803  45101010
+1152  SPECTRUM PHARMACEUTICALS INC   452.698740  35201010
+1146                    INPHI CORP   218.787376  45301020
+[['gpq__act_m_che_ppent, rect__act_m_che, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_ppent, act_m_che__ppent, gpq_revtq2, rect_revtq2, revtq2_pyoy']]
+cluster 120:
+                              name          mc     gics8
+1154  BIOCRYST PHARMACEUTICALS INC  148.995003  35201010
+[['rect_revtq2, xrdq2__act_m_che_ppent, rect__act_m_che, cogsq_revtq2, dpq_capxq, ap_revtq2, act_m_che__ppent, lct_m_dlc__act_m_che_ppent, xrdq2_revtq2']]
+cluster 121:
+              name          mc     gics8
+1155  SEQUENOM INC  607.655015  35203010
+[['capxq__act_m_che_ppent, xrdq2__act_m_che_ppent, capxq_revtq2, ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, dpq_revtq2, xrdq2_revtq2, ap_revtq2, lct_m_dlc__act_m_che']]
+cluster 122:
+                              name            mc     gics8
+1175              WYNN RESORTS LTD  19331.046667  25301010
+1172  UNITED CONTINENTAL HLDGS INC   6148.946635  20302010
+1170   ROYAL CARIBBEAN CRUISES LTD   5634.811978  25301020
+1166     MGM RESORTS INTERNATIONAL   5409.102925  25301010
+1167      PENN NATIONAL GAMING INC   3139.760551  25301010
+1160   CHENIERE ENERGY PARTNERS LP   2533.734750  10102040
+1164               HECLA MINING CO   2143.857011  15104040
+1173                    WENDY'S CO   1929.203907  25301040
+1168    PINNACLE ENTERTAINMENT INC    850.313901  25301010
+1162                DINEEQUITY INC    777.532861  25301040
+[['ppent_ppegt, lct_m_dlc__act_m_che, dpq_revtq2, dpq_gpq, cfroq_revtq2, oiadpq_revtq2, dpq_capxq, gpq_revtq2, cogsq_revtq2']]
+cluster 123:
+              name         mc     gics8
+1176  TELKONET INC  14.795389  45201020
+[['revtq2_ppent, ap__act_m_che_ppent, act_m_che__ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, rect__act_m_che, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che']]
+cluster 124:
+            name          mc     gics8
+1177  ZIPCAR INC  820.490919  20304020
+[['capxq__act_m_che_ppent, ppent_ppegt, capxq_revtq2, lct_m_dlc__act_m_che, dpq_revtq2, dpq_gpq, revtq2_pqoq, revtq2_pyoy, revtltm_pqoq']]
+cluster 125:
+                              name           mc     gics8
+1180   WESCO AIRCRAFT HOLDINGS INC  1053.364196  20305010
+1179              MDC HOLDINGS INC   929.686751  25201030
+1178  CALAMOS ASSET MANAGEMENT INC   237.282587  40203010
+[['invt__act_m_che, act_m_che__ppent, ppent_ppegt, invt_revtq2, revtq2_ppent, oiadpq_revtq2, cfroq_revtq2, revtq2_pqoq, cogsq_revtq2']]
+cluster 126:
+                              name             mc     gics8
+1203                    PFIZER INC  148084.366888  35202010
+1199                    MERCK & CO  102032.300835  35202010
+1183                     AMGEN INC   51194.218872  35201010
+1197              LILLY (ELI) & CO   43424.901970  35202010
+1211         TEXAS INSTRUMENTS INC   30280.953931  45301020
+1210  THERMO FISHER SCIENTIFIC INC   20976.284905  35203010
+1207           ST JUDE MEDICAL INC   14992.555467  35101010
+1191    CF INDUSTRIES HOLDINGS INC   13103.164682  15101030
+1189        BOSTON SCIENTIFIC CORP   10365.262996  35101010
+1186                 AVON PRODUCTS    9716.744887  30302010
+[['ppent_ppegt, cfroq__act_m_che_ppent, invt__act_m_che, gpq__act_m_che_ppent, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, dpq_revtq2, xrdq2__act_m_che_ppent']]
+cluster 127:
+                             name         mc     gics8
+1214  SUPERCONDUCTOR TECHNOLOGIES  56.815162  45203015
+[['dpq_gpq, capxq__act_m_che_ppent, invt__act_m_che, xrdq2__act_m_che_ppent, capxq_revtq2, dpq_revtq2, xrdq2_revtq2, cogsq_revtq2, invt_revtq2']]
+cluster 128:
+                              name            mc     gics8
+1218     GREEN MTN COFFEE ROASTERS  16029.875246  30202030
+1222   METROPCS COMMUNICATIONS INC   4035.174697  50102010
+1219         LIFE TIME FITNESS INC   1622.648541  25301030
+1224  MEMC ELECTRONIC MATRIALS INC   1607.494026  45301010
+1216                  COINSTAR INC   1400.720859  25302020
+1215          BJ'S RESTAURANTS INC   1278.816607  25301040
+1223            SUNCOKE ENERGY INC    991.199989  15104020
+1221    PACIRA PHARMACEUTICALS INC    132.005930  35202010
+1220                   NEOSTEM INC     60.040524  35202010
+1217   GRANITE CITY FOOD & BREWERY     11.627001  25301040
+[['ppent_ppegt, capxq__act_m_che_ppent, invt__act_m_che, lct_m_dlc__act_m_che, capxq_revtq2, dpq_revtq2, dpq_gpq, ap_revtq2, cogsq_revtq2']]
+cluster 129:
+                          name          mc     gics8
+1225  WAVE SYSTEMS CORP  -CL A  191.249596  45103020
+[['xrdq2__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap__act_m_che_ppent, rect__act_m_che, revtq2_ppent, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, gpq_revtq2']]
+cluster 130:
+                       name             mc     gics8
+1247    PROCTER & GAMBLE CO  176122.136860  30301010
+1249             PERRIGO CO    8789.787510  35202010
+1236            GENTEX CORP    3713.209432  25101010
+1232               CREE INC    3554.555117  45301020
+1244    OIL STATES INTL INC    3391.003091  10101020
+1237     IPG PHOTONICS CORP    2750.437287  45203020
+1240  LUFKIN INDUSTRIES INC    1895.274263  10101020
+1238    INTL RECTIFIER CORP    1593.017274  45301020
+1256           VOLCANO CORP    1570.967364  35101010
+1255  VEECO INSTRUMENTS INC    1492.776203  45301010
+[['capxq__act_m_che_ppent, invt__act_m_che, ppent_ppegt, capxq_revtq2, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, revtq2_pqoq, invt_revtq2']]
+cluster 131:
+                           name         mc     gics8
+1257  COLUMBIA LABORATORIES INC  201.58877  35202010
+[['cfroq__act_m_che_ppent, gpq__act_m_che_ppent, revtq2_ppent, rect__act_m_che, act_m_che__ppent, capxq__act_m_che_ppent, revtq2_pqoq, revtq2_pyoy, revtltm_pqoq']]
+cluster 132:
+                             name             mc     gics8
+1261                   INTEL CORP  106387.045565  45301020
+1259              FIRST SOLAR INC    8627.370692  45301020
+1262          INTREPID POTASH INC    2573.415523  15101030
+1265               SHUTTERFLY INC    1846.655313  25502020
+1266   TRIQUINT SEMICONDUCTOR INC    1248.588585  45301020
+1260  HEARTWARE INTERNATIONAL INC     874.690799  35101010
+1264                    REALD INC     761.650497  45103030
+1258                     AAON INC     431.972241  20102010
+1263       RUBICON TECHNOLOGY INC     296.864617  45301010
+[['capxq__act_m_che_ppent, ppent_ppegt, capxq_revtq2, invt__act_m_che, revtq2_pyoy, dpq_revtq2, gpq_revtq2, cfroq_revtq2, xrdq2__act_m_che_ppent']]
+cluster 133:
+                 name        mc     gics8
+1267  BROADVISION INC  40.31975  45101010
+[['lct_m_dlc__act_m_che_ppent, xrdq2__act_m_che_ppent, revtq2_ppent, act_m_che__ppent, gpq__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che, gpq_revtq2, rect_revtq2']]
+cluster 134:
+                            name          mc     gics8
+1268  SAGENT PHARMACEUTICALS INC  600.522229  35202010
+[['act_m_che__ppent, revtq2_ppent, revtq2_pyoy, invt__act_m_che, ap__act_m_che_ppent, revtltm_pqoq, cogsq_revtq2, ppent_ppegt, ap_revtq2']]
+cluster 135:
+                   name          mc     gics8
+1271  OVERSTOCK.COM INC  243.720665  25502020
+1269  1-800-FLOWERS.COM  159.382778  25502020
+1270       NAUTILUS INC   44.890621  25202010
+[['ap__act_m_che_ppent, gpq__act_m_che_ppent, invt__act_m_che, lct_m_dlc__act_m_che_ppent, capxq__act_m_che_ppent, revtq2_ppent, lct_m_dlc__act_m_che, cogsq_revtq2, oiadpq_revtq2']]
+cluster 136:
+                             name            mc     gics8
+1296           VALERO ENERGY CORP  12967.734979  10102030
+1275  ALEXION PHARMACEUTICALS INC  10663.328215  35201010
+1278  ALPHA NATURAL RESOURCES INC   7487.047931  10102050
+1280                CELANESE CORP   7349.690015  15101050
+1297            WALTER ENERGY INC   5098.205275  15104020
+1288                 ROCK-TENN CO   3821.672228  15103020
+1282   ENDO PHARMACEUTICALS HLDGS   3725.725711  35202010
+1285                OWENS CORNING   3562.755890  20102010
+1295     UNITED THERAPEUTICS CORP   2516.263474  35201010
+1290                  SOLUTIA INC   2125.733467  15101020
+[['ppent_ppegt, revtq2_pqoq, rect__act_m_che, revtq2_pyoy, rect_revtq2, revtltm_pqoq, cfroq_revtq2, oiadpq_revtq2, dpq_gpq']]
+cluster 137:
+              name         mc     gics8
+1298  MEDICINES CO  787.37072  35202010
+[['dpq_capxq, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, cfroq__act_m_che_ppent, rect__act_m_che, lct_m_dlc__act_m_che_ppent, ppent_ppegt, revtq2_ppent, gpq_revtq2']]
+cluster 138:
+                           name            mc     gics8
+1319               DOW CHEMICAL  33605.677812  15101020
+1335        KIMBERLY-CLARK CORP  27124.554281  30301010
+1299  ARCHER-DANIELS-MIDLAND CO  19252.479691  30202010
+1306      BECTON DICKINSON & CO  17695.810692  35101010
+1342                 NUCOR CORP  11419.442799  15104050
+1338              LUBRIZOL CORP   8679.745575  15101050
+1353                  VALHI INC   6695.150882  15101050
+1308                  BALL CORP   5978.747110  15103010
+1321        EASTMAN CHEMICAL CO   5802.722149  15101020
+1322             FLOWSERVE CORP   5203.039518  20106020
+[['invt__act_m_che, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, dpq_gpq, invt_revtq2, rect_revtq2, ap_revtq2, revtq2_pqoq']]
+cluster 139:
+                             name            mc     gics8
+1370       MOTOROLA SOLUTIONS INC  14442.615553  45201020
+1376      ROPER INDUSTRIES INC/DE   7392.278552  20104010
+1361                   HASBRO INC   5228.202514  25202010
+1381       TRIMBLE NAVIGATION LTD   4558.897805  45203020
+1371                 OMNICARE INC   3440.670494  35102015
+1378            MADDEN STEVEN LTD   1546.441605  25203020
+1360  APPLIED INDUSTRIAL TECH INC   1304.473312  20107010
+1364         ION GEOPHYSICAL CORP   1096.686310  10101020
+1375            REVLON INC  -CL A    699.177270  30302010
+1362                 HARMONIC INC    551.745889  45201020
+[['act_m_che__ppent, revtq2_ppent, rect__act_m_che, rect_revtq2, gpq__act_m_che_ppent, dpq_capxq, gpq_revtq2, oiadpq_revtq2, cfroq_revtq2']]
+cluster 140:
+                              name            mc     gics8
+1415               KRAFT FOODS INC  61217.290622  30202030
+1393               CATERPILLAR INC  58792.037415  20106010
+1402      DU PONT (E I) DE NEMOURS  44942.796818  15101020
+1433          SOUTHERN COPPER CORP  28549.159212  15104020
+1396                   CUMMINS INC  18091.700591  20106010
+1435                    SYSCO CORP  16522.761869  30101020
+1407                    EATON CORP  14650.245522  20106020
+1414                 INTL PAPER CO  11867.264999  15105020
+1409          FMC TECHNOLOGIES INC  10679.291644  10101020
+1416  L-3 COMMUNICATIONS HLDGS INC   7159.261136  20101010
+[['rect__act_m_che, invt__act_m_che, ppent_ppegt, rect_revtq2, revtq2_pqoq, cogsq_revtq2, oiadpq_revtq2, cfroq_revtq2, revtltm_pqoq']]
+cluster 141:
+               name          mc     gics8
+1442  BLUE NILE INC  560.472247  25502020
+[['ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, invt__act_m_che, capxq__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, revtq2_ppent, ap_revtq2, cfroq__act_m_che_ppent']]
+cluster 142:
+                   name           mc     gics8
+1444        EXPEDIA INC  8307.667643  25502020
+1443  DIGITAL RIVER INC   798.451592  45101010
+[['ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che, ap_revtq2, cfroq__act_m_che_ppent, capxq__act_m_che_ppent, rect__act_m_che, xrdq2__act_m_che_ppent']]
+cluster 143:
+                              name           mc     gics8
+1445  SIX FLAGS ENTERTAINMENT CORP  1831.863567  25301030
+[['revtq2_pqoq, ppent_ppegt, lct_m_dlc__act_m_che, dpq_revtq2, gpq_revtq2, cfroq_revtq2, dpq_gpq, capxq_revtq2, oiadpq_revtq2']]
+cluster 144:
+                              name            mc     gics8
+1454                   EMC CORP/MA  46647.131470  45202020
+1462                YUM BRANDS INC  25282.049503  25301040
+1452             DISH NETWORK CORP  11087.865256  25401025
+1457               PANERA BREAD CO   3501.908538  25301040
+1453      DUNKIN' BRANDS GROUP INC   3328.208894  25301040
+1449         CAREER EDUCATION CORP   1294.236537  25302010
+1448               CARDTRONICS INC   1074.616917  45102020
+1458  PAPA JOHNS INTERNATIONAL INC    752.926692  25301040
+1451                   DENNYS CORP    369.176305  25301040
+1446           AFC ENTERPRISES INC    316.769200  25301040
+[['lct_m_dlc__act_m_che, capxq__act_m_che_ppent, cfroq__act_m_che_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, oiadpq_revtq2, cfroq_revtq2, dpq_gpq, gpq_revtq2']]
+cluster 145:
+              name          mc     gics8
+1463  SANTARUS INC  185.709735  35202010
+[['revtq2_ppent, gpq__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, dpq_capxq, act_m_che__ppent, cfroq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, gpq_revtq2']]
+cluster 146:
+                   name        mc     gics8
+1464  SOCKET MOBILE INC  8.191943  45202020
+[['ap__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, revtq2_ppent, gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che, cfroq__act_m_che_ppent, ap_revtq2, act_m_che__ppent']]
+cluster 147:
+                             name            mc     gics8
+1467            DEVON ENERGY CORP  28352.940765  10102020
+1465    APCO OIL AND GAS INTL INC   2329.979740  10102020
+1471            STONE ENERGY CORP   1267.710922  10102020
+1475           UNITED RENTALS INC   1044.297097  20107010
+1470             RSC HOLDINGS INC    826.101548  20107010
+1468       LIMELIGHT NETWORKS INC    285.889003  45101010
+1466                  CBEYOND INC    277.083541  50101020
+1474           UNION DRILLING INC    197.822217  10101010
+1469  MULTIMEDIA GAMES HOLDING CO    130.941630  25301010
+1473           TGC INDUSTRIES INC    122.751006  10101020
+[['capxq__act_m_che_ppent, rect__act_m_che, dpq_revtq2, capxq_revtq2, dpq_gpq, gpq_revtq2, cfroq_revtq2, oiadpq_revtq2, lct_m_dlc__act_m_che']]
+cluster 148:
+                              name            mc     gics8
+1492                    VIACOM INC  27820.009557  25401030
+1485                    MEDNAX INC   3181.903161  35102015
+1486           QUALITY SYSTEMS INC   2692.873176  35103010
+1477  BROADRIDGE FINANCIAL SOLUTNS   2575.433899  45102020
+1482            FTI CONSULTING INC   1511.770955  20202020
+1479   COMPUTER PROGRAMS & SYSTEMS    783.481637  35103010
+1487      DEALERTRACK HOLDINGS INC    774.126430  45101010
+1481            DG FASTCHANNEL INC    600.530244  45201020
+1480          CSG SYSTEMS INTL INC    462.356317  45102020
+1484                 LHC GROUP INC    364.854956  35102015
+[['rect__act_m_che, gpq__act_m_che_ppent, cfroq__act_m_che_ppent, revtq2_ppent, rect_revtq2, cfroq_revtq2, gpq_revtq2, act_m_che__ppent, oiadpq_revtq2']]
+cluster 149:
+                              name          mc     gics8
+1494  PERNIX THERAPEUTICS HOLDINGS  200.945723  35202010
+1493  CORNERSTONE THERAPEUTICS INC  200.745658  35202010
+[['act_m_che__ppent, dpq_capxq, ppent_ppegt, revtq2_ppent, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, revtq2_pyoy, rect_revtq2, cfroq__act_m_che_ppent']]
+cluster 150:
+                  name         mc     gics8
+1495  LIGHTBRIDGE CORP  31.525472  20202020
+[['revtq2_ppent, act_m_che__ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, rect__act_m_che, revtq2_pqoq, gpq__act_m_che_ppent, ppent_ppegt, cogsq_revtq2']]
+cluster 151:
+                              name             mc     gics8
+1512    VERIZON COMMUNICATIONS INC  102367.964456  50101020
+1509            SPRINT NEXTEL CORP   11253.679971  50102010
+1513               WINDSTREAM CORP    6476.999903  50101020
+1511              US CELLULAR CORP    3655.380133  50102010
+1510  TELEPHONE & DATA SYSTEMS INC    2648.168940  50102010
+1498           CINCINNATI BELL INC     674.286570  50101020
+1499   CONSOLIDATED COMM HLDGS INC     571.769106  50101020
+1496  ALASKA COMMUNICATIONS SYS GP     343.527597  50101020
+1505                    OTELCO INC     226.509029  50101020
+1497     AMERICAN REPROGRAPHICS CO     180.700655  20201060
+[['dpq_revtq2, rect__act_m_che, capxq__act_m_che_ppent, capxq_revtq2, dpq_gpq, gpq_revtq2, cfroq_revtq2, revtq2_pqoq, oiadpq_revtq2']]
+cluster 152:
+             name            mc     gics8
+1515  NETFLIX INC  12346.544075  25502020
+1516      THQ INC    133.239921  45103030
+[['dpq_revtq2, dpq_capxq, ap__act_m_che_ppent, cfroq__act_m_che_ppent, dpq_gpq, lct_m_dlc__act_m_che_ppent, gpq__act_m_che_ppent, revtq2_pqoq, act_m_che__ppent']]
+cluster 153:
+                            name          mc     gics8
+1519   ROCKWELL MED TECHNOLOGIES  162.933496  35101010
+1522               UROPLASTY INC  129.494218  35101010
+1521                  TRANS1 INC   88.995894  35101020
+1520             STEREOTAXIS INC   72.008648  35101010
+1517              LCA VISION INC   53.311116  35102020
+1518  OCULUS INNOVATIVE SCIENCES   35.043061  35202010
+[['gpq__act_m_che_ppent, xrdq2__act_m_che_ppent, lct_m_dlc__act_m_che_ppent, ap__act_m_che_ppent, dpq_capxq, rect__act_m_che, lct_m_dlc__act_m_che, gpq_revtq2, xrdq2_revtq2']]
+cluster 154:
+                             name            mc     gics8
+1523    AUTOMATIC DATA PROCESSING  24554.722790  45102020
+1525  ULTIMATE SOFTWARE GROUP INC   1306.965300  45103010
+1524                 TREE.COM INC     63.273261  40102010
+[['act_m_che__ppent, lct_m_dlc__act_m_che_ppent, gpq_revtq2, lct_m_dlc__act_m_che, oiadpq_revtq2, ap_revtq2, cfroq_revtq2, xrdq2_revtq2, rect_revtq2']]
+cluster 155:
+              name         mc     gics8
+1527     LRAD CORP  72.774699  45203010
+1526  BIDZ.COM INC  12.020430  25502020
+[['act_m_che__ppent, revtq2_ppent, invt__act_m_che, ap__act_m_che_ppent, ap_revtq2, invt_revtq2, cogsq_revtq2, oiadpq_revtq2, xrdq2_revtq2']]
+cluster 156:
+                          name            mc     gics8
+1587  UNITED TECHNOLOGIES CORP  67471.936661  20101010
+1588                   VF CORP  12829.506732  25203010
+1554        GRAINGER (W W) INC  10770.513730  20107010
+1535      ROCKWELL COLLINS INC   7760.748013  20101010
+1583                 TIMKEN CO   3861.986254  20106020
+1566       LEGGETT & PLATT INC   3139.885076  25201020
+1557                 IDEX CORP   3086.761791  20106020
+1565      KRONOS WORLDWIDE INC   2537.096890  15101010
+1536                  CRANE CO   2450.075315  20106020
+1575            NEWMARKET CORP   2319.653135  15101050
+[['invt__act_m_che, oiadpq_revtq2, cfroq_revtq2, rect_revtq2, cogsq_revtq2, invt_revtq2, act_m_che__ppent, gpq_revtq2, revtq2_pqoq']]
+hc_ward*******class dist: Counter({11: 97, 4: 90, 0: 88, 70: 55, 21: 51, 20: 49, 22: 42, 49: 39, 28: 31, 131: 31, 8: 30, 68: 30, 13: 29, 130: 27, 23: 25, 55: 25, 123: 25, 18: 24, 24: 24, 72: 24, 38: 23, 64: 22, 19: 21, 35: 20, 75: 20, 94: 20, 140: 20, 6: 19, 7: 19, 46: 19, 53: 18, 62: 18, 50: 17, 73: 17, 3: 15, 146: 15, 63: 14, 77: 14, 9: 12, 16: 12, 17: 12, 58: 12, 139: 12, 76: 11, 111: 11, 112: 11, 27: 10, 54: 10, 71: 10, 90: 9, 105: 9, 109: 9, 41: 8, 44: 8, 65: 8, 66: 8, 104: 8, 114: 8, 1: 7, 2: 7, 14: 7, 30: 7, 31: 7, 61: 7, 33: 6, 52: 6, 110: 6, 15: 5, 42: 5, 47: 5, 48: 5, 12: 4, 25: 4, 26: 4, 36: 4, 60: 4, 67: 4, 98: 4, 102: 4, 113: 4, 121: 4, 122: 4, 156: 4, 5: 3, 10: 3, 34: 3, 37: 3, 45: 3, 51: 3, 56: 3, 59: 3, 69: 3, 96: 3, 141: 3, 29: 2, 32: 2, 74: 2, 78: 2, 93: 2, 128: 2, 39: 1, 40: 1, 43: 1, 57: 1, 79: 1, 80: 1, 81: 1, 82: 1, 83: 1, 84: 1, 85: 1, 86: 1, 87: 1, 88: 1, 89: 1, 91: 1, 92: 1, 95: 1, 97: 1, 99: 1, 100: 1, 101: 1, 103: 1, 106: 1, 107: 1, 108: 1, 115: 1, 116: 1, 117: 1, 118: 1, 119: 1, 120: 1, 124: 1, 125: 1, 126: 1, 127: 1, 129: 1, 132: 1, 133: 1, 134: 1, 135: 1, 136: 1, 137: 1, 138: 1, 142: 1, 143: 1, 144: 1, 145: 1, 147: 1, 148: 1, 149: 1, 150: 1, 151: 1, 152: 1, 153: 1, 154: 1, 155: 1})
+************************writing: ../data/hier_fact.157.csv
+cluster 87:
+                           name          mc     gics8
+0  ADVANCED CELL TECHNOLOGY INC  263.719339  35201010
+[nan]
+cluster 130:
+                             name            mc     gics8
+2040          NEWMONT MINING CORP  30945.420665  15104030
+3212              WEYERHAEUSER CO   9711.679834  40402070
+309    ALLEGHENY TECHNOLOGIES INC   5329.251548  15104050
+2850            TRIUMPH GROUP INC   2568.485914  20101010
+1296             GNC HOLDINGS INC   2513.073295  25504040
+2860          TREEHOUSE FOODS INC   1964.848998  30202030
+2778         STILLWATER MINING CO   1586.034807  15104040
+2902  TOOTSIE ROLL INDUSTRIES INC   1467.944960  30202030
+2350       POWER INTEGRATIONS INC    934.242585  45301020
+2541          RTI INTL METALS INC    804.222979  15104020
+[nan]
+cluster 92:
+                          name         mc     gics8
+5  BROADCAST INTERNATIONAL INC  45.346044  50101010
+[nan]
+cluster 85:
+          name         mc     gics8
+8  BALQON CORP  29.540969  20106010
+[nan]
+cluster 140:
+                              name            mc     gics8
+3072            VALERO ENERGY CORP  12967.734979  10102030
+2225  PLAINS ALL AMER PIPELNE  -LP   9055.522145  10102040
+593                  CELANESE CORP   7349.690015  15101050
+1029    ENDO PHARMACEUTICALS HLDGS   3725.725711  35202010
+2144                 OWENS CORNING   3562.755890  20102010
+2687                   SOLUTIA INC   2125.733467  15101020
+1135            FEDERAL-MOGUL CORP   1756.552823  25101010
+1341          CHART INDUSTRIES INC   1391.991615  20106020
+2944          TTM TECHNOLOGIES INC    908.478454  45203020
+10    COOPER-STANDARD HOLDINGS INC    889.670950  25101010
+[nan]
+cluster 96:
+                            name           mc     gics8
+2640         SIRIUS XM RADIO INC  7108.043366  25401025
+26         HUGHES TELEMATICS INC   395.375931  45201020
+15    ECOSPHERE TECHNOLOGIES INC    65.027923  55104010
+[nan]
+cluster 19:
+                            name             mc     gics8
+1561                  INTEL CORP  106387.045565  45301020
+1290   GREEN MTN COFFEE ROASTERS   16029.875246  30202030
+1303                 GENTEX CORP    3713.209432  25101010
+753                     CREE INC    3554.555117  45301020
+3055       VEECO INSTRUMENTS INC    1492.776203  45301010
+2901  TRIQUINT SEMICONDUCTOR INC    1248.588585  45301020
+766             CIRRUS LOGIC INC     989.752767  45301020
+2119                NUVASIVE INC     965.977406  35101010
+709                 SPANSION INC     926.779279  45301020
+897                   DIODES INC     910.401090  45301020
+[nan]
+cluster 22:
+                              name            mc     gics8
+1847               MCDONALD'S CORP  93275.996364  25301040
+2409                   PRAXAIR INC  29759.581820  15101040
+567                       CBS CORP  16733.399490  25401020
+3165          WASTE MANAGEMENT INC  15605.835620  20201050
+917   DIAMOND OFFSHRE DRILLING INC   8860.193105  10101010
+1757  L-3 COMMUNICATIONS HLDGS INC   7159.261136  20101010
+953                     DAVITA INC   6878.332919  35102015
+2407           QUANTA SERVICES INC   3986.813677  20103010
+2356   PHARMACEUTICAL PROD DEV INC   3585.427412  35203010
+2937     TOTAL SYSTEM SERVICES INC   3501.280213  45102020
+[nan]
+cluster 79:
+             name         mc     gics8
+34  ORAGENICS INC  13.355238  35201010
+[nan]
+cluster 109:
+                            name           mc     gics8
+352             ANIXTER INTL INC  2060.183550  45203030
+3192                  WATSCO INC  1965.187258  20107010
+2946  TAKE-TWO INTERACTIVE SFTWR  1141.679231  45103030
+2107                 NETGEAR INC  1042.781447  45201020
+35                      PAID INC    68.684470  25502020
+841             CYBEROPTICS CORP    59.942314  45301010
+1418                  HEELYS INC    58.560914  25203020
+98              ACME UNITED CORP    31.412903  25201050
+3159           WILLDAN GROUP INC    29.390851  20103010
+[nan]
+cluster 23:
+                             name            mc     gics8
+605                   CERNER CORP  11142.749984  35103010
+1742  LABORATORY CP OF AMER HLDGS   8469.942004  35102015
+1019                   EMDEON INC   2169.605245  35103010
+1769         LINCARE HOLDINGS INC   2011.307493  35102015
+2104                  NEUSTAR INC   1839.758301  45102020
+178          ALIGN TECHNOLOGY INC   1495.625536  35101020
+624                   CHEMED CORP   1236.795886  35102015
+2723       SERVICESOURCE INTL INC   1228.579241  45102010
+2676     SYNCHRONOSS TECHNOLOGIES   1033.655238  45103010
+264                  ARBITRON INC   1021.322407  25401010
+[nan]
+cluster 134:
+            name         mc     gics8
+44  TELKONET INC  14.795389  45201020
+[nan]
+cluster 90:
+                              name           mc     gics8
+1218               FIRST SOLAR INC  8627.370692  45301020
+1580           INTREPID POTASH INC  2573.415523  15101030
+3144  MEMC ELECTRONIC MATRIALS INC  1607.494026  45301010
+510         BUFFALO WILD WINGS INC  1130.516046  25301040
+2489                     REALD INC   761.650497  45103030
+2443        RUBICON TECHNOLOGY INC   296.864617  45301010
+1376    HERITAGE-CRYSTAL CLEAN INC   237.029918  20201050
+46               U S ANTIMONY CORP   175.080439  15104020
+2371              PRIMO WATER CORP   167.170157  30201030
+[nan]
+cluster 17:
+                              name             mc     gics8
+2653              SCHLUMBERGER LTD  105412.577930  10101020
+2134                     NEWS CORP   45365.462059  25401030
+1627          JOHNSON CONTROLS INC   21670.067511  25101010
+575      COCA-COLA ENTERPRISES INC    8809.857297  30201030
+506                 BORGWARNER INC    7758.299687  25101010
+3132          WESTERN DIGITAL CORP    6871.169947  45202020
+2926  TRW AUTOMOTIVE HOLDINGS CORP    5157.606780  25101010
+1890   MULTI-FINELINE ELECTRON INC     458.557726  45203020
+3064          VIASYSTEMS GROUP INC     381.083243  45203020
+2895       TOWER INTERNATIONAL INC     266.276145  25101010
+[nan]
+cluster 46:
+                             name             mc     gics8
+1638            JOHNSON & JOHNSON  180330.177504  35202010
+2278                   PFIZER INC  148084.366888  35202010
+1961                   MERCK & CO  102032.300835  35202010
+75            ABBOTT LABORATORIES   81735.831402  35202010
+205                     AMGEN INC   51194.218872  35201010
+459       BRISTOL-MYERS SQUIBB CO   50575.000000  35202010
+1760             LILLY (ELI) & CO   43424.901970  35202010
+1278          GILEAD SCIENCES INC   30966.913290  35201010
+423               BIOGEN IDEC INC   22847.811394  35201010
+195   ALEXION PHARMACEUTICALS INC   10663.328215  35201010
+[nan]
+cluster 11:
+                              name            mc     gics8
+1926                         3M CO  58877.275230  20105010
+923                   DOW CHEMICAL  33605.677812  15101020
+1678           KIMBERLY-CLARK CORP  27124.554281  30301010
+51                       ALCOA INC  13620.528328  15104010
+3260           ZIMMER HOLDINGS INC  10831.855537  35101010
+1351            GRAINGER (W W) INC  10770.513730  20107010
+2366                    PERRIGO CO   8789.787510  35202010
+1439  STARWOOD HOTELS&RESORTS WRLD   8709.755962  25301020
+1817                 LUBRIZOL CORP   8679.745575  15101050
+3061                     VALHI INC   6695.150882  15101050
+[nan]
+cluster 104:
+                             name           mc     gics8
+2202      O'REILLY AUTOMOTIVE INC  8820.774005  25504050
+56         ADVANCE AUTO PARTS INC  4497.651845  25504050
+2928            TRACTOR SUPPLY CO  4393.611909  25504040
+786                  COINSTAR INC  1400.720859  25302020
+1397                  HHGREGG INC   419.891662  25504020
+465             BODY CENTRAL CORP   274.416971  25504010
+2379    US AUTO PARTS NETWORK INC   193.139142  25502020
+1307  GOLFSMITH INTL HOLDINGS INC    50.126705  25504040
+[nan]
+cluster 41:
+                          name             mc     gics8
+57                   APPLE INC  356700.380215  45202010
+819   COVENTRY HEALTH CARE INC    4881.069171  35102030
+629     CHOICE HOTELS INTL INC    1859.897744  25301020
+3053            VALUECLICK INC    1210.677650  45101010
+2872                TALEO CORP    1063.945216  45103010
+2373                DELTEK INC     457.647998  45103010
+1851               MARCHEX INC     371.267143  45101010
+1410     DOT HILL SYSTEMS CORP     100.657922  45202020
+[nan]
+cluster 68:
+                            name           mc     gics8
+2677                SANDISK CORP  8767.628715  45202020
+2518     ROPER INDUSTRIES INC/DE  7392.278552  20104010
+201       ADVANCED MICRO DEVICES  4719.529947  45301020
+2916      TRIMBLE NAVIGATION LTD  4558.897805  45203020
+2307                 POLYCOM INC  4209.010763  45201020
+1795                    LSI CORP  3890.062834  45301020
+839   CYPRESS SEMICONDUCTOR CORP  2712.457424  45301020
+2842                TERADYNE INC  2250.624258  45301010
+550                   CAVIUM INC  1564.280759  45301020
+2652    SILICON LABORATORIES INC  1531.174420  45301020
+[nan]
+cluster 72:
+                           name            mc     gics8
+2961      TEXAS INSTRUMENTS INC  30280.953931  45301020
+1533               ILLUMINA INC   7306.038212  35203010
+2004  MAXIM INTEGRATED PRODUCTS   6817.728746  45301020
+1514             IDEXX LABS INC   4533.977213  35101010
+2782     SKYWORKS SOLUTIONS INC   3840.357007  45301020
+2019  NATIONAL INSTRUMENTS CORP   3054.915180  45203010
+1317              GEN-PROBE INC   2888.785504  35101010
+2641  SIRONA DENTAL SYSTEMS INC   2622.654956  35101010
+732                 CEPHEID INC   2271.990213  35201010
+1355           HAEMONETICS CORP   1610.937053  35101020
+[nan]
+cluster 52:
+                        name            mc     gics8
+1852           MCKESSON CORP  19687.102037  35102010
+532      CARDINAL HEALTH INC  14921.750259  35102010
+64    AMERISOURCEBERGEN CORP  10767.737807  35102010
+1534        INGRAM MICRO INC   2808.750628  45203030
+600          BRIGHTPOINT INC    650.298587  45203030
+2022            NAVARRE CORP     65.514570  25401030
+[nan]
+cluster 0:
+                             name            mc     gics8
+3042     UNITED TECHNOLOGIES CORP  67471.936661  20101010
+866      DU PONT (E I) DE NEMOURS  44942.796818  15101020
+1436  HONEYWELL INTERNATIONAL INC  37407.751413  20101010
+1027          EMERSON ELECTRIC CO  34766.331748  20104010
+1648                   KELLOGG CO  19609.519890  30202030
+682                   CUMMINS INC  18091.700591  20106010
+1077                   EATON CORP  14650.245522  20106020
+1571                INTL PAPER CO  11867.264999  15105020
+2290         PARKER-HANNIFIN CORP  11388.296574  20106020
+921                    DOVER CORP  10700.062944  20106020
+[nan]
+cluster 7:
+                             name           mc     gics8
+225                AUTONATION INC  5882.311184  25504050
+2710  SPIRIT AEROSYSTEMS HOLDINGS  2396.408186  20101010
+2230  PENSKE AUTOMOTIVE GROUP INC  1679.213995  25504050
+3115  WESCO AIRCRAFT HOLDINGS INC  1053.364196  20305010
+1313       GROUP 1 AUTOMOTIVE INC   986.594272  25504050
+1862             MDC HOLDINGS INC   929.686751  25201030
+2558  SONIC AUTOMOTIVE INC  -CL A   735.242049  25504050
+2545         RUSH ENTERPRISES INC   697.016431  20107010
+71    ASBURY AUTOMOTIVE GROUP INC   606.674577  25504050
+1714     LITHIA MOTORS INC  -CL A   499.337960  25504050
+[nan]
+cluster 77:
+                        name           mc     gics8
+2297  POLARIS INDUSTRIES INC  3788.207835  25202010
+2819    TIMBERLAND CO  -CL A  2181.970746  25203020
+1456                 HSN INC  1888.617053  25502010
+2534         RADIOSHACK CORP  1298.124804  25504020
+1036            ENTEGRIS INC  1014.812385  45301010
+2136     NXSTAGE MEDICAL INC  1005.771350  35101010
+3172    WABASH NATIONAL CORP   387.557759  20106010
+2713      SPARTAN STORES INC   368.589164  30101020
+81            ARCTIC CAT INC   285.084841  25202010
+270   ARDEN GROUP INC  -CL A   250.440067  30101030
+[nan]
+cluster 105:
+                          name            mc     gics8
+2797             SYMANTEC CORP  12858.137894  45103020
+523                     CA INC  10472.475735  45103020
+451           BMC SOFTWARE INC   7127.055107  45103020
+2613        SUCCESSFACTORS INC   1933.997819  45103010
+3125              WEBSENSE INC    818.632535  45103020
+2494  RENAISSANCE LEARNING INC    456.428173  45103030
+83                ACCELRYS INC    360.892996  45103010
+2716              SCIQUEST INC    331.498842  45101010
+2259                   PDI INC    106.593285  35102015
+[nan]
+cluster 21:
+                            name            mc     gics8
+1672             KRAFT FOODS INC  61217.290622  30202030
+2084  NATIONAL OILWELL VARCO INC  27983.902642  10101020
+538   CAMERON INTERNATIONAL CORP  12733.603466  10101020
+2434        RALCORP HOLDINGS INC   4772.838645  30202030
+2831         TRANSDIGM GROUP INC   4605.911886  20101010
+3075         VULCAN MATERIALS CO   4526.733098  15102010
+86                 ARCH COAL INC   4281.347949  10102050
+2507       ROCKWOOD HOLDINGS INC   3902.468857  15101050
+761           CARBO CERAMICS INC   3709.424504  10101020
+2554                RAYONIER INC   3405.787182  40402070
+[nan]
+cluster 13:
+                              name             mc     gics8
+1974                MICROSOFT CORP  222801.603195  45103020
+805             CITRIX SYSTEMS INC   11362.108851  45103010
+2830                 TERADATA CORP    8817.423783  45102010
+2114     NUANCE COMMUNICATIONS INC    5646.081771  45103010
+238                      ANSYS INC    4975.039114  45103010
+257                ACME PACKET INC    3130.928863  45201020
+1948               MORNINGSTAR INC    3015.163192  25401040
+1967  MEDICIS PHARMACEUT CP  -CL A    2381.198604  35202010
+2422         QLIK TECHNOLOGIES INC    2102.663571  45103010
+2523                  REALPAGE INC    1480.292892  45103010
+[nan]
+cluster 4:
+                           name            mc     gics8
+826           CVS CAREMARK CORP  48334.859795  30101010
+2252   PRECISION CASTPARTS CORP  23598.603636  20101010
+1254      GENERAL DYNAMICS CORP  23181.891068  20101010
+109   ARCHER-DANIELS-MIDLAND CO  19252.479691  30202010
+3056                    VF CORP  12829.506732  25203010
+2115                 NUCOR CORP  11419.442799  15104050
+1319              GOODRICH CORP  11147.966785  20101010
+1312           GENUINE PARTS CO   8625.320318  25501010
+2635         SIGMA-ALDRICH CORP   7860.884515  15101050
+717        ROCKWELL COLLINS INC   7760.748013  20101010
+[nan]
+cluster 35:
+                           name            mc     gics8
+359                   BOEING CO  49514.577512  20101010
+2789                SAFEWAY INC   6413.666861  30101030
+398            BE AEROSPACE INC   3604.905190  20101010
+2573  SALLY BEAUTY HOLDINGS INC   3099.713317  25504040
+2454               RUDDICK CORP   2009.526404  30101030
+755                CARTER'S INC   1796.641130  25203010
+2037       99 CENTS ONLY STORES   1313.016481  25503020
+1936    MONRO MUFFLER BRAKE INC   1207.220036  25504050
+3170           WEIS MARKETS INC   1051.728940  30101030
+1075  ETHAN ALLEN INTERIORS INC    494.710522  25201020
+[nan]
+cluster 98:
+                             name           mc     gics8
+94        ACORDA THERAPEUTICS INC  1018.410144  35201010
+2275           PETMED EXPRESS INC   215.353680  25502020
+808                    CUTERA INC   109.332829  35101010
+2825  TECHNICAL COMMUNICATIONS CP    13.686626  45201020
+[nan]
+cluster 24:
+                             name            mc     gics8
+1976       MOTOROLA SOLUTIONS INC  14442.615553  45201020
+1364                   HASBRO INC   5228.202514  25202010
+2563                 SAPIENT CORP   1490.859727  45102010
+163   APPLIED INDUSTRIAL TECH INC   1304.473312  20107010
+285               ARRIS GROUP INC   1301.663976  45201020
+537                     CALIX INC    690.270314  45201020
+1415                 HARMONIC INC    551.745889  45201020
+2169                 OMNICELL INC    510.531544  35103010
+1620            JAKKS PACIFIC INC    462.377380  25202010
+2429                 QUANTUM CORP    448.730104  45202020
+[nan]
+cluster 9:
+                              name            mc     gics8
+1040             EOG RESOURCES INC  24865.567952  10102020
+2025              NOBLE ENERGY INC  15639.720108  10102020
+2410  PIONEER NATURAL RESOURCES CO   9086.761320  10102020
+712           CABOT OIL & GAS CORP   7909.532500  10102020
+2412  PLAINS EXPLORATION & PROD CO   4146.809978  10102020
+2595          SANDRIDGE ENERGY INC   3008.798177  10102020
+883   DUPONT FABROS TECHNOLOGY INC   1416.346833  40402020
+1264                    GEOEYE INC    802.452777  20101010
+3104           VANTAGE DRILLING CO    444.712832  10101010
+479              BPZ RESOURCES INC    425.308971  10102020
+[nan]
+cluster 121:
+                              name          mc     gics8
+2588  SCICLONE PHARMACEUTICALS INC  272.477915  35201010
+946                  DATALINK CORP  148.861157  45202020
+106                 ADAMS GOLF INC   44.983419  25202010
+1588                   IRIDEX CORP   35.882240  35101010
+[nan]
+cluster 153:
+            name          mc     gics8
+108  ADOLOR CORP  101.292572  35202010
+[nan]
+cluster 141:
+                             name            mc     gics8
+110     AUTOMATIC DATA PROCESSING  24554.722790  45102020
+2996  ULTIMATE SOFTWARE GROUP INC   1306.965300  45103010
+2907                 TREE.COM INC     63.273261  40102010
+[nan]
+cluster 38:
+                              name             mc     gics8
+3111    VERIZON COMMUNICATIONS INC  102367.964456  50101020
+2555            SPRINT NEXTEL CORP   11253.679971  50102010
+2062              NII HOLDINGS INC    6589.361753  50102010
+3154               WINDSTREAM CORP    6476.999903  50101020
+1523          INTL GAME TECHNOLOGY    4559.687882  25301010
+3031              US CELLULAR CORP    3655.380133  50102010
+2832  TELEPHONE & DATA SYSTEMS INC    2648.168940  50102010
+3171            WMS INDUSTRIES INC    1239.375966  25301010
+553            CINCINNATI BELL INC     674.286570  50101020
+700    CONSOLIDATED COMM HLDGS INC     571.769106  50101020
+[nan]
+cluster 64:
+                              name            mc     gics8
+3063                    VIACOM INC  27820.009557  25401030
+1011  LAUDER (ESTEE) COS INC -CL A  19266.508460  30302010
+2795                  STRYKER CORP  18965.947175  35101010
+192                    ALTERA CORP  11789.122667  45301020
+1210    FOREST LABORATORIES  -CL A   9399.873137  35202010
+3223                    XILINX INC   8230.301459  45301020
+1759        LINEAR TECHNOLOGY CORP   6516.388065  45301020
+760                      CROCS INC   2448.397253  25203020
+2856                 THORATEC CORP   2046.657985  35101010
+113                     ADTRAN INC   2010.265289  45201020
+[nan]
+cluster 110:
+                              name           mc     gics8
+1381     HEALTHCARE SERVICES GROUP  1041.544068  20201070
+1575    IPC THE HOSPITALIST CO INC   658.565883  35102015
+1865  METROPOLITAN HLTH NTWRKS INC   210.776324  35102030
+1030                 ENGLOBAL CORP    87.255082  10101020
+114            ADDUS HOMECARE CORP    53.977743  35102015
+494                   BSQUARE CORP    50.003109  45103010
+[nan]
+cluster 114:
+                            name          mc     gics8
+2498   ROCKWELL MED TECHNOLOGIES  162.933496  35101010
+2933                  TRANS1 INC   88.995894  35101020
+2129  NETWORK EQUIPMENT TECH INC   77.816317  45201020
+2764             STEREOTAXIS INC   72.008648  35101010
+125       APPLIED ENERGETICS INC   38.375900  20101010
+2147  OCULUS INNOVATIVE SCIENCES   35.043061  35202010
+2995                UROLOGIX INC   13.031999  35101010
+2116             NEUROMETRIX INC    8.670013  35101010
+[nan]
+cluster 94:
+                              name            mc     gics8
+3167              WILLIAMS COS INC  15870.119865  10102040
+3180          WILLIAMS PARTNERS LP  15738.053314  10102040
+704              CONSOL ENERGY INC  10350.903057  10102050
+126                       AES CORP   8495.487937  55105010
+1353             HYATT HOTELS CORP   5862.816893  25301020
+2755                  QUESTAR CORP   3326.499879  55102010
+758    CHARLES RIVER LABS INTL INC   1703.972928  35203010
+1408    HUNTINGTON INGALLS IND INC   1461.049846  20101010
+2256             PATRIOT COAL CORP   1344.479382  10102050
+1906  MACQUARIE INFRASTRUCT CO LLC   1115.264701  20305010
+[nan]
+cluster 8:
+                              name           mc     gics8
+1869  ALLSCRIPTS HEALTHCARE SOLTNS  3374.534510  35103010
+480   BROADRIDGE FINANCIAL SOLUTNS  2575.433899  45102020
+2326    PARAMETRIC TECHNOLOGY CORP  2115.305969  45103010
+357           ASPEN TECHNOLOGY INC  1582.262366  45103010
+371                 BLACKBOARD INC  1482.708842  45103010
+1630        JDA SOFTWARE GROUP INC  1123.278011  45103010
+806                     CUBIC CORP  1121.053447  20101010
+2504     RIGHTNOW TECHNOLOGIES INC  1090.256398  45101010
+1159               FAIR ISAAC CORP   988.401756  45103010
+2903      DEALERTRACK HOLDINGS INC   774.126430  45101010
+[nan]
+cluster 112:
+                            name           mc     gics8
+1488         IAC/INTERACTIVECORP  3451.301668  45101010
+915     DUNKIN' BRANDS GROUP INC  3328.208894  25301040
+588   CADENCE DESIGN SYSTEMS INC  2486.513603  45103010
+596        CAREER EDUCATION CORP  1294.236537  25302010
+875                  DENNYS CORP   369.176305  25301040
+133          AFC ENTERPRISES INC   316.769200  25301040
+769                 CRYOLIFE INC   143.320178  35101010
+1636                   JAMBA INC   117.149086  25301040
+1723              LCA VISION INC    53.311116  35102020
+725                     COSI INC    36.323098  25301040
+[nan]
+cluster 70:
+                              name           mc     gics8
+1850      MICROCHIP TECHNOLOGY INC  6252.315835  45301020
+1677               KLA-TENCOR CORP  6129.888152  45301010
+3100  VARIAN SEMICONDUCTOR EQUIPMT  4652.551347  45301010
+314                     ATMEL CORP  4183.566893  45301020
+2949        TUPPERWARE BRANDS CORP  4075.828947  25201050
+1217  FREESCALE SMCNDCTR HLD I LTD  2817.500000  45301020
+343                       AVX CORP  2228.388702  45203015
+3205          WOODWARD GOVERNOR CO  2220.510410  20104010
+2123          NOVELLUS SYSTEMS INC  1947.547348  45301010
+1970                MICROSEMI CORP  1346.031613  45301020
+[nan]
+cluster 139:
+                            name            mc     gics8
+144                 ALLERGAN INC  24976.756034  35202010
+2663   SALIX PHARMACEUTICALS LTD   1780.827774  35202010
+2421                 QLOGIC CORP   1460.032682  45202020
+1163              SOURCEFIRE INC    792.027262  45103020
+741                CONCEPTUS INC    331.117625  35101010
+1578                  INPHI CORP    218.787376  45301020
+2712            SPS COMMERCE INC    216.744502  45101010
+2175  OBAGI MEDICAL PRODUCTS INC    193.991644  35202010
+3012               UROPLASTY INC    129.494218  35101010
+2304        PROCERA NETWORKS INC    118.426128  45201020
+[nan]
+cluster 47:
+                           name            mc     gics8
+3001     UNITEDHEALTH GROUP INC  50798.880489  35102030
+1475                 HUMANA INC  12952.643330  35102030
+146             AMERIGROUP CORP   2392.097165  35102030
+3129  WELLCARE HEALTH PLANS INC   1955.841158  35102030
+1946      MOLINA HEALTHCARE INC    885.772244  35102030
+[nan]
+cluster 6:
+                             name            mc     gics8
+970                      EBAY INC  39773.339422  45101010
+890         QUEST DIAGNOSTICS INC   7921.675073  35102015
+2238             PITNEY BOWES INC   4105.499229  20201060
+3178       WASHINGTON POST  -CL B   2821.682003  25401040
+1995                   MASTEC INC   1879.351539  20103010
+1129           FTI CONSULTING INC   1511.770955  20202020
+3052  VALASSIS COMMUNICATIONS INC   1189.687376  25401040
+2195        ORBITAL SCIENCES CORP    914.288930  20101010
+1443    HEARTLAND PAYMENT SYSTEMS    842.591225  45102020
+989         EURONET WORLDWIDE INC    834.206997  45102020
+[nan]
+cluster 76:
+                             name           mc     gics8
+1860                   MEDNAX INC  3181.903161  35102015
+2428          QUALITY SYSTEMS INC  2692.873176  35103010
+738   COMPUTER PROGRAMS & SYSTEMS   783.481637  35103010
+887            DG FASTCHANNEL INC   600.530244  45201020
+203                  AMEDISYS INC   507.237865  35102015
+1743                LHC GROUP INC   364.854956  35102015
+2942               TECHTARGET INC   240.746385  45101010
+3034     U S PHYSICAL THERAPY INC   236.112762  35102020
+1340  GENTIVA HEALTH SERVICES INC   232.591138  35102015
+150    ALLIED HEALTHCARE INTL INC   167.312633  35102015
+[nan]
+cluster 30:
+                              name          mc     gics8
+665   CALAMOS ASSET MANAGEMENT INC  237.282587  40203010
+1958          MARINE PRODUCTS CORP  208.386284  25202010
+2700              SPORT CHALET INC   26.252073  25504040
+161                      AIR T INC   19.521394  20301010
+2551            RELM WIRELESS CORP   14.454438  45201020
+1984                 MANNATECH INC   14.039949  30302010
+1277              GIGA-TRONICS INC    7.596245  45203010
+[nan]
+cluster 48:
+                            name           mc     gics8
+3095  VERTEX PHARMACEUTICALS INC  9392.303131  35201010
+2041               NEOPROBE CORP   299.299760  35101010
+162           ANTARES PHARMA INC   251.469081  35101020
+3226                    XOMA LTD    63.113431  35201010
+1497                    ICAD INC    31.712979  35103010
+[nan]
+cluster 3:
+                           name            mc     gics8
+956           DEVON ENERGY CORP  28352.940765  10102020
+3220          CIMAREX ENERGY CO   6083.070083  10102020
+167     AKAMAI TECHNOLOGIES INC   4080.440375  45101010
+251   APCO OIL AND GAS INTL INC   2329.979740  10102020
+3006                  UNIT CORP   2296.737046  10101010
+2615            SWIFT ENERGY CO   1310.067748  10102020
+2627          STONE ENERGY CORP   1267.710922  10102020
+3017         UNITED RENTALS INC   1044.297097  20107010
+2530           RSC HOLDINGS INC    826.101548  20107010
+3088                 VENOCO INC    713.535641  10102020
+[nan]
+cluster 18:
+                              name            mc     gics8
+3214              WYNN RESORTS LTD  19331.046667  25301010
+1806            SOUTHWEST AIRLINES   6930.462546  20302010
+2970  UNITED CONTINENTAL HLDGS INC   6148.946635  20302010
+2448   ROYAL CARIBBEAN CRUISES LTD   5634.811978  25301020
+1897     MGM RESORTS INTERNATIONAL   5409.102925  25301010
+2473     REGAL ENTERTAINMENT GROUP   2020.196843  25401030
+2962           TEXAS ROADHOUSE INC   1020.462642  25301040
+179            ALLEGIANT TRAVEL CO    894.456671  20302010
+1062                 EMERITUS CORP    774.838134  35102020
+2277   P F CHANGS CHINA BISTRO INC    673.332707  25301040
+[nan]
+cluster 75:
+                              name           mc     gics8
+2932                   TESORO CORP  3460.769676  10102030
+2845                    TEREX CORP  1754.943958  20106010
+3173          WESTERN REFINING INC  1555.087693  10102030
+1338  GT ADVANCED TECHNOLOGIES INC  1545.004603  45301010
+2699  SPECTRUM BRANDS HOLDINGS INC  1368.484862  30301010
+902          DELEK US HOLDINGS INC   857.067307  10102030
+666   CALUMET SPECIALTY PRODS  -LP   819.861318  10102030
+2667      SUPER MICRO COMPUTER INC   533.842820  45202010
+181            ALON USA ENERGY INC   518.710754  10102030
+2649                SKULLCANDY INC   442.979440  25201010
+[nan]
+cluster 55:
+                            name             mc     gics8
+2283         PROCTER & GAMBLE CO  176122.136860  30301010
+3245              YUM BRANDS INC   25282.049503  25301040
+1288                 CORNING INC   23567.039581  45203015
+501          PEABODY ENERGY CORP   13216.492713  10102050
+900            DISH NETWORK CORP   11087.865256  25401025
+681   CHIPOTLE MEXICAN GRILL INC    9806.914021  25301040
+340                AVON PRODUCTS    9716.744887  30302010
+2339             PANERA BREAD CO    3501.908538  25301040
+2270    PENN NATIONAL GAMING INC    3139.760551  25301010
+1414             HECLA MINING CO    2143.857011  15104040
+[nan]
+cluster 28:
+                             name            mc     gics8
+2959              TIME WARNER INC  33306.319839  25401030
+2079        NORTHROP GRUMMAN CORP  15183.352913  20101010
+1903        MCGRAW-HILL COMPANIES  12687.742670  25401040
+977                    ECOLAB INC  12429.839319  15101050
+926   DR PEPPER SNAPPLE GROUP INC   8348.574574  30201030
+2812      MOLSON COORS BREWING CO   8189.999866  30201010
+3118                  WATERS CORP   7297.642544  35203010
+1658         KINETIC CONCEPTS INC   4925.557282  35101010
+1791            LAM RESEARCH CORP   4592.195710  45301010
+2900        TEMPUR PEDIC INTL INC   3907.629868  25201020
+[nan]
+cluster 120:
+                       name          mc     gics8
+190  ALLOS THERAPEUTICS INC  178.589046  35201010
+[nan]
+cluster 14:
+                            name          mc     gics8
+197     AMAG PHARMACEUTICALS INC  299.091954  35201010
+1429          HANSEN MEDICAL INC  206.837273  35101010
+1952  MOTORCAR PARTS OF AMER INC  126.264113  25101010
+606                   CERUS CORP   97.784999  35101020
+2314              PLUG POWER INC   24.192133  20104010
+590    CLEAN DIESEL TECHNOLOGIES   17.062643  15101050
+3139      WESTINGHOUSE SOLAR INC   11.207758  20104010
+[nan]
+cluster 149:
+             name          mc     gics8
+198  AMBIENT CORP  124.742841  45201020
+[nan]
+cluster 16:
+                             name            mc     gics8
+481                 BROADCOM CORP  19072.750816  45301020
+2042    NETLOGIC MICROSYSTEMS INC   2071.546082  45301020
+3264                   ZORAN CORP    405.529435  45301020
+199   APPLIED MICRO CIRCUITS CORP    366.285028  45301020
+748                      CRAY INC    205.509379  45202010
+1979   MINDSPEED TECHNOLOGIES INC    196.411197  45301020
+2005                MAXLINEAR INC    187.564994  45301020
+2317           PLX TECHNOLOGY INC    140.732122  45301020
+2431              QUICKLOGIC CORP    109.494143  45301020
+375          BIGBAND NETWORKS INC    100.959423  45201020
+[nan]
+cluster 49:
+                              name             mc     gics8
+3225              EXXON MOBIL CORP  359893.717184  10102010
+830                   CHEVRON CORP  197974.835570  10102010
+721                 CONOCOPHILLIPS   95927.214985  10102010
+1358                HALLIBURTON CO   40731.659020  10101020
+2581          SOUTHERN COPPER CORP   28549.159212  15104020
+419               BAKER HUGHES INC   26560.528928  10101020
+1391                     HESS CORP   20168.620793  10102010
+253   AIR PRODUCTS & CHEMICALS INC   17449.196437  15101040
+2749           ST JUDE MEDICAL INC   14992.555467  35101010
+608     CF INDUSTRIES HOLDINGS INC   13103.164682  15101030
+[nan]
+cluster 123:
+                              name            mc     gics8
+1132     FREEPORT-MCMORAN COP&GOLD  44660.280579  15104020
+659   CLIFFS NATURAL RESOURCES INC  12096.942992  15104050
+410                      BUNGE LTD   9534.669222  30202010
+1927  MAGELLAN MIDSTREAM PRTNRS LP   6760.837998  10102040
+476            BUCKEYE PARTNERS LP   5852.230696  10102040
+2098              NUSTAR ENERGY LP   3824.944605  10102030
+1755                      LKQ CORP   3741.972712  25501010
+820                 CVR ENERGY INC   2460.783035  10102030
+2972               CVR PARTNERS LP   1776.162984  15101030
+208     AMYLIN PHARMACEUTICALS INC   1650.027344  35201010
+[nan]
+cluster 56:
+                         name           mc     gics8
+2930  TESLA MOTORS INC  -REDH  2572.489608  25102010
+218                AMYRIS INC   901.024347  10102030
+246          A123 SYSTEMS INC   602.399242  20104010
+[nan]
+cluster 54:
+                             name           mc     gics8
+237   ALPHA NATURAL RESOURCES INC  7487.047931  10102050
+3164            WALTER ENERGY INC  5098.205275  15104020
+2487                 ROCK-TENN CO  3821.672228  15103020
+586      COEUR D'ALENE MINES CORP  2552.517904  15104040
+1771          CHENIERE ENERGY INC   640.956018  10102040
+2348       POPE RESOURCES/DE  -LP   186.104003  15105010
+2548          REVETT MINERALS INC   158.104367  15104020
+1071            ESSEX RENTAL CORP   101.132286  20107010
+3174       GREAT WOLF RESORTS INC    92.490530  25301020
+2269          PACIFIC ETHANOL INC     9.068713  10102030
+[nan]
+cluster 53:
+                              name            mc     gics8
+2221     OCCIDENTAL PETROLEUM CORP  70499.727994  10102010
+249                    APACHE CORP  39561.916488  10102020
+252        ANADARKO PETROLEUM CORP  36713.431053  10102020
+1964             MARATHON OIL CORP  19220.880054  10102020
+3076              VIRGIN MEDIA INC   7944.090048  25401025
+2420             QEP RESOURCES INC   6228.824888  10102020
+1440             HELMERICH & PAYNE   6100.393541  10101010
+2392      PATTERSON-UTI ENERGY INC   3801.918495  10101010
+2827               TC PIPELINES LP   2332.599918  10102040
+743   COMPLETE PRODUCTION SERVICES   2252.753010  10101020
+[nan]
+cluster 25:
+                          name           mc     gics8
+265                  ARIBA INC  2646.639961  45103020
+3082                 VOCUS INC   416.806823  45101010
+2585  SCIENTIFIC LEARNING CORP    53.051676  45103010
+1593      INSIGNIA SYSTEMS INC    51.321764  25401010
+[nan]
+cluster 71:
+                             name             mc     gics8
+1495  INTL BUSINESS MACHINES CORP  205308.369433  45102010
+3233                   XEROX CORP   11648.834460  45204010
+1431          HARLEY-DAVIDSON INC    9139.677955  25102020
+2528    DONNELLEY (R R) & SONS CO    2863.950047  20201010
+817                CONVERGYS CORP    1277.999954  45102020
+2848                TREDEGAR CORP     535.907136  20105010
+1405              HARTE HANKS INC     499.141070  25401010
+266     AMERICAN REPROGRAPHICS CO     180.700655  20201060
+2718         STANDARD REGISTER CO      81.694592  20201010
+1402            HOOPER HOLMES INC      54.303279  35102015
+[nan]
+cluster 27:
+                             name           mc     gics8
+1804       LEUCADIA NATIONAL CORP  7246.685520  40201030
+2786          SWISHER HYGIENE INC   769.617051  20201050
+2914     SPEEDWAY MOTORSPORTS INC   556.140280  25301030
+1645          JAMES RIVER COAL CO   385.171087  10102050
+1276  GULF ISLAND FABRICATION INC   352.837972  10101020
+2311         DOUGLAS DYNAMICS INC   319.496784  20106010
+274                  AMERIGON INC   297.362565  25101010
+2543                  RENTECH INC   223.343994  10102030
+2437     RAM ENERGY RESOURCES INC    80.703242  10102020
+1211       REDDY ICE HOLDINGS INC    45.597943  30202030
+[nan]
+cluster 58:
+                              name            mc     gics8
+1905    MEDCO HEALTH SOLUTIONS INC  21198.012172  35102015
+291          ARROW ELECTRONICS INC   3585.691366  45203030
+2149                  OMNICARE INC   3440.670494  35102015
+2631             MADDEN STEVEN LTD   1546.441605  25203020
+1023               EMCOR GROUP INC   1531.881286  20103010
+2101       INSIGHT ENTERPRISES INC    863.574536  45203030
+710   COMPASS DIVERSIFIED HOLDINGS    641.066992  40201030
+2320               PHARMERICA CORP    432.861521  35102010
+1568             INNERWORKINGS INC    352.141864  20201010
+428                   BIOSCRIP INC    344.967465  35102015
+[nan]
+cluster 20:
+                              name            mc     gics8
+547                CATERPILLAR INC  58792.037415  20106010
+654           COLGATE-PALMOLIVE CO  43770.040420  30301010
+370       BAXTER INTERNATIONAL INC  31719.339233  35101010
+893                   DANAHER CORP  31395.150765  20105010
+2880  THERMO FISHER SCIENTIFIC INC  20976.284905  35203010
+396          BECTON DICKINSON & CO  17695.810692  35101010
+2806                    SYSCO CORP  16522.761869  30101020
+1913     MEAD JOHNSON NUTRITION CO  14530.974140  30202030
+1173                    FLUOR CORP  10553.362467  20103010
+2781    STANLEY BLACK & DECKER INC  10310.213472  20106020
+[nan]
+cluster 131:
+                             name             mc     gics8
+2318  PHILIP MORRIS INTERNATIONAL  122100.113764  30203010
+713                     COACH INC   16220.287025  25203010
+1460                   HERSHEY CO   13331.565247  30202030
+2488            RALPH LAUREN CORP   12668.964266  25203010
+3143       WHOLE FOODS MARKET INC   11701.363909  30101030
+1112                  FASTENAL CO    9876.975093  20107010
+1457                  HOSPIRA INC    7627.620408  35202010
+1197                   FOSSIL INC    6111.258806  25203010
+2968             UNDER ARMOUR INC    3652.419134  25203010
+1577           IPG PHOTONICS CORP    2750.437287  45203020
+[nan]
+cluster 69:
+                    name          mc     gics8
+2753      STAMPS.COM INC  279.555755  45101010
+3257       ZIPREALTY INC   46.047678  40403040
+303   ASURE SOFTWARE INC   10.797500  45103010
+[nan]
+cluster 111:
+                        name             mc     gics8
+1309              GOOGLE INC  174550.487974  45101010
+1021             EMC CORP/MA   46647.131470  45202020
+3078        VMWARE INC -CL A   39781.045135  45103020
+1597  INTUITIVE SURGICAL INC   14910.784657  35101010
+1639    JUNIPER NETWORKS INC   11145.727207  45201020
+307         ATHENAHEALTH INC    2027.736334  35103010
+1981       MICROSTRATEGY INC    1316.044775  45103010
+778         COSTAR GROUP INC    1295.234289  20202020
+1787          LIVEPERSON INC     622.523803  45101010
+1049           EPOCRATES INC     249.029013  35103010
+[nan]
+cluster 2:
+                           name           mc     gics8
+2124                    NVR INC  3551.027124  25201030
+891              D R HORTON INC  3323.962822  25201030
+1986        MERITAGE HOMES CORP   607.031780  25201030
+2233      PARLUX FRAGRANCES INC    68.504072  30302010
+1522                    IGO INC    45.131552  45202020
+321                 AETRIUM INC    17.142506  45301010
+3011  UNIVERSAL POWER GROUP INC    11.847199  20107010
+[nan]
+cluster 33:
+                         name            mc     gics8
+325   ACTIVISION BLIZZARD INC  11174.534448  45103030
+1059      ELECTRONIC ARTS INC   7473.979975  45103030
+2321           PMC-SIERRA INC   1422.228208  45301020
+607                  CEVA INC    621.489191  45301020
+3210        WEB.COM GROUP INC    275.830371  45101010
+1931            MAKEMUSIC INC     25.231912  45103030
+[nan]
+cluster 146:
+                              name           mc     gics8
+1078  ENERGY TRANSFER PARTNERS -LP  9410.255578  10102040
+1073     ENERGY TRANSFER EQUITY LP  8526.477083  10102040
+2095                     INERGY LP  3716.590283  10102040
+2161           OIL STATES INTL INC  3391.003091  10101020
+1666                    KIRBY CORP  2955.207803  20303010
+2359    POLYPORE INTERNATIONAL INC  2856.854714  20104010
+2706  SUPERIOR ENERGY SERVICES INC  2819.331829  10101020
+326                ATWOOD OCEANICS  2729.368178  10101010
+490              BRISTOW GROUP INC  1607.995413  10101020
+3097                    VIASAT INC  1494.156952  45201020
+[nan]
+cluster 122:
+                   name          mc     gics8
+1864       MEDICINES CO  787.370720  35202010
+329       AUTHENTEC INC  127.031607  45301020
+2662  SOLTA MEDICAL INC  103.870891  35101010
+1512    I D SYSTEMS INC   60.403316  45203010
+[nan]
+cluster 63:
+                           name           mc     gics8
+341                   AVNET INC  4009.398373  45203030
+2174          OWENS & MINOR INC  1877.359424  35102010
+3128             WESCO INTL INC  1864.985617  20107010
+3035      UNITED STATIONERS INC  1412.230299  20201060
+2001      MWI VETERINARY SUPPLY   929.366001  35102010
+400   BEACON ROOFING SUPPLY INC   855.091809  20107010
+1572          INTER PARFUMS INC   505.644357  30302010
+2805               SYSTEMAX INC   491.183985  25504020
+723    CORE MARK HOLDING CO INC   405.036695  25501010
+964         DXP ENTERPRISES INC   339.177804  20107010
+[nan]
+cluster 36:
+                   name           mc     gics8
+345        HOMEAWAY INC  3340.078989  25502020
+1777        LOGMEIN INC   755.596578  45101010
+894   DICE HOLDINGS INC   676.090517  45101010
+2461           REIS INC   106.036901  45101010
+[nan]
+cluster 61:
+                              name           mc     gics8
+2610                SHUTTERFLY INC  1846.655313  25502020
+362   EINSTEIN NOAH RESTAURANT GRP   251.171916  25301040
+2814  CARROLS RESTAURANT GROUP INC   203.976791  25301040
+2947                 MAC-GRAY CORP   197.717473  25302020
+3208   WARWICK VALLEY TELEPHONE CO    75.170287  50101020
+2390          POSTROCK ENERGY CORP    38.015557  10102020
+1291                    GEOMET INC    35.976427  10102020
+[nan]
+cluster 155:
+                             name           mc     gics8
+372  BREITBURN ENERGY PARTNERS LP  1091.648263  10102020
+[nan]
+cluster 95:
+                  name         mc     gics8
+387  BEACON POWER CORP  25.819938  20104020
+[nan]
+cluster 116:
+                             name          mc     gics8
+390  BIOCRYST PHARMACEUTICALS INC  148.995003  35201010
+[nan]
+cluster 12:
+                            name           mc     gics8
+405       BRIGHAM EXPLORATION CO  3388.479379  10102020
+2143         OASIS PETROLEUM INC  2458.627490  10102020
+1387               HECKMANN CORP   675.850636  30201030
+1585  IRIDIUM COMMUNICATIONS INC   540.985010  50101010
+[nan]
+cluster 51:
+                     name           mc     gics8
+421             SOTHEBY'S  2513.647404  25302020
+524           CABELAS INC  1627.798463  25504040
+1446  HARBINGER GROUP INC   637.544851  30202030
+[nan]
+cluster 45:
+                            name          mc     gics8
+2623  SAGENT PHARMACEUTICALS INC  600.522229  35202010
+1790                   LRAD CORP   72.774699  45203010
+422                 BIDZ.COM INC   12.020430  25502020
+[nan]
+cluster 138:
+             name         mc     gics8
+429  ACTUATE CORP  301.02851  45103010
+[nan]
+cluster 1:
+                       name           mc     gics8
+1545       INFORMATICA CORP  4457.132040  45103010
+1227           FORTINET INC  2925.225454  45103020
+821   COMMVAULT SYSTEMS INC  1505.807393  45103020
+1883      MERU NETWORKS INC   159.880901  45201020
+2711        SUPPORT.COM INC   120.792983  45101010
+505         BROADVISION INC    40.319750  45101010
+960          DATAWATCH CORP    33.022425  45103010
+[nan]
+cluster 127:
+                            name          mc     gics8
+530  CADENCE PHARMACEUTICALS INC  415.833268  35202010
+[nan]
+cluster 34:
+                              name           mc     gics8
+2417  QUESTCOR PHARMACEUTICALS INC  1872.644413  35202010
+566      COLUMBIA LABORATORIES INC   201.588770  35202010
+3029          U S HOME SYSTEMS INC    36.356849  20102010
+[nan]
+cluster 65:
+                            name            mc     gics8
+2416                QUALCOMM INC  86298.418465  45201020
+599                 CELGENE CORP  27356.794027  35201010
+1361         HANSEN NATURAL CORP   7561.058607  30201030
+904       DOLBY LABORATORIES INC   3710.416567  45203015
+569   CUBIST PHARMACEUTICALS INC   2114.702682  35201010
+3087              VIROPHARMA INC   1503.441605  35202010
+2639           SILICON IMAGE INC    431.627885  45301020
+2666           SMART BALANCE INC    297.647120  30202030
+[nan]
+cluster 73:
+                           name            mc     gics8
+2357         PPG INDUSTRIES INC  12064.333840  15101020
+578          CROWN HOLDINGS INC   5359.021094  15103010
+3150             WHIRLPOOL CORP   4764.439896  25201040
+1362  HARMAN INTERNATIONAL INDS   2530.413749  25201010
+2841                TENNECO INC   1976.397689  25101010
+2345               POLYONE CORP   1169.881801  15101050
+1426                   HNI CORP    923.380131  20201060
+1987                MERITOR INC    797.679995  20106010
+2562           SANMINA-SCI CORP    623.482781  45203020
+2006   MAXWELL TECHNOLOGIES INC    484.460147  45203020
+[nan]
+cluster 93:
+                           name            mc     gics8
+1068        EXPRESS SCRIPTS INC  22916.341399  35102015
+634   CATALYST HEALTH SOLUTIONS   2661.235219  35102015
+[nan]
+cluster 145:
+                    name          mc     gics8
+644  STAR SCIENTIFIC INC  317.380439  30203010
+[nan]
+cluster 80:
+                          name           mc     gics8
+670  CONTINENTAL RESOURCES INC  10089.65392  10102020
+[nan]
+cluster 108:
+               name           mc     gics8
+675  CLEARWIRE CORP  2935.166316  50102010
+[nan]
+cluster 15:
+                             name           mc     gics8
+2254  METROPCS COMMUNICATIONS INC  4035.174697  50102010
+745   CHENIERE ENERGY PARTNERS LP  2533.734750  10102040
+1800        LIFE TIME FITNESS INC  1622.648541  25301030
+1692               KONA GRILL INC    53.183823  25301040
+1252  GRANITE CITY FOOD & BREWERY    11.627001  25301040
+[nan]
+cluster 60:
+                              name          mc     gics8
+2708  SPECTRUM PHARMACEUTICALS INC  452.698740  35201010
+1669             KEYW HOLDING CORP  309.831961  20101010
+2397  PERNIX THERAPEUTICS HOLDINGS  200.945723  35202010
+765   CORNERSTONE THERAPEUTICS INC  200.745658  35202010
+[nan]
+cluster 31:
+                        name          mc     gics8
+2246       PC CONNECTION INC  236.480309  45203030
+1318      GP STRATEGIES CORP  234.165382  20202010
+2258       PDF SOLUTIONS INC  140.880243  45301010
+2039     NETWORK ENGINES INC   53.699098  45201020
+1555         INTERPHASE CORP   32.809920  45202020
+1194  FORWARD INDUSTRIES INC   21.352030  25203010
+784                  CSP INC   12.152722  45102010
+[nan]
+cluster 37:
+                      name           mc     gics8
+3093          VERISIGN INC  5181.740361  45101010
+794   CONSTANT CONTACT INC   567.356183  45101010
+1783    SPARK NETWORKS INC    67.136471  45101010
+[nan]
+cluster 142:
+                        name          mc     gics8
+852  CYTORI THERAPEUTICS INC  173.151757  35201010
+[nan]
+cluster 50:
+                              name             mc     gics8
+1690                  COCA-COLA CO  161541.843002  30201030
+2272                   PEPSICO INC  102057.120483  30201030
+1954       MARATHON PETROLEUM CORP   13193.360489  10102030
+1729                     LEAR CORP    4962.452574  25101010
+2768                    SUNOCO INC    4620.249822  10102030
+1394            HOLLYFRONTIER CORP    3832.695133  10102030
+931         DRESSER-RAND GROUP INC    3387.347933  10101020
+1516          ICAHN ENTERPRISES LP    3386.072486  25101010
+2792  SUNOCO LOGISTICS PARTNERS LP    2840.791935  10102040
+3050                  VISTEON CORP    2605.080093  25101010
+[nan]
+cluster 66:
+                          name           mc     gics8
+2547   RIVERBED TECHNOLOGY INC  3850.489803  45201020
+2515               ROLLINS INC  3071.770740  20201050
+908                DELUXE CORP  1129.205359  20201010
+3057      VONAGE HOLDINGS CORP   814.232076  50101010
+3007         UNITED ONLINE INC   480.716071  45101010
+1951                  MOVE INC   289.872778  45101010
+3227              XO GROUP INC   276.790150  45101010
+951   DUSA PHARMACEUTICALS INC   107.471216  35201010
+[nan]
+cluster 44:
+                             name           mc     gics8
+1150              F5 NETWORKS INC  6584.901151  45201020
+2780               SOLARWINDS INC  1803.289180  45103010
+2008          MYRIAD GENETICS INC  1710.218579  35201010
+2732  SS&C TECHNOLOGIES HLDGS INC  1275.913732  45103010
+2935     TESSERA TECHNOLOGIES INC   720.496547  45301010
+1273           GENOMIC HEALTH INC   719.609178  35201010
+2883                  TELENAV INC   386.862767  45103010
+912                 DIGIMARC CORP   233.366177  45103010
+[nan]
+cluster 143:
+              name           mc     gics8
+914  DENDREON CORP  1828.083589  35201010
+[nan]
+cluster 128:
+                      name          mc     gics8
+1328        GLOBALSTAR INC  239.846185  50101010
+927   DELTA PETROLEUM CORP   93.685895  10102020
+[nan]
+cluster 10:
+                   name           mc     gics8
+1102        EXPEDIA INC  8307.667643  25502020
+935   DIGITAL RIVER INC   798.451592  45101010
+2586  SOCKET MOBILE INC     8.191943  45202020
+[nan]
+cluster 62:
+                              name            mc     gics8
+1046  ENTERPRISE PRODS PRTNRS  -LP  36011.814939  10102040
+1809          LAS VEGAS SANDS CORP  33993.774688  25301010
+1680     KINDER MORGAN ENERGY  -LP  23132.377128  10102040
+2533         REPUBLIC SERVICES INC  11430.540230  20201050
+990    ENBRIDGE ENERGY PRTNRS  -LP   7287.536888  10102040
+2000   MARKWEST ENERGY PARTNERS LP   3611.438119  10102040
+2052   TARGA RESOURCES PARTNERS LP   2966.460054  10102040
+2833                 TIDEWATER INC   2780.722382  10101020
+2602  SELECT MEDICAL HOLDINGS CORP   1117.598850  35102020
+1035              ENSIGN GROUP INC    488.017635  35102020
+[nan]
+cluster 89:
+           name         mc     gics8
+965  DAXOR CORP  44.544089  35101010
+[nan]
+cluster 83:
+           name         mc     gics8
+968  DYNEGY INC  538.03496  55105010
+[nan]
+cluster 32:
+                              name           mc     gics8
+1628  J2 GLOBAL COMMUNICATIONS INC  1454.469110  45101010
+1000                       8X8 INC   270.855135  50101010
+[nan]
+cluster 29:
+               name          mc     gics8
+2717   SEQUENOM INC  607.655015  35203010
+1013  ELLIE MAE INC  113.380597  45103010
+[nan]
+cluster 74:
+                           name          mc     gics8
+3258                   ZIX CORP  217.595039  45101010
+1153  FRIENDFINDER NETWORKS INC   88.908749  45101010
+[nan]
+cluster 26:
+                     name          mc     gics8
+2594  SELECT COMFORT CORP  889.137104  25504060
+2211    OVERSTOCK.COM INC  243.720665  25502020
+1176    1-800-FLOWERS.COM  159.382778  25502020
+2071         NAUTILUS INC   44.890621  25202010
+[nan]
+cluster 88:
+                         name         mc     gics8
+1192  AMICUS THERAPEUTICS INC  158.79936  35201010
+[nan]
+cluster 42:
+                         name           mc     gics8
+2051  NEWFIELD EXPLORATION CO  6871.516381  10102020
+3013     ULTRA PETROLEUM CORP  5122.904282  10102020
+1221          FOREST OIL CORP  2227.610078  10102020
+1928   MCMORAN EXPLORATION CO  2039.721971  10102020
+2361    PETROQUEST ENERGY INC   471.351998  10102020
+[nan]
+cluster 5:
+                         name           mc     gics8
+3219       EXCO RESOURCES INC  2863.569103  10102020
+1257  GOODRICH PETROLEUM CORP   578.673811  10102020
+1295        GMX RESOURCES INC   171.638438  10102020
+[nan]
+cluster 133:
+                     name             mc     gics8
+1258  GENERAL ELECTRIC CO  172891.489407  20105010
+[nan]
+cluster 81:
+          name          mc     gics8
+1267  GEVO INC  276.963744  10102030
+[nan]
+cluster 156:
+                        name           mc     gics8
+2520               ROVI CORP  5463.079209  45103020
+1287          GLU MOBILE INC   170.732899  45103030
+2402  PERVASIVE SOFTWARE INC   104.463000  45103020
+1779           LOOKSMART LTD    25.222959  45101010
+[nan]
+cluster 115:
+                         name          mc     gics8
+1300  GENMARK DIAGNOSTICS INC  127.966058  35101010
+[nan]
+cluster 152:
+                       name          mc     gics8
+1301  COMPLETE GENOMICS INC  299.528154  35203010
+[nan]
+cluster 137:
+                           name           mc     gics8
+1472  HERTZ GLOBAL HOLDINGS INC  4663.858612  20304020
+[nan]
+cluster 132:
+                name          mc     gics8
+1537  IMMERSION CORP  202.186039  45202020
+[nan]
+cluster 82:
+                         name         mc     gics8
+1548  INFUSYSTEM HOLDINGS INC  31.999451  35102015
+[nan]
+cluster 118:
+                          name           mc     gics8
+1560  WORLD FUEL SERVICES CORP  2641.953936  10102030
+[nan]
+cluster 40:
+                          name           mc     gics8
+1622  JAZZ PHARMACEUTICALS INC  1790.197724  35202010
+[nan]
+cluster 59:
+                          name           mc     gics8
+1772             LINKEDIN CORP  8098.090548  45101010
+2178   HIGHER ONE HOLDINGS INC   908.218262  20201070
+2672  SMITH MICRO SOFTWARE INC    67.503542  45103010
+[nan]
+cluster 67:
+                        name            mc     gics8
+1940        ALTRIA GROUP INC  56317.275330  30203010
+2435   REYNOLDS AMERICAN INC  21899.998599  30203010
+1774           LORILLARD INC  15487.379746  30203010
+1789  LIQUIDITY SERVICES INC    674.335419  45101010
+[nan]
+cluster 57:
+             name         mc     gics8
+1780  LOOPNET INC  584.97465  45101010
+[nan]
+cluster 150:
+                  name         mc     gics8
+1798  LIGHTBRIDGE CORP  31.525472  20202020
+[nan]
+cluster 107:
+              name           mc     gics8
+1854  MOLYCORP INC  4741.765084  15104020
+[nan]
+cluster 102:
+                            name           mc     gics8
+2117  NU SKIN ENTERPRISES  -CL A  2626.208992  30302010
+3033   USANA HEALTH SCIENCES INC   411.453888  30302010
+2110             NUTRISYSTEM INC   357.196307  25502020
+1878                MEDIFAST INC   253.537609  30302010
+[nan]
+cluster 91:
+                              name         mc     gics8
+1980  MCCORMICK & SCHMICKS SEAFOOD  92.788796  25301040
+[nan]
+cluster 125:
+                 name         mc     gics8
+1998  MICROVISION INC  97.439396  45203010
+[nan]
+cluster 99:
+                         name         mc     gics8
+2012  NABI BIOPHARMACEUTICALS  81.052293  35201010
+[nan]
+cluster 78:
+             name            mc     gics8
+2049  NETFLIX INC  12346.544075  25502020
+2857      THQ INC    133.239921  45103030
+[nan]
+cluster 113:
+                            name          mc     gics8
+2905              TEJON RANCH CO  542.894054  40403010
+2054  NATURAL GAS SERVICES GROUP  158.205206  10101020
+2253  PACIRA PHARMACEUTICALS INC  132.005930  35202010
+3015        UQM TECHNOLOGIES INC   78.244426  20104010
+[nan]
+cluster 119:
+                        name         mc     gics8
+2061  NICHOLAS FINANCIAL INC  132.24829  40202010
+[nan]
+cluster 106:
+               name          mc     gics8
+2063  BLUE NILE INC  560.472247  25502020
+[nan]
+cluster 86:
+                          name          mc     gics8
+2237  PRESTIGE BRANDS HOLDINGS  540.912492  30302010
+[nan]
+cluster 144:
+                      name          mc     gics8
+2355  PILGRIM'S PRIDE CORP  746.397027  30202030
+[nan]
+cluster 117:
+                    name          mc     gics8
+2400  PENN VIRGINIA CORP  371.491912  10102020
+[nan]
+cluster 103:
+                name          mc     gics8
+2493  REACHLOCAL INC  425.180107  25401010
+[nan]
+cluster 129:
+                             name         mc     gics8
+2591  SUPERCONDUCTOR TECHNOLOGIES  56.815162  45203015
+[nan]
+cluster 124:
+                              name           mc     gics8
+2643  SIX FLAGS ENTERTAINMENT CORP  1831.863567  25301030
+[nan]
+cluster 126:
+              name          mc     gics8
+2684  SANTARUS INC  185.709735  35202010
+[nan]
+cluster 97:
+                             name         mc     gics8
+2691  SOMAXON PHARMACEUTICALS INC  47.198002  35202010
+[nan]
+cluster 151:
+                             name          mc     gics8
+2777  SAVIENT PHARMACEUTICALS INC  306.800709  35201010
+[nan]
+cluster 43:
+                        name           mc     gics8
+2890  TERRA NITROGEN CO  -LP  3426.574565  15101030
+[nan]
+cluster 135:
+                 name        mc     gics8
+2960  TRANSWITCH CORP  86.67639  45301020
+[nan]
+cluster 136:
+                           name         mc     gics8
+2965  MONOTYPE IMAGING HOLDINGS  420.57918  45103010
+[nan]
+cluster 147:
+                name         mc     gics8
+3089  VERMILLION INC  41.324363  35101010
+[nan]
+cluster 154:
+            name        mc     gics8
+3106  VERTRO INC  10.92726  45101010
+[nan]
+cluster 100:
+                          name          mc     gics8
+3119  WAVE SYSTEMS CORP  -CL A  191.249596  45103020
+[nan]
+cluster 39:
+                  name         mc     gics8
+3151  WORLD HEART CORP  11.740225  35101010
+[nan]
+cluster 84:
+              name          mc     gics8
+3155  WINMARK CORP  233.185319  25504040
+[nan]
+cluster 101:
+                              name         mc     gics8
+3195  WAYSIDE TECHNOLOGY GROUP INC  54.785525  45203030
+[nan]
+cluster 148:
+            name          mc     gics8
+3256  ZIPCAR INC  820.490919  20304020
+[nan]
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 1595 entries, 0 to 3264
+Data columns (total 34 columns):
+symbol                        1595 non-null object
+act_m_che__ppent              1595 non-null float64
+ap__act_m_che_ppent           1595 non-null float64
+ap_revtq2                     1595 non-null float64
+capxq__act_m_che_ppent        1595 non-null float64
+capxq_revtq2                  1595 non-null float64
+cfroq__act_m_che_ppent        1595 non-null float64
+cfroq_revtq2                  1595 non-null float64
+cogsq_revtq2                  1595 non-null float64
+dpq_capxq                     1595 non-null float64
+dpq_gpq                       1595 non-null float64
+dpq_revtq2                    1595 non-null float64
+gpq__act_m_che_ppent          1595 non-null float64
+gpq_revtq2                    1595 non-null float64
+invt__act_m_che               1595 non-null float64
+invt_revtq2                   1595 non-null float64
+lct_m_dlc__act_m_che          1595 non-null float64
+lct_m_dlc__act_m_che_ppent    1595 non-null float64
+oiadpq_revtq2                 1595 non-null float64
+ppent_ppegt                   1595 non-null float64
+rect__act_m_che               1595 non-null float64
+rect_revtq2                   1595 non-null float64
+revtltm_pqoq                  1595 non-null float64
+revtq2_ppent                  1595 non-null float64
+revtq2_pqoq                   1595 non-null float64
+revtq2_pyoy                   1595 non-null float64
+xrdq2__act_m_che_ppent        1595 non-null float64
+xrdq2_revtq2                  1595 non-null float64
+name                          1595 non-null object
+fyr_used                      1595 non-null float64
+gics8                         1595 non-null int32
+mc                            1595 non-null float64
+kmeans.fact_157               1595 non-null int64
+hier.fact_157                 1595 non-null int64
+dtypes: float64(29), int32(1), int64(2), object(2)
+memory usage: 429.9+ KB
+None

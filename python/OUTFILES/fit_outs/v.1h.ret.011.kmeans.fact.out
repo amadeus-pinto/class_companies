@@ -1,0 +1,180 @@
+------------------------
+n= 11
+cl= kmeans_fact
+type= fact
+------------------------
+cluster=0
+cluster=1
+cluster=2
+cluster=3
+cluster=4
+cluster=5
+cluster=6
+cluster=7
+cluster=8
+cluster=9
+cluster=10
+advance group... 
+continuing!!!
+intra-group:
+r2    0.088053
+a     0.999986
+b     0.000014
+dtype: float64
+extra-group:
+r2    0.001520
+a     0.013229
+b     0.986698
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.030003
+a     0.999994
+b     0.000006
+dtype: float64
+extra-group:
+r2    0.002059
+a     0.013755
+b     0.986216
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     7.815970e-14
+dtype: float64
+extra-group:
+r2    0.000168
+a    -0.290392
+b     1.295324
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.113432
+a     0.999985
+b     0.000015
+dtype: float64
+extra-group:
+r2    0.001620
+a     0.012800
+b     0.987121
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b     4.729550e-14
+dtype: float64
+extra-group:
+r2    0.000411
+a     0.026278
+b     0.973659
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    0.099617
+a     0.999993
+b     0.000007
+dtype: float64
+extra-group:
+r2    0.000671
+a     0.007601
+b     0.992344
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+extra-group:
+symbol   NaN
+r2       NaN
+a        NaN
+b        NaN
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.000000e+00
+a     1.000000e+00
+b    -7.194245e-14
+dtype: float64
+extra-group:
+r2    0.000003
+a     0.001384
+b     0.998620
+dtype: float64
+advance group... 
+continuing!!!
+intra-group:
+r2    1.256690e-01
+a     1.000000e+00
+b     3.530509e-14
+dtype: float64
+extra-group:
+r2    0.000529
+a     0.009956
+b     0.989987
+dtype: float64
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1h.RETURN.kmeans.fact_011.i  0.098658  0.023387
+**
+1h.RETURN.kmeans.fact_011.i (0.098658288379675732, 0.023386581192066679)
+**
+      n        r2         w
+4   618  0.113432  0.568537
+0   351  0.088053  0.322907
+2    86  0.030003  0.079117
+10   18  0.125669  0.016559
+6    11  0.099617  0.010120
+WRITING THESE!
+**
+                          type        mu     sigma
+0  1h.RETURN.kmeans.fact_011.e  0.001594  0.000216
+**
+1h.RETURN.kmeans.fact_011.e (0.0015944218043423904, 0.00021627461273900835)
+**
+      n        r2         w
+4   618  0.001620  0.568537
+0   351  0.001520  0.322907
+2    86  0.002059  0.079117
+10   18  0.000529  0.016559
+6    11  0.000671  0.010120
