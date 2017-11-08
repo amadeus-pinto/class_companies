@@ -7,17 +7,18 @@ n_clusters=11 was chosen to compare against GICS sectors
 
 cluster 0:
 centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
-                        |name |            mc |  gics_sub_industry
-                    APPLE INC  794094.976211  45202030
-                 ALPHABET INC  657848.626617  45101010
-               MICROSOFT CORP  522924.322929  45103020
-                     AT&T INC  233297.240554  50101020
-                     VISA INC  211559.697815  45102020
-   VERIZON COMMUNICATIONS INC  183734.783495  50101020
-                  ORACLE CORP  181759.542465  45103020
-                   INTEL CORP  165850.985748  45301020
-            CISCO SYSTEMS INC  157119.655798  45201020
-  INTL BUSINESS MACHINES CORP  141657.339506  45102010
+|                        name |           mc  |  gics_sub_industry |
+|-----------------------------|---------------|--------------------|
+|                    APPLE INC|  794094.976211|  45202030          |          
+|                 ALPHABET INC|  657848.626617|  45101010          |
+|               MICROSOFT CORP|  522924.322929|  45103020          |
+|                     AT&T INC|  233297.240554|  50101020          |
+|                     VISA INC|  211559.697815|  45102020          |
+|   VERIZON COMMUNICATIONS INC|  183734.783495|  50101020          |
+|                  ORACLE CORP|  181759.542465|  45103020          |
+|                   INTEL CORP|  165850.985748|  45301020          |
+|            CISCO SYSTEMS INC|  157119.655798|  45201020          |
+|  INTL BUSINESS MACHINES CORP|  141657.339506|  45102010          |
 cluster 1:
 centroid: [[‘stores, products, company, restaurants, brands, retail, accessories, apparel, food, brand, operates, segment, home, footwear, foods, states, merchandise, com, operated']]
                          |name |            mc |  gics_sub_industry
@@ -99,18 +100,18 @@ centroid: [[‘gas, natural, oil, energy, crude, company, exploration, basin, te
         DOMINION RESOURCES INC   49263.279808  55103010
      OCCIDENTAL PETROLEUM CORP   46096.632965  10102010
 cluster 7:
-                         |name |            mc |  gics_sub_industry |
-|||||GENERAL|ELECTRIC|CO|238635.296259|20105010
-|||||||ALTRIA|GROUP|INC|136505.157282|30203010
-||||||||||||3M|CO|116605.055559|20105010
-||||||||||BOEING|CO|107467.497103|20101010
-|HONEYWELL|INTERNATIONAL|INC||99223.533015|20105010
-|||UNITED|TECHNOLOGIES|CORP||95642.526253|20101010
-||||TEXAS|INSTRUMENTS|INC||79050.149702|45301020
-|||||||||NVIDIA|CORP||77845.954285|45301020
-|||||LOCKHEED|MARTIN|CORP||77373.919368|20101010
-|||||||||DOW|CHEMICAL||74010.755364|15101020
 centroid: [[‘products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
+                         |name |            mc |  gics_sub_industry
+          GENERAL ELECTRIC CO  238635.296259  20105010
+             ALTRIA GROUP INC  136505.157282  30203010
+                        3M CO  116605.055559  20105010
+                    BOEING CO  107467.497103  20101010
+  HONEYWELL INTERNATIONAL INC   99223.533015  20105010
+     UNITED TECHNOLOGIES CORP   95642.526253  20101010
+        TEXAS INSTRUMENTS INC   79050.149702  45301020
+                  NVIDIA CORP   77845.954285  45301020
+         LOCKHEED MARTIN CORP   77373.919368  20101010
+                 DOW CHEMICAL   74010.755364  15101020
  
 cluster 8:
 centroid: [[‘insurance, life, property, casualty, products, segment, liability, company, services, reinsurance, group, commercial, health, personal, policies, coverage, financial, annuities, automobile']]
