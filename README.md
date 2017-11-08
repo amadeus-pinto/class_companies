@@ -1,7 +1,7 @@
 # class_companies
 
 ## description
-results for kmeans clusters on a TF-IDF matrix constructed from scraped yahoo finance, google finance, and 10-k text data from some four thousand securities.  
+results for kmeans clusters on a TF-IDF matrix (example raw feature below) constructed from scraped yahoo finance, google finance, and 10-k text data from some four thousand securities.  
 clusters with top-10 market-cap (mc) member names and cluster center (in the factor basis) ordered by absolute value of the projection onto that dimension are given below; 
 n_clusters=11 was chosen to compare against GICS sectors
 
@@ -183,4 +183,15 @@ centroid: [[‘loans, bank, banking, services, commercial, deposit, accounts, fi
 
   *__cluster labels versus gics sector label. Columns sum to 100 and dark squares mean high overlap, e.g., gics 60 is a combination of ~80% kmeans.text cluster ‘4’ and small amplitude everywhere else.__ 
    ![alt text](https://github.com/amadeus-pinto/class_companies/blob/master/figs/heatmap.png)
+
+
+
+
+   
+google finance
+AAPL,"Apple Inc. (Apple) designs, manufactures and markets mobile communication and media devices, personal computers, and portable digital music players, and a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. The Company's products and services include iPhone, iPad, Mac, iPod, Apple TV, a portfolio of consumer and professional software applications, the iOS and OS X operating systems, iCloud, and a variety of accessory, service and support offerings. The Company also delivers digital content and applications through the iTunes Store, App StoreSM, iBookstoreSM, and Mac App Store. The Company distributes its products worldwide through its retail stores, online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. In February 2012, the Company acquired app-search engine Chomp."
+market watch
+AAPL,"Apple, Inc. engages in the design, manufacture, and marketing of mobile communication, media devices, personal computers, and portable digital music players. It operates through the following geographical segments: Americas, Europe, Greater China, Japan, and Rest of Asia Pacific. The Americas segment includes both North and South America. The Europe segment consists of European countries, as well as India, the Middle East, and Africa. The Greater China segment comprises of China, Hong Kong, and Taiwan. The Rest of Asia Pacific segment includes Australia and Asian countries not included in the reportable operating segments of the company. The company was founded by Steven Paul Jobs, Ronald Gerald Wayne, and Stephen G. Wozniak on April 1, 1976 and is headquartered in Cupertino, CA."
+yahoo finance
+AAPL,"Apple Inc. designs, manufactures, and markets mobile communication and media devices, personal computers, and portable digital music players to consumers, small and mid-sized businesses, and education, enterprise, and government customers worldwide. The company also sells related software, services, accessories, networking solutions, and third-party digital content and applications. It offers iPhone, a line of smartphones; iPad, a line of multi-purpose tablets; and Mac, a line of desktop and portable personal computers. The company also provides iLife, a consumer-oriented digital lifestyle software application suite; iWork, an integrated productivity suite that helps users create, present, and publish documents, presentations, and spreadsheets; and other application software, such as Final Cut Pro, Logic Pro X, and FileMaker Pro. In addition, it offers Apple TV that connects to consumers TV and enables them to access digital content directly for streaming high definition video, playing music and games, and viewing photos; Apple Watch, a personal electronic device; and iPod, a line of portable digital music and media players. Further, the company sells Apple-branded and third-party Mac-compatible, and iOS-compatible accessories, such as headphones, displays, storage devices, Beats products, and other connectivity and computing products and supplies. Additionally, it offers iCloud, a cloud service; AppleCare that offers support options for its customers; and Apple Pay, a mobile payment service. The company sells and delivers digital content and applications through the iTunes Store, App Store, Mac App Store, TV App Store, iBooks Store, and Apple Music. It also sells its products through its retail and online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. Apple Inc. was founded in 1977 and is headquartered in Cupertino, California."
 
