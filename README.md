@@ -6,6 +6,11 @@ clusters with top-10 market-cap (mc) member names and cluster center (in the fac
 n_clusters=11 was chosen to compare against GICS sectors
 
 
+
+
+cluster 0:
+centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
+
 |                        name |           mc  |  gics sub industry |
 | ----------------------------- | --------------- | -------------------- |
 |                    APPLE INC |  794094.976211 |  45202030          |          
@@ -21,8 +26,6 @@ n_clusters=11 was chosen to compare against GICS sectors
 
 
 
-cluster 0:
-centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
 
 cluster 1:
 centroid: [[‘stores, products, company, restaurants, brands, retail, accessories, apparel, food, brand, operates, segment, home, footwear, foods, states, merchandise, com, operated']]
