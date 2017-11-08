@@ -7,18 +7,18 @@ n_clusters=11 was chosen to compare against GICS sectors
 
 cluster 0:
 centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
-|                        name |           mc  |  gics_sub_industry |
+|                        name |           mc  |  gics sub industry |
 | ----------------------------- | --------------- | -------------------- |
-|                    APPLE INC|  794094.976211|  45202030          |          
-|                 ALPHABET INC|  657848.626617|  45101010          |
-|               MICROSOFT CORP|  522924.322929|  45103020          |
-|                     AT&T INC|  233297.240554|  50101020          |
-|                     VISA INC|  211559.697815|  45102020          |
-|   VERIZON COMMUNICATIONS INC|  183734.783495|  50101020          |
-|                  ORACLE CORP|  181759.542465|  45103020          |
-|                   INTEL CORP|  165850.985748|  45301020          |
-|            CISCO SYSTEMS INC|  157119.655798|  45201020          |
-|  INTL BUSINESS MACHINES CORP|  141657.339506|  45102010          |
+|                    APPLE INC |  794094.976211 |  45202030          |          
+|                 ALPHABET INC |  657848.626617 |  45101010          |
+|               MICROSOFT CORP |  522924.322929 |  45103020          |
+|                     AT&T INC |  233297.240554 |  50101020          |
+|                     VISA INC |  211559.697815 |  45102020          |
+|   VERIZON COMMUNICATIONS INC |  183734.783495 |  50101020          |
+|                  ORACLE CORP |  181759.542465 |  45103020          |
+|                   INTEL CORP |  165850.985748 |  45301020          |
+|            CISCO SYSTEMS INC |  157119.655798 |  45201020          |
+|  INTL BUSINESS MACHINES CORP |  141657.339506 |  45102010          |
 cluster 1:
 centroid: [[‘stores, products, company, restaurants, brands, retail, accessories, apparel, food, brand, operates, segment, home, footwear, foods, states, merchandise, com, operated']]
                          |name |            mc |  gics_sub_industry
