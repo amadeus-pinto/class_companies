@@ -1,11 +1,9 @@
 # class_companies
 
 ## description
-results for kmeans clusters on a TF-IDF matrix (example raw feature below) constructed from scraped yahoo finance, google finance, and 10-k text data from some four thousand securities.  
+results for kmeans clusters on a TF-IDF matrix (example raw feature below) constructed from scraped yahoo finance, google finance, 10-k, and other text data for some four thousand securities.  
 clusters with top-10 market-cap (mc) member names and cluster center (in the factor basis) ordered by absolute value of the projection onto that dimension are given below; 
 n_clusters=11 was chosen to compare against GICS sectors
-
-
 
 
 centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
