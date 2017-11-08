@@ -99,7 +99,6 @@ centroid: [[‘gas, natural, oil, energy, crude, company, exploration, basin, te
         DOMINION RESOURCES INC   49263.279808  55103010
      OCCIDENTAL PETROLEUM CORP   46096.632965  10102010
 cluster 7:
-centroid: [[‘products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
                          |name |            mc |  gics_sub_industry |
 |||||GENERAL|ELECTRIC|CO|238635.296259|20105010
 |||||||ALTRIA|GROUP|INC|136505.157282|30203010
@@ -111,6 +110,7 @@ centroid: [[‘products, systems, segment, equipment, company, industrial, power
 |||||||||NVIDIA|CORP||77845.954285|45301020
 |||||LOCKHEED|MARTIN|CORP||77373.919368|20101010
 |||||||||DOW|CHEMICAL||74010.755364|15101020
+centroid: [[‘products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
  
 cluster 8:
 centroid: [[‘insurance, life, property, casualty, products, segment, liability, company, services, reinsurance, group, commercial, health, personal, policies, coverage, financial, annuities, automobile']]
