@@ -45,16 +45,16 @@ centroid: [[‘treatment, clinical, phase, company, cancer, therapeutics, develo
 
 |                        name |           mc  |  gics sub industry |
 | ----------------------------- | --------------- | -------------------- |
- |                   AMGEN INC  | 116274.357086  |35201010
- |                  ABBVIE INC  | 104441.344030  |35201010
- |                CELGENE CORP  | 91689.401192  |35201010
- |     BRISTOL-MYERS SQUIBB CO  | 88575.657990  |35202010
- |         GILEAD SCIENCES INC  | 84210.010399  |35201010
- |                  BIOGEN INC  | 53624.844169  |35201010
- |   REGENERON PHARMACEUTICALS  | 48598.100961  |35201010
- |  VERTEX PHARMACEUTICALS INC  | 29351.716469  |35201010
- |                 INCYTE CORP  | 26347.805886  |35201010
- | ALEXION PHARMACEUTICALS INC  | 26134.079590  |35201010
+ |                   AMGEN INC  | 116274.357086  | 35201010
+ |                  ABBVIE INC  | 104441.344030  | 35201010
+ |                CELGENE CORP  | 91689.401192  | 35201010
+ |     BRISTOL-MYERS SQUIBB CO  | 88575.657990  | 35202010
+ |         GILEAD SCIENCES INC  | 84210.010399  | 35201010
+ |                  BIOGEN INC  | 53624.844169  | 35201010
+ |   REGENERON PHARMACEUTICALS  | 48598.100961  | 35201010
+ |  VERTEX PHARMACEUTICALS INC  | 29351.716469  | 35201010
+ |                 INCYTE CORP  | 26347.805886  | 35201010
+ | ALEXION PHARMACEUTICALS INC  | 26134.079590  | 35201010
 
 centroid: [[‘investment, investments, mortgage, debt, loans, equity, securities, funds, services, capital, companies, management, invests, million, company, fund, asset, income, financial']]
 
@@ -116,7 +116,7 @@ centroid: [[‘gas, natural, oil, energy, crude, company, exploration, basin, te
 |                    SOUTHERN CO  |  49501.192685  | 55101010
 |         DOMINION RESOURCES INC  |  49263.279808  | 55103010
 |      OCCIDENTAL PETROLEUM CORP  |  46096.632965  | 10102010
-cluster 7:
+
 centroid: [[‘products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
 
 |                        name |           mc  |  gics sub industry |
@@ -134,6 +134,7 @@ centroid: [[‘products, systems, segment, equipment, company, industrial, power
  
 
 centroid: [[‘insurance, life, property, casualty, products, segment, liability, company, services, reinsurance, group, commercial, health, personal, policies, coverage, financial, annuities, automobile']]
+
 |                        name |           mc  |  gics sub industry |
 | ----------------------------- | --------------- | -------------------- |
  |  AMERICAN INTERNATIONAL GROUP |  57858.846625  | 40301030
