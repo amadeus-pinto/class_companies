@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 import random
 
-#kmeans
-
 
 def get_intragroup(sdf=None):
 	l=[]
@@ -155,7 +153,6 @@ if __name__ == '__main__':
                 bcols = list(set(A.columns.values.tolist()) - set(names))
 		Al.append(A[acols])
                 Bl.append(A[bcols])
-        #Al are group-wise
 
 	gl,el=[],[]
 	for X,Y in zip(Al,Bl):
@@ -173,19 +170,4 @@ if __name__ == '__main__':
 
         b=get_w_fits(indf=wgdf,wrstr=var+'.'+cname+'.i')
         d=get_w_fits(indf=egdf,wrstr=var+'.'+cname+'.e')
-
-
-	#wgdf.plot(kind='scatter',x='w',y='r2',title=cname+' w v.r2')
-	#plt.tight_layout()
-	#plt.savefig('plot.'+cname+'.pdf')
-	#plt.clf()
-
-	#wgdf['r2'].plot(kind='hist',title=cname+'r2')
-	#plt.tight_layout()
-	#plt.savefig('hist.'+cname+'.pdf')
-	#plt.clf()
-  
-
-
-	
 
