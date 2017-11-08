@@ -8,7 +8,7 @@ n_clusters=11 was chosen to compare against GICS sectors
 cluster 0:
 centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
 |                        name |           mc  |  gics_sub_industry |
-|-----------------------------|---------------|--------------------|
+| ----------------------------- | --------------- | -------------------- |
 |                    APPLE INC|  794094.976211|  45202030          |          
 |                 ALPHABET INC|  657848.626617|  45101010          |
 |               MICROSOFT CORP|  522924.322929|  45103020          |
