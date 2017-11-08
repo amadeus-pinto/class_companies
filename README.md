@@ -7,7 +7,7 @@ n_clusters=11 was chosen to compare against GICS sectors
 
 cluster 0:
 centroid: [[‘services, solutions, software, data, management, company, cloud, technology, provides, security, digital, products, segment, communications, information, platform, video, enterprise, mobile']]
-                       name             mc   gics_sub_industry
+                        |name |            mc |  gics_sub_industry
                     APPLE INC  794094.976211  45202030
                  ALPHABET INC  657848.626617  45101010
                MICROSOFT CORP  522924.322929  45103020
@@ -20,7 +20,7 @@ centroid: [[‘services, solutions, software, data, management, company, cloud, 
   INTL BUSINESS MACHINES CORP  141657.339506  45102010
 cluster 1:
 centroid: [[‘stores, products, company, restaurants, brands, retail, accessories, apparel, food, brand, operates, segment, home, footwear, foods, states, merchandise, com, operated']]
-                        name             mc   gics_sub_industry
+                         |name |            mc |  gics_sub_industry
            WAL-MART STORES INC  236341.922791  30101040
                 HOME DEPOT INC  187307.096329  25504030
                    PEPSICO INC  163062.898254  30201030
@@ -33,7 +33,7 @@ centroid: [[‘stores, products, company, restaurants, brands, retail, accessori
     MONDELEZ INTERNATIONAL INC   68441.160278  30202030
 cluster 2:
 centroid: [[‘treatment, clinical, phase, company, cancer, therapeutics, development, diseases, patients, biopharmaceutical, product, pharmaceuticals, developing, stage, candidates, candidate, trial, drug, cell']]
-                       name             mc   gics_sub_industry
+                        |name |            mc |  gics_sub_industry
                     AMGEN INC  116274.357086  35201010
                    ABBVIE INC  104441.344030  35201010
                  CELGENE CORP   91689.401192  35201010
@@ -74,7 +74,7 @@ centroid: [[‘estate, properties, real, trust, investment, reit, company, offic
    DIGITAL REALTY TRUST INC  18292.843967  60101080
 cluster 5:
 centroid: [[‘care, products, health, medical, services, company, healthcare, surgical, diagnostic, segment, hospitals, systems, pharmaceutical, blood, therapy, patient, provides, devices, treatment']]
-                         name             mc   gics_sub_industry
+                          |name |            mc |  gics_sub_industry
              JOHNSON & JOHNSON  342172.590836  35202010
            PROCTER & GAMBLE CO  229101.167328  30301010
                     PFIZER INC  192283.940965  35202010
@@ -87,7 +87,7 @@ centroid: [[‘care, products, health, medical, services, company, healthcare, s
           COLGATE-PALMOLIVE CO   65301.840425  30301010
 cluster 6:
 centroid: [[‘gas, natural, oil, energy, crude, company, exploration, basin, texas, production, gathering, properties, midstream, segment, storage, petroleum, wells, liquids, interests']]
-                         name             mc   gics_sub_industry
+                          |name |            mc |  gics_sub_industry
               EXXON MOBIL CORP  346374.750000  10102010
                   CHEVRON CORP  199250.531264  10102010
             NEXTERA ENERGY INC   64087.921143  55101010
@@ -100,17 +100,17 @@ centroid: [[‘gas, natural, oil, energy, crude, company, exploration, basin, te
      OCCIDENTAL PETROLEUM CORP   46096.632965  10102010
 cluster 7:
 centroid: [[‘products, systems, segment, equipment, company, industrial, power, manufactures, components, markets, solutions, materials, applications, used, services, manufacturing, technologies, control, designs']]
-                        name             mc   gics_sub_industry
-          GENERAL ELECTRIC CO  238635.296259  20105010
-             ALTRIA GROUP INC  136505.157282  30203010
-                        3M CO  116605.055559  20105010
-                    BOEING CO  107467.497103  20101010
-  HONEYWELL INTERNATIONAL INC   99223.533015  20105010
-     UNITED TECHNOLOGIES CORP   95642.526253  20101010
-        TEXAS INSTRUMENTS INC   79050.149702  45301020
-                  NVIDIA CORP   77845.954285  45301020
-         LOCKHEED MARTIN CORP   77373.919368  20101010
-                 DOW CHEMICAL   74010.755364  15101020
+                         |name |            mc |  gics_sub_industry |
+|||||GENERAL|ELECTRIC|CO|238635.296259|20105010
+|||||||ALTRIA|GROUP|INC|136505.157282|30203010
+||||||||||||3M|CO|116605.055559|20105010
+||||||||||BOEING|CO|107467.497103|20101010
+|HONEYWELL|INTERNATIONAL|INC||99223.533015|20105010
+|||UNITED|TECHNOLOGIES|CORP||95642.526253|20101010
+||||TEXAS|INSTRUMENTS|INC||79050.149702|45301020
+|||||||||NVIDIA|CORP||77845.954285|45301020
+|||||LOCKHEED|MARTIN|CORP||77373.919368|20101010
+|||||||||DOW|CHEMICAL||74010.755364|15101020
  
 cluster 8:
 centroid: [[‘insurance, life, property, casualty, products, segment, liability, company, services, reinsurance, group, commercial, health, personal, policies, coverage, financial, annuities, automobile']]
@@ -127,7 +127,7 @@ centroid: [[‘insurance, life, property, casualty, products, segment, liability
          PROGRESSIVE CORP-OHIO  24148.012823  40301040
 cluster 9:
 centroid: [[‘services, company, segment, operates, water, transportation, energy, operations, provides, united, states, products, entertainment, segments, international, america, homes, management, offers']]
-                        name             mc   gics_sub_industry
+                         |name |            mc |  gics_sub_industry
                AMAZON.COM INC  458158.215332  25502020
                  FACEBOOK INC  427918.690613  45101010
                  COCA-COLA CO  187157.396740  30201030
@@ -140,7 +140,7 @@ centroid: [[‘services, company, segment, operates, water, transportation, ener
           PRICELINE GROUP INC   88329.024590  25502020
 cluster 10:
 centroid: [[‘loans, bank, banking, services, commercial, deposit, accounts, financial, company, estate, mortgage, savings, holding, real, credit, deposits, consumer, bancorp, management']]
-                       name             mc   gics_sub_industry
+                        |name |            mc |  gics_sub_industry
          JPMORGAN CHASE & CO  298293.420587  40101010
             WELLS FARGO & CO  261728.984637  40101010
         BANK OF AMERICA CORP  226813.078317  40101010
@@ -154,7 +154,6 @@ centroid: [[‘loans, bank, banking, services, commercial, deposit, accounts, fi
 
 
 
-heatmap  
-
+  *__cluster labels versus gics sector label. Columns sum to 100 and dark squares mean high overlap, e.g., gics 60 is a combination of ~80% kmeans.text cluster ‘4’ and small amplitude everywhere else.__ 
    ![alt text](https://github.com/amadeus-pinto/class_companies/blob/master/figs/heatmap.png)
 
